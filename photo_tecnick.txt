@@ -1,0 +1,1020 @@
+## Benchmarking images/photo_tecnick/*.png -- 1 runs
+
+## images/photo_tecnick/RGB_OR_1200x1200_001.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      27.8       360.7         51.88          3.99      1609   38.1%
+stbi:        28.7       221.9         50.23          6.49      2300   54.5%
+qoi:          8.9        11.7        162.15        123.04      1835   43.5%
+
+## images/photo_tecnick/RGB_OR_1200x1200_002.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      21.8       468.6         66.08          3.07      1497   35.5%
+stbi:        27.4       240.1         52.64          6.00      2245   53.2%
+qoi:         10.6        13.6        135.62        105.76      1807   42.8%
+
+## images/photo_tecnick/RGB_OR_1200x1200_003.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.5       462.6         58.72          3.11      2143   50.8%
+stbi:        29.9       254.1         48.14          5.67      2970   70.4%
+qoi:          9.4        13.0        154.00        110.87      2337   55.4%
+
+## images/photo_tecnick/RGB_OR_1200x1200_004.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      22.5       557.3         63.89          2.58      1808   42.9%
+stbi:        28.6       248.2         50.29          5.80      2743   65.0%
+qoi:         10.2        13.6        140.60        105.68      2040   48.4%
+
+## images/photo_tecnick/RGB_OR_1200x1200_005.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.3       472.1         59.16          3.05      2172   51.5%
+stbi:        30.4       252.2         47.40          5.71      3078   73.0%
+qoi:          9.1        13.7        158.32        105.32      2478   58.7%
+
+## images/photo_tecnick/RGB_OR_1200x1200_006.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.3       467.9         61.69          3.08      2114   50.1%
+stbi:        28.9       240.2         49.86          5.99      3020   71.6%
+qoi:          7.9        12.5        181.20        114.76      2395   56.8%
+
+## images/photo_tecnick/RGB_OR_1200x1200_007.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.7       404.0         60.74          3.56      2067   49.0%
+stbi:        29.8       250.4         48.24          5.75      2837   67.3%
+qoi:          9.7        12.2        148.18        118.12      2258   53.5%
+
+## images/photo_tecnick/RGB_OR_1200x1200_008.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.8       427.3         58.07          3.37      2405   57.0%
+stbi:        29.2       255.0         49.32          5.65      3482   82.5%
+qoi:          7.1        11.9        201.56        121.37      2794   66.2%
+
+## images/photo_tecnick/RGB_OR_1200x1200_009.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.1       461.9         62.36          3.12      1625   38.5%
+stbi:        27.5       243.8         52.27          5.91      2394   56.8%
+qoi:          9.5        12.5        151.81        115.43      1943   46.1%
+
+## images/photo_tecnick/RGB_OR_1200x1200_010.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.8       507.2         58.06          2.84      2199   52.1%
+stbi:        30.5       254.7         47.17          5.65      3204   76.0%
+qoi:          7.8        13.0        184.43        110.68      2618   62.1%
+
+## images/photo_tecnick/RGB_OR_1200x1200_011.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.0       389.9         59.90          3.69      2150   51.0%
+stbi:        29.2       248.4         49.37          5.80      2871   68.1%
+qoi:          9.5        13.0        152.03        110.79      2426   57.5%
+
+## images/photo_tecnick/RGB_OR_1200x1200_012.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.9       475.6         60.28          3.03      1975   46.8%
+stbi:        30.0       251.1         47.92          5.73      2814   66.7%
+qoi:         10.2        13.5        140.77        106.49      2293   54.4%
+
+## images/photo_tecnick/RGB_OR_1200x1200_013.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.4       441.7         61.54          3.26      1984   47.0%
+stbi:        29.0       254.1         49.57          5.67      2874   68.1%
+qoi:          9.8        13.0        147.46        110.74      2177   51.6%
+
+## images/photo_tecnick/RGB_OR_1200x1200_014.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      22.8       409.8         63.14          3.51      1729   41.0%
+stbi:        26.7       251.4         54.03          5.73      2492   59.1%
+qoi:          9.4        12.9        152.48        111.52      2075   49.2%
+
+## images/photo_tecnick/RGB_OR_1200x1200_015.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      21.6       479.4         66.72          3.00      1466   34.8%
+stbi:        24.8       253.4         58.03          5.68      2277   54.0%
+qoi:         10.2        12.6        141.38        114.32      1731   41.0%
+
+## images/photo_tecnick/RGB_OR_1200x1200_016.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.4       328.4         59.08          4.39      2687   63.7%
+stbi:        28.6       251.4         50.34          5.73      3544   84.0%
+qoi:          7.8        12.0        184.36        120.31      2817   66.8%
+
+## images/photo_tecnick/RGB_OR_1200x1200_017.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      22.6       392.8         63.70          3.67      2167   51.4%
+stbi:        27.8       253.7         51.79          5.68      3128   74.2%
+qoi:          8.0        11.4        180.34        126.76      2358   55.9%
+
+## images/photo_tecnick/RGB_OR_1200x1200_018.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.6       383.4         58.53          3.76      2525   59.9%
+stbi:        30.0       251.7         48.05          5.72      3353   79.5%
+qoi:          8.8        12.8        163.11        112.72      2862   67.9%
+
+## images/photo_tecnick/RGB_OR_1200x1200_019.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.8       400.8         58.00          3.59      2341   55.5%
+stbi:        30.5       257.5         47.17          5.59      3298   78.2%
+qoi:          8.2        12.0        175.72        120.30      2592   61.4%
+
+## images/photo_tecnick/RGB_OR_1200x1200_020.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.3       361.8         59.26          3.98      2491   59.1%
+stbi:        29.8       255.1         48.31          5.65      3587   85.0%
+qoi:          7.6        12.6        189.37        114.48      2905   68.9%
+
+## images/photo_tecnick/RGB_OR_1200x1200_021.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.9       398.6         60.21          3.61      1773   42.0%
+stbi:        27.2       243.7         53.02          5.91      2485   58.9%
+qoi:          9.6        12.8        149.32        112.37      1985   47.1%
+
+## images/photo_tecnick/RGB_OR_1200x1200_022.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.5       513.8         58.83          2.80      2147   50.9%
+stbi:        30.6       259.0         47.12          5.56      3122   74.0%
+qoi:          8.6        13.9        167.32        103.57      2490   59.0%
+
+## images/photo_tecnick/RGB_OR_1200x1200_023.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      25.8       423.9         55.91          3.40      2352   55.8%
+stbi:        31.1       255.3         46.24          5.64      3192   75.7%
+qoi:          9.1        13.1        159.03        109.79      2549   60.4%
+
+## images/photo_tecnick/RGB_OR_1200x1200_024.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      26.6       356.6         54.23          4.04      2456   58.2%
+stbi:        30.0       251.4         48.03          5.73      3208   76.1%
+qoi:          9.5        12.6        151.71        114.20      2677   63.5%
+
+## images/photo_tecnick/RGB_OR_1200x1200_025.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.7       535.9         60.70          2.69      1858   44.0%
+stbi:        29.9       248.7         48.16          5.79      2822   66.9%
+qoi:          9.9        13.1        145.99        109.69      2232   52.9%
+
+## images/photo_tecnick/RGB_OR_1200x1200_026.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      26.1       359.0         55.17          4.01      2542   60.3%
+stbi:        31.8       254.7         45.35          5.65      3279   77.7%
+qoi:          8.8        12.5        162.79        115.41      2750   65.2%
+
+## images/photo_tecnick/RGB_OR_1200x1200_027.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.5       435.7         58.89          3.30      2214   52.5%
+stbi:        30.4       252.1         47.36          5.71      3057   72.5%
+qoi:          9.3        12.5        155.55        115.62      2352   55.8%
+
+## images/photo_tecnick/RGB_OR_1200x1200_028.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.4       472.6         61.51          3.05      1687   40.0%
+stbi:        27.3       249.9         52.66          5.76      2524   59.8%
+qoi:          9.6        13.1        150.49        109.91      2065   49.0%
+
+## images/photo_tecnick/RGB_OR_1200x1200_029.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.1       489.4         59.79          2.94      2041   48.4%
+stbi:        30.2       253.4         47.62          5.68      2961   70.2%
+qoi:          9.1        13.1        157.83        109.74      2430   57.6%
+
+## images/photo_tecnick/RGB_OR_1200x1200_030.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.9       371.9         57.89          3.87      2539   60.2%
+stbi:        30.0       259.1         48.06          5.56      3668   87.0%
+qoi:          7.8        14.4        184.94         99.93      3295   78.1%
+
+## images/photo_tecnick/RGB_OR_1200x1200_031.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.5       266.6         61.24          5.40      2018   47.8%
+stbi:        28.4       228.8         50.64          6.29      2854   67.7%
+qoi:          7.0        11.7        204.65        123.21      2419   57.4%
+
+## images/photo_tecnick/RGB_OR_1200x1200_032.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.8       333.6         58.12          4.32      2615   62.0%
+stbi:        29.5       256.5         48.78          5.61      3677   87.2%
+qoi:          7.7        13.1        186.88        110.09      3140   74.4%
+
+## images/photo_tecnick/RGB_OR_1200x1200_033.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.2       437.2         59.43          3.29      2264   53.7%
+stbi:        29.6       253.7         48.59          5.68      3203   75.9%
+qoi:          8.1        12.1        177.58        118.52      2439   57.8%
+
+## images/photo_tecnick/RGB_OR_1200x1200_034.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      22.9       324.2         62.95          4.44      1535   36.4%
+stbi:        26.0       217.6         55.30          6.62      2172   51.5%
+qoi:          8.1        10.6        177.55        135.72      1692   40.1%
+
+## images/photo_tecnick/RGB_OR_1200x1200_035.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.0       416.1         59.91          3.46      2192   52.0%
+stbi:        29.3       250.1         49.12          5.76      3052   72.4%
+qoi:          9.3        13.5        154.18        106.97      2318   54.9%
+
+## images/photo_tecnick/RGB_OR_1200x1200_036.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      22.0       454.1         65.31          3.17      1428   33.9%
+stbi:        24.8       235.5         58.06          6.12      2215   52.5%
+qoi:         10.0        13.6        143.97        105.78      1692   40.1%
+
+## images/photo_tecnick/RGB_OR_1200x1200_037.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.5       494.1         61.25          2.91      2004   47.5%
+stbi:        28.8       249.8         50.06          5.76      2913   69.1%
+qoi:          9.2        13.1        156.01        109.76      2290   54.3%
+
+## images/photo_tecnick/RGB_OR_1200x1200_038.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.7       514.8         58.26          2.80      1876   44.5%
+stbi:        31.0       257.8         46.47          5.59      2827   67.0%
+qoi:          9.5        13.6        151.11        105.72      2325   55.1%
+
+## images/photo_tecnick/RGB_OR_1200x1200_039.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.9       443.5         60.21          3.25      2118   50.2%
+stbi:        29.2       251.9         49.40          5.72      3040   72.1%
+qoi:          9.0        12.8        159.63        112.85      2434   57.7%
+
+## images/photo_tecnick/RGB_OR_1200x1200_040.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.7       419.5         58.23          3.43      2233   52.9%
+stbi:        30.9       246.6         46.67          5.84      3149   74.7%
+qoi:          7.5        12.2        192.47        117.72      2455   58.2%
+
+## images/photo_tecnick/RGB_OR_1200x1200_041.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.0       434.7         60.09          3.31      2144   50.8%
+stbi:        30.3       242.0         47.46          5.95      3102   73.6%
+qoi:          7.5        12.2        193.14        118.34      2433   57.7%
+
+## images/photo_tecnick/RGB_OR_1200x1200_042.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      27.7       484.7         52.06          2.97      2066   49.0%
+stbi:        31.2       242.6         46.15          5.94      3039   72.0%
+qoi:          7.9        12.8        181.25        112.56      2501   59.3%
+
+## images/photo_tecnick/RGB_OR_1200x1200_043.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.3       325.6         59.25          4.42      2743   65.0%
+stbi:        28.5       250.1         50.59          5.76      3701   87.7%
+qoi:          6.5        11.3        221.73        127.62      2915   69.1%
+
+## images/photo_tecnick/RGB_OR_1200x1200_044.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.7       438.0         60.85          3.29      2125   50.4%
+stbi:        29.4       252.1         48.99          5.71      3328   78.9%
+qoi:          7.9        13.1        183.14        109.87      2943   69.8%
+
+## images/photo_tecnick/RGB_OR_1200x1200_045.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.3       527.4         59.28          2.73      1892   44.9%
+stbi:        29.9       251.9         48.14          5.72      2974   70.5%
+qoi:          8.5        13.5        168.70        106.58      2794   66.2%
+
+## images/photo_tecnick/RGB_OR_1200x1200_046.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.4       339.3         58.92          4.24      2408   57.1%
+stbi:        29.4       256.7         48.96          5.61      3558   84.4%
+qoi:          7.5        13.0        192.76        110.76      2925   69.3%
+
+## images/photo_tecnick/RGB_OR_1200x1200_047.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      25.7       433.1         56.13          3.33      2283   54.1%
+stbi:        31.8       258.1         45.26          5.58      3475   82.4%
+qoi:          8.1        13.6        178.04        105.69      3550   84.2%
+
+## images/photo_tecnick/RGB_OR_1200x1200_048.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      25.2       376.9         57.08          3.82      2543   60.3%
+stbi:        30.8       260.1         46.81          5.54      3502   83.0%
+qoi:          8.2        13.8        174.85        104.14      3362   79.7%
+
+## images/photo_tecnick/RGB_OR_1200x1200_049.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.8       433.5         60.40          3.32      1969   46.7%
+stbi:        29.2       251.0         49.33          5.74      2815   66.7%
+qoi:          8.7        11.6        165.92        123.70      2250   53.3%
+
+## images/photo_tecnick/RGB_OR_1200x1200_050.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.5       495.2         61.23          2.91      2169   51.4%
+stbi:        28.8       255.6         49.96          5.63      3323   78.8%
+qoi:          8.7        13.3        165.66        108.29      2873   68.1%
+
+## images/photo_tecnick/RGB_OR_1200x1200_051.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.4       588.6         61.44          2.45      1938   46.0%
+stbi:        29.3       248.8         49.16          5.79      3008   71.3%
+qoi:          8.4        13.9        172.14        103.93      2634   62.5%
+
+## images/photo_tecnick/RGB_OR_1200x1200_052.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      25.0       475.9         57.53          3.03      2231   52.9%
+stbi:        30.5       258.4         47.26          5.57      3242   76.9%
+qoi:          8.2        12.3        176.28        116.80      2787   66.1%
+
+## images/photo_tecnick/RGB_OR_1200x1200_053.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.0       452.8         62.58          3.18      1651   39.2%
+stbi:        26.3       254.3         54.82          5.66      2405   57.0%
+qoi:          9.3        12.1        154.22        119.31      1879   44.6%
+
+## images/photo_tecnick/RGB_OR_1200x1200_054.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.9       378.4         57.72          3.81      2045   48.5%
+stbi:        31.1       235.0         46.26          6.13      2928   69.4%
+qoi:          7.4        11.7        193.45        123.41      2472   58.6%
+
+## images/photo_tecnick/RGB_OR_1200x1200_055.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.8       480.0         58.08          3.00      2196   52.1%
+stbi:        31.1       256.4         46.32          5.62      3069   72.8%
+qoi:          8.7        12.9        166.06        111.52      2561   60.7%
+
+## images/photo_tecnick/RGB_OR_1200x1200_056.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      22.9       588.1         62.82          2.45      1832   43.4%
+stbi:        26.9       246.0         53.44          5.85      2818   66.8%
+qoi:          9.0        13.1        160.30        110.20      2310   54.8%
+
+## images/photo_tecnick/RGB_OR_1200x1200_057.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.6       476.9         61.01          3.02      1882   44.6%
+stbi:        27.1       251.5         53.17          5.73      2800   66.4%
+qoi:          9.3        13.0        155.21        111.09      2092   49.6%
+
+## images/photo_tecnick/RGB_OR_1200x1200_058.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.7       355.3         60.87          4.05      2256   53.5%
+stbi:        28.2       250.4         51.14          5.75      3506   83.1%
+qoi:          7.4        12.7        195.32        113.43      2997   71.0%
+
+## images/photo_tecnick/RGB_OR_1200x1200_059.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.6       311.1         58.57          4.63      2698   64.0%
+stbi:        29.3       268.7         49.22          5.36      3544   84.0%
+qoi:          7.6        13.0        189.32        110.49      3363   79.7%
+
+## images/photo_tecnick/RGB_OR_1200x1200_060.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.1       444.1         59.63          3.24      1990   47.2%
+stbi:        29.6       247.9         48.59          5.81      2943   69.8%
+qoi:          8.6        13.2        166.77        108.88      2364   56.0%
+
+## images/photo_tecnick/RGB_OR_1200x1200_061.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      25.3       331.1         56.84          4.35      2615   62.0%
+stbi:        30.0       262.0         48.00          5.50      3755   89.0%
+qoi:          7.9        14.4        181.47         99.71      3624   85.9%
+
+## images/photo_tecnick/RGB_OR_1200x1200_062.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      25.8       275.0         55.87          5.24      2895   68.6%
+stbi:        29.6       257.4         48.68          5.59      3954   93.7%
+qoi:          7.5        13.6        191.40        106.11      3617   85.7%
+
+## images/photo_tecnick/RGB_OR_1200x1200_063.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      22.5       532.5         64.10          2.70      1767   41.9%
+stbi:        26.2       257.4         54.88          5.59      2723   64.5%
+qoi:          9.6        14.3        150.01        100.45      2437   57.8%
+
+## images/photo_tecnick/RGB_OR_1200x1200_064.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.6       410.4         58.42          3.51      2341   55.5%
+stbi:        29.8       259.6         48.35          5.55      3336   79.1%
+qoi:          8.0        13.0        181.04        110.79      2851   67.6%
+
+## images/photo_tecnick/RGB_OR_1200x1200_065.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.4       516.8         59.04          2.79      2261   53.6%
+stbi:        30.0       250.5         47.94          5.75      3352   79.5%
+qoi:          8.0        13.9        179.75        103.72      2691   63.8%
+
+## images/photo_tecnick/RGB_OR_1200x1200_066.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.9       484.6         60.36          2.97      2216   52.5%
+stbi:        30.7       266.8         46.96          5.40      3393   80.4%
+qoi:          7.5        14.4        191.36         99.79      2777   65.8%
+
+## images/photo_tecnick/RGB_OR_1200x1200_067.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.7       454.2         60.75          3.17      2203   52.2%
+stbi:        29.5       251.3         48.89          5.73      3321   78.7%
+qoi:          8.6        14.2        167.72        101.22      2737   64.9%
+
+## images/photo_tecnick/RGB_OR_1200x1200_068.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      22.2       199.0         64.86          7.24      1294   30.7%
+stbi:        24.6       155.7         58.42          9.25      1878   44.5%
+qoi:          5.0         7.8        290.36        184.24      1440   34.1%
+
+## images/photo_tecnick/RGB_OR_1200x1200_069.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      25.2       457.0         57.06          3.15      2160   51.2%
+stbi:        31.7       254.4         45.38          5.66      2996   71.0%
+qoi:          9.9        13.2        145.93        108.68      2448   58.0%
+
+## images/photo_tecnick/RGB_OR_1200x1200_070.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.6       518.0         60.96          2.78      2117   50.2%
+stbi:        30.4       249.7         47.31          5.77      3159   74.9%
+qoi:          7.6        12.5        188.38        115.04      2523   59.8%
+
+## images/photo_tecnick/RGB_OR_1200x1200_071.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.2       467.1         59.39          3.08      1972   46.8%
+stbi:        30.9       246.0         46.62          5.85      2839   67.3%
+qoi:          9.1        12.8        157.87        112.92      2103   49.9%
+
+## images/photo_tecnick/RGB_OR_1200x1200_072.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      25.6       426.5         56.21          3.38      2194   52.0%
+stbi:        31.2       253.9         46.22          5.67      2961   70.2%
+qoi:          9.5        13.5        152.15        106.75      2546   60.4%
+
+## images/photo_tecnick/RGB_OR_1200x1200_073.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      22.8       517.9         63.11          2.78      1759   41.7%
+stbi:        26.6       229.3         54.19          6.28      2759   65.4%
+qoi:          8.4        13.2        171.86        109.29      2103   49.9%
+
+## images/photo_tecnick/RGB_OR_1200x1200_074.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      22.9       567.1         62.94          2.54      2030   48.1%
+stbi:        29.2       247.7         49.23          5.81      3108   73.7%
+qoi:          7.5        13.6        191.80        105.80      2580   61.2%
+
+## images/photo_tecnick/RGB_OR_1200x1200_075.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.2       538.9         62.00          2.67      2060   48.8%
+stbi:        29.4       237.4         48.98          6.07      3033   71.9%
+qoi:          8.4        13.3        171.95        108.26      2355   55.8%
+
+## images/photo_tecnick/RGB_OR_1200x1200_076.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.2       612.0         62.04          2.35      1960   46.5%
+stbi:        29.5       246.2         48.84          5.85      3043   72.1%
+qoi:          9.5        14.9        151.90         96.49      2306   54.7%
+
+## images/photo_tecnick/RGB_OR_1200x1200_077.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      22.7       404.1         63.31          3.56      2204   52.2%
+stbi:        27.5       251.4         52.44          5.73      3553   84.2%
+qoi:          8.1        15.0        178.32         95.83      3572   84.7%
+
+## images/photo_tecnick/RGB_OR_1200x1200_078.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.2       536.6         59.55          2.68      1977   46.9%
+stbi:        30.0       262.7         47.96          5.48      2938   69.7%
+qoi:          9.6        13.2        150.49        108.78      2271   53.9%
+
+## images/photo_tecnick/RGB_OR_1200x1200_079.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.0       396.7         59.98          3.63      1796   42.6%
+stbi:        27.3       253.4         52.83          5.68      2480   58.8%
+qoi:         10.1        13.1        142.54        109.91      2022   47.9%
+
+## images/photo_tecnick/RGB_OR_1200x1200_080.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      22.3       452.0         64.71          3.19      1855   44.0%
+stbi:        25.5       248.8         56.54          5.79      2922   69.3%
+qoi:          8.8        13.3        164.42        108.39      2527   59.9%
+
+## images/photo_tecnick/RGB_OR_1200x1200_081.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.6       530.5         61.01          2.71      1994   47.3%
+stbi:        29.3       261.1         49.19          5.52      2961   70.2%
+qoi:          9.2        13.5        156.39        107.05      2299   54.5%
+
+## images/photo_tecnick/RGB_OR_1200x1200_082.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.5       265.7         58.71          5.42      2808   66.6%
+stbi:        28.6       257.4         50.34          5.60      3970   94.1%
+qoi:          7.5        12.8        192.07        112.64      3525   83.6%
+
+## images/photo_tecnick/RGB_OR_1200x1200_083.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      22.6       484.8         63.76          2.97      1841   43.6%
+stbi:        26.6       245.6         54.14          5.86      2771   65.7%
+qoi:          8.2        12.8        175.46        112.79      2267   53.7%
+
+## images/photo_tecnick/RGB_OR_1200x1200_084.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      22.4       592.2         64.41          2.43      1649   39.1%
+stbi:        25.1       242.3         57.37          5.94      2590   61.4%
+qoi:          9.8        12.7        147.28        113.55      2014   47.7%
+
+## images/photo_tecnick/RGB_OR_1200x1200_085.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.1       481.8         59.87          2.99      2110   50.0%
+stbi:        29.9       257.1         48.11          5.60      3323   78.8%
+qoi:          8.2        15.3        174.91         93.81      3307   78.4%
+
+## images/photo_tecnick/RGB_OR_1200x1200_086.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.9       284.1         60.30          5.07      2684   63.6%
+stbi:        27.5       253.0         52.38          5.69      3822   90.6%
+qoi:          7.4        13.1        195.85        110.21      3280   77.8%
+
+## images/photo_tecnick/RGB_OR_1200x1200_087.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      25.5       260.7         56.43          5.52      2796   66.3%
+stbi:        30.3       253.3         47.54          5.68      3704   87.8%
+qoi:          7.8        12.4        183.58        115.88      3214   76.2%
+
+## images/photo_tecnick/RGB_OR_1200x1200_088.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      25.0       425.2         57.65          3.39      2042   48.4%
+stbi:        30.9       251.8         46.65          5.72      2910   69.0%
+qoi:          8.8        12.9        164.50        111.21      2478   58.7%
+
+## images/photo_tecnick/RGB_OR_1200x1200_089.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.1       438.0         59.67          3.29      2392   56.7%
+stbi:        29.9       249.5         48.20          5.77      3325   78.8%
+qoi:          8.1        12.8        178.66        112.07      2704   64.1%
+
+## images/photo_tecnick/RGB_OR_1200x1200_090.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      25.8       326.8         55.76          4.41      2674   63.4%
+stbi:        30.7       259.4         46.93          5.55      3742   88.7%
+qoi:          7.3        12.9        197.57        111.90      3237   76.7%
+
+## images/photo_tecnick/RGB_OR_1200x1200_091.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      22.9       268.6         62.87          5.36      1419   33.6%
+stbi:        26.4       175.3         54.63          8.21      2055   48.7%
+qoi:          6.0        10.0        239.66        144.65      1737   41.2%
+
+## images/photo_tecnick/RGB_OR_1200x1200_092.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      22.9       603.2         62.98          2.39      2017   47.8%
+stbi:        28.9       247.3         49.87          5.82      3153   74.7%
+qoi:          8.4        14.3        171.38        100.37      2407   57.1%
+
+## images/photo_tecnick/RGB_OR_1200x1200_093.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      21.2       328.8         67.79          4.38      1507   35.7%
+stbi:        23.9       205.3         60.37          7.02      2250   53.3%
+qoi:          7.5        10.3        192.08        139.30      1714   40.6%
+
+## images/photo_tecnick/RGB_OR_1200x1200_094.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.9       430.7         57.92          3.34      2213   52.5%
+stbi:        31.0       252.6         46.48          5.70      2956   70.1%
+qoi:          9.5        12.6        151.74        114.46      2285   54.2%
+
+## images/photo_tecnick/RGB_OR_1200x1200_095.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      25.9       287.4         55.63          5.01      2891   68.5%
+stbi:        30.4       259.5         47.33          5.55      3915   92.8%
+qoi:          7.2        13.1        199.31        109.85      3463   82.1%
+
+## images/photo_tecnick/RGB_OR_1200x1200_096.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      22.7       387.2         63.53          3.72      2179   51.7%
+stbi:        28.5       253.4         50.44          5.68      3458   82.0%
+qoi:          7.7        13.8        186.62        104.09      2896   68.7%
+
+## images/photo_tecnick/RGB_OR_1200x1200_097.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.2       494.4         59.41          2.91      2188   51.9%
+stbi:        30.1       260.2         47.83          5.53      3072   72.8%
+qoi:          9.4        15.0        153.90         95.87      2344   55.6%
+
+## images/photo_tecnick/RGB_OR_1200x1200_098.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      25.9       314.1         55.62          4.58      2855   67.7%
+stbi:        30.3       261.3         47.59          5.51      3825   90.7%
+qoi:          7.4        12.7        193.57        113.22      3300   78.2%
+
+## images/photo_tecnick/RGB_OR_1200x1200_099.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.2       464.8         59.62          3.10      2303   54.6%
+stbi:        30.2       254.9         47.67          5.65      3426   81.2%
+qoi:          7.5        13.0        192.91        110.78      2718   64.4%
+
+## images/photo_tecnick/RGB_OR_1200x1200_100.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      19.5       327.2         73.73          4.40      1014   24.0%
+stbi:        22.9       170.8         62.95          8.43      1569   37.2%
+qoi:          6.1         8.4        237.53        170.61      1233   29.2%
+
+## Total for images/photo_tecnick
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.0       430.5         59.96          3.35      2114   50.1%
+stbi:        29.0       248.1         49.61          5.80      3053   72.4%
+qoi:          8.5        12.9        169.96        111.73      2527   59.9%
+
+# Grand total for images/photo_tecnick
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.0       430.5         59.96          3.35      2114   50.1%
+stbi:        29.0       248.1         49.61          5.80      3053   72.4%
+qoi:          8.5        12.9        169.96        111.73      2527   59.9%
+
+## Benchmarking Huffman images/photo_tecnick with 1 runs
+## images/photo_tecnick/RGB_OR_1200x1200_001.png size: 1200x1200
+huffman_u8:     72.2	322.5	20.0	4.5	3785	10.3%
+huffman_pixel:  160.8	4164.1	9.0	0.3	2744	34.9%
+
+## images/photo_tecnick/RGB_OR_1200x1200_002.png size: 1200x1200
+huffman_u8:     72.7	364.1	19.8	4.0	3882	8.0%
+huffman_pixel:  94.5	1318.5	15.2	1.1	2353	44.2%
+
+## images/photo_tecnick/RGB_OR_1200x1200_003.png size: 1200x1200
+huffman_u8:     76.7	372.8	18.8	3.9	3972	5.8%
+huffman_pixel:  185.2	3893.1	7.8	0.4	3098	26.5%
+
+## images/photo_tecnick/RGB_OR_1200x1200_004.png size: 1200x1200
+huffman_u8:     71.3	359.7	20.2	4.0	3812	9.6%
+huffman_pixel:  116.2	2241.9	12.4	0.6	2542	39.7%
+
+## images/photo_tecnick/RGB_OR_1200x1200_005.png size: 1200x1200
+huffman_u8:     79.8	372.9	18.0	3.9	3959	6.1%
+huffman_pixel:  246.4	5595.3	5.8	0.3	3463	17.9%
+
+## images/photo_tecnick/RGB_OR_1200x1200_006.png size: 1200x1200
+huffman_u8:     75.8	374.4	19.0	3.8	3890	7.8%
+huffman_pixel:  191.0	3040.1	7.5	0.5	2993	29.0%
+
+## images/photo_tecnick/RGB_OR_1200x1200_007.png size: 1200x1200
+huffman_u8:     80.6	362.4	17.9	4.0	3980	5.7%
+huffman_pixel:  238.8	5911.4	6.0	0.2	3265	22.6%
+
+## images/photo_tecnick/RGB_OR_1200x1200_008.png size: 1200x1200
+huffman_u8:     69.2	398.6	20.8	3.6	4030	4.5%
+huffman_pixel:  405.8	8445.9	3.5	0.2	4279	-1.4%
+
+## images/photo_tecnick/RGB_OR_1200x1200_009.png size: 1200x1200
+huffman_u8:     73.1	335.4	19.7	4.3	3719	11.8%
+huffman_pixel:  162.0	3807.2	8.9	0.4	2908	31.1%
+
+## images/photo_tecnick/RGB_OR_1200x1200_010.png size: 1200x1200
+huffman_u8:     74.1	401.7	19.4	3.6	4137	1.9%
+huffman_pixel:  340.6	6453.8	4.2	0.2	3875	8.1%
+
+## images/photo_tecnick/RGB_OR_1200x1200_011.png size: 1200x1200
+huffman_u8:     74.4	376.5	19.4	3.8	4084	3.2%
+huffman_pixel:  216.2	5549.3	6.7	0.3	3290	22.0%
+
+## images/photo_tecnick/RGB_OR_1200x1200_012.png size: 1200x1200
+huffman_u8:     79.5	380.2	18.1	3.8	4062	3.7%
+huffman_pixel:  204.3	5083.5	7.0	0.3	3226	23.5%
+
+## images/photo_tecnick/RGB_OR_1200x1200_013.png size: 1200x1200
+huffman_u8:     78.4	398.2	18.4	3.6	3896	7.6%
+huffman_pixel:  229.5	6484.3	6.3	0.2	3468	17.8%
+
+## images/photo_tecnick/RGB_OR_1200x1200_014.png size: 1200x1200
+huffman_u8:     76.6	360.6	18.8	4.0	3909	7.3%
+huffman_pixel:  296.0	9060.7	4.9	0.2	3627	14.0%
+
+## images/photo_tecnick/RGB_OR_1200x1200_015.png size: 1200x1200
+huffman_u8:     75.0	321.8	19.2	4.5	4003	5.1%
+huffman_pixel:  100.9	2167.6	14.3	0.7	2502	40.7%
+
+## images/photo_tecnick/RGB_OR_1200x1200_016.png size: 1200x1200
+huffman_u8:     73.6	396.6	19.6	3.6	4189	0.7%
+huffman_pixel:  386.8	8821.2	3.7	0.2	4278	-1.4%
+
+## images/photo_tecnick/RGB_OR_1200x1200_017.png size: 1200x1200
+huffman_u8:     79.0	384.6	18.2	3.7	4134	2.0%
+huffman_pixel:  336.4	7993.0	4.3	0.2	4032	4.4%
+
+## images/photo_tecnick/RGB_OR_1200x1200_018.png size: 1200x1200
+huffman_u8:     78.9	383.1	18.3	3.8	4094	3.0%
+huffman_pixel:  374.3	10045.3	3.8	0.1	4372	-3.6%
+
+## images/photo_tecnick/RGB_OR_1200x1200_019.png size: 1200x1200
+huffman_u8:     74.4	392.5	19.4	3.7	4065	3.6%
+huffman_pixel:  361.2	8978.6	4.0	0.2	4207	0.3%
+
+## images/photo_tecnick/RGB_OR_1200x1200_020.png size: 1200x1200
+huffman_u8:     73.2	414.5	19.7	3.5	4111	2.5%
+huffman_pixel:  530.2	13762.1	2.7	0.1	5127	-21.5%
+
+## images/photo_tecnick/RGB_OR_1200x1200_021.png size: 1200x1200
+huffman_u8:     75.8	339.5	19.0	4.2	3915	7.2%
+huffman_pixel:  168.8	4053.1	8.5	0.4	3015	28.5%
+
+## images/photo_tecnick/RGB_OR_1200x1200_022.png size: 1200x1200
+huffman_u8:     76.0	399.1	18.9	3.6	4109	2.6%
+huffman_pixel:  213.2	4054.7	6.8	0.4	3277	22.3%
+
+## images/photo_tecnick/RGB_OR_1200x1200_023.png size: 1200x1200
+huffman_u8:     82.5	392.4	17.5	3.7	4125	2.2%
+huffman_pixel:  278.1	7261.5	5.2	0.2	3724	11.7%
+
+## images/photo_tecnick/RGB_OR_1200x1200_024.png size: 1200x1200
+huffman_u8:     75.1	376.7	19.2	3.8	4105	2.7%
+huffman_pixel:  352.5	9189.3	4.1	0.2	4105	2.7%
+
+## images/photo_tecnick/RGB_OR_1200x1200_025.png size: 1200x1200
+huffman_u8:     68.1	378.5	21.1	3.8	4089	3.1%
+huffman_pixel:  216.6	4785.5	6.6	0.3	3414	19.1%
+
+## images/photo_tecnick/RGB_OR_1200x1200_026.png size: 1200x1200
+huffman_u8:     77.8	403.1	18.5	3.6	4174	1.1%
+huffman_pixel:  326.0	9193.8	4.4	0.2	4106	2.7%
+
+## images/photo_tecnick/RGB_OR_1200x1200_027.png size: 1200x1200
+huffman_u8:     72.0	381.7	20.0	3.8	4056	3.8%
+huffman_pixel:  242.1	5792.3	5.9	0.2	3477	17.6%
+
+## images/photo_tecnick/RGB_OR_1200x1200_028.png size: 1200x1200
+huffman_u8:     72.7	391.7	19.8	3.7	4161	1.4%
+huffman_pixel:  292.2	8163.7	4.9	0.2	3841	8.9%
+
+## images/photo_tecnick/RGB_OR_1200x1200_029.png size: 1200x1200
+huffman_u8:     75.9	398.2	19.0	3.6	4103	2.7%
+huffman_pixel:  346.4	9297.3	4.2	0.2	4241	-0.5%
+
+## images/photo_tecnick/RGB_OR_1200x1200_030.png size: 1200x1200
+huffman_u8:     71.7	433.5	20.1	3.3	4190	0.7%
+huffman_pixel:  712.1	19653.2	2.0	0.1	6048	-43.4%
+
+## images/photo_tecnick/RGB_OR_1200x1200_031.png size: 1200x1200
+huffman_u8:     66.6	357.4	21.6	4.0	3890	7.8%
+huffman_pixel:  280.3	6397.3	5.1	0.2	3463	17.9%
+
+## images/photo_tecnick/RGB_OR_1200x1200_032.png size: 1200x1200
+huffman_u8:     71.9	426.3	20.0	3.4	4200	0.4%
+huffman_pixel:  608.5	15946.5	2.4	0.1	5429	-28.7%
+
+## images/photo_tecnick/RGB_OR_1200x1200_033.png size: 1200x1200
+huffman_u8:     75.7	400.2	19.0	3.6	4123	2.3%
+huffman_pixel:  350.9	8556.4	4.1	0.2	4167	1.2%
+
+## images/photo_tecnick/RGB_OR_1200x1200_034.png size: 1200x1200
+huffman_u8:     62.2	293.6	23.1	4.9	3493	17.2%
+huffman_pixel:  106.1	2784.4	13.6	0.5	2235	47.0%
+
+## images/photo_tecnick/RGB_OR_1200x1200_035.png size: 1200x1200
+huffman_u8:     81.8	388.6	17.6	3.7	4024	4.6%
+huffman_pixel:  188.0	4797.4	7.7	0.3	3182	24.6%
+
+## images/photo_tecnick/RGB_OR_1200x1200_036.png size: 1200x1200
+huffman_u8:     74.0	306.3	19.5	4.7	3857	8.6%
+huffman_pixel:  98.3	2233.7	14.7	0.6	2411	42.8%
+
+## images/photo_tecnick/RGB_OR_1200x1200_037.png size: 1200x1200
+huffman_u8:     75.6	401.2	19.0	3.6	4120	2.3%
+huffman_pixel:  251.4	6446.5	5.7	0.2	3701	12.3%
+
+## images/photo_tecnick/RGB_OR_1200x1200_038.png size: 1200x1200
+huffman_u8:     74.9	366.1	19.2	3.9	3834	9.1%
+huffman_pixel:  211.6	5095.0	6.8	0.3	3297	21.8%
+
+## images/photo_tecnick/RGB_OR_1200x1200_039.png size: 1200x1200
+huffman_u8:     75.9	388.9	19.0	3.7	4158	1.4%
+huffman_pixel:  274.7	7132.3	5.2	0.2	3833	9.1%
+
+## images/photo_tecnick/RGB_OR_1200x1200_040.png size: 1200x1200
+huffman_u8:     73.1	381.0	19.7	3.8	4059	3.8%
+huffman_pixel:  297.5	6789.5	4.8	0.2	3787	10.2%
+
+## images/photo_tecnick/RGB_OR_1200x1200_041.png size: 1200x1200
+huffman_u8:     65.4	372.5	22.0	3.9	4103	2.7%
+huffman_pixel:  352.2	8274.4	4.1	0.2	4059	3.8%
+
+## images/photo_tecnick/RGB_OR_1200x1200_042.png size: 1200x1200
+huffman_u8:     72.1	386.6	20.0	3.7	4090	3.0%
+huffman_pixel:  413.5	9758.1	3.5	0.1	4377	-3.8%
+
+## images/photo_tecnick/RGB_OR_1200x1200_043.png size: 1200x1200
+huffman_u8:     82.8	412.4	17.4	3.5	4155	1.5%
+huffman_pixel:  406.2	8729.6	3.5	0.2	4347	-3.1%
+
+## images/photo_tecnick/RGB_OR_1200x1200_044.png size: 1200x1200
+huffman_u8:     69.8	400.6	20.6	3.6	4001	5.1%
+huffman_pixel:  444.6	11013.5	3.2	0.1	4617	-9.5%
+
+## images/photo_tecnick/RGB_OR_1200x1200_045.png size: 1200x1200
+huffman_u8:     75.3	403.2	19.1	3.6	4024	4.6%
+huffman_pixel:  338.2	8568.7	4.3	0.2	4091	3.0%
+
+## images/photo_tecnick/RGB_OR_1200x1200_046.png size: 1200x1200
+huffman_u8:     81.8	388.3	17.6	3.7	4051	4.0%
+huffman_pixel:  357.2	8243.2	4.0	0.2	4106	2.7%
+
+## images/photo_tecnick/RGB_OR_1200x1200_047.png size: 1200x1200
+huffman_u8:     78.6	403.2	18.3	3.6	4123	2.3%
+huffman_pixel:  461.8	10725.9	3.1	0.1	4615	-9.4%
+
+## images/photo_tecnick/RGB_OR_1200x1200_048.png size: 1200x1200
+huffman_u8:     80.5	408.7	17.9	3.5	4142	1.8%
+huffman_pixel:  490.3	12142.2	2.9	0.1	4882	-15.7%
+
+## images/photo_tecnick/RGB_OR_1200x1200_049.png size: 1200x1200
+huffman_u8:     77.1	352.7	18.7	4.1	3905	7.4%
+huffman_pixel:  265.7	7451.2	5.4	0.2	3665	13.1%
+
+## images/photo_tecnick/RGB_OR_1200x1200_050.png size: 1200x1200
+huffman_u8:     78.4	376.3	18.4	3.8	4093	3.0%
+huffman_pixel:  305.4	7374.8	4.7	0.2	3892	7.7%
+
+## images/photo_tecnick/RGB_OR_1200x1200_051.png size: 1200x1200
+huffman_u8:     78.8	407.4	18.3	3.5	4153	1.5%
+huffman_pixel:  533.4	14245.5	2.7	0.1	5133	-21.7%
+
+## images/photo_tecnick/RGB_OR_1200x1200_052.png size: 1200x1200
+huffman_u8:     78.4	420.7	18.4	3.4	4109	2.6%
+huffman_pixel:  469.8	11906.7	3.1	0.1	4798	-13.7%
+
+## images/photo_tecnick/RGB_OR_1200x1200_053.png size: 1200x1200
+huffman_u8:     69.9	329.9	20.6	4.4	3836	9.1%
+huffman_pixel:  154.2	4243.6	9.3	0.3	2906	31.1%
+
+## images/photo_tecnick/RGB_OR_1200x1200_054.png size: 1200x1200
+huffman_u8:     67.9	360.9	21.2	4.0	3886	7.9%
+huffman_pixel:  417.2	10919.0	3.5	0.1	4311	-2.2%
+
+## images/photo_tecnick/RGB_OR_1200x1200_055.png size: 1200x1200
+huffman_u8:     75.0	391.1	19.2	3.7	3846	8.8%
+huffman_pixel:  324.8	7991.0	4.4	0.2	3913	7.2%
+
+## images/photo_tecnick/RGB_OR_1200x1200_056.png size: 1200x1200
+huffman_u8:     70.9	365.6	20.3	3.9	4041	4.2%
+huffman_pixel:  243.4	5369.8	5.9	0.3	3589	14.9%
+
+## images/photo_tecnick/RGB_OR_1200x1200_057.png size: 1200x1200
+huffman_u8:     74.8	367.6	19.3	3.9	3938	6.6%
+huffman_pixel:  175.3	3703.7	8.2	0.4	3035	28.0%
+
+## images/photo_tecnick/RGB_OR_1200x1200_058.png size: 1200x1200
+huffman_u8:     80.2	405.7	18.0	3.5	4058	3.8%
+huffman_pixel:  331.8	7446.4	4.3	0.2	3982	5.6%
+
+## images/photo_tecnick/RGB_OR_1200x1200_059.png size: 1200x1200
+huffman_u8:     74.8	388.8	19.3	3.7	4073	3.5%
+huffman_pixel:  449.0	12913.6	3.2	0.1	4739	-12.3%
+
+## images/photo_tecnick/RGB_OR_1200x1200_060.png size: 1200x1200
+huffman_u8:     78.3	370.0	18.4	3.9	3898	7.6%
+huffman_pixel:  324.0	9377.3	4.4	0.2	4009	5.0%
+
+## images/photo_tecnick/RGB_OR_1200x1200_061.png size: 1200x1200
+huffman_u8:     71.3	417.3	20.2	3.5	4173	1.1%
+huffman_pixel:  663.6	20320.8	2.2	0.1	6071	-43.9%
+
+## images/photo_tecnick/RGB_OR_1200x1200_062.png size: 1200x1200
+huffman_u8:     78.5	421.3	18.4	3.4	4189	0.7%
+huffman_pixel:  558.9	14753.3	2.6	0.1	5304	-25.7%
+
+## images/photo_tecnick/RGB_OR_1200x1200_063.png size: 1200x1200
+huffman_u8:     67.8	354.1	21.2	4.1	3750	11.1%
+huffman_pixel:  222.7	4867.1	6.5	0.3	3430	18.7%
+
+## images/photo_tecnick/RGB_OR_1200x1200_064.png size: 1200x1200
+huffman_u8:     78.9	395.2	18.3	3.6	3939	6.6%
+huffman_pixel:  425.8	9359.8	3.4	0.2	4293	-1.8%
+
+## images/photo_tecnick/RGB_OR_1200x1200_065.png size: 1200x1200
+huffman_u8:     81.3	398.4	17.7	3.6	4077	3.3%
+huffman_pixel:  365.5	9804.4	3.9	0.1	4383	-3.9%
+
+## images/photo_tecnick/RGB_OR_1200x1200_066.png size: 1200x1200
+huffman_u8:     77.5	412.7	18.6	3.5	4139	1.9%
+huffman_pixel:  339.1	6821.9	4.2	0.2	4011	4.9%
+
+## images/photo_tecnick/RGB_OR_1200x1200_067.png size: 1200x1200
+huffman_u8:     78.7	390.6	18.3	3.7	4053	3.9%
+huffman_pixel:  351.0	9642.1	4.1	0.1	4215	0.1%
+
+## images/photo_tecnick/RGB_OR_1200x1200_068.png size: 1200x1200
+huffman_u8:     50.2	254.3	28.7	5.7	2674	36.6%
+huffman_pixel:  122.3	3122.9	11.8	0.5	2069	51.0%
+
+## images/photo_tecnick/RGB_OR_1200x1200_069.png size: 1200x1200
+huffman_u8:     94.2	381.1	15.3	3.8	4084	3.2%
+huffman_pixel:  234.0	5489.4	6.2	0.3	3428	18.7%
+
+## images/photo_tecnick/RGB_OR_1200x1200_070.png size: 1200x1200
+huffman_u8:     69.8	401.0	20.6	3.6	4134	2.0%
+huffman_pixel:  378.4	7988.8	3.8	0.2	4213	0.1%
+
+## images/photo_tecnick/RGB_OR_1200x1200_071.png size: 1200x1200
+huffman_u8:     88.5	355.8	16.3	4.0	3549	15.9%
+huffman_pixel:  125.3	3625.6	11.5	0.4	2494	40.9%
+
+## images/photo_tecnick/RGB_OR_1200x1200_072.png size: 1200x1200
+huffman_u8:     83.8	380.9	17.2	3.8	4094	3.0%
+huffman_pixel:  256.3	6912.3	5.6	0.2	3565	15.5%
+
+## images/photo_tecnick/RGB_OR_1200x1200_073.png size: 1200x1200
+huffman_u8:     78.5	368.8	18.4	3.9	3897	7.6%
+huffman_pixel:  174.5	3626.6	8.3	0.4	2972	29.5%
+
+## images/photo_tecnick/RGB_OR_1200x1200_074.png size: 1200x1200
+huffman_u8:     71.9	372.2	20.0	3.9	3716	11.9%
+huffman_pixel:  157.3	2979.4	9.2	0.5	2910	31.0%
+
+## images/photo_tecnick/RGB_OR_1200x1200_075.png size: 1200x1200
+huffman_u8:     73.1	355.3	19.7	4.1	3636	13.8%
+huffman_pixel:  197.6	5339.7	7.3	0.3	3253	22.9%
+
+## images/photo_tecnick/RGB_OR_1200x1200_076.png size: 1200x1200
+huffman_u8:     73.5	339.9	19.6	4.2	3780	10.4%
+huffman_pixel:  149.9	2768.1	9.6	0.5	2914	30.9%
+
+## images/photo_tecnick/RGB_OR_1200x1200_077.png size: 1200x1200
+huffman_u8:     79.9	386.9	18.0	3.7	3986	5.5%
+huffman_pixel:  301.3	5666.9	4.8	0.3	3768	10.7%
+
+## images/photo_tecnick/RGB_OR_1200x1200_078.png size: 1200x1200
+huffman_u8:     82.9	386.2	17.4	3.7	4105	2.7%
+huffman_pixel:  210.1	4618.7	6.9	0.3	3321	21.3%
+
+## images/photo_tecnick/RGB_OR_1200x1200_079.png size: 1200x1200
+huffman_u8:     68.2	336.6	21.1	4.3	3817	9.5%
+huffman_pixel:  162.0	4365.7	8.9	0.3	2987	29.2%
+
+## images/photo_tecnick/RGB_OR_1200x1200_080.png size: 1200x1200
+huffman_u8:     71.3	379.7	20.2	3.8	4059	3.8%
+huffman_pixel:  288.6	6526.4	5.0	0.2	3784	10.3%
+
+## images/photo_tecnick/RGB_OR_1200x1200_081.png size: 1200x1200
+huffman_u8:     83.0	398.2	17.4	3.6	4120	2.3%
+huffman_pixel:  268.0	5955.9	5.4	0.2	3680	12.8%
+
+## images/photo_tecnick/RGB_OR_1200x1200_082.png size: 1200x1200
+huffman_u8:     100.4	395.9	14.3	3.6	3985	5.5%
+huffman_pixel:  433.5	10723.1	3.3	0.1	4594	-8.9%
+
+## images/photo_tecnick/RGB_OR_1200x1200_083.png size: 1200x1200
+huffman_u8:     69.6	360.4	20.7	4.0	3981	5.6%
+huffman_pixel:  174.8	3228.5	8.2	0.4	3038	28.0%
+
+## images/photo_tecnick/RGB_OR_1200x1200_084.png size: 1200x1200
+huffman_u8:     66.9	348.5	21.5	4.1	3976	5.7%
+huffman_pixel:  172.8	2929.2	8.3	0.5	3155	25.2%
+
+## images/photo_tecnick/RGB_OR_1200x1200_085.png size: 1200x1200
+huffman_u8:     72.5	435.9	19.9	3.3	4201	0.4%
+huffman_pixel:  660.9	18669.0	2.2	0.1	5819	-37.9%
+
+## images/photo_tecnick/RGB_OR_1200x1200_086.png size: 1200x1200
+huffman_u8:     68.7	399.5	21.0	3.6	4215	0.1%
+huffman_pixel:  517.8	11867.1	2.8	0.1	4904	-16.3%
+
+## images/photo_tecnick/RGB_OR_1200x1200_087.png size: 1200x1200
+huffman_u8:     84.3	416.1	17.1	3.5	4094	2.9%
+huffman_pixel:  500.1	12315.6	2.9	0.1	4778	-13.3%
+
+## images/photo_tecnick/RGB_OR_1200x1200_088.png size: 1200x1200
+huffman_u8:     70.7	389.0	20.4	3.7	4145	1.7%
+huffman_pixel:  392.5	10752.3	3.7	0.1	4498	-6.6%
+
+## images/photo_tecnick/RGB_OR_1200x1200_089.png size: 1200x1200
+huffman_u8:     71.4	410.6	20.2	3.5	4116	2.4%
+huffman_pixel:  443.8	10328.4	3.2	0.1	4503	-6.8%
+
+## images/photo_tecnick/RGB_OR_1200x1200_090.png size: 1200x1200
+huffman_u8:     83.1	408.2	17.3	3.5	4104	2.7%
+huffman_pixel:  475.0	12515.2	3.0	0.1	4828	-14.4%
+
+## images/photo_tecnick/RGB_OR_1200x1200_091.png size: 1200x1200
+huffman_u8:     60.3	292.2	23.9	4.9	2994	29.0%
+huffman_pixel:  150.3	3594.2	9.6	0.4	2364	44.0%
+
+## images/photo_tecnick/RGB_OR_1200x1200_092.png size: 1200x1200
+huffman_u8:     83.4	323.1	17.3	4.5	3405	19.3%
+huffman_pixel:  127.0	2240.4	11.3	0.6	2430	42.4%
+
+## images/photo_tecnick/RGB_OR_1200x1200_093.png size: 1200x1200
+huffman_u8:     65.9	300.7	21.8	4.8	3490	17.3%
+huffman_pixel:  164.5	4442.5	8.8	0.3	2747	34.9%
+
+## images/photo_tecnick/RGB_OR_1200x1200_094.png size: 1200x1200
+huffman_u8:     74.0	357.9	19.5	4.0	4122	2.3%
+huffman_pixel:  200.6	5385.1	7.2	0.3	3253	22.9%
+
+## images/photo_tecnick/RGB_OR_1200x1200_095.png size: 1200x1200
+huffman_u8:     81.4	403.2	17.7	3.6	4028	4.5%
+huffman_pixel:  560.1	14683.5	2.6	0.1	5249	-24.4%
+
+## images/photo_tecnick/RGB_OR_1200x1200_096.png size: 1200x1200
+huffman_u8:     80.8	390.2	17.8	3.7	4028	4.5%
+huffman_pixel:  368.4	8618.8	3.9	0.2	4170	1.1%
+
+## images/photo_tecnick/RGB_OR_1200x1200_097.png size: 1200x1200
+huffman_u8:     86.0	385.0	16.8	3.7	4015	4.8%
+huffman_pixel:  277.6	7561.5	5.2	0.2	3681	12.7%
+
+## images/photo_tecnick/RGB_OR_1200x1200_098.png size: 1200x1200
+huffman_u8:     86.2	404.9	16.7	3.6	3921	7.1%
+huffman_pixel:  440.0	11081.0	3.3	0.1	4612	-9.3%
+
+## images/photo_tecnick/RGB_OR_1200x1200_099.png size: 1200x1200
+huffman_u8:     78.6	404.7	18.3	3.6	4076	3.4%
+huffman_pixel:  347.4	7468.6	4.1	0.2	4061	3.7%
+
+## images/photo_tecnick/RGB_OR_1200x1200_100.png size: 1200x1200
+huffman_u8:     54.3	244.8	26.5	5.9	2934	30.4%
+huffman_pixel:  86.5	1577.3	16.6	0.9	1914	54.6%
+
+# Total for images/photo_tecnick 100 images
+Algorithm      Size KiB	Compression rate
+raw:           421875	0.0%
+huffman_u8:    396872	5.9%
+huffman_pixel: 379179	10.1%

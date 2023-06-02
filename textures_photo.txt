@@ -1,0 +1,220 @@
+## Benchmarking images/textures_photo/*.png -- 1 runs
+
+## images/textures_photo/clover.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      20.1       185.7         52.16          5.65      2504   81.5%
+stbi:        21.6       179.1         48.46          5.85      3032   98.7%
+qoi:          5.8         8.5        181.41        122.64      2740   89.2%
+
+## images/textures_photo/grass1.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      20.5       173.1         51.13          6.06      2767   90.1%
+stbi:        21.9       179.5         47.99          5.84      3073   100.0%
+qoi:          6.2         8.6        169.07        122.43      2876   93.6%
+
+## images/textures_photo/IMGP5480_seamless.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      18.4       261.1         56.95          4.02      1955   63.6%
+stbi:        19.0       166.7         55.19          6.29      2450   79.8%
+qoi:          5.0         7.3        211.47        144.38      2021   65.8%
+
+## images/textures_photo/IMGP5482_seamless.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      19.2       246.0         54.59          4.26      2145   69.9%
+stbi:        20.2       170.0         51.97          6.17      2587   84.2%
+qoi:          5.0         7.3        210.34        143.33      2073   67.5%
+
+## images/textures_photo/IMGP5487_seamless.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.9       257.8         43.81          4.07      1246   40.6%
+stbi:        26.0       161.0         40.35          6.51      1805   58.8%
+qoi:          6.4         8.9        163.14        118.46      1616   52.6%
+
+## images/textures_photo/IMGP5493_seamless_1.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      21.8       243.8         48.00          4.30       910   29.6%
+stbi:        25.1       153.1         41.82          6.85      1400   45.6%
+qoi:          7.6         9.4        138.08        111.15      1306   42.5%
+
+## images/textures_photo/IMGP5493_seamless_2.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      21.7       234.2         48.29          4.48       911   29.7%
+stbi:        24.4       150.4         42.92          6.97      1400   45.6%
+qoi:          7.3         9.6        143.03        109.50      1349   43.9%
+
+## images/textures_photo/IMGP5497_seamless.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      17.4       270.8         60.14          3.87      1612   52.5%
+stbi:        17.2       140.6         60.97          7.46      2150   70.0%
+qoi:          6.3         8.4        167.03        124.26      1902   61.9%
+
+## images/textures_photo/IMGP5498_seamless.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      18.3       295.4         57.25          3.55      2037   66.3%
+stbi:        18.8       152.4         55.75          6.88      2407   78.4%
+qoi:          5.9         7.9        177.90        132.51      2342   76.3%
+
+## images/textures_photo/IMGP5505_seamless.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      22.4       258.5         46.74          4.06      1874   61.0%
+stbi:        24.7       175.3         42.53          5.98      2488   81.0%
+qoi:          4.8         7.7        216.61        135.95      1917   62.4%
+
+## images/textures_photo/IMGP5511_seamless.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      20.3       281.0         51.66          3.73      1970   64.1%
+stbi:        21.2       158.3         49.54          6.63      2401   78.2%
+qoi:          5.3         7.4        196.68        141.45      2047   66.6%
+
+## images/textures_photo/IMGP5514_seamless_1.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      20.2       268.9         52.02          3.90      1750   57.0%
+stbi:        21.1       161.9         49.76          6.48      2247   73.1%
+qoi:          5.4         7.7        195.99        135.82      1886   61.4%
+
+## images/textures_photo/IMGP5514_seamless_2.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.3       257.3         43.19          4.07      1579   51.4%
+stbi:        28.1       168.3         37.38          6.23      2138   69.6%
+qoi:          5.5         7.9        192.15        133.07      1795   58.5%
+
+## images/textures_photo/IMGP5525_seamless.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      19.3       250.2         54.38          4.19      2169   70.6%
+stbi:        20.8       171.3         50.35          6.12      2596   84.5%
+qoi:          5.0         7.2        210.46        145.25      2104   68.5%
+
+## images/textures_photo/IMGP5539_almost_seamless.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      26.6       325.1         39.45          3.23      1551   50.5%
+stbi:        31.8       194.9         32.94          5.38      2218   72.2%
+qoi:          5.6         8.8        187.64        118.56      1778   57.9%
+
+## images/textures_photo/IMGP5546_seamless.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      21.3       232.8         49.17          4.50      1108   36.1%
+stbi:        23.6       143.3         44.42          7.32      1613   52.5%
+qoi:          6.9         8.9        152.93        117.70      1425   46.4%
+
+## images/textures_photo/rock01.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      18.6       262.0         56.34          4.00      2022   65.8%
+stbi:        19.4       172.9         54.13          6.06      2550   83.0%
+qoi:          4.8         7.5        218.81        140.40      1978   64.4%
+
+## images/textures_photo/rock02.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      19.5       221.3         53.75          4.74      2295   74.7%
+stbi:        20.2       173.5         51.80          6.04      2735   89.0%
+qoi:          4.8         7.3        216.88        143.68      2204   71.8%
+
+## images/textures_photo/rock02_2.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      19.8       219.4         52.88          4.78      2326   75.7%
+stbi:        21.0       174.5         50.03          6.01      2747   89.4%
+qoi:          5.0         7.3        210.17        144.07      2230   72.6%
+
+## images/textures_photo/rock03.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      25.8       232.3         40.72          4.51      1983   64.6%
+stbi:        29.7       192.4         35.31          5.45      2649   86.2%
+qoi:          4.8         7.8        216.76        133.63      2040   66.4%
+
+## Total for images/textures_photo
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      21.0       248.8         49.99          4.21      1836   59.8%
+stbi:        22.8       167.0         46.03          6.28      2334   76.0%
+qoi:          5.7         8.1        185.08        129.86      1981   64.5%
+
+# Grand total for images/textures_photo
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      21.0       248.8         49.99          4.21      1836   59.8%
+stbi:        22.8       167.0         46.03          6.28      2334   76.0%
+qoi:          5.7         8.1        185.08        129.86      1981   64.5%
+
+## Benchmarking Huffman images/textures_photo with 1 runs
+## images/textures_photo/clover.png size: 1024x1024
+huffman_u8:     65.5	304.4	16.0	3.4	2909	5.3%
+huffman_pixel:  131.9	2020.5	8.0	0.5	2295	25.3%
+
+## images/textures_photo/grass1.png size: 1024x1024
+huffman_u8:     67.9	310.3	15.4	3.4	2986	2.8%
+huffman_pixel:  158.6	2527.5	6.6	0.4	2441	20.5%
+
+## images/textures_photo/IMGP5480_seamless.png size: 1024x1024
+huffman_u8:     65.9	279.9	15.9	3.7	2713	11.7%
+huffman_pixel:  78.8	720.6	13.3	1.5	1787	41.8%
+
+## images/textures_photo/IMGP5482_seamless.png size: 1024x1024
+huffman_u8:     58.1	282.1	18.0	3.7	2746	10.6%
+huffman_pixel:  84.6	737.0	12.4	1.4	1853	39.7%
+
+## images/textures_photo/IMGP5487_seamless.png size: 1024x1024
+huffman_u8:     48.0	241.8	21.9	4.3	2405	21.7%
+huffman_pixel:  57.2	202.9	18.3	5.2	1168	61.9%
+
+## images/textures_photo/IMGP5493_seamless_1.png size: 1024x1024
+huffman_u8:     47.6	191.9	22.0	5.5	1942	36.8%
+huffman_pixel:  26.1	164.9	40.2	6.4	1040	66.1%
+
+## images/textures_photo/IMGP5493_seamless_2.png size: 1024x1024
+huffman_u8:     50.7	202.2	20.7	5.2	2004	34.7%
+huffman_pixel:  28.3	173.2	37.0	6.1	1114	63.7%
+
+## images/textures_photo/IMGP5497_seamless.png size: 1024x1024
+huffman_u8:     57.8	263.8	18.1	4.0	2512	18.2%
+huffman_pixel:  35.6	224.4	29.4	4.7	1225	60.1%
+
+## images/textures_photo/IMGP5498_seamless.png size: 1024x1024
+huffman_u8:     63.8	276.0	16.4	3.8	2694	12.3%
+huffman_pixel:  45.5	294.3	23.0	3.6	1414	54.0%
+
+## images/textures_photo/IMGP5505_seamless.png size: 1024x1024
+huffman_u8:     52.3	291.5	20.0	3.6	2751	10.4%
+huffman_pixel:  102.6	847.5	10.2	1.2	1919	37.5%
+
+## images/textures_photo/IMGP5511_seamless.png size: 1024x1024
+huffman_u8:     48.6	262.7	21.6	4.0	2583	15.9%
+huffman_pixel:  48.0	344.6	21.8	3.0	1446	52.9%
+
+## images/textures_photo/IMGP5514_seamless_1.png size: 1024x1024
+huffman_u8:     54.2	252.4	19.3	4.2	2481	19.2%
+huffman_pixel:  59.1	467.1	17.7	2.2	1588	48.3%
+
+## images/textures_photo/IMGP5514_seamless_2.png size: 1024x1024
+huffman_u8:     53.1	252.4	19.7	4.2	2498	18.7%
+huffman_pixel:  57.6	506.1	18.2	2.1	1589	48.3%
+
+## images/textures_photo/IMGP5525_seamless.png size: 1024x1024
+huffman_u8:     62.9	284.8	16.7	3.7	2725	11.3%
+huffman_pixel:  93.8	879.7	11.2	1.2	1858	39.5%
+
+## images/textures_photo/IMGP5539_almost_seamless.png size: 1024x1024
+huffman_u8:     51.3	281.3	20.4	3.7	2725	11.3%
+huffman_pixel:  93.4	1092.5	11.2	1.0	2000	34.9%
+
+## images/textures_photo/IMGP5546_seamless.png size: 1024x1024
+huffman_u8:     51.2	241.6	20.5	4.3	2444	20.4%
+huffman_pixel:  28.8	239.8	36.5	4.4	1106	64.0%
+
+## images/textures_photo/rock01.png size: 1024x1024
+huffman_u8:     62.8	271.3	16.7	3.9	2605	15.2%
+huffman_pixel:  75.1	683.6	14.0	1.5	1732	43.6%
+
+## images/textures_photo/rock02.png size: 1024x1024
+huffman_u8:     53.3	301.1	19.7	3.5	2855	7.1%
+huffman_pixel:  124.4	1875.1	8.4	0.6	2251	26.7%
+
+## images/textures_photo/rock02_2.png size: 1024x1024
+huffman_u8:     53.3	295.1	19.7	3.6	2851	7.2%
+huffman_pixel:  125.8	1838.3	8.3	0.6	2251	26.7%
+
+## images/textures_photo/rock03.png size: 1024x1024
+huffman_u8:     60.9	287.1	17.2	3.7	2817	8.3%
+huffman_pixel:  109.0	1545.5	9.6	0.7	2102	31.6%
+
+# Total for images/textures_photo 20 images
+Algorithm      Size KiB	Compression rate
+raw:           61440	0.0%
+huffman_u8:    52256	14.9%
+huffman_pixel: 34188	44.4%

@@ -1,0 +1,2370 @@
+## Benchmarking images/textures_pk02/*.png -- 1 runs
+
+## images/textures_pk02/pk02_ceiling02_C.png size: 256x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.6        61.4         36.60          2.14       224   43.8%
+stbi:         3.6        28.8         36.21          4.54       332   64.9%
+qoi:          0.7         1.2        189.44        110.99       254   49.6%
+
+## images/textures_pk02/pk02_ceiling02_I.png size: 256x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.3         7.5         97.13         17.43        31    6.2%
+stbi:         0.8         9.3        156.08         14.04        44    8.6%
+qoi:          0.3         0.4        521.37        311.26        50    9.9%
+
+## images/textures_pk02/pk02_ceiling02_N.png size: 256x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.7        49.4         35.77          2.65       171   33.6%
+stbi:         3.4        27.9         38.23          4.69       257   50.4%
+qoi:          0.8         1.2        169.98        113.52       312   61.0%
+
+## images/textures_pk02/pk02_ceiling02_S.png size: 256x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.6        36.7         49.78          3.57       182   35.6%
+stbi:         2.3        15.5         56.28          8.45       233   45.6%
+qoi:          0.9         1.3        148.24        103.84       222   43.5%
+
+## images/textures_pk02/pk02_ceiling03_C.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       5.7       118.3         46.33          2.22       473   46.2%
+stbi:         5.7        55.9         45.76          4.69       689   67.4%
+qoi:          1.3         2.4        196.05        110.01       458   44.7%
+
+## images/textures_pk02/pk02_ceiling03_N.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       6.0        92.3         43.87          2.84       301   29.4%
+stbi:         5.7        51.3         45.92          5.11       471   46.0%
+qoi:          1.7         2.3        154.78        114.64       353   34.5%
+
+## images/textures_pk02/pk02_ceiling03_S.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.1        71.7         63.36          3.66       320   31.3%
+stbi:         3.8        30.0         69.87          8.74       451   44.1%
+qoi:          1.5         1.9        179.72        139.19       332   32.4%
+
+## images/textures_pk02/pk02_computer01a_C.png size: 256x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.9        50.5         33.27          2.59       253   49.6%
+stbi:         3.9        28.7         33.25          4.57       355   69.5%
+qoi:          0.8         1.2        167.50        105.90       250   49.0%
+
+## images/textures_pk02/pk02_computer01a_I.png size: 256x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.4         7.3         95.75         17.87        24    4.8%
+stbi:         0.8         8.1        171.67         16.28        33    6.5%
+qoi:          0.3         0.4        507.83        325.48        29    5.8%
+
+## images/textures_pk02/pk02_computer01a_N.png size: 256x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.1        36.0         42.25          3.64       127   24.9%
+stbi:         2.8        21.8         46.79          6.01       193   37.7%
+qoi:          0.6         0.9        203.46        145.86       162   31.8%
+
+## images/textures_pk02/pk02_computer01a_S.png size: 256x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.6        28.2         50.68          4.64       142   27.9%
+stbi:         2.3        13.6         55.92          9.61       176   34.5%
+qoi:          0.7         0.9        185.37        138.36       148   29.0%
+
+## images/textures_pk02/pk02_computer01b_C.png size: 256x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.9        54.7         33.64          2.40       251   49.0%
+stbi:         3.8        28.9         34.43          4.53       356   69.6%
+qoi:          0.8         1.2        171.79        107.46       241   47.2%
+
+## images/textures_pk02/pk02_computer01b_I.png size: 256x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.3         6.6        101.25         19.82        18    3.7%
+stbi:         0.7         8.1        200.94         16.28        26    5.2%
+qoi:          0.2         0.4        542.29        340.45        25    4.9%
+
+## images/textures_pk02/pk02_computer01b_N.png size: 256x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.3        40.9         39.93          3.20       137   26.8%
+stbi:         3.0        22.8         43.41          5.75       210   41.1%
+qoi:          0.7         1.0        187.43        134.23       182   35.7%
+
+## images/textures_pk02/pk02_computer01b_S.png size: 256x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.7        31.9         48.77          4.10       159   31.1%
+stbi:         2.5        14.9         52.89          8.80       206   40.3%
+qoi:          0.8         1.0        173.84        130.63       168   32.9%
+
+## images/textures_pk02/pk02_computer01c_C.png size: 256x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.8        54.4         34.21          2.41       250   49.0%
+stbi:         3.9        28.9         33.92          4.53       358   69.9%
+qoi:          0.8         1.2        170.93        106.97       236   46.1%
+
+## images/textures_pk02/pk02_computer01c_I.png size: 256x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.2         5.5        111.13         23.97        12    2.5%
+stbi:         0.5         7.9        264.52         16.67        17    3.5%
+qoi:          0.2         0.3        669.76        408.20        14    2.9%
+
+## images/textures_pk02/pk02_computer01c_N.png size: 256x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.4        43.2         38.11          3.03       150   29.3%
+stbi:         3.2        25.6         40.52          5.12       230   44.9%
+qoi:          0.7         1.0        176.62        131.31       179   35.1%
+
+## images/textures_pk02/pk02_computer01c_S.png size: 256x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.6        32.4         49.55          4.05       148   28.9%
+stbi:         2.4        15.0         54.53          8.77       200   39.2%
+qoi:          0.7         0.9        188.78        143.04       155   30.3%
+
+## images/textures_pk02/pk02_dec_num00.png size: 256x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.4        49.8         38.93          2.63       225   44.0%
+stbi:         3.1        29.1         42.59          4.51       304   59.5%
+qoi:          0.9         1.3        140.70        103.67       258   50.5%
+
+## images/textures_pk02/pk02_dec_num01.png size: 256x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.8        53.6         34.72          2.44       212   41.4%
+stbi:         3.7        29.5         35.77          4.44       303   59.2%
+qoi:          1.0         1.3        130.39        103.29       240   46.9%
+
+## images/textures_pk02/pk02_dec_num02.png size: 256x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.4        51.6         38.17          2.54       235   45.9%
+stbi:         3.3        30.8         39.37          4.26       317   61.9%
+qoi:          0.9         1.3        148.20        102.65       280   54.7%
+
+## images/textures_pk02/pk02_dec_num03.png size: 256x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.7        52.9         35.80          2.48       226   44.2%
+stbi:         3.5        29.6         37.61          4.43       313   61.3%
+qoi:          0.9         1.2        140.98        109.24       284   55.5%
+
+## images/textures_pk02/pk02_dec_num04.png size: 256x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.6        51.3         36.22          2.56       225   44.1%
+stbi:        14.3        29.4          9.15          4.45       307   60.1%
+qoi:          4.1         1.2         32.06        105.63       262   51.3%
+
+## images/textures_pk02/pk02_dec_num05.png size: 256x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.5        50.3         37.04          2.61       231   45.3%
+stbi:         3.3        29.0         39.34          4.51       314   61.4%
+qoi:          0.9         1.2        148.71        109.14       275   53.9%
+
+## images/textures_pk02/pk02_dec_num06.png size: 256x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.5        49.6         37.35          2.64       234   45.7%
+stbi:         3.2        29.2         40.97          4.49       313   61.3%
+qoi:          0.9         1.2        143.94        107.38       273   53.5%
+
+## images/textures_pk02/pk02_dec_num07.png size: 256x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.7        52.2         35.10          2.51       225   44.0%
+stbi:         3.6        29.5         36.52          4.45       315   61.6%
+qoi:          0.9         1.2        146.27        108.85       276   54.0%
+
+## images/textures_pk02/pk02_dec_num08.png size: 256x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.6        50.6         36.26          2.59       250   48.9%
+stbi:         3.5        29.9         37.03          4.38       338   66.0%
+qoi:          0.9         1.1        152.76        115.93       348   68.0%
+
+## images/textures_pk02/pk02_dec_num09.png size: 256x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.4        48.5         38.58          2.70       208   40.7%
+stbi:         4.2        28.5         30.88          4.59       286   55.9%
+qoi:          4.5         1.3         29.20        103.88       226   44.3%
+
+## images/textures_pk02/pk02_dec_numA.png size: 256x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.5        52.2         37.04          2.51       233   45.6%
+stbi:         3.2        30.0         40.33          4.36       323   63.1%
+qoi:          0.9         1.2        150.38        109.05       302   59.2%
+
+## images/textures_pk02/pk02_dec_numB.png size: 256x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.6        50.2         35.92          2.61       239   46.8%
+stbi:         3.6        29.6         36.86          4.44       325   63.5%
+qoi:          0.9         1.2        148.62        112.16       303   59.2%
+
+## images/textures_pk02/pk02_dec_numC.png size: 256x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.5        52.9         37.74          2.48       219   43.0%
+stbi:         3.3        29.2         39.26          4.48       311   60.8%
+qoi:          0.9         1.2        146.66        106.74       271   53.1%
+
+## images/textures_pk02/pk02_door01_C.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      14.0       118.4         18.67          2.21       517   50.6%
+stbi:         7.0        58.3         37.24          4.49       768   75.0%
+qoi:          1.3         2.3        203.99        112.12       517   50.5%
+
+## images/textures_pk02/pk02_door01_N.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       5.5        72.5         47.98          3.61       221   21.6%
+stbi:         5.1        43.0         51.04          6.09       353   34.5%
+qoi:          1.4         1.9        182.67        136.88       358   35.0%
+
+## images/textures_pk02/pk02_door01_S.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.4        74.1         59.79          3.54       345   33.8%
+stbi:         4.0        30.3         65.73          8.65       472   46.1%
+qoi:          1.5         2.1        172.11        126.84       362   35.4%
+
+## images/textures_pk02/pk02_door02_C.png size: 256x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      12.4        61.3         10.56          2.14       251   49.0%
+stbi:         7.6        28.8         17.22          4.55       374   73.2%
+qoi:          1.3         1.3        101.46         99.61       258   50.5%
+
+## images/textures_pk02/pk02_door02_N.png size: 256x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.8        43.1         47.53          3.04       134   26.3%
+stbi:         2.3        25.3         56.07          5.19       215   42.2%
+qoi:          0.6         0.9        202.08        153.95       163   32.0%
+
+## images/textures_pk02/pk02_door02_S.png size: 256x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.6        34.7         50.58          3.78       158   31.0%
+stbi:         2.3        15.1         57.11          8.69       223   43.6%
+qoi:          0.7         0.8        201.65        156.24       163   31.9%
+
+## images/textures_pk02/pk02_door03_C.png size: 256x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.4        57.9         38.10          2.26       263   51.5%
+stbi:         3.3        29.5         39.13          4.44       386   75.6%
+qoi:          0.7         1.3        177.56        101.78       270   52.8%
+
+## images/textures_pk02/pk02_door03_N.png size: 256x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.8        43.3         47.34          3.03       140   27.4%
+stbi:         2.4        25.4         54.50          5.16       221   43.2%
+qoi:          0.7         0.9        201.15        153.01       167   32.8%
+
+## images/textures_pk02/pk02_door03_S.png size: 256x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.5        33.3         52.34          3.93       146   28.6%
+stbi:         2.2        14.7         59.74          8.90       213   41.8%
+qoi:          0.6         0.8        211.34        165.70       151   29.6%
+
+## images/textures_pk02/pk02_floor01_C.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       5.4       117.7         48.15          2.23       463   45.3%
+stbi:         5.1        56.1         51.80          4.68       667   65.2%
+qoi:          1.7         2.7        156.18         96.12       401   39.2%
+
+## images/textures_pk02/pk02_floor01_N.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       6.0        95.0         43.98          2.76       461   45.0%
+stbi:         5.6        61.4         47.06          4.27       653   63.8%
+qoi:          1.7         2.7        153.35         97.81       552   54.0%
+
+## images/textures_pk02/pk02_floor01_S.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.5        73.0         57.69          3.59       347   33.9%
+stbi:         4.0        36.9         65.98          7.11       478   46.8%
+qoi:          1.3         1.8        194.47        143.80       314   30.7%
+
+## images/textures_pk02/pk02_floor02_C.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.9       405.2         43.90          2.59      2341   57.2%
+stbi:        27.6       231.8         38.05          4.52      3372   82.3%
+qoi:          5.8         9.5        180.19        110.35      2322   56.7%
+
+## images/textures_pk02/pk02_floor02_N.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      26.1       491.7         40.19          2.13      2097   51.2%
+stbi:        27.2       220.0         38.59          4.77      3088   75.4%
+qoi:          6.3         9.2        167.61        113.48      3112   76.0%
+
+## images/textures_pk02/pk02_floor02_S.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      13.4       160.4         78.19          6.54       786   19.2%
+stbi:        10.9        83.9         96.29         12.50       949   23.2%
+qoi:          4.2         5.8        248.91        180.41       715   17.5%
+
+## images/textures_pk02/pk02_floor03_C.png size: 256x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.5        29.3         44.51          2.24       109   42.9%
+stbi:         1.3        15.0         52.16          4.38       160   62.7%
+qoi:          0.3         0.5        192.36        126.49       141   55.3%
+
+## images/textures_pk02/pk02_floor03_N.png size: 256x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.3        17.6         51.42          3.72        74   28.9%
+stbi:         1.0        11.3         62.70          5.80       103   40.4%
+qoi:          0.4         0.5        177.89        121.81       187   73.1%
+
+## images/textures_pk02/pk02_floor03_S.png size: 256x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.0        12.9         66.42          5.09        57   22.4%
+stbi:         0.8         6.5         86.62         10.11        78   30.6%
+qoi:          0.4         0.5        172.01        121.93        91   35.6%
+
+## images/textures_pk02/pk02_floor04_C.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       6.3       121.3         41.50          2.16       514   50.2%
+stbi:         6.4        56.3         41.00          4.66       745   72.8%
+qoi:          1.4         2.4        190.26        109.05       467   45.7%
+
+## images/textures_pk02/pk02_floor04_N.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.7        68.3         56.13          3.84       185   18.1%
+stbi:         4.4        34.7         60.11          7.56       297   29.0%
+qoi:          1.3         1.8        198.53        142.78       314   30.7%
+
+## images/textures_pk02/pk02_floor04_S.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.9        73.3         67.04          3.57       315   30.8%
+stbi:         3.5        29.4         74.05          8.93       453   44.3%
+qoi:          1.2         1.4        223.86        184.31       295   28.8%
+
+## images/textures_pk02/pk02_floor05_C.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       6.7       100.6         38.93          2.61       409   40.0%
+stbi:         6.5        55.8         40.07          4.70       578   56.5%
+qoi:          1.8         2.6        146.46         99.30       348   34.0%
+
+## images/textures_pk02/pk02_floor05_N.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       6.7        88.8         39.14          2.95       338   33.0%
+stbi:         6.7        49.7         38.86          5.27       497   48.6%
+qoi:          1.7         2.4        155.88        108.13       421   41.1%
+
+## images/textures_pk02/pk02_floor05_S.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.0        41.4         64.96          6.33       155   15.2%
+stbi:         3.6        22.1         72.55         11.87       227   22.3%
+qoi:          0.9         1.1        306.53        228.01       172   16.9%
+
+## images/textures_pk02/pk02_floor06a_C.png size: 256x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.2        15.3         53.78          4.27        68   26.6%
+stbi:         1.1         9.7         60.35          6.79        95   37.2%
+qoi:          0.3         0.5        194.70        130.63        61   24.1%
+
+## images/textures_pk02/pk02_floor06a_N.png size: 256x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.6        19.9         42.14          3.29        80   31.3%
+stbi:         1.4        12.4         46.12          5.30       119   46.7%
+qoi:          0.4         0.5        168.30        124.33        90   35.5%
+
+## images/textures_pk02/pk02_floor06a_S.png size: 256x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       0.9         8.7         76.43          7.54        36   14.1%
+stbi:         0.7         4.7         93.97         13.94        51   20.1%
+qoi:          0.2         0.2        337.81        287.94        35   13.9%
+
+## images/textures_pk02/pk02_floor06b_C.png size: 256x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.3        15.4         48.93          4.25        84   33.2%
+stbi:         1.3        10.0         51.88          6.57       119   46.5%
+qoi:          0.3         0.5        199.50        134.99        92   36.3%
+
+## images/textures_pk02/pk02_floor07_C.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       7.2       109.9         36.38          2.39       411   40.2%
+stbi:         7.1        58.6         36.88          4.47       603   59.0%
+qoi:          1.8         2.5        146.82        105.01       464   45.3%
+
+## images/textures_pk02/pk02_floor07_N.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       6.2        77.3         42.61          3.39       266   26.1%
+stbi:         6.0        44.7         43.89          5.86       401   39.2%
+qoi:          1.6         2.2        160.27        117.64       464   45.3%
+
+## images/textures_pk02/pk02_floor07_S.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.8        44.3         69.86          5.92       214   20.9%
+stbi:         3.0        23.6         87.77         11.09       270   26.4%
+qoi:          1.1         1.7        246.17        152.72       220   21.6%
+
+## images/textures_pk02/pk02_floor08a_C.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       6.7       130.7         39.24          2.01       470   46.0%
+stbi:         7.5        57.3         34.89          4.58       694   67.9%
+qoi:          1.6         2.5        168.33        104.61       462   45.2%
+
+## images/textures_pk02/pk02_floor08a_N.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       5.0        72.1         52.18          3.63       203   19.9%
+stbi:         4.3        39.5         61.42          6.63       328   32.1%
+qoi:          1.3         1.7        205.73        158.28       314   30.7%
+
+## images/textures_pk02/pk02_floor08a_S.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.1        75.7         11.37          3.46       337   32.9%
+stbi:         7.9        29.3         33.30          8.95       453   44.3%
+qoi:          2.6         1.9        102.47        136.06       343   33.6%
+
+## images/textures_pk02/pk02_floor08b_C.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       5.9       129.5         44.56          2.02       486   47.5%
+stbi:         5.6        58.2         46.60          4.51       710   69.4%
+qoi:          1.5         2.5        177.65        105.36       486   47.5%
+
+## images/textures_pk02/pk02_floor08b_N.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.7        71.1         55.47          3.69       230   22.5%
+stbi:         4.3        40.7         60.68          6.44       355   34.7%
+qoi:          1.3         1.7        194.51        152.06       327   32.0%
+
+## images/textures_pk02/pk02_floor08b_S.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.5        75.8         58.04          3.46       351   34.3%
+stbi:         4.1        30.1         64.66          8.70       455   44.5%
+qoi:          1.5         1.9        170.66        134.83       338   33.1%
+
+## images/textures_pk02/pk02_floor09a_C.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      22.2       533.6         47.29          1.97      1929   47.1%
+stbi:        21.9       242.6         47.98          4.32      2877   70.2%
+qoi:          6.3        11.3        166.44         93.01      1873   45.7%
+
+## images/textures_pk02/pk02_floor09b_C.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      22.6       462.2         46.34          2.27      2215   54.1%
+stbi:        22.8       217.2         45.90          4.83      3009   73.5%
+qoi:          5.0         8.7        208.59        120.31      1967   48.0%
+
+## images/textures_pk02/pk02_floor09_N.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      26.8       390.8         39.12          2.68      2391   58.4%
+stbi:        29.6       241.0         35.37          4.35      3374   82.4%
+qoi:          5.5         9.5        189.25        110.51      3339   81.5%
+
+## images/textures_pk02/pk02_floor09_S.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      15.0       271.9         70.09          3.86      1166   28.5%
+stbi:        13.0       119.9         80.52          8.74      1658   40.5%
+qoi:          4.0         4.9        263.64        214.67      1066   26.0%
+
+## images/textures_pk02/pk02_floor10_C.png size: 256x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.2        19.5         54.63          3.37        78   30.7%
+stbi:         1.0        11.1         66.18          5.92       111   43.5%
+qoi:          0.4         0.5        177.75        120.85       115   44.9%
+
+## images/textures_pk02/pk02_floor10_N.png size: 256x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.4        18.6         47.30          3.52        74   29.2%
+stbi:         1.2        10.7         52.89          6.14       109   42.6%
+qoi:          0.4         0.5        184.87        123.40       153   59.8%
+
+## images/textures_pk02/pk02_floor10_S.png size: 256x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       0.8        11.2         78.71          5.84        47   18.5%
+stbi:         0.6         5.9        115.85         11.18        63   24.9%
+qoi:          0.2         0.3        266.62        236.25        60   23.6%
+
+## images/textures_pk02/pk02_floor11_C.png size: 256x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.5        24.9         42.99          2.64       146   57.4%
+stbi:         1.5        13.8         44.88          4.75       204   80.0%
+qoi:          0.4         0.6        178.57        101.04       159   62.2%
+
+## images/textures_pk02/pk02_floor11_N.png size: 256x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.4        16.8         46.45          3.91        67   26.5%
+stbi:         1.3        10.6         51.33          6.19       104   40.7%
+qoi:          0.4         0.5        172.78        119.35       101   39.5%
+
+## images/textures_pk02/pk02_floor11_S.png size: 256x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.1        19.5         57.74          3.36       104   40.7%
+stbi:         0.9         7.8         69.14          8.39       127   49.9%
+qoi:          0.3         0.4        210.52        156.15        84   33.1%
+
+## images/textures_pk02/pk02_floor12a_C.png size: 256x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.5        18.8         43.01          3.49       179   70.2%
+stbi:         1.5        13.7         43.02          4.78       222   87.0%
+qoi:          0.3         0.5        198.05        127.38       157   61.7%
+
+## images/textures_pk02/pk02_floor12b_C.png size: 256x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.5        16.4         42.56          4.00       181   71.1%
+stbi:         1.5        15.3         42.32          4.27       247   96.8%
+qoi:          0.3         0.7        210.12         98.39       222   86.7%
+
+## images/textures_pk02/pk02_floor12_N.png size: 256x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.6        20.8         41.98          3.15       160   62.6%
+stbi:         1.5        15.1         43.29          4.34       219   85.7%
+qoi:          0.4         0.6        185.76        103.01       202   79.2%
+
+## images/textures_pk02/pk02_floor12_S.png size: 256x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.3        30.8         52.17          2.13       126   49.3%
+stbi:         1.1         8.0         57.88          8.16       137   53.8%
+qoi:          0.3         0.5        190.84        123.84        99   38.8%
+
+## images/textures_pk02/pk02_floor13a_C.png size: 256x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.6        22.1         41.24          2.96       150   58.7%
+stbi:         1.4        13.9         45.31          4.71       188   73.5%
+qoi:          0.4         0.6        165.16        108.68       140   55.0%
+
+## images/textures_pk02/pk02_floor13b_C.png size: 256x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.6        18.7         40.52          3.50       169   66.3%
+stbi:         1.5        15.3         43.16          4.29       222   86.7%
+qoi:          0.4         0.6        163.72        105.55       194   75.8%
+
+## images/textures_pk02/pk02_floor13_N.png size: 256x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.9        25.6         33.73          2.56       135   52.7%
+stbi:         2.0        14.2         32.48          4.62       201   78.5%
+qoi:          0.3         0.6        194.47        112.82       213   83.2%
+
+## images/textures_pk02/pk02_floor13_S.png size: 256x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.1        14.7         61.98          4.47        81   31.8%
+stbi:         0.8         6.9         77.48          9.52        95   37.3%
+qoi:          0.3         0.4        212.16        165.04        64   25.3%
+
+## images/textures_pk02/pk02_floor_cyl01_C.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      21.3       421.0         49.22          2.49      1925   47.0%
+stbi:        20.2       216.3         51.99          4.85      2665   65.1%
+qoi:          6.6        10.1        159.63        103.52      1738   42.5%
+
+## images/textures_pk02/pk02_floor_cyl01_N.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      22.1       289.0         47.41          3.63      1987   48.5%
+stbi:        22.4       219.4         46.90          4.78      2864   69.9%
+qoi:          4.9         7.8        213.67        134.97      3029   74.0%
+
+## images/textures_pk02/pk02_floor_cyl01_S.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      13.2       191.7         79.19          5.47       710   17.3%
+stbi:        11.3        99.7         93.10         10.52      1114   27.2%
+qoi:          4.3         6.0        242.20        173.75       843   20.6%
+
+## images/textures_pk02/pk02_floor_cyl02_C.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      21.8       513.7         48.11          2.04      1746   42.6%
+stbi:        20.2       225.6         51.81          4.65      2635   64.3%
+qoi:          5.8        10.4        180.70        100.97      1739   42.5%
+
+## images/textures_pk02/pk02_floor_cyl02_N.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      22.1       393.3         47.53          2.67      1404   34.3%
+stbi:        20.3       205.0         51.58          5.11      2169   53.0%
+qoi:          6.6        10.0        158.00        105.37      1553   37.9%
+
+## images/textures_pk02/pk02_floor_cyl02_S.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      15.7       286.5         66.91          3.66      1276   31.2%
+stbi:        14.1       119.0         74.46          8.81      1805   44.1%
+qoi:          6.1         8.4        171.18        125.48      1356   33.1%
+
+## images/textures_pk02/pk02_generic01a_C.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       5.2       115.4         50.26          2.27       358   35.0%
+stbi:         4.7        58.4         56.29          4.49       549   53.7%
+qoi:          1.8         2.5        148.16        106.91       314   30.7%
+
+## images/textures_pk02/pk02_generic01b_C.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.6        90.4         56.69          2.90       272   26.6%
+stbi:         3.8        50.7         68.11          5.17       415   40.6%
+qoi:          1.4         1.8        186.00        146.80       237   23.2%
+
+## images/textures_pk02/pk02_generic01_N.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.9        66.8         66.85          3.93       176   17.2%
+stbi:         3.1        36.8         83.77          7.13       291   28.5%
+qoi:          1.2         1.4        222.33        185.60       261   25.6%
+
+## images/textures_pk02/pk02_generic01_S.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.4        62.6         59.55          4.19       264   25.8%
+stbi:         3.5        27.5         74.05          9.52       379   37.1%
+qoi:          1.3         1.5        204.62        171.52       233   22.8%
+
+## images/textures_pk02/pk02_light01a_C.png size: 128x64
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       0.3         2.1         29.99          3.83        16   50.3%
+stbi:         0.3         1.6         28.71          5.08        22   71.1%
+qoi:          0.0         0.1        164.17         99.18        17   54.9%
+
+## images/textures_pk02/pk02_light01b_C.png size: 128x64
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       0.2         2.0         36.57          4.20        15   49.3%
+stbi:         0.2         1.4         37.94          5.65        20   62.8%
+qoi:          0.0         0.1        173.93        105.98        12   39.0%
+
+## images/textures_pk02/pk02_light01_N.png size: 128x64
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       0.2         2.3         43.55          3.63        12   38.0%
+stbi:         0.2         1.2         51.07          6.92        16   52.9%
+qoi:          0.0         0.1        239.53        148.68        19   59.5%
+
+## images/textures_pk02/pk02_light01_S.png size: 128x64
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       0.2         1.6         49.62          4.98         7   23.7%
+stbi:         0.1         0.9         59.02          9.03        11   35.2%
+qoi:          0.0         0.0        237.45        202.77         8   25.2%
+
+## images/textures_pk02/pk02_light02a_C.png size: 256x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.9        27.7         34.21          2.37       110   43.2%
+stbi:         1.9        14.4         34.73          4.55       162   63.6%
+qoi:          0.4         0.6        162.54        106.75       107   42.0%
+
+## images/textures_pk02/pk02_light02b_C.png size: 256x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.9        28.3         33.84          2.32       111   43.7%
+stbi:         1.9        14.5         33.74          4.53       166   65.2%
+qoi:          0.4         0.6        153.41        101.15       117   45.8%
+
+## images/textures_pk02/pk02_light02c_C.png size: 256x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.8        24.6         35.82          2.66        95   37.4%
+stbi:         1.7        13.2         37.86          4.95       142   55.8%
+qoi:          0.4         0.6        146.02        109.45       108   42.4%
+
+## images/textures_pk02/pk02_light02_C.png size: 256x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.9        27.9         33.87          2.35       111   43.7%
+stbi:         1.9        14.2         33.87          4.61       166   65.2%
+qoi:          0.4         0.7        167.61         99.40       117   45.8%
+
+## images/textures_pk02/pk02_light02_I.png size: 256x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       0.9         7.2         71.96          9.07        31   12.3%
+stbi:         0.7         5.0         94.01         13.13        41   16.3%
+qoi:          0.2         0.3        305.67        206.02        37   14.8%
+
+## images/textures_pk02/pk02_light02_N.png size: 256x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.8        21.1         35.45          3.11        71   27.8%
+stbi:         1.7        12.8         38.76          5.14       111   43.5%
+qoi:          0.4         0.5        173.01        131.92        94   37.1%
+
+## images/textures_pk02/pk02_light02_S.png size: 256x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.4        14.2         48.04          4.61        63   24.9%
+stbi:         1.2         6.8         52.44          9.59        89   35.0%
+qoi:          0.3         0.4        201.84        161.10        66   26.1%
+
+## images/textures_pk02/pk02_light03_C.png size: 512x128
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.8        27.2         36.69          2.41       130   50.9%
+stbi:         1.8        14.6         36.08          4.49       186   72.9%
+qoi:          0.3         0.6        192.02        109.35       142   55.6%
+
+## images/textures_pk02/pk02_light03_I.png size: 512x128
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       0.7         3.6         93.21         18.35        10    4.3%
+stbi:         0.4         3.9        161.70         16.98        15    6.0%
+qoi:          0.3         0.3        193.44        247.03        28   11.0%
+
+## images/textures_pk02/pk02_light03_N.png size: 512x128
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.8        22.2         36.17          2.95        84   33.0%
+stbi:         1.8        12.9         35.89          5.07       125   49.1%
+qoi:          0.4         0.6        171.38        119.07       120   47.0%
+
+## images/textures_pk02/pk02_light03_S.png size: 512x128
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.1        18.5         60.54          3.54        93   36.4%
+stbi:         1.0         7.3         66.33          8.97       118   46.4%
+qoi:          0.3         0.4        208.05        153.01        80   31.6%
+
+## images/textures_pk02/pk02_panels01a_C.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       6.4       128.0         41.02          2.05       503   49.2%
+stbi:         6.5        57.2         40.41          4.58       756   73.9%
+qoi:          1.3         2.5        203.20        105.59       503   49.2%
+
+## images/textures_pk02/pk02_panels01a_N.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       5.5        99.7         47.77          2.63       311   30.4%
+stbi:         4.8        50.3         54.30          5.21       491   48.0%
+qoi:          1.7         2.5        151.07        105.07       372   36.4%
+
+## images/textures_pk02/pk02_panels01a_S.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      19.9        74.7         13.18          3.51       344   33.7%
+stbi:         6.9        30.3         38.03          8.64       472   46.1%
+qoi:          2.6         1.9        102.80        134.72       341   33.3%
+
+## images/textures_pk02/pk02_panels01b_C.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       6.3       130.3         41.37          2.01       494   48.3%
+stbi:         6.3        57.2         41.59          4.59       750   73.3%
+qoi:          1.2         2.5        212.37        106.43       496   48.5%
+
+## images/textures_pk02/pk02_panels01b_N.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.0        95.0         11.38          2.76       303   29.6%
+stbi:         7.9        49.9         33.23          5.25       482   47.1%
+qoi:          3.1         2.5         84.74        105.52       370   36.1%
+
+## images/textures_pk02/pk02_panels01b_S.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.3        75.2         61.49          3.48       337   32.9%
+stbi:         3.8        29.9         68.72          8.75       473   46.2%
+qoi:          1.5         2.0        180.56        129.86       346   33.8%
+
+## images/textures_pk02/pk02_panels01c_C.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       5.9       130.3         44.53          2.01       499   48.8%
+stbi:         5.8        56.9         45.20          4.60       751   73.4%
+qoi:          1.3         2.5        206.92        105.65       506   49.4%
+
+## images/textures_pk02/pk02_panels01c_N.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       5.0        95.6         52.30          2.74       304   29.7%
+stbi:         4.2        49.6         62.56          5.29       483   47.2%
+qoi:          1.6         2.2        167.58        117.30       359   35.1%
+
+## images/textures_pk02/pk02_panels01c_S.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.0        75.4         65.43          3.48       342   33.4%
+stbi:         3.5        29.6         75.02          8.86       474   46.4%
+qoi:          1.4         1.9        191.09        138.81       339   33.2%
+
+## images/textures_pk02/pk02_pipes01_C.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       7.4       126.7         35.29          2.07       458   44.8%
+stbi:         7.6        60.4         34.71          4.34       698   68.3%
+qoi:          1.4         2.9        187.77         91.17       482   47.2%
+
+## images/textures_pk02/pk02_pipes01_I.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.6        15.4         73.39         17.00        35    3.4%
+stbi:         2.7        14.4         98.40         18.16        53    5.3%
+qoi:          0.5         0.9        482.77        306.35        61    6.0%
+
+## images/textures_pk02/pk02_pipes01_N.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       8.1       123.8         32.30          2.12       432   42.2%
+stbi:         8.3        57.4         31.54          4.56       646   63.1%
+qoi:          1.4         2.2        191.98        116.54       795   77.6%
+
+## images/textures_pk02/pk02_pipes01_S.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      17.0        60.7         15.44          4.32       271   26.5%
+stbi:         8.2        27.1         31.86          9.67       365   35.7%
+qoi:          2.7         2.0         98.26        134.41       307   30.1%
+
+## images/textures_pk02/pk02_plates01a_C.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       7.9        95.1         32.99          2.76       588   57.5%
+stbi:         6.1        59.7         43.06          4.39       814   79.5%
+qoi:          1.5         2.4        175.85        108.28       576   56.3%
+
+## images/textures_pk02/pk02_plates01a_N.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       7.0       110.0         37.46          2.38       408   39.9%
+stbi:         6.8        49.6         38.34          5.29       607   59.3%
+qoi:          1.5         2.1        179.98        122.41       757   73.9%
+
+## images/textures_pk02/pk02_plates01a_S.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.8        73.2         55.08          3.58       333   32.6%
+stbi:         4.4        28.7         60.09          9.14       461   45.0%
+qoi:          1.5         2.1        175.72        122.30       360   35.2%
+
+## images/textures_pk02/pk02_plates01b_C.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       5.9        92.5         44.76          2.83       588   57.5%
+stbi:         5.8        56.5         45.05          4.64       818   79.9%
+qoi:          1.4         2.3        181.97        112.32       570   55.7%
+
+## images/textures_pk02/pk02_plates01b_N.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       6.3       104.6         41.64          2.51       391   38.3%
+stbi:         5.6        47.2         46.62          5.55       590   57.6%
+qoi:          1.5         2.2        175.55        116.95       720   70.3%
+
+## images/textures_pk02/pk02_plates01b_S.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.6        72.2         56.69          3.63       327   32.0%
+stbi:         4.1        28.5         64.10          9.20       457   44.7%
+qoi:          1.3         1.8        196.00        144.03       332   32.5%
+
+## images/textures_pk02/pk02_rock01_C.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.1       436.4         45.36          2.40      2236   54.6%
+stbi:        22.9       222.9         45.73          4.70      3070   75.0%
+qoi:          4.8         8.6        216.41        121.61      2021   49.3%
+
+## images/textures_pk02/pk02_rock01_N.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      34.8       514.7         30.13          2.04      2061   50.3%
+stbi:        38.3       228.0         27.37          4.60      3106   75.8%
+qoi:          5.7        10.1        184.97        104.31      3314   80.9%
+
+## images/textures_pk02/pk02_rock01_S.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      15.7       257.8         66.64          4.07      1192   29.1%
+stbi:        13.4       111.4         78.18          9.41      1623   39.6%
+qoi:          4.3         5.3        244.75        197.28       990   24.2%
+
+## images/textures_pk02/pk02_sand01_C.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      22.4       454.6         46.76          2.31      2219   54.2%
+stbi:        23.2       220.7         45.28          4.75      3117   76.1%
+qoi:          5.1         8.8        205.86        119.70      2199   53.7%
+
+## images/textures_pk02/pk02_sand01_N.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.2       460.2         45.19          2.28      2283   55.8%
+stbi:        24.0       228.8         43.61          4.58      3337   81.5%
+qoi:          5.4        10.0        194.40        105.21      3408   83.2%
+
+## images/textures_pk02/pk02_sand01_S.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      13.8       231.2         75.95          4.54       883   21.6%
+stbi:        12.4       105.5         84.83          9.94      1355   33.1%
+qoi:          4.3         5.1        245.84        205.43       995   24.3%
+
+## images/textures_pk02/pk02_switches01a_C.png size: 128x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       0.9        10.2         35.52          3.21        42   33.1%
+stbi:         0.8         6.4         38.58          5.08        59   46.1%
+qoi:          0.2         0.3        150.17        110.89        36   28.2%
+
+## images/textures_pk02/pk02_switches01a_N.png size: 128x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       0.7         4.9         49.51          6.71        15   12.4%
+stbi:         0.6         3.8         56.06          8.70        22   18.0%
+qoi:          0.1         0.2        232.40        168.47        20   15.8%
+
+## images/textures_pk02/pk02_switches01a_S.png size: 128x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       0.7         8.2         46.00          3.98        41   32.7%
+stbi:         0.6         3.8         54.94          8.64        53   41.9%
+qoi:          0.2         0.2        190.18        146.09        36   28.7%
+
+## images/textures_pk02/pk02_switches01b_C.png size: 128x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.1        11.7         29.95          2.81        61   47.8%
+stbi:         1.1         7.0         31.00          4.71        82   64.1%
+qoi:          0.2         0.3        161.10        101.54        56   44.3%
+
+## images/textures_pk02/pk02_switches01b_I.png size: 128x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       0.3         1.4        106.11         22.63         4    3.6%
+stbi:         0.2         1.8        170.22         18.41         5    4.5%
+qoi:          0.1         0.1        627.74        395.27         5    4.3%
+
+## images/textures_pk02/pk02_switches01b_N.png size: 128x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       0.7         5.8         43.83          5.70        28   22.5%
+stbi:         0.6         4.4         50.56          7.51        38   30.0%
+qoi:          0.2         0.2        206.22        140.70        35   27.7%
+
+## images/textures_pk02/pk02_switches01b_S.png size: 128x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       0.8         8.0         41.84          4.08        43   34.0%
+stbi:         0.7         3.8         49.91          8.64        53   41.9%
+qoi:          0.2         0.2        173.84        131.97        40   31.5%
+
+## images/textures_pk02/pk02_switches01c_C.png size: 128x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.1        11.4         29.41          2.89        67   52.8%
+stbi:         1.0         7.1         31.33          4.59        91   71.3%
+qoi:          0.2         0.3        168.21        104.69        75   58.6%
+
+## images/textures_pk02/pk02_switches01c_I.png size: 128x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       0.3         1.4        123.19         24.02         3    3.1%
+stbi:         0.1         2.0        320.63         16.15         4    3.8%
+qoi:          0.1         0.1        655.36        421.18         4    3.5%
+
+## images/textures_pk02/pk02_switches01c_N.png size: 128x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       0.6         3.9         52.58          8.31        16   13.0%
+stbi:         0.5         3.5         64.68          9.44        22   17.6%
+qoi:          0.1         0.2        270.81        186.82        22   17.7%
+
+## images/textures_pk02/pk02_switches01c_S.png size: 128x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       0.8         8.0         42.71          4.07        44   34.7%
+stbi:         0.6         3.6         50.83          9.12        52   40.8%
+qoi:          0.2         0.3        170.05        130.86        40   31.6%
+
+## images/textures_pk02/pk02_trim01_C.png size: 128x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.8        30.8         35.88          2.13       123   48.1%
+stbi:         1.6        14.4         41.59          4.55       182   71.5%
+qoi:          0.4         0.6        151.99        116.99       126   49.5%
+
+## images/textures_pk02/pk02_trim01_N.png size: 128x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.7        22.3         39.07          2.95        71   27.9%
+stbi:         1.4        13.0         46.27          5.03       110   43.0%
+qoi:          0.4         0.5        154.09        119.88        91   35.8%
+
+## images/textures_pk02/pk02_trim01_S.png size: 128x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.9        25.4         35.07          2.58       146   57.2%
+stbi:         1.7        13.5         39.23          4.85       192   75.4%
+qoi:          0.3         0.5        232.81        135.10       128   50.2%
+
+## images/textures_pk02/pk02_trim02_C.png size: 256x128
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       0.8        13.1         42.82          2.51        52   40.9%
+stbi:         0.7         6.9         49.51          4.74        77   60.6%
+qoi:          0.2         0.3        205.18        128.81        61   48.0%
+
+## images/textures_pk02/pk02_trim02_N.png size: 256x128
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       0.6         6.5         55.67          5.04        23   18.3%
+stbi:         0.5         4.5         69.29          7.33        33   26.3%
+qoi:          0.2         0.3        174.21        126.66        38   29.8%
+
+## images/textures_pk02/pk02_trim02_S.png size: 256x128
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       0.5         8.1         59.89          4.03        37   29.4%
+stbi:         0.4         3.4         78.90          9.58        51   40.2%
+qoi:          0.2         0.3        165.66        122.45        46   36.3%
+
+## images/textures_pk02/pk02_trim03_C.png size: 1024x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       5.6        92.9         46.68          2.82       569   55.7%
+stbi:         6.0        57.9         43.52          4.53       852   83.2%
+qoi:          1.5         2.6        178.33         99.04       700   68.4%
+
+## images/textures_pk02/pk02_trim03_N.png size: 1024x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      11.2        82.5         23.41          3.18       256   25.1%
+stbi:         9.8        46.8         26.66          5.61       407   39.8%
+qoi:          1.8         2.2        148.80        120.12       336   32.9%
+
+## images/textures_pk02/pk02_trim03_S.png size: 1024x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.0        70.6         66.28          3.71       349   34.1%
+stbi:         3.5        28.4         75.84          9.23       457   44.6%
+qoi:          1.4         1.8        183.18        141.94       333   32.5%
+
+## images/textures_pk02/pk02_trim04a_C.png size: 256x32
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       0.2         2.5         36.06          3.32        16   51.2%
+stbi:         0.2         1.6         34.29          5.14        24   77.1%
+qoi:          0.0         0.1        178.09         98.70        15   46.9%
+
+## images/textures_pk02/pk02_trim04a_N.png size: 256x32
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       0.2         2.2         52.01          3.74         7   22.6%
+stbi:         0.1         1.4         63.95          5.68        11   36.3%
+qoi:          0.0         0.0        170.31        184.92         7   24.7%
+
+## images/textures_pk02/pk02_trim04a_S.png size: 256x32
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       0.2         1.7         47.08          4.86        10   31.4%
+stbi:         0.2         0.9         52.24          9.32        12   39.9%
+qoi:          0.0         0.0        224.44        193.21         8   26.0%
+
+## images/textures_pk02/pk02_trim04b_C.png size: 256x32
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       0.2         8.1         36.06          1.01        12   39.6%
+stbi:         0.2         6.4         39.12          1.27        18   56.5%
+qoi:          0.0         0.4        205.83         23.26        10   33.4%
+
+## images/textures_pk02/pk02_trim04b_N.png size: 256x32
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       0.4         4.0         20.06          2.03         6   21.7%
+stbi:         0.4         2.8         22.08          2.95        11   34.9%
+qoi:          0.1         0.1        110.40         88.66         8   25.4%
+
+## images/textures_pk02/pk02_trim04b_S.png size: 256x32
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       0.1         1.0         67.37          8.52         6   19.6%
+stbi:         0.1         0.6         84.80         12.89         7   23.9%
+qoi:          0.0         0.0        289.47        225.67         5   15.7%
+
+## images/textures_pk02/pk02_trim_set01a_C.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       5.6       121.1         47.08          2.17       430   42.0%
+stbi:         5.2        55.9         50.68          4.69       647   63.2%
+qoi:          1.8         2.8        142.87         95.26       378   36.9%
+
+## images/textures_pk02/pk02_trim_set01b_C.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       5.7       125.4         45.92          2.09       508   49.7%
+stbi:         5.8        58.2         45.27          4.51       758   74.1%
+qoi:          1.5         2.8        171.79         94.38       605   59.2%
+
+## images/textures_pk02/pk02_trim_set01_N.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.0        59.8         65.91          4.38       162   15.8%
+stbi:         3.5        33.1         74.22          7.93       265   25.9%
+qoi:          1.2         1.4        226.14        184.10       275   26.9%
+
+## images/textures_pk02/pk02_trim_set01_S.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.7        61.9         71.57          4.23       266   26.1%
+stbi:         3.3        28.2         79.94          9.29       395   38.6%
+qoi:          1.0         1.2        260.76        222.97       266   26.1%
+
+## images/textures_pk02/pk02_trim_set02a_C.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       5.3       112.8         49.20          2.32       348   34.0%
+stbi:         4.9        57.3         53.20          4.58       539   52.7%
+qoi:          1.8         2.5        145.29        105.86       311   30.4%
+
+## images/textures_pk02/pk02_trim_set02b_C.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       7.3       137.2         35.92          1.91       455   44.5%
+stbi:        11.3        58.3         23.13          4.49       690   67.5%
+qoi:          2.8         2.9         92.04         89.11       543   53.1%
+
+## images/textures_pk02/pk02_trim_set02_N.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.7        59.4         70.78          4.42       160   15.7%
+stbi:         3.1        32.4         83.34          8.08       264   25.8%
+qoi:          1.2         1.4        224.07        185.87       264   25.8%
+
+## images/textures_pk02/pk02_trim_set02_S.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.7        61.6         70.69          4.25       259   25.3%
+stbi:         3.2        27.7         81.03          9.46       390   38.2%
+qoi:          1.0         1.2        265.70        226.91       263   25.7%
+
+## images/textures_pk02/pk02_wall01_C.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      10.5       117.7         24.89          2.23       502   49.1%
+stbi:         8.8        58.3         29.81          4.50       733   71.6%
+qoi:          1.5         2.5        169.41        103.98       491   48.0%
+
+## images/textures_pk02/pk02_wall01_N.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       6.4        92.8         41.24          2.83       290   28.4%
+stbi:         6.1        50.3         43.04          5.22       467   45.7%
+qoi:          1.5         2.0        178.88        130.88       325   31.7%
+
+## images/textures_pk02/pk02_wall01_S.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      12.6        75.1         20.82          3.49       357   34.9%
+stbi:         6.7        30.1         38.90          8.72       478   46.7%
+qoi:          2.3         1.7        115.76        154.88       326   31.9%
+
+## images/textures_pk02/pk02_wall02a_C.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      14.6       124.2         17.91          2.11       492   48.1%
+stbi:         7.5        57.3         35.12          4.57       736   72.0%
+qoi:          1.4         2.4        192.84        107.59       482   47.1%
+
+## images/textures_pk02/pk02_wall02a_I.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.4         9.3        110.05         28.30        11    1.1%
+stbi:         1.0        15.3        275.65         17.14        20    2.0%
+qoi:          0.3         0.6        763.38        455.43        15    1.6%
+
+## images/textures_pk02/pk02_wall02a_N.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       6.7        96.3         39.32          2.72       314   30.7%
+stbi:         6.6        51.8         39.53          5.06       494   48.3%
+qoi:          1.7         2.3        155.79        114.87       367   35.9%
+
+## images/textures_pk02/pk02_wall02a_S.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.0        71.8         65.79          3.65       322   31.4%
+stbi:         3.5        30.8         75.25          8.52       454   44.4%
+qoi:          1.4         1.9        184.80        135.71       344   33.6%
+
+## images/textures_pk02/pk02_wall02b_C.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       6.1       128.7         43.06          2.04       474   46.3%
+stbi:         6.1        56.6         43.06          4.63       716   70.0%
+qoi:          1.4         2.5        185.34        104.33       467   45.6%
+
+## images/textures_pk02/pk02_wall02b_I.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.2         9.0        121.14         29.01         8    0.8%
+stbi:         0.5        15.8        499.80         16.63        17    1.7%
+qoi:          0.3         0.6        807.34        467.61        12    1.2%
+
+## images/textures_pk02/pk02_wall02b_N.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       6.2        95.6         42.18          2.74       300   29.4%
+stbi:         5.9        51.1         44.70          5.13       481   47.0%
+qoi:          1.6         2.2        163.00        120.39       336   32.9%
+
+## images/textures_pk02/pk02_wall02b_S.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.9        72.7         67.46          3.61       314   30.7%
+stbi:         3.4        29.6         77.47          8.84       450   44.0%
+qoi:          1.4         1.8        193.84        142.10       332   32.4%
+
+## images/textures_pk02/pk02_wall02c_C.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      12.2       127.2         21.50          2.06       474   46.3%
+stbi:         6.6        57.7         39.89          4.55       715   69.9%
+qoi:          1.3         2.5        195.75        106.53       466   45.5%
+
+## images/textures_pk02/pk02_wall02c_I.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.1         8.5        127.79         30.86         5    0.5%
+stbi:         0.5        15.8        527.45         16.62        13    1.3%
+qoi:          0.3         0.5        850.84        482.24         8    0.8%
+
+## images/textures_pk02/pk02_wall02c_N.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       6.5        96.4         40.08          2.72       315   30.8%
+stbi:         6.4        56.5         40.88          4.64       496   48.5%
+qoi:          1.8         2.5        149.73        104.15       374   36.5%
+
+## images/textures_pk02/pk02_wall02c_S.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.1        70.7         64.04          3.71       300   29.3%
+stbi:         3.7        30.0         70.58          8.74       440   43.0%
+qoi:          1.5         2.0        170.64        130.63       340   33.2%
+
+## images/textures_pk02/pk02_wall03a_C.png size: 1024x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      11.5       228.0         45.79          2.30      1051   51.3%
+stbi:        11.7       112.1         44.77          4.68      1505   73.5%
+qoi:          2.7         4.8        192.19        110.01      1025   50.1%
+
+## images/textures_pk02/pk02_wall03a_N.png size: 1024x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       9.3       127.5         56.33          4.11       374   18.3%
+stbi:         8.7        72.8         60.16          7.20       608   29.7%
+qoi:          2.8         3.6        185.22        147.12       619   30.3%
+
+## images/textures_pk02/pk02_wall03a_S.png size: 1024x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      11.8       160.7         44.49          3.26       806   39.4%
+stbi:         7.6        59.3         68.54          8.85      1009   49.3%
+qoi:          3.0         4.1        172.10        126.41       751   36.7%
+
+## images/textures_pk02/pk02_wall03b_C.png size: 1024x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      11.8       240.9         44.57          2.18       991   48.4%
+stbi:        11.9       111.5         43.99          4.70      1436   70.1%
+qoi:          2.6         4.6        198.02        112.84       931   45.5%
+
+## images/textures_pk02/pk02_wall03b_N.png size: 1024x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       9.4       124.3         55.49          4.22       362   17.7%
+stbi:         9.1        70.5         57.80          7.44       587   28.7%
+qoi:          3.0         3.9        172.95        135.66       644   31.5%
+
+## images/textures_pk02/pk02_wall03b_S.png size: 1024x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       8.4       159.6         62.64          3.28       778   38.0%
+stbi:         7.8        59.8         67.33          8.76       999   48.8%
+qoi:          3.1         4.3        167.95        122.06       763   37.3%
+
+## images/textures_pk02/pk02_wall04a_C.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       5.8       125.3         45.34          2.09       485   47.4%
+stbi:         5.5        56.6         47.56          4.63       722   70.6%
+qoi:          1.4         2.5        184.00        102.96       469   45.9%
+
+## images/textures_pk02/pk02_wall04a_N.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       5.1        88.5         51.78          2.96       266   26.0%
+stbi:         4.4        49.4         59.52          5.30       435   42.5%
+qoi:          1.2         1.5        220.92        172.69       285   27.9%
+
+## images/textures_pk02/pk02_wall04a_S.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.2        80.5         62.08          3.26       369   36.1%
+stbi:         3.7        31.9         70.29          8.23       488   47.7%
+qoi:          1.4         1.9        192.03        135.17       348   34.0%
+
+## images/textures_pk02/pk02_wall04b_C.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       6.1       118.8         42.99          2.21       515   50.4%
+stbi:         6.0        56.8         43.47          4.62       762   74.5%
+qoi:          1.3         2.4        200.16        109.66       507   49.5%
+
+## images/textures_pk02/pk02_wall04b_N.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       5.4        91.4         48.85          2.87       275   26.9%
+stbi:         4.7        50.0         55.66          5.25       447   43.7%
+qoi:          1.4         1.7        191.58        154.27       314   30.7%
+
+## images/textures_pk02/pk02_wall04b_S.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.3        78.5         61.19          3.34       372   36.4%
+stbi:         3.7        30.2         70.09          8.69       490   47.9%
+qoi:          1.5         2.1        176.79        122.17       378   36.9%
+
+## images/textures_pk02/pk02_wall05a_C.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       6.0       124.4         43.62          2.11       512   50.0%
+stbi:         6.1        57.3         42.78          4.57       762   74.5%
+qoi:          1.4         2.6        192.37        100.36       542   52.9%
+
+## images/textures_pk02/pk02_wall05a_N.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      19.6        86.8         13.34          3.02       271   26.5%
+stbi:         9.0        45.6         28.99          5.75       432   42.3%
+qoi:          2.6         2.0         99.43        130.32       324   31.6%
+
+## images/textures_pk02/pk02_wall05a_S.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.0        72.3         65.21          3.62       332   32.5%
+stbi:         3.5        28.7         74.52          9.14       461   45.1%
+qoi:          1.2         1.6        209.82        162.24       314   30.7%
+
+## images/textures_pk02/pk02_wall05b_C.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       5.9       117.4         44.30          2.23       538   52.6%
+stbi:         5.9        58.4         44.11          4.49       778   76.1%
+qoi:          1.3         2.5        195.86        105.62       562   54.9%
+
+## images/textures_pk02/pk02_wall05b_N.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       6.4        96.2         41.02          2.73       349   34.2%
+stbi:         6.0        51.8         43.50          5.06       532   52.0%
+qoi:          1.6         2.3        161.00        113.31       397   38.8%
+
+## images/textures_pk02/pk02_wall05b_S.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.1        72.2         64.64          3.63       338   33.0%
+stbi:         3.5        28.8         74.51          9.11       452   44.1%
+qoi:          1.3         1.7        206.04        153.85       317   31.0%
+
+## images/textures_pk02/pk02_wall05c_C.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       6.3       115.9         41.69          2.26       528   51.6%
+stbi:         6.5        58.2         40.09          4.50       781   76.3%
+qoi:          1.3         2.4        202.51        107.53       530   51.8%
+
+## images/textures_pk02/pk02_wall05c_N.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       7.7       103.5         34.03          2.53       337   32.9%
+stbi:         7.7        54.1         34.07          4.85       522   51.1%
+qoi:          1.8         2.5        148.87        106.71       367   35.9%
+
+## images/textures_pk02/pk02_wall05c_S.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.0        74.3         65.05          3.53       335   32.8%
+stbi:         3.6        29.4         73.15          8.93       467   45.7%
+qoi:          1.3         1.6        207.21        162.54       310   30.4%
+
+## images/textures_pk02/pk02_wall06a_C.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.8       118.9         11.00          2.21       535   52.3%
+stbi:        10.0        57.4         26.33          4.57       781   76.3%
+qoi:          2.1         2.4        124.14        108.54       537   52.5%
+
+## images/textures_pk02/pk02_wall06a_N.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       5.5        74.3         47.85          3.53       227   22.2%
+stbi:         5.1        46.1         51.30          5.69       360   35.2%
+qoi:          1.4         1.9        191.35        141.11       331   32.3%
+
+## images/textures_pk02/pk02_wall06a_S.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.2        76.9         62.29          3.41       373   36.5%
+stbi:         3.7        30.3         70.42          8.64       483   47.2%
+qoi:          1.4         1.9        187.02        135.29       345   33.7%
+
+## images/textures_pk02/pk02_wall06b_C.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      21.6       135.3         12.12          1.94       492   48.1%
+stbi:         9.6        57.5         27.24          4.56       740   72.4%
+qoi:          2.4         2.6        109.87        101.16       505   49.3%
+
+## images/textures_pk02/pk02_wall06b_N.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.5        67.3         57.87          3.90       197   19.3%
+stbi:         4.0        38.7         65.11          6.77       318   31.1%
+qoi:          1.4         1.7        191.14        154.08       315   30.8%
+
+## images/textures_pk02/pk02_wall06b_S.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.4        70.9         59.20          3.70       302   29.6%
+stbi:         4.0        31.1         65.08          8.44       436   42.6%
+qoi:          1.5         1.9        180.54        136.84       332   32.4%
+
+## images/textures_pk02/pk02_wall07a_C.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       5.8       128.3         44.93          2.04       476   46.5%
+stbi:        17.6        56.7         14.90          4.62       720   70.4%
+qoi:          2.4         2.5        107.53        106.87       476   46.6%
+
+## images/textures_pk02/pk02_wall07a_N.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.9        76.7         53.30          3.42       225   22.0%
+stbi:         4.4        41.8         59.37          6.27       360   35.2%
+qoi:          1.4         1.9        184.45        137.18       326   31.9%
+
+## images/textures_pk02/pk02_wall07a_S.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.7        68.5         56.27          3.83       281   27.5%
+stbi:         4.2        30.2         62.29          8.67       422   41.3%
+qoi:          1.3         1.6        201.45        160.16       309   30.2%
+
+## images/textures_pk02/pk02_wall07b_C.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      11.8       129.7         22.27          2.02       470   45.9%
+stbi:         7.2        56.6         36.52          4.63       713   69.7%
+qoi:          1.5         2.5        172.94        104.44       463   45.2%
+
+## images/textures_pk02/pk02_wall07b_N.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      16.0        75.8         16.39          3.46       228   22.4%
+stbi:         8.1        43.1         32.19          6.09       368   36.0%
+qoi:          2.4         1.7        111.16        154.79       306   29.9%
+
+## images/textures_pk02/pk02_wall07b_S.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      19.3        67.7         13.57          3.87       292   28.6%
+stbi:         6.8        28.9         38.79          9.08       429   42.0%
+qoi:          2.1         1.5        122.80        175.75       297   29.0%
+
+## images/textures_pk02/pk02_wall08a_C.png size: 1024x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      16.3       234.9         32.09          2.23       830   40.6%
+stbi:        10.8       106.8         48.43          4.91      1247   60.9%
+qoi:          2.9         5.0        178.21        103.87       806   39.4%
+
+## images/textures_pk02/pk02_wall08b_C.png size: 1024x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      12.4       237.7         42.30          2.21       916   44.7%
+stbi:        12.7       119.1         41.24          4.40      1371   67.0%
+qoi:          3.0         5.2        177.05        101.02       975   47.6%
+
+## images/textures_pk02/pk02_wall08_N.png size: 1024x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       9.7       113.6         54.18          4.61       334   16.3%
+stbi:         9.5        64.5         55.06          8.13       541   26.5%
+qoi:          2.6         3.1        204.50        167.46       595   29.1%
+
+## images/textures_pk02/pk02_wall08_S.png size: 1024x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       8.5       122.2         61.83          4.29       552   27.0%
+stbi:         8.1        54.2         64.38          9.67       780   38.1%
+qoi:          2.3         2.8        232.82        185.51       528   25.8%
+
+## images/textures_pk02/pk02_wall_big01a_C.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      20.6       462.4         50.80          2.27      1472   35.9%
+stbi:        19.0       225.5         55.09          4.65      2260   55.2%
+qoi:          7.6        10.9        138.31         96.01      1454   35.5%
+
+## images/textures_pk02/pk02_wall_big01a_N.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      28.6       385.4         36.68          2.72      1222   29.8%
+stbi:        28.4       199.7         36.94          5.25      1953   47.7%
+qoi:          6.7         9.8        155.80        106.47      1478   36.1%
+
+## images/textures_pk02/pk02_wall_big01a_S.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      14.3       256.1         73.53          4.09      1019   24.9%
+stbi:        12.9       114.7         81.01          9.14      1614   39.4%
+qoi:          4.5         5.4        232.33        194.68      1103   26.9%
+
+## images/textures_pk02/pk02_wall_big01b_C.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      21.8       468.0         48.09          2.24      1464   35.8%
+stbi:        19.6       224.5         53.53          4.67      2271   55.5%
+qoi:          7.6        11.2        138.44         93.33      1410   34.4%
+
+## images/textures_pk02/pk02_wall_big01b_N.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      22.7       308.4         46.23          3.40       926   22.6%
+stbi:        21.7       189.7         48.31          5.53      1473   36.0%
+qoi:          5.2         6.8        202.70        153.62      1037   25.3%
+
+## images/textures_pk02/pk02_wall_big01b_S.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      14.5       271.2         72.50          3.87      1088   26.6%
+stbi:        12.8       119.0         81.64          8.81      1713   41.8%
+qoi:          4.1         4.8        258.60        217.04      1075   26.3%
+
+## images/textures_pk02/pk02_wall_big02a_C.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      25.1       491.1         41.77          2.13      1927   47.1%
+stbi:        22.1       230.3         47.44          4.55      2857   69.8%
+qoi:          5.4         9.5        195.93        110.79      1887   46.1%
+
+## images/textures_pk02/pk02_wall_big02a_N.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      19.4       266.2         54.05          3.94       745   18.2%
+stbi:        18.6       126.6         56.36          8.28      1225   29.9%
+qoi:          6.0         9.0        175.81        116.15      1433   35.0%
+
+## images/textures_pk02/pk02_wall_big02a_S.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      17.0       290.9         61.81          3.60      1351   33.0%
+stbi:        15.6       116.9         67.39          8.97      1828   44.6%
+qoi:          6.0         8.0        174.68        131.51      1370   33.5%
+
+## images/textures_pk02/pk02_wall_big02b_C.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      25.9       477.9         40.55          2.19      1919   46.9%
+stbi:        26.1       227.6         40.24          4.61      2822   68.9%
+qoi:          5.5         9.7        190.40        108.22      1832   44.7%
+
+## images/textures_pk02/pk02_wall_big02b_N.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      22.6       305.6         46.47          3.43       901   22.0%
+stbi:        22.6       148.3         46.35          7.07      1465   35.8%
+qoi:          7.0        10.6        150.10         99.26      1621   39.6%
+
+## images/textures_pk02/pk02_wall_big02b_S.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      21.9       285.2         47.97          3.68      1358   33.2%
+stbi:        21.7       116.0         48.43          9.04      1772   43.3%
+qoi:          6.0         8.9        173.51        118.16      1343   32.8%
+
+## Total for images/textures_pk02
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       7.0       104.0         43.26          2.92       427   36.1%
+stbi:         6.2        51.5         49.00          5.90       623   52.5%
+qoi:          1.7         2.4        178.35        125.28       479   40.4%
+
+# Grand total for images/textures_pk02
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       7.0       104.0         43.26          2.92       427   36.1%
+stbi:         6.2        51.5         49.00          5.90       623   52.5%
+qoi:          1.7         2.4        178.35        125.28       479   40.4%
+
+## Benchmarking Huffman images/textures_pk02 with 1 runs
+## images/textures_pk02/pk02_ceiling02_C.png size: 256x512
+huffman_u8:     7.6	44.4	17.2	3.0	410	19.8%
+huffman_pixel:  14.3	395.4	9.2	0.3	297	42.0%
+
+## images/textures_pk02/pk02_ceiling02_I.png size: 256x512
+huffman_u8:     3.5	15.3	37.2	8.6	152	70.3%
+huffman_pixel:  3.1	104.7	42.4	1.3	92	81.9%
+
+## images/textures_pk02/pk02_ceiling02_N.png size: 256x512
+huffman_u8:     8.7	34.0	15.1	3.9	323	36.8%
+huffman_pixel:  12.5	380.3	10.5	0.3	265	48.1%
+
+## images/textures_pk02/pk02_ceiling02_S.png size: 256x512
+huffman_u8:     7.1	42.5	18.5	3.1	423	17.3%
+huffman_pixel:  8.3	216.5	15.8	0.6	223	56.4%
+
+## images/textures_pk02/pk02_ceiling03_C.png size: 512x512
+huffman_u8:     14.4	76.0	18.2	3.4	787	23.1%
+huffman_pixel:  22.0	357.5	11.9	0.7	482	52.9%
+
+## images/textures_pk02/pk02_ceiling03_N.png size: 512x512
+huffman_u8:     12.8	48.6	20.6	5.4	506	50.5%
+huffman_pixel:  13.5	259.7	19.4	1.0	343	66.5%
+
+## images/textures_pk02/pk02_ceiling03_S.png size: 512x512
+huffman_u8:     14.4	73.0	18.2	3.6	822	19.7%
+huffman_pixel:  13.5	237.0	19.4	1.1	384	62.4%
+
+## images/textures_pk02/pk02_computer01a_C.png size: 256x512
+huffman_u8:     8.4	39.7	15.6	3.3	419	18.1%
+huffman_pixel:  19.4	725.1	6.7	0.2	380	25.7%
+
+## images/textures_pk02/pk02_computer01a_I.png size: 256x512
+huffman_u8:     3.0	14.7	44.3	8.9	157	69.3%
+huffman_pixel:  2.6	56.1	50.5	2.3	92	81.9%
+
+## images/textures_pk02/pk02_computer01a_N.png size: 256x512
+huffman_u8:     6.5	22.9	20.1	5.7	254	50.2%
+huffman_pixel:  5.5	125.5	23.9	1.0	157	69.2%
+
+## images/textures_pk02/pk02_computer01a_S.png size: 256x512
+huffman_u8:     6.7	35.4	19.5	3.7	406	20.7%
+huffman_pixel:  6.9	171.6	18.9	0.8	196	61.6%
+
+## images/textures_pk02/pk02_computer01b_C.png size: 256x512
+huffman_u8:     8.3	39.9	15.7	3.3	417	18.5%
+huffman_pixel:  17.1	602.2	7.6	0.2	346	32.4%
+
+## images/textures_pk02/pk02_computer01b_I.png size: 256x512
+huffman_u8:     2.7	13.6	47.8	9.6	141	72.4%
+huffman_pixel:  2.4	53.2	55.1	2.5	84	83.5%
+
+## images/textures_pk02/pk02_computer01b_N.png size: 256x512
+huffman_u8:     5.6	21.6	23.2	6.1	213	58.3%
+huffman_pixel:  5.5	114.9	24.0	1.1	154	69.9%
+
+## images/textures_pk02/pk02_computer01b_S.png size: 256x512
+huffman_u8:     7.1	37.4	18.4	3.5	422	17.4%
+huffman_pixel:  7.3	173.0	18.0	0.8	210	58.9%
+
+## images/textures_pk02/pk02_computer01c_C.png size: 256x512
+huffman_u8:     7.7	39.3	16.9	3.3	413	19.2%
+huffman_pixel:  15.4	501.8	8.5	0.3	318	37.7%
+
+## images/textures_pk02/pk02_computer01c_I.png size: 256x512
+huffman_u8:     2.2	11.4	59.4	11.5	109	78.6%
+huffman_pixel:  1.7	34.5	78.2	3.8	61	88.0%
+
+## images/textures_pk02/pk02_computer01c_N.png size: 256x512
+huffman_u8:     6.9	23.6	19.1	5.5	253	50.6%
+huffman_pixel:  5.8	113.2	22.6	1.2	161	68.4%
+
+## images/textures_pk02/pk02_computer01c_S.png size: 256x512
+huffman_u8:     6.8	36.7	19.2	3.6	416	18.6%
+huffman_pixel:  6.6	143.8	19.8	0.9	199	61.0%
+
+## images/textures_pk02/pk02_dec_num00.png size: 256x512
+huffman_u8:     9.5	36.4	13.9	3.6	397	22.4%
+huffman_pixel:  10.3	311.3	12.7	0.4	241	52.8%
+
+## images/textures_pk02/pk02_dec_num01.png size: 256x512
+huffman_u8:     9.0	35.0	14.5	3.7	368	28.0%
+huffman_pixel:  9.4	274.9	14.0	0.5	229	55.1%
+
+## images/textures_pk02/pk02_dec_num02.png size: 256x512
+huffman_u8:     9.6	37.4	13.7	3.5	401	21.7%
+huffman_pixel:  11.6	396.4	11.3	0.3	267	47.8%
+
+## images/textures_pk02/pk02_dec_num03.png size: 256x512
+huffman_u8:     9.8	37.6	13.3	3.5	402	21.3%
+huffman_pixel:  11.5	380.9	11.4	0.3	265	48.2%
+
+## images/textures_pk02/pk02_dec_num04.png size: 256x512
+huffman_u8:     9.5	36.2	13.8	3.6	395	22.8%
+huffman_pixel:  11.2	360.1	11.7	0.4	254	50.3%
+
+## images/textures_pk02/pk02_dec_num05.png size: 256x512
+huffman_u8:     9.4	37.7	13.9	3.5	401	21.5%
+huffman_pixel:  10.7	348.6	12.3	0.4	251	50.8%
+
+## images/textures_pk02/pk02_dec_num06.png size: 256x512
+huffman_u8:     9.7	37.4	13.5	3.5	403	21.3%
+huffman_pixel:  10.9	356.2	12.0	0.4	254	50.3%
+
+## images/textures_pk02/pk02_dec_num07.png size: 256x512
+huffman_u8:     9.9	37.0	13.3	3.5	392	23.3%
+huffman_pixel:  11.6	390.0	11.3	0.3	263	48.6%
+
+## images/textures_pk02/pk02_dec_num08.png size: 256x512
+huffman_u8:     9.6	40.9	13.6	3.2	430	16.0%
+huffman_pixel:  14.4	514.3	9.1	0.3	305	40.3%
+
+## images/textures_pk02/pk02_dec_num09.png size: 256x512
+huffman_u8:     8.9	34.9	14.7	3.8	384	25.0%
+huffman_pixel:  7.7	197.4	16.9	0.7	204	60.0%
+
+## images/textures_pk02/pk02_dec_numA.png size: 256x512
+huffman_u8:     9.6	38.3	13.7	3.4	405	20.8%
+huffman_pixel:  12.4	435.9	10.6	0.3	277	45.9%
+
+## images/textures_pk02/pk02_dec_numB.png size: 256x512
+huffman_u8:     9.8	38.6	13.4	3.4	414	19.0%
+huffman_pixel:  11.6	376.2	11.3	0.3	264	48.3%
+
+## images/textures_pk02/pk02_dec_numC.png size: 256x512
+huffman_u8:     9.3	36.2	14.2	3.6	385	24.8%
+huffman_pixel:  10.3	316.1	12.7	0.4	242	52.6%
+
+## images/textures_pk02/pk02_door01_C.png size: 512x512
+huffman_u8:     14.8	80.4	17.7	3.3	821	19.8%
+huffman_pixel:  29.4	700.1	8.9	0.4	578	43.5%
+
+## images/textures_pk02/pk02_door01_N.png size: 512x512
+huffman_u8:     13.1	43.7	20.0	6.0	476	53.5%
+huffman_pixel:  10.5	148.6	24.9	1.8	303	70.3%
+
+## images/textures_pk02/pk02_door01_S.png size: 512x512
+huffman_u8:     13.9	78.3	18.8	3.3	853	16.7%
+huffman_pixel:  14.9	308.4	17.6	0.8	415	59.4%
+
+## images/textures_pk02/pk02_door02_C.png size: 256x512
+huffman_u8:     7.7	38.0	17.0	3.5	387	24.4%
+huffman_pixel:  13.8	401.3	9.5	0.3	291	43.0%
+
+## images/textures_pk02/pk02_door02_N.png size: 256x512
+huffman_u8:     5.8	20.3	22.7	6.4	208	59.3%
+huffman_pixel:  4.3	60.5	30.7	2.2	131	74.2%
+
+## images/textures_pk02/pk02_door02_S.png size: 256x512
+huffman_u8:     6.9	35.9	19.1	3.6	389	24.0%
+huffman_pixel:  6.9	139.5	19.0	0.9	191	62.6%
+
+## images/textures_pk02/pk02_door03_C.png size: 256x512
+huffman_u8:     8.4	39.9	15.7	3.3	401	21.7%
+huffman_pixel:  15.6	519.8	8.4	0.3	319	37.6%
+
+## images/textures_pk02/pk02_door03_N.png size: 256x512
+huffman_u8:     5.5	20.9	24.0	6.3	194	62.0%
+huffman_pixel:  4.2	52.6	31.2	2.5	118	76.9%
+
+## images/textures_pk02/pk02_door03_S.png size: 256x512
+huffman_u8:     6.6	34.2	20.0	3.8	381	25.5%
+huffman_pixel:  6.2	116.8	21.0	1.1	182	64.5%
+
+## images/textures_pk02/pk02_floor01_C.png size: 512x512
+huffman_u8:     12.3	61.0	21.3	4.3	605	40.9%
+huffman_pixel:  12.6	121.8	20.8	2.2	356	65.2%
+
+## images/textures_pk02/pk02_floor01_N.png size: 512x512
+huffman_u8:     15.0	57.6	17.4	4.5	567	44.5%
+huffman_pixel:  20.3	574.4	12.9	0.5	440	57.0%
+
+## images/textures_pk02/pk02_floor01_S.png size: 512x512
+huffman_u8:     12.2	65.5	21.4	4.0	702	31.4%
+huffman_pixel:  12.0	178.6	21.9	1.5	352	65.5%
+
+## images/textures_pk02/pk02_floor02_C.png size: 1024x1024
+huffman_u8:     68.2	275.4	15.4	3.8	2730	33.3%
+huffman_pixel:  99.8	1260.1	10.5	0.8	1792	56.2%
+
+## images/textures_pk02/pk02_floor02_N.png size: 1024x1024
+huffman_u8:     68.2	256.9	15.4	4.1	2530	38.2%
+huffman_pixel:  75.5	1114.8	13.9	0.9	1687	58.8%
+
+## images/textures_pk02/pk02_floor02_S.png size: 1024x1024
+huffman_u8:     38.2	154.5	27.4	6.8	1846	54.9%
+huffman_pixel:  26.9	433.6	39.1	2.4	864	78.9%
+
+## images/textures_pk02/pk02_floor03_C.png size: 256x256
+huffman_u8:     4.7	20.2	13.8	3.2	191	25.2%
+huffman_pixel:  5.4	137.6	12.2	0.5	131	48.5%
+
+## images/textures_pk02/pk02_floor03_N.png size: 256x256
+huffman_u8:     4.1	16.5	16.1	4.0	160	37.3%
+huffman_pixel:  4.1	113.3	16.2	0.6	109	57.2%
+
+## images/textures_pk02/pk02_floor03_S.png size: 256x256
+huffman_u8:     3.3	16.5	19.8	4.0	170	33.3%
+huffman_pixel:  3.0	67.1	22.1	1.0	88	65.4%
+
+## images/textures_pk02/pk02_floor04_C.png size: 512x512
+huffman_u8:     14.4	71.3	18.2	3.7	732	28.4%
+huffman_pixel:  19.4	338.5	13.5	0.8	460	55.1%
+
+## images/textures_pk02/pk02_floor04_N.png size: 512x512
+huffman_u8:     12.2	38.3	21.6	6.9	408	60.1%
+huffman_pixel:  8.6	94.5	30.4	2.8	257	74.9%
+
+## images/textures_pk02/pk02_floor04_S.png size: 512x512
+huffman_u8:     13.6	70.5	19.3	3.7	801	21.7%
+huffman_pixel:  11.8	196.3	22.1	1.3	373	63.5%
+
+## images/textures_pk02/pk02_floor05_C.png size: 512x512
+huffman_u8:     14.4	60.0	18.3	4.4	682	33.3%
+huffman_pixel:  13.3	211.0	19.7	1.2	378	63.1%
+
+## images/textures_pk02/pk02_floor05_N.png size: 512x512
+huffman_u8:     16.5	57.0	15.9	4.6	658	35.7%
+huffman_pixel:  13.6	223.5	19.3	1.2	384	62.4%
+
+## images/textures_pk02/pk02_floor05_S.png size: 512x512
+huffman_u8:     9.7	40.6	27.0	6.5	522	48.9%
+huffman_pixel:  6.6	76.0	39.5	3.4	235	77.0%
+
+## images/textures_pk02/pk02_floor06a_C.png size: 256x256
+huffman_u8:     2.9	14.0	22.3	4.7	147	42.5%
+huffman_pixel:  2.7	47.2	24.6	1.4	83	67.5%
+
+## images/textures_pk02/pk02_floor06a_N.png size: 256x256
+huffman_u8:     3.4	12.2	19.4	5.4	123	51.8%
+huffman_pixel:  2.5	37.8	26.1	1.7	73	71.5%
+
+## images/textures_pk02/pk02_floor06a_S.png size: 256x256
+huffman_u8:     2.3	9.8	28.0	6.7	124	51.5%
+huffman_pixel:  1.6	19.9	41.8	3.3	57	77.5%
+
+## images/textures_pk02/pk02_floor06b_C.png size: 256x256
+huffman_u8:     3.7	15.8	17.6	4.2	167	34.4%
+huffman_pixel:  4.3	130.5	15.1	0.5	115	54.9%
+
+## images/textures_pk02/pk02_floor07_C.png size: 512x512
+huffman_u8:     13.8	61.3	19.1	4.3	690	32.5%
+huffman_pixel:  15.8	273.0	16.6	1.0	413	59.6%
+
+## images/textures_pk02/pk02_floor07_N.png size: 512x512
+huffman_u8:     14.0	53.6	18.7	4.9	571	44.2%
+huffman_pixel:  14.1	292.0	18.5	0.9	375	63.3%
+
+## images/textures_pk02/pk02_floor07_S.png size: 512x512
+huffman_u8:     10.8	52.0	24.3	5.0	605	40.9%
+huffman_pixel:  9.5	210.1	27.7	1.2	297	70.9%
+
+## images/textures_pk02/pk02_floor08a_C.png size: 512x512
+huffman_u8:     16.2	72.1	16.1	3.6	746	27.1%
+huffman_pixel:  22.6	604.3	11.6	0.4	511	50.1%
+
+## images/textures_pk02/pk02_floor08a_N.png size: 512x512
+huffman_u8:     10.8	37.3	24.2	7.0	360	64.8%
+huffman_pixel:  8.3	119.9	31.8	2.2	229	77.6%
+
+## images/textures_pk02/pk02_floor08a_S.png size: 512x512
+huffman_u8:     13.8	73.2	19.0	3.6	780	23.8%
+huffman_pixel:  13.7	281.9	19.2	0.9	379	62.9%
+
+## images/textures_pk02/pk02_floor08b_C.png size: 512x512
+huffman_u8:     16.2	76.7	16.1	3.4	773	24.5%
+huffman_pixel:  26.4	691.3	9.9	0.4	546	46.6%
+
+## images/textures_pk02/pk02_floor08b_N.png size: 512x512
+huffman_u8:     11.0	39.3	23.8	6.7	377	63.1%
+huffman_pixel:  9.1	188.9	28.7	1.4	249	75.7%
+
+## images/textures_pk02/pk02_floor08b_S.png size: 512x512
+huffman_u8:     14.1	72.8	18.5	3.6	766	25.2%
+huffman_pixel:  12.8	260.9	20.6	1.0	371	63.7%
+
+## images/textures_pk02/pk02_floor09a_C.png size: 1024x1024
+huffman_u8:     58.8	230.4	17.8	4.6	2219	45.8%
+huffman_pixel:  55.1	533.0	19.0	2.0	1429	65.1%
+
+## images/textures_pk02/pk02_floor09b_C.png size: 1024x1024
+huffman_u8:     77.2	273.2	13.6	3.8	2634	35.7%
+huffman_pixel:  69.5	623.4	15.1	1.7	1613	60.6%
+
+## images/textures_pk02/pk02_floor09_N.png size: 1024x1024
+huffman_u8:     69.0	293.6	15.2	3.6	2825	31.0%
+huffman_pixel:  119.2	2723.3	8.8	0.4	2113	48.4%
+
+## images/textures_pk02/pk02_floor09_S.png size: 1024x1024
+huffman_u8:     47.7	218.0	22.0	4.8	2517	38.5%
+huffman_pixel:  36.3	323.6	28.9	3.2	1147	72.0%
+
+## images/textures_pk02/pk02_floor10_C.png size: 256x256
+huffman_u8:     3.3	14.8	19.6	4.4	163	36.1%
+huffman_pixel:  3.2	62.9	20.5	1.0	94	63.0%
+
+## images/textures_pk02/pk02_floor10_N.png size: 256x256
+huffman_u8:     3.8	14.5	17.3	4.5	143	43.9%
+huffman_pixel:  4.0	119.8	16.3	0.5	108	57.7%
+
+## images/textures_pk02/pk02_floor10_S.png size: 256x256
+huffman_u8:     2.6	11.1	25.4	5.9	140	45.2%
+huffman_pixel:  1.8	23.8	37.2	2.8	65	74.3%
+
+## images/textures_pk02/pk02_floor11_C.png size: 256x256
+huffman_u8:     3.8	18.6	17.2	3.5	174	32.0%
+huffman_pixel:  5.8	138.7	11.2	0.5	135	47.0%
+
+## images/textures_pk02/pk02_floor11_N.png size: 256x256
+huffman_u8:     2.9	10.3	23.0	6.3	112	55.9%
+huffman_pixel:  2.1	22.8	31.0	2.9	65	74.5%
+
+## images/textures_pk02/pk02_floor11_S.png size: 256x256
+huffman_u8:     3.3	18.0	20.1	3.6	185	27.5%
+huffman_pixel:  3.6	93.6	18.2	0.7	103	59.6%
+
+## images/textures_pk02/pk02_floor12a_C.png size: 256x256
+huffman_u8:     3.8	19.0	17.3	3.5	175	31.3%
+huffman_pixel:  6.8	169.1	9.7	0.4	146	43.0%
+
+## images/textures_pk02/pk02_floor12b_C.png size: 256x256
+huffman_u8:     4.2	22.1	15.5	3.0	204	20.2%
+huffman_pixel:  10.3	362.8	6.4	0.2	202	21.1%
+
+## images/textures_pk02/pk02_floor12_N.png size: 256x256
+huffman_u8:     4.1	17.8	16.1	3.7	164	35.9%
+huffman_pixel:  6.3	204.8	10.4	0.3	144	43.4%
+
+## images/textures_pk02/pk02_floor12_S.png size: 256x256
+huffman_u8:     3.2	18.3	20.2	3.6	186	27.0%
+huffman_pixel:  3.9	101.3	16.9	0.6	106	58.4%
+
+## images/textures_pk02/pk02_floor13a_C.png size: 256x256
+huffman_u8:     4.1	18.2	15.9	3.6	185	27.5%
+huffman_pixel:  5.3	144.0	12.3	0.5	130	48.8%
+
+## images/textures_pk02/pk02_floor13b_C.png size: 256x256
+huffman_u8:     4.6	21.3	14.2	3.1	207	18.9%
+huffman_pixel:  9.1	376.7	7.2	0.2	197	23.0%
+
+## images/textures_pk02/pk02_floor13_N.png size: 256x256
+huffman_u8:     4.3	18.5	15.3	3.5	176	31.0%
+huffman_pixel:  7.5	241.0	8.7	0.3	162	36.4%
+
+## images/textures_pk02/pk02_floor13_S.png size: 256x256
+huffman_u8:     2.9	14.3	22.7	4.6	150	41.0%
+huffman_pixel:  2.8	71.0	23.7	0.9	82	67.7%
+
+## images/textures_pk02/pk02_floor_cyl01_C.png size: 1024x1024
+huffman_u8:     58.7	282.8	17.9	3.7	2789	31.9%
+huffman_pixel:  63.3	525.2	16.6	2.0	1537	62.5%
+
+## images/textures_pk02/pk02_floor_cyl01_N.png size: 1024x1024
+huffman_u8:     70.0	297.9	15.0	3.5	2974	27.4%
+huffman_pixel:  107.2	1852.5	9.8	0.6	1951	52.4%
+
+## images/textures_pk02/pk02_floor_cyl01_S.png size: 1024x1024
+huffman_u8:     40.8	163.8	25.7	6.4	2095	48.8%
+huffman_pixel:  25.9	155.6	40.5	6.7	925	77.4%
+
+## images/textures_pk02/pk02_floor_cyl02_C.png size: 1024x1024
+huffman_u8:     52.5	280.9	20.0	3.7	2788	31.9%
+huffman_pixel:  68.4	592.2	15.3	1.8	1628	60.2%
+
+## images/textures_pk02/pk02_floor_cyl02_N.png size: 1024x1024
+huffman_u8:     42.5	177.6	24.7	5.9	1701	58.5%
+huffman_pixel:  43.1	875.0	24.3	1.2	1143	72.1%
+
+## images/textures_pk02/pk02_floor_cyl02_S.png size: 1024x1024
+huffman_u8:     63.0	297.2	16.6	3.5	3149	23.1%
+huffman_pixel:  52.6	501.0	19.9	2.1	1405	65.7%
+
+## images/textures_pk02/pk02_generic01a_C.png size: 512x512
+huffman_u8:     10.9	45.1	24.0	5.8	473	53.8%
+huffman_pixel:  8.9	73.9	29.6	3.5	272	73.4%
+
+## images/textures_pk02/pk02_generic01b_C.png size: 512x512
+huffman_u8:     9.4	31.2	28.0	8.4	343	66.4%
+huffman_pixel:  6.1	35.2	42.8	7.4	195	80.9%
+
+## images/textures_pk02/pk02_generic01_N.png size: 512x512
+huffman_u8:     10.2	28.2	25.7	9.3	282	72.4%
+huffman_pixel:  6.1	30.0	42.8	8.8	176	82.7%
+
+## images/textures_pk02/pk02_generic01_S.png size: 512x512
+huffman_u8:     12.1	51.1	21.6	5.1	629	38.5%
+huffman_pixel:  8.5	86.6	31.0	3.0	277	72.9%
+
+## images/textures_pk02/pk02_light01a_C.png size: 128x64
+huffman_u8:     0.6	3.4	14.3	2.4	25	19.0%
+huffman_pixel:  1.0	41.0	7.9	0.2	26	16.1%
+
+## images/textures_pk02/pk02_light01b_C.png size: 128x64
+huffman_u8:     0.6	3.3	14.6	2.5	24	22.6%
+huffman_pixel:  0.8	27.7	10.7	0.3	20	35.3%
+
+## images/textures_pk02/pk02_light01_N.png size: 128x64
+huffman_u8:     0.4	2.6	21.7	3.2	15	51.1%
+huffman_pixel:  0.6	20.7	13.6	0.4	16	48.5%
+
+## images/textures_pk02/pk02_light01_S.png size: 128x64
+huffman_u8:     0.4	2.1	21.8	4.0	19	39.7%
+huffman_pixel:  0.3	7.1	24.5	1.1	10	67.0%
+
+## images/textures_pk02/pk02_light02a_C.png size: 256x256
+huffman_u8:     4.2	20.1	15.7	3.3	208	18.7%
+huffman_pixel:  7.1	238.6	9.3	0.3	163	36.0%
+
+## images/textures_pk02/pk02_light02b_C.png size: 256x256
+huffman_u8:     4.1	19.4	16.1	3.4	199	22.0%
+huffman_pixel:  7.4	274.6	8.8	0.2	171	32.9%
+
+## images/textures_pk02/pk02_light02c_C.png size: 256x256
+huffman_u8:     3.8	18.0	17.3	3.6	190	25.7%
+huffman_pixel:  5.4	177.4	12.1	0.4	136	46.6%
+
+## images/textures_pk02/pk02_light02_C.png size: 256x256
+huffman_u8:     4.2	19.6	15.6	3.3	199	22.0%
+huffman_pixel:  7.4	276.0	8.9	0.2	171	32.9%
+
+## images/textures_pk02/pk02_light02_I.png size: 256x256
+huffman_u8:     2.5	12.2	26.2	5.4	135	47.2%
+huffman_pixel:  2.2	53.6	30.0	1.2	72	71.8%
+
+## images/textures_pk02/pk02_light02_N.png size: 256x256
+huffman_u8:     3.2	13.4	20.3	4.9	137	46.3%
+huffman_pixel:  3.7	107.5	17.5	0.6	106	58.5%
+
+## images/textures_pk02/pk02_light02_S.png size: 256x256
+huffman_u8:     3.3	16.6	20.1	3.9	186	27.0%
+huffman_pixel:  2.7	55.9	24.1	1.2	87	65.7%
+
+## images/textures_pk02/pk02_light03_C.png size: 512x128
+huffman_u8:     4.0	20.7	16.2	3.2	209	18.2%
+huffman_pixel:  9.2	355.6	7.1	0.2	197	22.7%
+
+## images/textures_pk02/pk02_light03_I.png size: 512x128
+huffman_u8:     2.2	10.3	29.8	6.3	119	53.4%
+huffman_pixel:  1.6	28.2	40.4	2.3	60	76.5%
+
+## images/textures_pk02/pk02_light03_N.png size: 512x128
+huffman_u8:     4.0	15.2	16.6	4.3	156	38.8%
+huffman_pixel:  5.8	188.9	11.4	0.3	134	47.3%
+
+## images/textures_pk02/pk02_light03_S.png size: 512x128
+huffman_u8:     3.4	19.1	19.1	3.4	202	20.7%
+huffman_pixel:  3.6	96.7	18.4	0.7	106	58.3%
+
+## images/textures_pk02/pk02_panels01a_C.png size: 512x512
+huffman_u8:     14.8	73.1	17.7	3.6	732	28.5%
+huffman_pixel:  24.9	467.5	10.5	0.6	507	50.4%
+
+## images/textures_pk02/pk02_panels01a_N.png size: 512x512
+huffman_u8:     11.7	44.2	22.4	5.9	430	58.0%
+huffman_pixel:  9.5	138.7	27.7	1.9	292	71.4%
+
+## images/textures_pk02/pk02_panels01a_S.png size: 512x512
+huffman_u8:     13.7	72.4	19.2	3.6	786	23.2%
+huffman_pixel:  13.4	235.4	19.5	1.1	381	62.7%
+
+## images/textures_pk02/pk02_panels01b_C.png size: 512x512
+huffman_u8:     15.7	73.4	16.7	3.6	737	27.9%
+huffman_pixel:  24.0	435.6	10.9	0.6	498	51.3%
+
+## images/textures_pk02/pk02_panels01b_N.png size: 512x512
+huffman_u8:     13.0	42.5	20.2	6.2	409	60.0%
+huffman_pixel:  9.0	108.7	29.2	2.4	269	73.7%
+
+## images/textures_pk02/pk02_panels01b_S.png size: 512x512
+huffman_u8:     13.7	74.7	19.1	3.5	785	23.3%
+huffman_pixel:  13.4	218.5	19.6	1.2	375	63.3%
+
+## images/textures_pk02/pk02_panels01c_C.png size: 512x512
+huffman_u8:     14.4	71.8	18.2	3.7	727	28.9%
+huffman_pixel:  22.6	469.7	11.6	0.6	505	50.7%
+
+## images/textures_pk02/pk02_panels01c_N.png size: 512x512
+huffman_u8:     12.4	39.6	21.1	6.6	408	60.1%
+huffman_pixel:  8.9	115.3	29.3	2.3	274	73.2%
+
+## images/textures_pk02/pk02_panels01c_S.png size: 512x512
+huffman_u8:     13.6	73.3	19.3	3.6	785	23.3%
+huffman_pixel:  13.5	233.9	19.5	1.1	380	62.8%
+
+## images/textures_pk02/pk02_pipes01_C.png size: 512x512
+huffman_u8:     13.2	68.5	19.9	3.8	685	33.1%
+huffman_pixel:  19.4	336.0	13.5	0.8	456	55.4%
+
+## images/textures_pk02/pk02_pipes01_I.png size: 512x512
+huffman_u8:     5.5	27.0	47.3	9.7	297	70.9%
+huffman_pixel:  3.6	64.2	72.5	4.1	144	85.9%
+
+## images/textures_pk02/pk02_pipes01_N.png size: 512x512
+huffman_u8:     18.9	75.6	13.9	3.5	735	28.2%
+huffman_pixel:  29.4	915.6	8.9	0.3	602	41.2%
+
+## images/textures_pk02/pk02_pipes01_S.png size: 512x512
+huffman_u8:     12.7	63.7	20.7	4.1	703	31.3%
+huffman_pixel:  11.3	194.8	23.1	1.3	331	67.7%
+
+## images/textures_pk02/pk02_plates01a_C.png size: 512x512
+huffman_u8:     16.2	80.0	16.2	3.3	814	20.4%
+huffman_pixel:  26.8	625.0	9.8	0.4	554	45.8%
+
+## images/textures_pk02/pk02_plates01a_N.png size: 512x512
+huffman_u8:     13.8	61.8	19.0	4.2	616	39.8%
+huffman_pixel:  20.2	432.3	13.0	0.6	474	53.6%
+
+## images/textures_pk02/pk02_plates01a_S.png size: 512x512
+huffman_u8:     14.1	73.4	18.5	3.6	798	22.0%
+huffman_pixel:  13.9	264.9	18.8	1.0	388	62.1%
+
+## images/textures_pk02/pk02_plates01b_C.png size: 512x512
+huffman_u8:     15.4	78.9	17.1	3.3	814	20.5%
+huffman_pixel:  27.1	604.2	9.7	0.4	557	45.6%
+
+## images/textures_pk02/pk02_plates01b_N.png size: 512x512
+huffman_u8:     14.1	58.7	18.6	4.5	599	41.5%
+huffman_pixel:  18.3	382.3	14.3	0.7	455	55.5%
+
+## images/textures_pk02/pk02_plates01b_S.png size: 512x512
+huffman_u8:     13.8	72.1	18.9	3.6	789	22.9%
+huffman_pixel:  13.5	236.5	19.4	1.1	380	62.9%
+
+## images/textures_pk02/pk02_rock01_C.png size: 1024x1024
+huffman_u8:     66.6	309.8	15.7	3.4	2906	29.0%
+huffman_pixel:  93.6	1178.0	11.2	0.9	1875	54.2%
+
+## images/textures_pk02/pk02_rock01_N.png size: 1024x1024
+huffman_u8:     73.3	303.1	14.3	3.5	3069	25.1%
+huffman_pixel:  147.6	3589.6	7.1	0.3	2408	41.2%
+
+## images/textures_pk02/pk02_rock01_S.png size: 1024x1024
+huffman_u8:     49.8	206.5	21.0	5.1	2439	40.5%
+huffman_pixel:  35.8	283.9	29.3	3.7	1100	73.1%
+
+## images/textures_pk02/pk02_sand01_C.png size: 1024x1024
+huffman_u8:     61.6	292.7	17.0	3.6	2858	30.2%
+huffman_pixel:  76.1	839.3	13.8	1.2	1701	58.5%
+
+## images/textures_pk02/pk02_sand01_N.png size: 1024x1024
+huffman_u8:     71.0	280.1	14.8	3.7	2735	33.2%
+huffman_pixel:  90.9	1415.3	11.5	0.7	1856	54.7%
+
+## images/textures_pk02/pk02_sand01_S.png size: 1024x1024
+huffman_u8:     42.8	189.0	24.5	5.5	2010	50.9%
+huffman_pixel:  28.3	189.9	37.1	5.5	917	77.6%
+
+## images/textures_pk02/pk02_switches01a_C.png size: 128x256
+huffman_u8:     1.6	8.2	20.2	4.0	80	37.4%
+huffman_pixel:  1.6	38.2	19.9	0.9	49	61.1%
+
+## images/textures_pk02/pk02_switches01a_N.png size: 128x256
+huffman_u8:     1.2	6.0	27.3	5.5	52	58.7%
+huffman_pixel:  1.0	25.3	31.2	1.3	35	72.4%
+
+## images/textures_pk02/pk02_switches01a_S.png size: 128x256
+huffman_u8:     1.7	9.5	19.6	3.4	95	25.1%
+huffman_pixel:  1.8	44.7	18.7	0.7	52	59.4%
+
+## images/textures_pk02/pk02_switches01b_C.png size: 128x256
+huffman_u8:     2.1	10.4	15.4	3.1	98	23.0%
+huffman_pixel:  3.8	138.3	8.7	0.2	89	30.1%
+
+## images/textures_pk02/pk02_switches01b_I.png size: 128x256
+huffman_u8:     0.7	4.5	50.1	7.3	33	74.0%
+huffman_pixel:  0.4	8.6	80.4	3.8	16	87.1%
+
+## images/textures_pk02/pk02_switches01b_N.png size: 128x256
+huffman_u8:     1.5	7.0	21.2	4.7	68	46.6%
+huffman_pixel:  1.8	59.2	17.7	0.6	53	58.5%
+
+## images/textures_pk02/pk02_switches01b_S.png size: 128x256
+huffman_u8:     2.0	10.0	16.1	3.3	100	21.5%
+huffman_pixel:  1.9	52.3	17.5	0.6	55	56.7%
+
+## images/textures_pk02/pk02_switches01c_C.png size: 128x256
+huffman_u8:     2.0	11.0	16.3	3.0	105	17.5%
+huffman_pixel:  4.9	212.3	6.7	0.2	111	12.7%
+
+## images/textures_pk02/pk02_switches01c_I.png size: 128x256
+huffman_u8:     0.6	3.8	54.9	8.6	31	75.7%
+huffman_pixel:  0.4	8.7	80.5	3.8	17	86.6%
+
+## images/textures_pk02/pk02_switches01c_N.png size: 128x256
+huffman_u8:     1.2	6.0	26.6	5.4	53	57.8%
+huffman_pixel:  1.5	45.9	22.3	0.7	45	64.6%
+
+## images/textures_pk02/pk02_switches01c_S.png size: 128x256
+huffman_u8:     1.8	9.6	17.9	3.4	98	23.4%
+huffman_pixel:  2.0	62.7	16.3	0.5	58	54.1%
+
+## images/textures_pk02/pk02_trim01_C.png size: 128x512
+huffman_u8:     3.8	20.8	17.1	3.1	200	21.8%
+huffman_pixel:  7.1	200.9	9.3	0.3	156	38.7%
+
+## images/textures_pk02/pk02_trim01_N.png size: 128x512
+huffman_u8:     3.3	12.3	19.8	5.3	118	53.5%
+huffman_pixel:  3.0	78.1	21.6	0.8	87	65.8%
+
+## images/textures_pk02/pk02_trim01_S.png size: 128x512
+huffman_u8:     3.7	21.4	17.8	3.1	206	19.5%
+huffman_pixel:  7.6	232.8	8.6	0.3	166	35.1%
+
+## images/textures_pk02/pk02_trim02_C.png size: 256x128
+huffman_u8:     1.9	11.4	17.1	2.9	103	18.9%
+huffman_pixel:  3.7	119.6	8.8	0.3	86	32.2%
+
+## images/textures_pk02/pk02_trim02_N.png size: 256x128
+huffman_u8:     1.8	7.6	18.3	4.3	81	36.1%
+huffman_pixel:  1.2	24.6	26.5	1.3	40	68.0%
+
+## images/textures_pk02/pk02_trim02_S.png size: 256x128
+huffman_u8:     1.7	10.3	19.1	3.2	102	20.1%
+huffman_pixel:  2.1	61.9	15.7	0.5	59	53.3%
+
+## images/textures_pk02/pk02_trim03_C.png size: 1024x256
+huffman_u8:     16.5	77.4	15.9	3.4	809	21.0%
+huffman_pixel:  34.8	1139.2	7.5	0.2	686	33.0%
+
+## images/textures_pk02/pk02_trim03_N.png size: 1024x256
+huffman_u8:     14.6	50.9	17.9	5.2	585	42.8%
+huffman_pixel:  14.3	344.3	18.4	0.8	384	62.4%
+
+## images/textures_pk02/pk02_trim03_S.png size: 1024x256
+huffman_u8:     14.0	73.8	18.7	3.6	831	18.8%
+huffman_pixel:  13.3	271.8	19.7	1.0	401	60.8%
+
+## images/textures_pk02/pk02_trim04a_C.png size: 256x32
+huffman_u8:     0.6	3.0	13.1	2.7	21	32.3%
+huffman_pixel:  0.7	23.9	11.0	0.3	20	37.3%
+
+## images/textures_pk02/pk02_trim04a_N.png size: 256x32
+huffman_u8:     0.3	1.5	27.3	5.6	11	65.3%
+huffman_pixel:  0.2	3.0	33.6	2.7	6	78.8%
+
+## images/textures_pk02/pk02_trim04a_S.png size: 256x32
+huffman_u8:     0.4	2.2	21.0	3.7	20	35.0%
+huffman_pixel:  0.4	8.7	20.5	0.9	11	63.3%
+
+## images/textures_pk02/pk02_trim04b_C.png size: 256x32
+huffman_u8:     0.5	3.2	16.9	2.6	22	29.9%
+huffman_pixel:  0.8	29.3	10.6	0.3	21	33.9%
+
+## images/textures_pk02/pk02_trim04b_N.png size: 256x32
+huffman_u8:     0.4	1.9	21.5	4.4	14	53.7%
+huffman_pixel:  0.3	5.0	26.5	1.6	9	71.2%
+
+## images/textures_pk02/pk02_trim04b_S.png size: 256x32
+huffman_u8:     0.3	2.0	24.9	4.0	17	45.7%
+huffman_pixel:  0.3	8.7	24.2	0.9	10	66.9%
+
+## images/textures_pk02/pk02_trim_set01a_C.png size: 512x512
+huffman_u8:     12.4	58.0	21.1	4.5	646	36.9%
+huffman_pixel:  11.2	141.1	23.4	1.9	343	66.5%
+
+## images/textures_pk02/pk02_trim_set01b_C.png size: 512x512
+huffman_u8:     16.9	77.3	15.5	3.4	799	21.9%
+huffman_pixel:  21.0	484.7	12.5	0.5	502	50.9%
+
+## images/textures_pk02/pk02_trim_set01_N.png size: 512x512
+huffman_u8:     9.1	31.8	28.9	8.2	346	66.2%
+huffman_pixel:  6.8	52.1	38.5	5.0	191	81.3%
+
+## images/textures_pk02/pk02_trim_set01_S.png size: 512x512
+huffman_u8:     12.7	56.9	20.6	4.6	705	31.1%
+huffman_pixel:  8.7	111.8	30.0	2.3	300	70.7%
+
+## images/textures_pk02/pk02_trim_set02a_C.png size: 512x512
+huffman_u8:     12.4	53.6	21.1	4.9	631	38.3%
+huffman_pixel:  9.4	96.6	27.9	2.7	306	70.1%
+
+## images/textures_pk02/pk02_trim_set02b_C.png size: 512x512
+huffman_u8:     15.7	74.0	16.7	3.5	795	22.3%
+huffman_pixel:  19.7	449.1	13.3	0.6	490	52.1%
+
+## images/textures_pk02/pk02_trim_set02_N.png size: 512x512
+huffman_u8:     9.1	30.1	28.9	8.7	335	67.2%
+huffman_pixel:  6.9	45.2	38.2	5.8	185	81.9%
+
+## images/textures_pk02/pk02_trim_set02_S.png size: 512x512
+huffman_u8:     12.3	58.9	21.3	4.4	713	30.3%
+huffman_pixel:  9.0	102.5	29.1	2.6	301	70.6%
+
+## images/textures_pk02/pk02_wall01_C.png size: 512x512
+huffman_u8:     16.2	76.6	16.2	3.4	804	21.4%
+huffman_pixel:  26.7	715.5	9.8	0.4	575	43.8%
+
+## images/textures_pk02/pk02_wall01_N.png size: 512x512
+huffman_u8:     11.3	43.0	23.2	6.1	472	53.9%
+huffman_pixel:  11.8	226.4	22.2	1.2	322	68.5%
+
+## images/textures_pk02/pk02_wall01_S.png size: 512x512
+huffman_u8:     15.1	77.5	17.3	3.4	833	18.6%
+huffman_pixel:  13.9	276.6	18.8	0.9	400	60.9%
+
+## images/textures_pk02/pk02_wall02a_C.png size: 512x512
+huffman_u8:     15.3	75.1	17.1	3.5	799	21.9%
+huffman_pixel:  24.7	554.6	10.6	0.5	537	47.5%
+
+## images/textures_pk02/pk02_wall02a_I.png size: 512x512
+huffman_u8:     3.6	18.8	72.1	14.0	184	82.0%
+huffman_pixel:  1.9	25.6	139.7	10.2	87	91.4%
+
+## images/textures_pk02/pk02_wall02a_N.png size: 512x512
+huffman_u8:     14.0	50.8	18.7	5.2	525	48.7%
+huffman_pixel:  12.1	295.8	21.7	0.9	345	66.3%
+
+## images/textures_pk02/pk02_wall02a_S.png size: 512x512
+huffman_u8:     14.2	76.4	18.5	3.4	838	18.1%
+huffman_pixel:  13.4	253.6	19.5	1.0	398	61.1%
+
+## images/textures_pk02/pk02_wall02b_C.png size: 512x512
+huffman_u8:     15.0	73.5	17.5	3.6	799	22.0%
+huffman_pixel:  23.5	526.9	11.2	0.5	527	48.5%
+
+## images/textures_pk02/pk02_wall02b_I.png size: 512x512
+huffman_u8:     3.5	18.3	74.0	14.3	179	82.5%
+huffman_pixel:  1.7	20.2	156.5	13.0	81	92.0%
+
+## images/textures_pk02/pk02_wall02b_N.png size: 512x512
+huffman_u8:     13.2	46.7	19.8	5.6	528	48.4%
+huffman_pixel:  11.1	237.4	23.6	1.1	336	67.2%
+
+## images/textures_pk02/pk02_wall02b_S.png size: 512x512
+huffman_u8:     14.1	75.7	18.6	3.5	838	18.1%
+huffman_pixel:  13.6	249.4	19.3	1.1	396	61.2%
+
+## images/textures_pk02/pk02_wall02c_C.png size: 512x512
+huffman_u8:     14.8	79.4	17.8	3.3	833	18.7%
+huffman_pixel:  24.9	495.8	10.5	0.5	530	48.2%
+
+## images/textures_pk02/pk02_wall02c_I.png size: 512x512
+huffman_u8:     3.4	16.3	78.1	16.1	168	83.6%
+huffman_pixel:  1.4	13.2	187.4	19.9	74	92.7%
+
+## images/textures_pk02/pk02_wall02c_N.png size: 512x512
+huffman_u8:     14.5	54.1	18.1	4.8	599	41.5%
+huffman_pixel:  13.2	302.5	19.8	0.9	364	64.4%
+
+## images/textures_pk02/pk02_wall02c_S.png size: 512x512
+huffman_u8:     13.5	76.7	19.4	3.4	846	17.3%
+huffman_pixel:  13.0	224.0	20.1	1.2	394	61.5%
+
+## images/textures_pk02/pk02_wall03a_C.png size: 1024x512
+huffman_u8:     30.0	155.0	17.5	3.4	1667	18.6%
+huffman_pixel:  60.1	1614.4	8.7	0.3	1201	41.3%
+
+## images/textures_pk02/pk02_wall03a_N.png size: 1024x512
+huffman_u8:     24.2	80.8	21.7	6.5	935	54.3%
+huffman_pixel:  18.4	285.5	28.4	1.8	557	72.8%
+
+## images/textures_pk02/pk02_wall03a_S.png size: 1024x512
+huffman_u8:     29.0	157.2	18.1	3.3	1728	15.6%
+huffman_pixel:  29.9	535.5	17.5	1.0	809	60.5%
+
+## images/textures_pk02/pk02_wall03b_C.png size: 1024x512
+huffman_u8:     30.9	152.0	17.0	3.4	1582	22.7%
+huffman_pixel:  43.2	670.2	12.1	0.8	948	53.7%
+
+## images/textures_pk02/pk02_wall03b_N.png size: 1024x512
+huffman_u8:     24.2	81.5	21.7	6.4	885	56.8%
+huffman_pixel:  18.6	279.4	28.2	1.9	541	73.6%
+
+## images/textures_pk02/pk02_wall03b_S.png size: 1024x512
+huffman_u8:     30.1	156.8	17.4	3.3	1691	17.4%
+huffman_pixel:  28.6	518.4	18.3	1.0	797	61.1%
+
+## images/textures_pk02/pk02_wall04a_C.png size: 512x512
+huffman_u8:     14.8	67.0	17.7	3.9	703	31.3%
+huffman_pixel:  17.3	379.0	15.2	0.7	445	56.5%
+
+## images/textures_pk02/pk02_wall04a_N.png size: 512x512
+huffman_u8:     8.0	34.2	32.7	7.7	328	67.9%
+huffman_pixel:  6.8	73.6	38.4	3.6	207	79.8%
+
+## images/textures_pk02/pk02_wall04a_S.png size: 512x512
+huffman_u8:     14.1	74.1	18.6	3.5	808	21.0%
+huffman_pixel:  13.9	266.9	18.8	1.0	389	62.0%
+
+## images/textures_pk02/pk02_wall04b_C.png size: 512x512
+huffman_u8:     15.0	75.8	17.4	3.5	783	23.4%
+huffman_pixel:  26.2	672.2	10.0	0.4	560	45.3%
+
+## images/textures_pk02/pk02_wall04b_N.png size: 512x512
+huffman_u8:     11.3	38.3	23.1	6.9	370	63.8%
+huffman_pixel:  8.5	125.0	30.9	2.1	244	76.1%
+
+## images/textures_pk02/pk02_wall04b_S.png size: 512x512
+huffman_u8:     14.4	77.6	18.3	3.4	839	18.0%
+huffman_pixel:  14.9	324.4	17.6	0.8	412	59.7%
+
+## images/textures_pk02/pk02_wall05a_C.png size: 512x512
+huffman_u8:     14.9	76.5	17.6	3.4	808	21.0%
+huffman_pixel:  30.3	913.5	8.7	0.3	629	38.5%
+
+## images/textures_pk02/pk02_wall05a_N.png size: 512x512
+huffman_u8:     12.8	41.9	20.4	6.3	438	57.2%
+huffman_pixel:  9.6	139.1	27.4	1.9	279	72.8%
+
+## images/textures_pk02/pk02_wall05a_S.png size: 512x512
+huffman_u8:     13.6	73.1	19.3	3.6	817	20.1%
+huffman_pixel:  13.5	250.1	19.5	1.0	389	62.0%
+
+## images/textures_pk02/pk02_wall05b_C.png size: 512x512
+huffman_u8:     15.1	78.1	17.4	3.4	819	20.0%
+huffman_pixel:  36.4	1033.9	7.2	0.3	665	35.0%
+
+## images/textures_pk02/pk02_wall05b_N.png size: 512x512
+huffman_u8:     13.9	47.6	18.8	5.5	501	51.0%
+huffman_pixel:  14.0	417.1	18.8	0.6	365	64.3%
+
+## images/textures_pk02/pk02_wall05b_S.png size: 512x512
+huffman_u8:     13.9	72.6	18.9	3.6	814	20.4%
+huffman_pixel:  13.3	276.6	19.7	0.9	392	61.7%
+
+## images/textures_pk02/pk02_wall05c_C.png size: 512x512
+huffman_u8:     14.8	76.7	17.7	3.4	826	19.3%
+huffman_pixel:  31.1	938.0	8.4	0.3	646	36.9%
+
+## images/textures_pk02/pk02_wall05c_N.png size: 512x512
+huffman_u8:     15.6	53.6	16.8	4.9	621	39.3%
+huffman_pixel:  12.7	216.3	20.7	1.2	368	64.0%
+
+## images/textures_pk02/pk02_wall05c_S.png size: 512x512
+huffman_u8:     14.2	74.3	18.5	3.5	823	19.6%
+huffman_pixel:  12.7	230.7	20.7	1.1	389	62.0%
+
+## images/textures_pk02/pk02_wall06a_C.png size: 512x512
+huffman_u8:     14.8	74.7	17.7	3.5	774	24.4%
+huffman_pixel:  26.1	708.2	10.1	0.4	566	44.7%
+
+## images/textures_pk02/pk02_wall06a_N.png size: 512x512
+huffman_u8:     11.7	41.2	22.3	6.4	461	54.9%
+huffman_pixel:  10.2	202.5	25.8	1.3	307	70.0%
+
+## images/textures_pk02/pk02_wall06a_S.png size: 512x512
+huffman_u8:     14.4	74.8	18.2	3.5	814	20.4%
+huffman_pixel:  13.5	288.1	19.4	0.9	400	60.9%
+
+## images/textures_pk02/pk02_wall06b_C.png size: 512x512
+huffman_u8:     15.3	71.3	17.2	3.7	737	27.9%
+huffman_pixel:  20.6	462.1	12.8	0.6	483	52.7%
+
+## images/textures_pk02/pk02_wall06b_N.png size: 512x512
+huffman_u8:     10.5	36.8	24.9	7.1	377	63.2%
+huffman_pixel:  7.5	83.2	34.8	3.2	223	78.2%
+
+## images/textures_pk02/pk02_wall06b_S.png size: 512x512
+huffman_u8:     13.9	73.6	18.9	3.6	805	21.4%
+huffman_pixel:  13.3	217.4	19.8	1.2	371	63.7%
+
+## images/textures_pk02/pk02_wall07a_C.png size: 512x512
+huffman_u8:     15.6	80.0	16.8	3.3	795	22.3%
+huffman_pixel:  24.2	601.9	10.8	0.4	540	47.3%
+
+## images/textures_pk02/pk02_wall07a_N.png size: 512x512
+huffman_u8:     11.6	40.0	22.6	6.5	406	60.3%
+huffman_pixel:  9.2	164.2	28.6	1.6	266	74.0%
+
+## images/textures_pk02/pk02_wall07a_S.png size: 512x512
+huffman_u8:     14.0	71.5	18.8	3.7	810	20.9%
+huffman_pixel:  12.1	206.0	21.7	1.3	367	64.1%
+
+## images/textures_pk02/pk02_wall07b_C.png size: 512x512
+huffman_u8:     16.1	73.1	16.3	3.6	782	23.6%
+huffman_pixel:  22.6	558.1	11.6	0.5	520	49.2%
+
+## images/textures_pk02/pk02_wall07b_N.png size: 512x512
+huffman_u8:     10.7	37.1	24.6	7.1	384	62.4%
+huffman_pixel:  8.6	147.2	30.4	1.8	250	75.6%
+
+## images/textures_pk02/pk02_wall07b_S.png size: 512x512
+huffman_u8:     13.7	68.7	19.2	3.8	797	22.1%
+huffman_pixel:  11.8	195.7	22.3	1.3	365	64.3%
+
+## images/textures_pk02/pk02_wall08a_C.png size: 1024x512
+huffman_u8:     29.7	131.6	17.7	4.0	1501	26.7%
+huffman_pixel:  37.0	594.1	14.2	0.9	888	56.6%
+
+## images/textures_pk02/pk02_wall08b_C.png size: 1024x512
+huffman_u8:     31.8	149.5	16.5	3.5	1656	19.1%
+huffman_pixel:  51.7	1307.9	10.1	0.4	1093	46.6%
+
+## images/textures_pk02/pk02_wall08_N.png size: 1024x512
+huffman_u8:     23.6	75.5	22.2	6.9	940	54.1%
+huffman_pixel:  19.4	293.5	27.0	1.8	583	71.5%
+
+## images/textures_pk02/pk02_wall08_S.png size: 1024x512
+huffman_u8:     43.9	133.6	11.9	3.9	1578	22.9%
+huffman_pixel:  22.4	305.3	23.4	1.7	705	65.5%
+
+## images/textures_pk02/pk02_wall_big01a_C.png size: 1024x1024
+huffman_u8:     51.8	222.9	20.2	4.7	2292	44.0%
+huffman_pixel:  45.1	422.5	23.3	2.5	1319	67.8%
+
+## images/textures_pk02/pk02_wall_big01a_N.png size: 1024x1024
+huffman_u8:     44.6	164.0	23.5	6.4	1610	60.7%
+huffman_pixel:  32.3	314.4	32.5	3.3	1051	74.3%
+
+## images/textures_pk02/pk02_wall_big01a_S.png size: 1024x1024
+huffman_u8:     48.6	245.1	21.6	4.3	2813	31.3%
+huffman_pixel:  39.5	319.6	26.5	3.3	1235	69.8%
+
+## images/textures_pk02/pk02_wall_big01b_C.png size: 1024x1024
+huffman_u8:     42.9	198.3	24.4	5.3	2004	51.1%
+huffman_pixel:  38.3	323.8	27.3	3.2	1166	71.5%
+
+## images/textures_pk02/pk02_wall_big01b_N.png size: 1024x1024
+huffman_u8:     32.8	130.8	32.0	8.0	1485	63.7%
+huffman_pixel:  24.7	234.3	42.5	4.5	937	77.1%
+
+## images/textures_pk02/pk02_wall_big01b_S.png size: 1024x1024
+huffman_u8:     51.1	234.1	20.5	4.5	2678	34.6%
+huffman_pixel:  35.9	314.0	29.2	3.3	1193	70.9%
+
+## images/textures_pk02/pk02_wall_big02a_C.png size: 1024x1024
+huffman_u8:     59.9	298.6	17.5	3.5	3202	21.8%
+huffman_pixel:  102.6	1455.4	10.2	0.7	1912	53.3%
+
+## images/textures_pk02/pk02_wall_big02a_N.png size: 1024x1024
+huffman_u8:     54.3	169.0	19.3	6.2	1870	54.3%
+huffman_pixel:  41.2	597.5	25.4	1.8	1231	69.9%
+
+## images/textures_pk02/pk02_wall_big02a_S.png size: 1024x1024
+huffman_u8:     58.6	299.6	17.9	3.5	3317	19.0%
+huffman_pixel:  68.8	647.6	15.2	1.6	1495	63.5%
+
+## images/textures_pk02/pk02_wall_big02b_C.png size: 1024x1024
+huffman_u8:     59.0	308.0	17.8	3.4	3266	20.3%
+huffman_pixel:  105.1	1327.6	10.0	0.8	1921	53.1%
+
+## images/textures_pk02/pk02_wall_big02b_N.png size: 1024x1024
+huffman_u8:     54.2	195.3	19.3	5.4	2033	50.3%
+huffman_pixel:  54.5	754.5	19.2	1.4	1345	67.2%
+
+## images/textures_pk02/pk02_wall_big02b_S.png size: 1024x1024
+huffman_u8:     59.6	288.4	17.6	3.6	3260	20.4%
+huffman_pixel:  66.8	642.6	15.7	1.6	1452	64.5%
+
+# Total for images/textures_pk02 235 images
+Algorithm      Size KiB	Compression rate
+raw:           278848	0.0%
+huffman_u8:    176850	36.6%
+huffman_pixel: 104834	62.4%

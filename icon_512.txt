@@ -1,0 +1,2150 @@
+## Benchmarking images/icon_512/*.png -- 1 runs
+
+## images/icon_512/actions-address-book-new.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.6        21.0         72.16         12.49        71    7.0%
+stbi:         3.0        17.6         86.67         14.93        98    9.6%
+qoi:          0.6         0.9        438.66        276.32       145   14.2%
+
+## images/icon_512/actions-appointment-new.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.8        27.3         92.47          9.62       105   10.3%
+stbi:         2.2        20.6        117.01         12.70       142   14.0%
+qoi:          0.8         1.2        333.30        225.73       202   19.8%
+
+## images/icon_512/actions-bookmark-new.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.4        18.7         76.91         14.01        53    5.2%
+stbi:         2.8        15.9         92.44         16.53        75    7.4%
+qoi:          0.6         0.9        469.12        295.67       120   11.7%
+
+## images/icon_512/actions-contact-new.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.2        19.7         81.90         13.30        66    6.5%
+stbi:         2.6        17.4        101.58         15.08        89    8.7%
+qoi:          0.6         0.9        451.89        281.51       122   12.0%
+
+## images/icon_512/actions-document-new.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.4        21.0         76.14         12.47        55    5.5%
+stbi:         2.8        17.2         94.45         15.28        85    8.3%
+qoi:          0.6         0.9        426.67        278.73       137   13.4%
+
+## images/icon_512/actions-document-open.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.1        12.8         84.48         20.55        33    3.3%
+stbi:         2.4        13.8        107.22         19.01        42    4.2%
+qoi:          0.4         0.8        621.49        337.42        40    4.0%
+
+## images/icon_512/actions-document-print-preview.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.1        18.7         85.75         14.03        66    6.5%
+stbi:         2.2        17.6        120.31         14.89        83    8.1%
+qoi:          0.6         1.0        409.41        270.50        88    8.6%
+
+## images/icon_512/actions-document-print.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.9        11.6         89.78         22.53        21    2.1%
+stbi:         1.9        14.7        136.15         17.87        29    2.9%
+qoi:          0.4         0.7        590.55        349.85        44    4.3%
+
+## images/icon_512/actions-document-properties.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.6        12.9        100.23         20.33        27    2.7%
+stbi:         1.7        12.4        153.24         21.22        37    3.7%
+qoi:          0.5         0.8        513.91        314.74        54    5.4%
+
+## images/icon_512/actions-document-save-as.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.6        17.2         99.78         15.23        61    6.0%
+stbi:         1.5        16.3        170.56         16.13        78    7.6%
+qoi:          0.6         0.9        475.85        303.44        79    7.7%
+
+## images/icon_512/actions-document-save.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.7        18.1         97.37         14.52        65    6.4%
+stbi:         1.7        16.0        154.25         16.42        83    8.1%
+qoi:          0.6         0.9        439.25        279.05        93    9.2%
+
+## images/icon_512/actions-edit-clear.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.7        20.3         98.78         12.90        73    7.2%
+stbi:         1.5        17.8        177.83         14.70        99    9.7%
+qoi:          0.6         1.0        414.13        272.67       120   11.8%
+
+## images/icon_512/actions-edit-copy.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.2        10.7         82.12         24.56        15    1.5%
+stbi:         2.3        13.3        112.87         19.73        23    2.3%
+qoi:          0.4         0.7        641.10        378.93        37    3.6%
+
+## images/icon_512/actions-edit-cut.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.2        16.5        117.67         15.86        66    6.5%
+stbi:         1.1        15.4        239.18         16.99        82    8.0%
+qoi:          0.7         0.9        376.81        304.08        70    6.8%
+
+## images/icon_512/actions-edit-delete.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.2        15.3         80.80         17.12        60    5.9%
+stbi:         2.4        15.8        108.23         16.58        76    7.4%
+qoi:          0.6         0.8        457.97        316.56        93    9.1%
+
+## images/icon_512/actions-edit-find-replace.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.3        18.7         78.55         14.03        70    6.9%
+stbi:         2.7        16.6         97.26         15.83        85    8.4%
+qoi:          0.6         1.0        416.50        267.63        89    8.7%
+
+## images/icon_512/actions-edit-find.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.9        17.8         89.86         14.70        59    5.8%
+stbi:         2.4        15.1        109.43         17.36        73    7.2%
+qoi:          0.6         1.1        409.09        238.83        83    8.2%
+
+## images/icon_512/actions-edit-paste.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.2        12.0         81.42         21.81        23    2.3%
+stbi:         2.7        12.6         96.03         20.86        33    3.3%
+qoi:          0.5         0.8        533.90        325.28        62    6.1%
+
+## images/icon_512/actions-edit-redo.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.5        15.1        105.74         17.34        50    4.9%
+stbi:         1.6        15.6        160.99         16.81        67    6.6%
+qoi:          0.5         0.8        523.24        326.09        74    7.3%
+
+## images/icon_512/actions-edit-select-all.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.3        10.4         79.83         25.17        13    1.3%
+stbi:         2.7        13.0         98.05         20.14        21    2.1%
+qoi:          0.4         0.7        662.31        397.97        32    3.1%
+
+## images/icon_512/actions-edit-undo.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.5        13.7        105.57         19.12        44    4.3%
+stbi:         1.7        14.4        151.33         18.25        59    5.8%
+qoi:          0.5         0.8        534.22        345.29        61    6.0%
+
+## images/icon_512/actions-folder-new.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.6        24.4         72.49         10.74        68    6.7%
+stbi:         3.1        19.9         83.55         13.17       103   10.1%
+qoi:          0.6         0.9        421.05        277.40       152   14.9%
+
+## images/icon_512/actions-format-indent-less.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.9        10.8         90.05         24.27        17    1.7%
+stbi:         2.1        12.9        127.04         20.37        27    2.7%
+qoi:          0.5         0.8        574.50        345.79        53    5.2%
+
+## images/icon_512/actions-format-indent-more.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.8        10.8         93.56         24.25        17    1.7%
+stbi:         2.0        13.0        130.75         20.22        27    2.7%
+qoi:          0.4         0.7        596.46        352.82        47    4.6%
+
+## images/icon_512/actions-format-justify-center.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.2        10.3         81.64         25.44        12    1.2%
+stbi:         2.8        12.9         94.54         20.34        21    2.1%
+qoi:          0.4         0.6        679.13        413.61        31    3.0%
+
+## images/icon_512/actions-format-justify-fill.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.2        10.3         82.50         25.55        12    1.2%
+stbi:         2.6        13.1        102.53         19.94        21    2.1%
+qoi:          0.4         0.6        696.45        412.50        30    2.9%
+
+## images/icon_512/actions-format-justify-left.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.3        10.3         79.73         25.49        12    1.2%
+stbi:         2.7        12.9         98.36         20.25        21    2.1%
+qoi:          0.4         0.6        697.19        411.08        30    3.0%
+
+## images/icon_512/actions-format-justify-right.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.2        10.4         82.75         25.21        12    1.2%
+stbi:         2.6        13.1        101.05         19.96        21    2.1%
+qoi:          0.4         0.6        681.96        409.92        31    3.0%
+
+## images/icon_512/actions-format-text-bold.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.0        17.3        130.28         15.16        51    5.1%
+stbi:         0.9        15.4        279.05         17.00        70    6.9%
+qoi:          0.6         0.8        456.86        322.80        61    6.0%
+
+## images/icon_512/actions-format-text-italic.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.2        14.3         82.23         18.35        38    3.8%
+stbi:         2.4        15.5        110.39         16.91        52    5.1%
+qoi:          0.5         0.8        573.12        343.35        47    4.7%
+
+## images/icon_512/actions-format-text-strikethrough.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.2        15.3        120.36         17.10        46    4.6%
+stbi:         1.0        15.2        275.59         17.20        62    6.1%
+qoi:          0.5         0.8        546.13        336.38        52    5.1%
+
+## images/icon_512/actions-format-text-underline.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.4        15.9        110.00         16.48        50    5.0%
+stbi:         1.0        15.3        270.78         17.18        67    6.6%
+qoi:          0.5         0.8        491.46        326.86        56    5.5%
+
+## images/icon_512/actions-go-bottom.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.3        16.0        112.89         16.40        40    4.0%
+stbi:         1.2        16.1        214.50         16.29        59    5.8%
+qoi:          0.6         0.9        471.74        300.83        66    6.5%
+
+## images/icon_512/actions-go-down.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.0        15.1        128.63         17.42        35    3.5%
+stbi:         0.9        15.4        302.67         17.00        52    5.1%
+qoi:          0.5         0.8        507.05        317.67        64    6.3%
+
+## images/icon_512/actions-go-first.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.7        18.0         97.81         14.54        47    4.6%
+stbi:         1.9        17.4        139.91         15.04        69    6.7%
+qoi:          0.6         0.9        428.13        277.67        91    8.9%
+
+## images/icon_512/actions-go-home.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.6        14.7        100.90         17.83        47    4.7%
+stbi:         1.8        13.7        142.18         19.10        61    6.0%
+qoi:          0.5         0.8        520.44        321.45        62    6.1%
+
+## images/icon_512/actions-go-jump.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.0        13.3        132.84         19.69        41    4.0%
+stbi:         0.9        14.4        302.99         18.17        55    5.4%
+qoi:          0.4         0.7        596.46        361.78        53    5.2%
+
+## images/icon_512/actions-go-last.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.8        17.5         93.49         15.02        45    4.4%
+stbi:         1.9        17.0        139.38         15.39        67    6.6%
+qoi:          0.6         0.9        422.13        279.83        92    9.0%
+
+## images/icon_512/actions-go-next.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.6        16.7         99.46         15.71        41    4.1%
+stbi:         1.7        17.3        152.68         15.14        62    6.1%
+qoi:          0.5         0.9        485.18        304.29        69    6.8%
+
+## images/icon_512/actions-go-previous.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.6        17.2        102.13         15.28        42    4.2%
+stbi:         1.6        17.5        162.22         14.95        63    6.2%
+qoi:          0.6         0.9        464.14        298.09        74    7.2%
+
+## images/icon_512/actions-go-top.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.4        17.1        110.72         15.30        44    4.4%
+stbi:         1.4        15.9        187.25         16.45        65    6.4%
+qoi:          0.6         0.9        462.34        298.84        69    6.8%
+
+## images/icon_512/actions-go-up.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.3        15.1        112.60         17.41        36    3.6%
+stbi:         1.3        15.8        205.22         16.60        54    5.3%
+qoi:          0.5         0.8        488.16        312.08        68    6.7%
+
+## images/icon_512/actions-list-add.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.2        10.6        121.19         24.75        11    1.1%
+stbi:         1.0        15.2        271.85         17.26        22    2.1%
+qoi:          0.4         0.7        677.20        400.83        23    2.3%
+
+## images/icon_512/actions-list-remove.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.8        10.1        149.53         26.06         6    0.6%
+stbi:         0.4        16.5        587.64         15.85        15    1.5%
+qoi:          0.3         0.6        796.79        452.60        11    1.1%
+
+## images/icon_512/actions-mail-forward.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.5        17.2        103.26         15.23        55    5.5%
+stbi:         1.5        15.4        169.45         17.00        73    7.2%
+qoi:          0.6         0.9        464.46        303.62        86    8.4%
+
+## images/icon_512/actions-mail-mark-junk.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.8        20.8         94.27         12.59        80    7.8%
+stbi:         2.0        18.2        128.74         14.37       104   10.2%
+qoi:          0.7         1.1        355.69        231.33       102   10.1%
+
+## images/icon_512/actions-mail-message-new.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.5        23.8         74.49         11.03        76    7.4%
+stbi:         3.0        18.7         87.75         14.04       106   10.4%
+qoi:          0.6         1.0        425.77        257.31       155   15.1%
+
+## images/icon_512/actions-mail-reply-all.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.1        24.7         84.66         10.63        94    9.3%
+stbi:         2.3        20.6        115.69         12.73       125   12.3%
+qoi:          0.7         1.1        373.74        245.41       120   11.7%
+
+## images/icon_512/actions-mail-reply-sender.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.5        17.2        103.50         15.28        59    5.8%
+stbi:         1.6        16.1        166.68         16.30        77    7.5%
+qoi:          0.6         0.9        455.03        293.62        78    7.7%
+
+## images/icon_512/actions-mail-send-receive.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.2        16.0         80.83         16.42        66    6.5%
+stbi:         2.5        16.4        104.56         15.97        80    7.9%
+qoi:          0.5         0.9        493.12        300.45        71    7.0%
+
+## images/icon_512/actions-media-eject.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.1        11.7        123.93         22.34        25    2.5%
+stbi:         0.9        15.7        298.71         16.67        35    3.5%
+qoi:          0.4         0.6        692.40        414.46        25    2.5%
+
+## images/icon_512/actions-media-playback-pause.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.4        11.5        108.91         22.83        14    1.4%
+stbi:         1.4        15.6        192.71         16.77        25    2.5%
+qoi:          0.4         0.6        657.17        404.23        30    3.0%
+
+## images/icon_512/actions-media-playback-start.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.5        11.7        106.42         22.50        25    2.5%
+stbi:         1.4        15.2        183.50         17.19        36    3.6%
+qoi:          0.4         0.6        677.90        408.71        28    2.7%
+
+## images/icon_512/actions-media-playback-stop.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.4        10.7        109.24         24.58        11    1.1%
+stbi:         1.3        16.0        205.17         16.38        22    2.2%
+qoi:          0.4         0.6        741.78        428.69        18    1.8%
+
+## images/icon_512/actions-media-record.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.0        12.8        130.36         20.47        37    3.7%
+stbi:         0.9        15.2        277.69         17.22        47    4.7%
+qoi:          0.4         0.7        622.08        358.81        40    4.0%
+
+## images/icon_512/actions-media-seek-backward.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.2        12.1        117.23         21.67        26    2.6%
+stbi:         1.2        15.5        221.93         16.94        36    3.6%
+qoi:          0.4         0.7        636.43        385.17        36    3.6%
+
+## images/icon_512/actions-media-seek-forward.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.1        11.8        122.70         22.23        23    2.3%
+stbi:         1.1        14.9        245.02         17.58        33    3.2%
+qoi:          0.4         0.7        642.82        383.36        33    3.2%
+
+## images/icon_512/actions-media-skip-backward.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.3        12.5        112.26         20.89        29    2.9%
+stbi:         1.3        15.7        203.07         16.66        39    3.9%
+qoi:          0.4         0.7        599.46        358.66        44    4.3%
+
+## images/icon_512/actions-media-skip-forward.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.2        12.6        116.63         20.79        28    2.8%
+stbi:         1.2        15.6        223.39         16.84        39    3.8%
+qoi:          0.4         0.7        598.23        359.94        44    4.4%
+
+## images/icon_512/actions-process-stop.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.0        15.7        132.63         16.65        50    4.9%
+stbi:         1.3        12.9        209.06         20.25        65    6.4%
+qoi:          0.6         0.9        470.04        290.37        80    7.8%
+
+## images/icon_512/actions-system-lock-screen.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.0        17.2         87.51         15.25        54    5.4%
+stbi:         2.4        15.7        110.53         16.70        72    7.1%
+qoi:          0.6         1.0        422.06        272.47       103   10.1%
+
+## images/icon_512/actions-system-log-out.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.2        22.9         82.60         11.44        62    6.1%
+stbi:         2.5        17.3        106.29         15.13        91    9.0%
+qoi:          0.8         1.2        314.25        217.51       163   16.0%
+
+## images/icon_512/actions-system-search.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.7        25.2         96.96         10.42        97    9.6%
+stbi:         1.9        19.6        137.10         13.36       126   12.3%
+qoi:          0.7         1.1        365.31        244.95       200   19.6%
+
+## images/icon_512/actions-system-shutdown.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.7        11.8         95.39         22.21        25    2.5%
+stbi:         1.9        12.0        135.08         21.77        35    3.4%
+qoi:          0.5         0.8        572.37        345.79        48    4.7%
+
+## images/icon_512/actions-tab-new.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.2        16.9         81.85         15.54        38    3.8%
+stbi:         2.2        17.5        117.75         14.95        60    5.9%
+qoi:          0.5         0.7        580.48        359.50        89    8.7%
+
+## images/icon_512/actions-view-fullscreen.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.5        14.7        102.92         17.79        32    3.2%
+stbi:         1.4        16.0        194.11         16.37        49    4.9%
+qoi:          0.5         0.8        541.17        330.61        63    6.2%
+
+## images/icon_512/actions-view-refresh.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.3        20.2         79.56         13.01        75    7.4%
+stbi:         2.5        18.7        104.95         14.03        99    9.7%
+qoi:          0.7         0.9        376.86        285.56       130   12.8%
+
+## images/icon_512/actions-window-new.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.0        16.7         87.39         15.67        34    3.4%
+stbi:         1.7        19.2        150.72         13.67        57    5.6%
+qoi:          0.4         0.8        609.35        343.93        66    6.5%
+
+## images/icon_512/apps-accessories-calculator.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.0        11.9         86.86         22.02        31    3.0%
+stbi:         2.1        14.1        124.82         18.63        39    3.8%
+qoi:          0.4         0.7        601.66        352.68        47    4.6%
+
+## images/icon_512/apps-accessories-character-map.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.6        13.1         99.75         19.95        33    3.3%
+stbi:         1.7        15.0        151.71         17.43        47    4.6%
+qoi:          0.5         0.8        517.05        328.79        56    5.5%
+
+## images/icon_512/apps-accessories-text-editor.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.1        13.5         83.31         19.46        39    3.8%
+stbi:         2.5        13.4        104.54         19.53        49    4.8%
+qoi:          0.5         0.8        561.58        322.64        57    5.6%
+
+## images/icon_512/apps-help-browser.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.3        24.7        114.36         10.63        77    7.6%
+stbi:         1.5        19.7        178.77         13.28       107   10.5%
+qoi:          0.8         1.2        315.61        213.45       136   13.3%
+
+## images/icon_512/apps-internet-group-chat.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.5        11.1        104.85         23.67        19    1.9%
+stbi:         1.6        13.9        169.10         18.88        26    2.6%
+qoi:          0.4         0.7        665.17        390.50        32    3.2%
+
+## images/icon_512/apps-internet-mail.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.7        13.1         98.37         20.01        40    4.0%
+stbi:         1.9        12.6        135.19         20.76        49    4.8%
+qoi:          0.5         0.8        534.77        328.46        57    5.6%
+
+## images/icon_512/apps-internet-news-reader.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.4        11.2        110.08         23.39        24    2.4%
+stbi:         1.2        14.3        211.68         18.37        32    3.2%
+qoi:          0.4         0.6        696.45        412.37        28    2.8%
+
+## images/icon_512/apps-internet-web-browser.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.7        27.2         96.99          9.64        96    9.4%
+stbi:         1.9        21.5        134.46         12.20       130   12.8%
+qoi:          0.8         1.2        322.24        222.61       177   17.3%
+
+## images/icon_512/apps-office-calendar.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.3        11.6        114.00         22.56        27    2.7%
+stbi:         1.1        13.6        229.51         19.23        35    3.5%
+qoi:          0.4         0.7        600.70        372.63        41    4.0%
+
+## images/icon_512/apps-preferences-desktop-accessibility.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.9        21.1         91.08         12.42        58    5.7%
+stbi:         2.1        18.9        123.51         13.84        87    8.6%
+qoi:          0.7         1.1        356.37        238.40       107   10.5%
+
+## images/icon_512/apps-preferences-desktop-assistive-technology.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.2        23.5         81.56         11.15        80    7.8%
+stbi:         2.5        20.0        103.92         13.10       109   10.7%
+qoi:          0.8         1.2        318.25        211.39       136   13.3%
+
+## images/icon_512/apps-preferences-desktop-font.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.2        11.9        121.64         21.94        33    3.2%
+stbi:         1.1        12.2        239.36         21.56        39    3.9%
+qoi:          0.4         0.7        600.28        352.63        49    4.8%
+
+## images/icon_512/apps-preferences-desktop-keyboard-shortcuts.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.8        16.3         93.89         16.05        49    4.8%
+stbi:         1.8        16.4        143.44         16.01        67    6.6%
+qoi:          0.6         0.9        421.66        277.61        78    7.7%
+
+## images/icon_512/apps-preferences-desktop-locale.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.8        11.9         92.67         22.07        25    2.5%
+stbi:         1.6        16.2        159.80         16.18        37    3.6%
+qoi:          0.7         1.1        368.23        248.97       186   18.2%
+
+## images/icon_512/apps-preferences-desktop-multimedia.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.6        29.0         98.94          9.03       103   10.1%
+stbi:         1.8        22.5        145.43         11.65       145   14.2%
+qoi:          0.9         1.3        301.94        208.93       189   18.5%
+
+## images/icon_512/apps-preferences-desktop-remote-desktop.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.5        22.0         75.84         11.92        85    8.3%
+stbi:         2.9        27.5         91.49          9.52       108   10.6%
+qoi:          0.7         1.7        374.22        151.53       125   12.3%
+
+## images/icon_512/apps-preferences-desktop-screensaver.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.8        18.0         69.51         14.57        61    6.0%
+stbi:         3.0        16.5         88.66         15.90        80    7.8%
+qoi:          0.6         0.9        437.71        282.85        91    8.9%
+
+## images/icon_512/apps-preferences-desktop-theme.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.2        14.6         82.12         17.96        46    4.6%
+stbi:         2.4        15.2        110.54         17.28        60    5.9%
+qoi:          0.5         0.9        495.36        301.18        72    7.1%
+
+## images/icon_512/apps-preferences-desktop-wallpaper.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.2        18.3         81.70         14.31        62    6.1%
+stbi:         2.6        16.8        102.03         15.65        83    8.2%
+qoi:          0.6         0.9        434.01        279.71        99    9.7%
+
+## images/icon_512/apps-preferences-system-network-proxy.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.9        23.9         88.99         10.96        87    8.6%
+stbi:         1.9        19.5        136.38         13.43       116   11.4%
+qoi:          0.8         1.2        324.56        222.95       153   15.0%
+
+## images/icon_512/apps-preferences-system-session.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.0        11.8         88.23         22.27        30    3.0%
+stbi:         2.0        14.2        131.98         18.43        39    3.8%
+qoi:          0.4         0.7        624.30        363.74        45    4.4%
+
+## images/icon_512/apps-preferences-system-windows.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.8        10.1         93.93         25.96        10    1.0%
+stbi:         1.5        15.1        176.59         17.35        19    1.9%
+qoi:          0.4         0.6        715.26        432.37        27    2.6%
+
+## images/icon_512/apps-system-file-manager.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.9        10.8         91.69         24.22        14    1.4%
+stbi:         1.9        14.8        138.21         17.67        24    2.4%
+qoi:          0.4         0.7        649.03        367.15        37    3.6%
+
+## images/icon_512/apps-system-installer.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.2        19.5         82.22         13.45        57    5.6%
+stbi:         1.9        17.8        134.79         14.72        77    7.6%
+qoi:          0.7         1.0        365.61        273.61        93    9.1%
+
+## images/icon_512/apps-system-software-update.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.0        23.8         88.34         11.01        87    8.5%
+stbi:         2.1        20.4        124.66         12.88       116   11.4%
+qoi:          0.7         1.1        373.85        245.45       183   17.9%
+
+## images/icon_512/apps-system-users.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.0        24.7         87.50         10.63        82    8.0%
+stbi:         2.2        20.7        119.66         12.66       115   11.3%
+qoi:          0.8         1.1        348.60        239.51       123   12.1%
+
+## images/icon_512/apps-utilities-system-monitor.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.1        24.5         83.42         10.71        83    8.2%
+stbi:         2.4        21.0        108.76         12.51       117   11.5%
+qoi:          0.9         1.3        303.97        201.80       143   14.1%
+
+## images/icon_512/apps-utilities-terminal.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.3        17.8         80.41         14.70        50    4.9%
+stbi:         2.6        16.9        101.51         15.48        70    6.9%
+qoi:          0.6         0.9        443.11        278.67        79    7.7%
+
+## images/icon_512/categories-applications-accessories.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.7        19.4         96.12         13.49        79    7.7%
+stbi:         1.7        18.6        150.91         14.07        98    9.6%
+qoi:          0.6         1.0        426.74        265.09        92    9.0%
+
+## images/icon_512/categories-applications-development.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.0        34.5         86.70          7.61       109   10.7%
+stbi:         2.3        25.3        116.02         10.36       157   15.4%
+qoi:          0.9         1.3        297.25        199.14       153   15.0%
+
+## images/icon_512/categories-applications-games.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.2        12.7        121.02         20.57        46    4.5%
+stbi:         1.2        12.2        220.57         21.46        55    5.4%
+qoi:          0.4         0.8        586.85        342.09        52    5.2%
+
+## images/icon_512/categories-applications-graphics.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.8        15.5         94.28         16.95        46    4.6%
+stbi:         1.8        15.1        146.97         17.35        62    6.1%
+qoi:          0.6         0.9        455.51        292.67        91    8.9%
+
+## images/icon_512/categories-applications-internet.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.4        37.6         78.01          6.96       140   13.7%
+stbi:         2.8        28.2         95.02          9.29       193   18.9%
+qoi:          0.9         1.3        278.40        198.76       237   23.2%
+
+## images/icon_512/categories-applications-multimedia.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.4        12.7         77.33         20.57        41    4.0%
+stbi:         2.5        12.7        104.45         20.59        47    4.6%
+qoi:          0.5         0.8        518.48        335.22        55    5.4%
+
+## images/icon_512/categories-applications-office.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.6        21.0        100.11         12.47        84    8.2%
+stbi:         1.5        17.9        171.71         14.64       107   10.5%
+qoi:          0.7         1.0        386.07        260.76       219   21.4%
+
+## images/icon_512/categories-applications-other.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.9        15.0        137.31         17.46        41    4.0%
+stbi:         0.9        13.9        286.94         18.86        60    5.9%
+qoi:          0.6         0.9        471.99        306.24        78    7.6%
+
+## images/icon_512/categories-applications-system.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.9        18.9         91.42         13.90        81    7.9%
+stbi:         2.1        17.7        127.39         14.79       102   10.0%
+qoi:          0.6         0.9        427.29        279.68        89    8.8%
+
+## images/icon_512/categories-preferences-desktop-peripherals.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.1        19.4         83.71         13.53        69    6.8%
+stbi:         2.3        16.2        112.90         16.14        87    8.6%
+qoi:          0.6         1.0        409.41        269.58        96    9.4%
+
+## images/icon_512/categories-preferences-desktop.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.8        10.8         94.14         24.32        16    1.6%
+stbi:         1.8        14.4        142.97         18.16        25    2.4%
+qoi:          0.4         0.7        714.87        399.67        30    3.0%
+
+## images/icon_512/categories-preferences-system.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.4        18.8        107.91         13.96        77    7.6%
+stbi:         1.5        17.5        178.40         14.94        98    9.6%
+qoi:          0.6         0.9        437.05        277.05        96    9.4%
+
+## images/icon_512/devices-audio-card.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.4        16.6        107.67         15.76        59    5.8%
+stbi:         1.6        14.6        168.41         17.99        74    7.2%
+qoi:          0.6         1.0        414.13        271.60       129   12.7%
+
+## images/icon_512/devices-audio-input-microphone.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.0        16.7         87.73         15.68        64    6.3%
+stbi:         2.2        13.6        117.65         19.23        76    7.5%
+qoi:          0.7         1.0        401.38        259.86       102   10.0%
+
+## images/icon_512/devices-battery.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.8        13.3         93.99         19.65        36    3.5%
+stbi:         1.9        15.0        137.01         17.47        50    4.9%
+qoi:          0.6         0.9        452.36        289.06       120   11.8%
+
+## images/icon_512/devices-camera-photo.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.9        17.6         89.98         14.93        60    5.9%
+stbi:         2.1        16.9        124.71         15.52        75    7.4%
+qoi:          0.6         0.9        420.64        285.16       106   10.4%
+
+## images/icon_512/devices-camera-video.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.9        15.6         91.49         16.76        46    4.6%
+stbi:         2.1        15.2        126.38         17.24        59    5.9%
+qoi:          0.6         0.9        464.63        294.44        72    7.1%
+
+## images/icon_512/devices-computer.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.3        17.9         79.27         14.61        62    6.1%
+stbi:         2.8        15.8         93.44         16.59        79    7.8%
+qoi:          0.6         1.0        440.21        274.76       104   10.3%
+
+## images/icon_512/devices-drive-harddisk.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.2        13.2        118.14         19.90        29    2.9%
+stbi:         1.1        13.2        241.23         19.88        39    3.9%
+qoi:          0.5         0.8        566.68        341.20        49    4.9%
+
+## images/icon_512/devices-drive-optical.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.3        14.5        114.59         18.11        37    3.6%
+stbi:         1.2        13.9        216.06         18.84        47    4.6%
+qoi:          0.5         0.8        540.84        321.25        54    5.3%
+
+## images/icon_512/devices-drive-removable-media.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.1        11.8        123.10         22.18        23    2.3%
+stbi:         1.0        12.6        254.26         20.88        31    3.1%
+qoi:          0.4         0.7        610.49        370.47        46    4.6%
+
+## images/icon_512/devices-input-gaming.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.6        15.3        102.67         17.18        43    4.3%
+stbi:         1.5        15.2        172.61         17.20        56    5.5%
+qoi:          0.5         0.8        516.54        330.82        60    5.9%
+
+## images/icon_512/devices-input-keyboard.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.3        13.6        112.85         19.24        35    3.4%
+stbi:         1.1        13.7        241.23         19.09        43    4.3%
+qoi:          0.4         0.7        602.21        351.82        57    5.6%
+
+## images/icon_512/devices-input-mouse.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.5        15.8        104.20         16.62        48    4.7%
+stbi:         1.5        12.7        170.81         20.57        63    6.2%
+qoi:          0.5         0.8        513.91        326.58        67    6.6%
+
+## images/icon_512/devices-media-flash.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.5        15.7         74.26         16.69        34    3.3%
+stbi:         2.8        16.1         93.62         16.25        51    5.0%
+qoi:          0.6         0.9        466.45        294.78        80    7.9%
+
+## images/icon_512/devices-media-floppy.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.3        12.9         79.84         20.31        23    2.3%
+stbi:         2.5        16.6        102.91         15.82        35    3.5%
+qoi:          0.5         0.9        509.12        307.83        68    6.7%
+
+## images/icon_512/devices-media-optical.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.0        37.6         87.98          6.97       122   12.0%
+stbi:         2.2        28.1        119.98          9.33       171   16.7%
+qoi:          1.0         1.5        255.55        179.29       164   16.1%
+
+## images/icon_512/devices-multimedia-player.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.2        15.5         81.19         16.93        49    4.8%
+stbi:         2.6        18.7        100.41         13.98        61    6.0%
+qoi:          0.6         0.9        441.54        296.98        71    7.0%
+
+## images/icon_512/devices-network-wired.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.7        16.3         98.45         16.06        51    5.0%
+stbi:         1.2        15.4        215.77         16.97        64    6.3%
+qoi:          0.6         0.8        459.58        312.75       103   10.1%
+
+## images/icon_512/devices-network-wireless.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.7        22.2         98.14         11.81        52    5.2%
+stbi:         1.8        19.2        142.52         13.67        69    6.8%
+qoi:          0.6         0.9        439.62        276.76        81    8.0%
+
+## images/icon_512/devices-printer.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.8        11.3         55.11         23.11        20    2.0%
+stbi:         3.1        14.3         83.55         18.31        28    2.8%
+qoi:          0.6         0.7        431.58        381.80        42    4.2%
+
+## images/icon_512/devices-video-display.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.0        19.9         88.20         13.20        48    4.7%
+stbi:         2.3        16.2        112.97         16.18        64    6.3%
+qoi:          0.6         0.9        469.62        290.40        79    7.8%
+
+## images/icon_512/emblems-emblem-favorite.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.5        16.8        106.60         15.62        46    4.5%
+stbi:         1.5        14.9        175.77         17.57        67    6.6%
+qoi:          0.7         0.9        400.77        306.28        82    8.1%
+
+## images/icon_512/emblems-emblem-important.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.3        12.9        116.09         20.33        38    3.8%
+stbi:         1.1        13.6        241.07         19.31        51    5.1%
+qoi:          0.4         0.7        593.22        359.54        60    5.9%
+
+## images/icon_512/emblems-emblem-photos.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.8        14.5         91.98         18.04        50    4.9%
+stbi:         2.3        14.4        111.98         18.20        62    6.1%
+qoi:          0.7         1.0        396.77        259.04       138   13.5%
+
+## images/icon_512/emblems-emblem-readonly.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.1        10.9        122.41         24.08        23    2.3%
+stbi:         1.1        11.4        239.75         22.95        30    3.0%
+qoi:          0.4         0.7        644.56        385.96        39    3.9%
+
+## images/icon_512/emblems-emblem-symbolic-link.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.6        11.4        100.76         22.96        25    2.5%
+stbi:         1.4        12.0        187.37         21.90        33    3.2%
+qoi:          0.4         0.8        597.55        340.54        40    4.0%
+
+## images/icon_512/emblems-emblem-system.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.4        16.8        109.44         15.60        57    5.6%
+stbi:         1.6        12.5        166.34         20.92        71    7.0%
+qoi:          0.6         0.9        450.88        300.31        98    9.6%
+
+## images/icon_512/emblems-emblem-unreadable.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.9        22.8         89.29         11.52        57    5.6%
+stbi:         2.2        18.0        119.95         14.52        91    8.9%
+qoi:          0.7         1.1        365.15        247.00        97    9.5%
+
+## images/icon_512/emotes-face-angel.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.5        22.5        106.08         11.66        78    7.7%
+stbi:         1.6        18.0        167.11         14.58       107   10.5%
+qoi:          0.8         1.1        349.11        235.55       145   14.2%
+
+## images/icon_512/emotes-face-crying.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.4        22.8        107.23         11.48        74    7.3%
+stbi:         1.6        19.2        168.26         13.69       104   10.2%
+qoi:          0.7         1.1        363.84        240.01       128   12.5%
+
+## images/icon_512/emotes-face-devilish.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.4        20.1        108.49         13.02        60    5.9%
+stbi:         1.4        17.1        189.66         15.36        83    8.1%
+qoi:          0.8         1.1        347.12        245.71       138   13.5%
+
+## images/icon_512/emotes-face-glasses.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.8        32.0         92.19          8.20       108   10.5%
+stbi:         2.0        24.7        129.67         10.61       149   14.6%
+qoi:          0.8         1.1        320.16        235.97       165   16.2%
+
+## images/icon_512/emotes-face-grin.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.1        40.0        124.07          6.56        56    5.5%
+stbi:         1.1        16.1        244.86         16.30        75    7.3%
+qoi:          0.7         1.0        393.14        264.39       122   12.0%
+
+## images/icon_512/emotes-face-kiss.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.5        21.0        103.87         12.47        71    7.0%
+stbi:         1.7        18.4        156.47         14.28        98    9.6%
+qoi:          0.7         1.0        387.27        254.61       113   11.1%
+
+## images/icon_512/emotes-face-monkey.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.6        25.1        101.47         10.43        93    9.1%
+stbi:         1.8        21.8        148.73         12.04       128   12.6%
+qoi:          0.8         1.2        323.04        218.93       128   12.6%
+
+## images/icon_512/emotes-face-plain.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.3        21.3        112.31         12.31        63    6.2%
+stbi:         1.5        18.0        179.40         14.53        91    8.9%
+qoi:          0.7         1.0        377.78        250.35       119   11.6%
+
+## images/icon_512/emotes-face-sad.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.7        21.2         97.38         12.39        66    6.5%
+stbi:         1.6        18.1        167.91         14.48        94    9.2%
+qoi:          0.7         1.0        379.86        249.68       121   11.9%
+
+## images/icon_512/emotes-face-smile-big.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.4        20.2        110.79         12.96        64    6.3%
+stbi:         1.5        17.7        178.45         14.84        90    8.8%
+qoi:          0.7         1.0        386.70        252.47       118   11.6%
+
+## images/icon_512/emotes-face-smile.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.3        21.3        113.65         12.30        67    6.6%
+stbi:         1.4        17.9        189.18         14.64        95    9.3%
+qoi:          0.7         1.1        366.43        240.12       122   12.0%
+
+## images/icon_512/emotes-face-surprise.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.3        21.0        112.83         12.47        65    6.4%
+stbi:         1.5        17.9        176.40         14.67        92    9.1%
+qoi:          0.7         1.1        375.51        245.18       124   12.2%
+
+## images/icon_512/emotes-face-wink.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.2        21.5        118.43         12.21        68    6.7%
+stbi:         1.3        18.3        202.43         14.36        96    9.4%
+qoi:          0.7         1.1        368.75        243.49       124   12.2%
+
+## images/icon_512/mimetypes-application-certificate.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.8        20.9         94.45         12.57        73    7.1%
+stbi:         1.9        18.3        135.54         14.36        99    9.7%
+qoi:          0.7         1.0        394.68        261.10       100    9.9%
+
+## images/icon_512/mimetypes-application-x-executable.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.0        15.8        131.97         16.54        46    4.6%
+stbi:         1.1        14.5        234.60         18.12        66    6.5%
+qoi:          0.5         0.8        479.50        310.30        73    7.2%
+
+## images/icon_512/mimetypes-audio-x-generic.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.5        13.4        103.11         19.55        34    3.3%
+stbi:         1.5        15.7        169.44         16.69        47    4.7%
+qoi:          0.5         0.7        576.90        353.34        59    5.8%
+
+## images/icon_512/mimetypes-font-x-generic.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.6        14.0        100.53         18.78        36    3.6%
+stbi:         1.7        13.3        152.77         19.78        50    4.9%
+qoi:          0.5         0.8        536.08        321.49        58    5.7%
+
+## images/icon_512/mimetypes-image-x-generic.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.1        15.0         85.03         17.53        40    3.9%
+stbi:         2.3        16.4        115.05         15.94        54    5.3%
+qoi:          0.5         0.8        543.53        331.49        57    5.6%
+
+## images/icon_512/mimetypes-package-x-generic.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.4        13.2        107.94         19.92        31    3.1%
+stbi:         1.4        16.6        184.47         15.76        43    4.3%
+qoi:          0.5         0.8        580.99        340.98        53    5.2%
+
+## images/icon_512/mimetypes-text-html.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.3        20.6         79.47         12.71        73    7.2%
+stbi:         2.7        17.4         96.33         15.10        94    9.3%
+qoi:          0.7         1.0        387.21        250.64       118   11.6%
+
+## images/icon_512/mimetypes-text-x-generic-template.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.3        12.0        113.06         21.88        29    2.9%
+stbi:         1.5        11.1        180.73         23.61        40    3.9%
+qoi:          0.5         0.8        511.40        323.63        59    5.8%
+
+## images/icon_512/mimetypes-text-x-generic.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.9        10.4         89.53         25.13        17    1.7%
+stbi:         2.1        11.8        123.33         22.23        25    2.5%
+qoi:          0.4         0.7        613.49        361.73        40    4.0%
+
+## images/icon_512/mimetypes-text-x-script.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.7        12.7         97.54         20.66        33    3.3%
+stbi:         2.0        11.3        134.10         23.26        42    4.2%
+qoi:          0.5         0.8        510.70        308.88        60    5.9%
+
+## images/icon_512/mimetypes-video-x-generic.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.3        15.5        114.47         16.96        62    6.1%
+stbi:         1.3        16.3        196.22         16.05        79    7.8%
+qoi:          0.6         0.9        475.67        301.21        82    8.1%
+
+## images/icon_512/mimetypes-x-office-address-book.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.7        13.0         97.79         20.13        43    4.2%
+stbi:         1.8        14.1        143.35         18.61        54    5.4%
+qoi:          0.5         0.9        504.12        308.11        81    7.9%
+
+## images/icon_512/mimetypes-x-office-calendar.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.0        13.9         87.41         18.80        38    3.8%
+stbi:         2.2        14.2        119.68         18.44        51    5.0%
+qoi:          0.5         0.8        548.99        332.75        59    5.8%
+
+## images/icon_512/mimetypes-x-office-document-template.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.6        15.0         73.12         17.46        37    3.7%
+stbi:         2.9        14.9         89.34         17.54        52    5.1%
+qoi:          0.7         1.0        393.20        250.57       103   10.1%
+
+## images/icon_512/mimetypes-x-office-document.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.9        11.3         91.38         23.18        24    2.4%
+stbi:         2.1        12.2        125.02         21.50        33    3.3%
+qoi:          0.5         0.8        556.69        335.35        49    4.8%
+
+## images/icon_512/mimetypes-x-office-drawing-template.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.7        16.6         71.57         15.79        48    4.8%
+stbi:         3.1        15.7         84.04         16.72        66    6.5%
+qoi:          0.7         1.1        366.63        236.49       134   13.2%
+
+## images/icon_512/mimetypes-x-office-drawing.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.8        11.9         95.22         22.03        34    3.3%
+stbi:         2.0        12.6        133.06         20.83        44    4.3%
+qoi:          0.5         0.8        565.94        335.09        52    5.1%
+
+## images/icon_512/mimetypes-x-office-presentation-template.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.4        17.7         77.97         14.81        57    5.6%
+stbi:         2.6        15.9         99.98         16.46        76    7.4%
+qoi:          0.7         1.1        371.62        243.20       116   11.4%
+
+## images/icon_512/mimetypes-x-office-presentation.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.8        13.6         92.18         19.20        41    4.0%
+stbi:         2.1        14.2        126.87         18.43        53    5.2%
+qoi:          0.5         0.8        529.05        329.45        64    6.3%
+
+## images/icon_512/mimetypes-x-office-spreadsheet-template.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.3        14.6         79.19         18.00        36    3.6%
+stbi:         2.5        14.0        102.98         18.70        50    5.0%
+qoi:          0.7         1.1        351.21        234.31       128   12.5%
+
+## images/icon_512/mimetypes-x-office-spreadsheet.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.2        15.2         82.94         17.21        42    4.1%
+stbi:         2.4        13.6        109.40         19.25        56    5.6%
+qoi:          0.6         0.9        455.66        294.15        90    8.9%
+
+## images/icon_512/places-folder-remote.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.1        13.4         83.32         19.63        32    3.2%
+stbi:         2.3        14.1        113.22         18.61        45    4.5%
+qoi:          0.5         0.8        552.81        336.95        79    7.8%
+
+## images/icon_512/places-folder-saved-search.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.9        13.5         90.64         19.39        33    3.3%
+stbi:         2.0        14.4        128.62         18.20        47    4.6%
+qoi:          0.5         0.8        570.75        344.79        49    4.8%
+
+## images/icon_512/places-folder.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.0        12.5         86.22         20.94        26    2.6%
+stbi:         1.9        14.3        140.70         18.32        38    3.8%
+qoi:          0.5         0.7        539.95        352.91        41    4.0%
+
+## images/icon_512/places-network-server.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.6        10.4        100.74         25.30        16    1.6%
+stbi:         1.4        14.9        181.15         17.65        24    2.4%
+qoi:          0.4         0.6        681.96        407.25        47    4.6%
+
+## images/icon_512/places-network-workgroup.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.7        12.3         97.46         21.40        28    2.7%
+stbi:         1.6        14.2        162.10         18.41        37    3.6%
+qoi:          0.4         0.7        590.41        351.49        54    5.4%
+
+## images/icon_512/places-start-here.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.0        10.9        129.42         24.15        33    3.3%
+stbi:         0.7        14.4        366.23         18.16        42    4.2%
+qoi:          0.4         0.6        716.83        435.09        30    3.0%
+
+## images/icon_512/places-user-desktop.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.9        14.7        136.38         17.79        30    3.0%
+stbi:         0.9        15.7        303.69         16.69        44    4.3%
+qoi:          0.4         0.7        659.81        377.95        37    3.7%
+
+## images/icon_512/places-user-home.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.9        12.9         91.39         20.32        31    3.1%
+stbi:         2.1        14.1        127.44         18.54        43    4.2%
+qoi:          0.5         0.8        574.37        348.60        45    4.5%
+
+## images/icon_512/places-user-trash.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.7        16.4         97.40         16.01        49    4.9%
+stbi:         1.7        16.2        154.68         16.18        66    6.5%
+qoi:          0.6         1.0        411.79        254.83       104   10.3%
+
+## images/icon_512/status-audio-volume-high.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.9        24.7         90.40         10.63        84    8.3%
+stbi:         2.0        22.9        129.16         11.42       117   11.4%
+qoi:          0.7         1.0        374.87        266.95       137   13.4%
+
+## images/icon_512/status-audio-volume-low.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.8        22.0         94.77         11.91        72    7.1%
+stbi:         1.8        20.3        143.63         12.91       101    9.9%
+qoi:          0.7         1.0        395.81        264.71       106   10.4%
+
+## images/icon_512/status-audio-volume-medium.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.8        23.3         93.85         11.27        77    7.6%
+stbi:         1.9        21.5        138.92         12.18       108   10.6%
+qoi:          0.7         1.0        389.34        249.88       121   11.8%
+
+## images/icon_512/status-audio-volume-muted.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.9        21.3         88.95         12.31        68    6.7%
+stbi:         2.2        19.4        119.18         13.52        95    9.3%
+qoi:          0.7         1.0        360.93        267.60       106   10.4%
+
+## images/icon_512/status-battery-caution.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.8        14.9         95.18         17.62        43    4.3%
+stbi:         1.8        14.6        147.07         18.01        56    5.6%
+qoi:          0.6         0.9        428.90        285.59       113   11.0%
+
+## images/icon_512/status-dialog-error.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.3        14.4        116.35         18.23        45    4.5%
+stbi:         1.5        13.3        179.39         19.68        60    5.9%
+qoi:          0.5         0.8        538.39        327.43        69    6.8%
+
+## images/icon_512/status-dialog-information.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.2        29.6         81.43          8.85       103   10.1%
+stbi:         2.5        22.4        105.96         11.68       145   14.2%
+qoi:          0.8         1.1        346.43        236.06       219   21.4%
+
+## images/icon_512/status-dialog-warning.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.0        12.8        129.52         20.53        34    3.4%
+stbi:         0.7        14.4        359.10         18.26        43    4.3%
+qoi:          0.4         0.7        587.11        380.25        44    4.3%
+
+## images/icon_512/status-folder-drag-accept.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.7        12.5         95.34         21.02        30    3.0%
+stbi:         1.9        14.1        139.68         18.58        42    4.1%
+qoi:          0.4         0.7        612.92        357.73        40    4.0%
+
+## images/icon_512/status-folder-open.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.8        11.7         95.18         22.41        28    2.8%
+stbi:         1.9        13.9        141.06         18.91        37    3.7%
+qoi:          0.4         0.7        634.88        383.98        35    3.5%
+
+## images/icon_512/status-folder-visiting.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.2        10.0        118.40         26.18        13    1.3%
+stbi:         0.8        14.0        325.60         18.69        22    2.2%
+qoi:          0.3         0.6        751.56        446.43        21    2.1%
+
+## images/icon_512/status-image-loading.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.8        14.4         92.06         18.14        44    4.3%
+stbi:         2.0        12.9        128.63         20.25        55    5.5%
+qoi:          0.6         0.9        445.67        290.11        70    6.9%
+
+## images/icon_512/status-image-missing.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.4        11.5        107.42         22.71        26    2.6%
+stbi:         1.6        12.0        163.37         21.76        34    3.4%
+qoi:          0.4         0.7        595.78        363.53        38    3.7%
+
+## images/icon_512/status-mail-attachment.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.5        12.9        105.89         20.34        44    4.3%
+stbi:         1.4        15.0        186.55         17.53        54    5.3%
+qoi:          0.4         0.7        645.36        389.05        45    4.4%
+
+## images/icon_512/status-network-error.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.9        22.2         67.25         11.82        80    7.8%
+stbi:         3.2        18.0         80.81         14.57       104   10.2%
+qoi:          0.7         1.0        379.04        250.86       113   11.0%
+
+## images/icon_512/status-network-idle.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.8        21.2         69.41         12.38        80    7.8%
+stbi:         3.1        18.4         85.91         14.23       101    9.9%
+qoi:          0.6         1.1        406.99        239.95       119   11.7%
+
+## images/icon_512/status-network-offline.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.8        19.1         69.18         13.73        64    6.3%
+stbi:         3.0        16.6         86.96         15.82        84    8.2%
+qoi:          0.6         1.0        426.67        269.58        95    9.4%
+
+## images/icon_512/status-network-receive.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.6        20.2         73.10         12.97        76    7.5%
+stbi:         3.0        17.3         86.23         15.12        97    9.5%
+qoi:          0.6         1.0        407.06        260.45       114   11.1%
+
+## images/icon_512/status-network-transmit-receive.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.5        19.2         73.89         13.68        72    7.1%
+stbi:         3.0        16.7         87.41         15.72        91    8.9%
+qoi:          0.6         0.9        426.32        285.53       109   10.7%
+
+## images/icon_512/status-network-transmit.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.7        20.4         70.58         12.83        74    7.3%
+stbi:         3.1        17.6         84.80         14.92        94    9.3%
+qoi:          0.7         1.0        388.36        252.74       111   10.9%
+
+## images/icon_512/status-network-wireless-encrypted.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.3        21.8        112.35         12.04        74    7.3%
+stbi:         1.4        18.3        186.43         14.30       102   10.0%
+qoi:          0.7         1.0        396.59        260.45        94    9.2%
+
+## images/icon_512/status-printer-error.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.9        13.7         89.01         19.08        37    3.6%
+stbi:         2.1        14.7        127.00         17.86        49    4.8%
+qoi:          0.5         0.8        544.09        344.02        65    6.4%
+
+## images/icon_512/status-software-update-available.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.4        13.9        109.51         18.90        44    4.3%
+stbi:         1.4        14.3        181.30         18.31        59    5.8%
+qoi:          0.5         0.8        572.87        342.45        60    5.9%
+
+## images/icon_512/status-software-update-urgent.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.2        13.3        121.48         19.77        33    3.3%
+stbi:         0.8        13.8        330.16         18.96        44    4.3%
+qoi:          0.4         0.7        612.34        382.69        44    4.3%
+
+## images/icon_512/status-user-trash-full.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.1        19.8         85.94         13.23        75    7.3%
+stbi:         2.4        17.3        108.67         15.19        97    9.5%
+qoi:          0.8         1.2        341.42        221.99       130   12.8%
+
+## images/icon_512/status-weather-clear-night.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.2        14.3        121.74         18.32        43    4.2%
+stbi:         0.9        16.7        279.47         15.71        56    5.5%
+qoi:          0.5         0.8        536.74        332.63        38    3.8%
+
+## images/icon_512/status-weather-clear.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.8        25.2         92.78         10.41        78    7.6%
+stbi:         1.8        21.1        148.08         12.42       110   10.8%
+qoi:          0.6         1.0        409.28        259.81        93    9.1%
+
+## images/icon_512/status-weather-few-clouds-night.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.4        19.8        110.72         13.22        63    6.2%
+stbi:         1.3        19.3        194.74         13.57        87    8.5%
+qoi:          0.6         1.0        409.15        264.63        73    7.2%
+
+## images/icon_512/status-weather-few-clouds.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.3        26.4         80.55          9.93        90    8.8%
+stbi:         2.1        23.3        127.02         11.25       126   12.3%
+qoi:          0.7         1.2        351.82        221.74       113   11.1%
+
+## images/icon_512/status-weather-overcast.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.4        21.4        111.39         12.27        61    6.0%
+stbi:         1.4        20.0        190.84         13.11        88    8.6%
+qoi:          0.7         1.0        394.56        256.63        82    8.0%
+
+## images/icon_512/status-weather-severe-alert.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.7        23.0         98.71         11.40        75    7.4%
+stbi:         1.4        19.8        186.86         13.25       102   10.0%
+qoi:          0.7         1.0        392.61        251.22        96    9.5%
+
+## images/icon_512/status-weather-showers-scattered.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.8        24.5         92.33         10.71        85    8.3%
+stbi:         2.0        20.8        133.26         12.63       115   11.2%
+qoi:          0.7         1.1        358.27        239.88       105   10.3%
+
+## images/icon_512/status-weather-showers.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.9        26.8         88.99          9.80        79    7.8%
+stbi:         1.6        21.1        161.16         12.44       115   11.2%
+qoi:          0.8         1.2        336.00        223.71       116   11.4%
+
+## images/icon_512/status-weather-snow.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.5        22.3        103.41         11.77        73    7.1%
+stbi:         1.6        20.1        162.76         13.07       100    9.9%
+qoi:          0.7         1.2        387.79        222.34        91    8.9%
+
+## images/icon_512/status-weather-storm.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.5        30.1         74.75          8.71        97    9.6%
+stbi:         2.9        23.6         91.15         11.10       139   13.6%
+qoi:          0.8         1.2        328.91        221.01       131   12.8%
+
+## Total for images/icon_512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.8        17.1         94.47         15.33        51    5.0%
+stbi:         1.9        16.3        139.64         16.05        69    6.8%
+qoi:          0.6         0.9        458.59        292.75        85    8.4%
+
+# Grand total for images/icon_512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.8        17.1         94.47         15.33        51    5.0%
+stbi:         1.9        16.3        139.64         16.05        69    6.8%
+qoi:          0.6         0.9        458.59        292.75        85    8.4%
+
+## Benchmarking Huffman images/icon_512 with 1 runs
+## images/icon_512/actions-address-book-new.png size: 512x512
+huffman_u8:     11.8	45.3	22.3	5.8	631	38.3%
+huffman_pixel:  10.9	324.7	24.0	0.8	301	70.6%
+
+## images/icon_512/actions-appointment-new.png size: 512x512
+huffman_u8:     12.4	53.1	21.1	4.9	671	34.4%
+huffman_pixel:  13.4	366.4	19.5	0.7	368	64.1%
+
+## images/icon_512/actions-bookmark-new.png size: 512x512
+huffman_u8:     11.9	45.6	22.1	5.8	672	34.3%
+huffman_pixel:  10.4	266.5	25.3	1.0	333	67.4%
+
+## images/icon_512/actions-contact-new.png size: 512x512
+huffman_u8:     10.5	42.0	25.0	6.2	572	44.1%
+huffman_pixel:  9.7	254.9	27.0	1.0	312	69.5%
+
+## images/icon_512/actions-document-new.png size: 512x512
+huffman_u8:     10.3	43.9	25.4	6.0	608	40.6%
+huffman_pixel:  9.5	210.5	27.7	1.2	301	70.5%
+
+## images/icon_512/actions-document-open.png size: 512x512
+huffman_u8:     10.5	37.3	24.9	7.0	632	38.3%
+huffman_pixel:  6.0	94.1	43.6	2.8	262	74.3%
+
+## images/icon_512/actions-document-print-preview.png size: 512x512
+huffman_u8:     10.4	45.2	25.2	5.8	602	41.1%
+huffman_pixel:  8.6	214.2	30.5	1.2	275	73.1%
+
+## images/icon_512/actions-document-print.png size: 512x512
+huffman_u8:     10.2	37.9	25.8	6.9	567	44.6%
+huffman_pixel:  4.8	64.6	54.5	4.1	213	79.1%
+
+## images/icon_512/actions-document-properties.png size: 512x512
+huffman_u8:     10.4	41.5	25.2	6.3	619	39.5%
+huffman_pixel:  5.1	57.2	51.4	4.6	228	77.7%
+
+## images/icon_512/actions-document-save-as.png size: 512x512
+huffman_u8:     10.5	41.6	24.9	6.3	597	41.7%
+huffman_pixel:  6.4	167.3	40.7	1.6	241	76.4%
+
+## images/icon_512/actions-document-save.png size: 512x512
+huffman_u8:     10.8	44.9	24.3	5.8	621	39.3%
+huffman_pixel:  6.7	172.5	39.1	1.5	241	76.4%
+
+## images/icon_512/actions-edit-clear.png size: 512x512
+huffman_u8:     7.4	33.7	35.3	7.8	368	64.0%
+huffman_pixel:  7.1	223.5	37.0	1.2	183	82.1%
+
+## images/icon_512/actions-edit-copy.png size: 512x512
+huffman_u8:     9.2	35.2	28.5	7.4	553	45.9%
+huffman_pixel:  4.0	29.6	65.8	8.8	204	80.0%
+
+## images/icon_512/actions-edit-cut.png size: 512x512
+huffman_u8:     6.9	29.6	38.3	8.8	353	65.4%
+huffman_pixel:  3.9	99.9	66.8	2.6	134	86.9%
+
+## images/icon_512/actions-edit-delete.png size: 512x512
+huffman_u8:     13.1	45.0	20.0	5.8	765	25.2%
+huffman_pixel:  9.5	275.8	27.5	1.0	322	68.5%
+
+## images/icon_512/actions-edit-find-replace.png size: 512x512
+huffman_u8:     11.1	45.6	23.7	5.8	638	37.6%
+huffman_pixel:  7.6	164.9	34.4	1.6	277	72.9%
+
+## images/icon_512/actions-edit-find.png size: 512x512
+huffman_u8:     10.5	43.0	24.9	6.1	612	40.2%
+huffman_pixel:  6.5	121.8	40.4	2.2	247	75.9%
+
+## images/icon_512/actions-edit-paste.png size: 512x512
+huffman_u8:     10.5	40.6	25.1	6.5	637	37.8%
+huffman_pixel:  5.2	64.9	50.5	4.0	238	76.7%
+
+## images/icon_512/actions-edit-redo.png size: 512x512
+huffman_u8:     6.9	30.8	37.9	8.5	359	64.9%
+huffman_pixel:  4.8	123.8	54.8	2.1	155	84.8%
+
+## images/icon_512/actions-edit-select-all.png size: 512x512
+huffman_u8:     12.2	39.9	21.4	6.6	587	42.6%
+huffman_pixel:  4.0	29.1	65.9	9.0	201	80.4%
+
+## images/icon_512/actions-edit-undo.png size: 512x512
+huffman_u8:     6.2	27.1	42.5	9.7	321	68.6%
+huffman_pixel:  3.5	83.8	74.7	3.1	128	87.5%
+
+## images/icon_512/actions-folder-new.png size: 512x512
+huffman_u8:     11.4	44.9	23.0	5.8	612	40.2%
+huffman_pixel:  10.7	306.4	24.5	0.9	315	69.2%
+
+## images/icon_512/actions-format-indent-less.png size: 512x512
+huffman_u8:     9.6	38.9	27.4	6.7	577	43.6%
+huffman_pixel:  4.3	45.4	60.6	5.8	206	79.8%
+
+## images/icon_512/actions-format-indent-more.png size: 512x512
+huffman_u8:     9.4	37.9	27.8	6.9	570	44.3%
+huffman_pixel:  4.3	44.7	61.3	5.9	202	80.2%
+
+## images/icon_512/actions-format-justify-center.png size: 512x512
+huffman_u8:     8.7	33.1	30.3	7.9	529	48.3%
+huffman_pixel:  3.5	23.3	74.7	11.2	186	81.8%
+
+## images/icon_512/actions-format-justify-fill.png size: 512x512
+huffman_u8:     8.5	32.1	30.8	8.2	524	48.8%
+huffman_pixel:  3.4	22.9	76.1	11.5	182	82.2%
+
+## images/icon_512/actions-format-justify-left.png size: 512x512
+huffman_u8:     8.6	32.7	30.4	8.0	529	48.3%
+huffman_pixel:  3.5	22.7	75.0	11.5	186	81.8%
+
+## images/icon_512/actions-format-justify-right.png size: 512x512
+huffman_u8:     8.6	32.8	30.4	8.0	528	48.4%
+huffman_pixel:  3.5	23.8	74.2	11.0	184	82.0%
+
+## images/icon_512/actions-format-text-bold.png size: 512x512
+huffman_u8:     8.6	35.8	30.5	7.3	471	53.9%
+huffman_pixel:  5.4	118.1	48.8	2.2	194	81.0%
+
+## images/icon_512/actions-format-text-italic.png size: 512x512
+huffman_u8:     7.2	30.6	36.4	8.6	374	63.4%
+huffman_pixel:  4.5	102.3	58.8	2.6	152	85.1%
+
+## images/icon_512/actions-format-text-strikethrough.png size: 512x512
+huffman_u8:     7.8	32.5	33.5	8.1	417	59.3%
+huffman_pixel:  5.1	119.6	51.9	2.2	176	82.7%
+
+## images/icon_512/actions-format-text-underline.png size: 512x512
+huffman_u8:     8.1	32.9	32.3	8.0	426	58.4%
+huffman_pixel:  5.0	130.6	52.4	2.0	166	83.8%
+
+## images/icon_512/actions-go-bottom.png size: 512x512
+huffman_u8:     8.1	36.0	32.2	7.3	437	57.3%
+huffman_pixel:  4.8	100.9	54.8	2.6	164	83.9%
+
+## images/icon_512/actions-go-down.png size: 512x512
+huffman_u8:     7.0	32.5	37.4	8.1	375	63.3%
+huffman_pixel:  4.9	95.2	53.4	2.8	170	83.4%
+
+## images/icon_512/actions-go-first.png size: 512x512
+huffman_u8:     8.3	37.5	31.6	7.0	460	55.1%
+huffman_pixel:  6.6	128.2	39.8	2.0	228	77.7%
+
+## images/icon_512/actions-go-home.png size: 512x512
+huffman_u8:     9.6	37.3	27.3	7.0	553	46.0%
+huffman_pixel:  5.1	92.0	51.9	2.8	215	78.9%
+
+## images/icon_512/actions-go-jump.png size: 512x512
+huffman_u8:     6.3	26.8	41.7	9.8	320	68.7%
+huffman_pixel:  4.9	118.0	54.0	2.2	150	85.3%
+
+## images/icon_512/actions-go-last.png size: 512x512
+huffman_u8:     8.9	38.0	29.5	6.9	463	54.7%
+huffman_pixel:  5.9	110.9	44.2	2.4	218	78.7%
+
+## images/icon_512/actions-go-next.png size: 512x512
+huffman_u8:     7.0	32.7	37.6	8.0	373	63.5%
+huffman_pixel:  5.1	99.3	51.6	2.6	183	82.1%
+
+## images/icon_512/actions-go-previous.png size: 512x512
+huffman_u8:     7.0	33.1	37.3	7.9	375	63.4%
+huffman_pixel:  5.3	101.0	49.5	2.6	187	81.7%
+
+## images/icon_512/actions-go-top.png size: 512x512
+huffman_u8:     8.3	36.3	31.7	7.2	451	55.9%
+huffman_pixel:  5.8	118.0	45.0	2.2	207	79.8%
+
+## images/icon_512/actions-go-up.png size: 512x512
+huffman_u8:     7.0	32.4	37.6	8.1	367	64.1%
+huffman_pixel:  5.1	117.4	51.0	2.2	166	83.7%
+
+## images/icon_512/actions-list-add.png size: 512x512
+huffman_u8:     5.1	22.8	51.7	11.5	257	74.9%
+huffman_pixel:  2.5	40.5	104.0	6.5	97	90.5%
+
+## images/icon_512/actions-list-remove.png size: 512x512
+huffman_u8:     4.2	20.6	62.0	12.7	204	80.0%
+huffman_pixel:  2.0	34.4	130.0	7.6	75	92.6%
+
+## images/icon_512/actions-mail-forward.png size: 512x512
+huffman_u8:     9.2	36.9	28.6	7.1	511	50.0%
+huffman_pixel:  7.0	176.4	37.6	1.5	251	75.5%
+
+## images/icon_512/actions-mail-mark-junk.png size: 512x512
+huffman_u8:     9.3	41.5	28.1	6.3	531	48.1%
+huffman_pixel:  6.2	105.9	42.0	2.5	223	78.2%
+
+## images/icon_512/actions-mail-message-new.png size: 512x512
+huffman_u8:     10.8	44.4	24.2	5.9	595	41.9%
+huffman_pixel:  11.4	325.8	22.9	0.8	328	67.9%
+
+## images/icon_512/actions-mail-reply-all.png size: 512x512
+huffman_u8:     11.5	46.5	22.7	5.6	628	38.6%
+huffman_pixel:  9.7	283.7	26.9	0.9	302	70.5%
+
+## images/icon_512/actions-mail-reply-sender.png size: 512x512
+huffman_u8:     9.0	36.2	29.2	7.2	491	52.0%
+huffman_pixel:  7.6	205.1	34.6	1.3	257	74.9%
+
+## images/icon_512/actions-mail-send-receive.png size: 512x512
+huffman_u8:     9.2	36.5	28.6	7.2	505	50.6%
+huffman_pixel:  6.9	173.2	38.1	1.5	245	76.0%
+
+## images/icon_512/actions-media-eject.png size: 512x512
+huffman_u8:     5.5	24.0	47.4	10.9	287	71.9%
+huffman_pixel:  3.2	62.5	82.4	4.2	122	88.0%
+
+## images/icon_512/actions-media-playback-pause.png size: 512x512
+huffman_u8:     5.7	24.9	46.2	10.5	292	71.4%
+huffman_pixel:  3.4	65.3	76.6	4.0	130	87.2%
+
+## images/icon_512/actions-media-playback-start.png size: 512x512
+huffman_u8:     5.1	23.1	51.4	11.3	255	75.0%
+huffman_pixel:  3.0	60.2	87.8	4.4	111	89.1%
+
+## images/icon_512/actions-media-playback-stop.png size: 512x512
+huffman_u8:     5.4	24.2	48.2	10.9	286	72.0%
+huffman_pixel:  3.0	44.9	87.4	5.8	124	87.9%
+
+## images/icon_512/actions-media-record.png size: 512x512
+huffman_u8:     6.5	29.4	40.0	8.9	345	66.2%
+huffman_pixel:  4.2	99.5	62.2	2.6	160	84.3%
+
+## images/icon_512/actions-media-seek-backward.png size: 512x512
+huffman_u8:     5.7	25.5	45.6	10.3	297	70.9%
+huffman_pixel:  3.7	79.7	70.1	3.3	136	86.7%
+
+## images/icon_512/actions-media-seek-forward.png size: 512x512
+huffman_u8:     5.7	25.3	45.8	10.3	297	71.0%
+huffman_pixel:  3.4	63.1	76.6	4.2	132	87.1%
+
+## images/icon_512/actions-media-skip-backward.png size: 512x512
+huffman_u8:     6.5	27.9	40.6	9.4	345	66.3%
+huffman_pixel:  4.4	93.3	59.3	2.8	163	84.0%
+
+## images/icon_512/actions-media-skip-forward.png size: 512x512
+huffman_u8:     6.5	28.2	40.3	9.3	347	66.0%
+huffman_pixel:  4.6	99.4	57.5	2.6	166	83.7%
+
+## images/icon_512/actions-process-stop.png size: 512x512
+huffman_u8:     9.8	40.6	26.6	6.5	571	44.2%
+huffman_pixel:  6.4	99.2	41.1	2.6	275	73.1%
+
+## images/icon_512/actions-system-lock-screen.png size: 512x512
+huffman_u8:     11.2	45.3	23.4	5.8	614	40.0%
+huffman_pixel:  9.5	206.6	27.5	1.3	325	68.2%
+
+## images/icon_512/actions-system-log-out.png size: 512x512
+huffman_u8:     11.6	54.2	22.6	4.8	689	32.7%
+huffman_pixel:  8.6	133.0	30.6	2.0	311	69.6%
+
+## images/icon_512/actions-system-search.png size: 512x512
+huffman_u8:     9.8	43.1	26.8	6.1	504	50.7%
+huffman_pixel:  9.1	234.6	28.7	1.1	242	76.3%
+
+## images/icon_512/actions-system-shutdown.png size: 512x512
+huffman_u8:     9.5	35.4	27.5	7.4	573	44.0%
+huffman_pixel:  4.9	65.4	53.7	4.0	228	77.7%
+
+## images/icon_512/actions-tab-new.png size: 512x512
+huffman_u8:     8.7	33.8	30.1	7.8	487	52.3%
+huffman_pixel:  6.8	176.1	38.3	1.5	242	76.4%
+
+## images/icon_512/actions-view-fullscreen.png size: 512x512
+huffman_u8:     9.9	37.3	26.6	7.0	587	42.6%
+huffman_pixel:  9.3	74.6	28.2	3.5	238	76.7%
+
+## images/icon_512/actions-view-refresh.png size: 512x512
+huffman_u8:     9.6	42.6	27.4	6.2	481	53.0%
+huffman_pixel:  6.9	213.8	38.0	1.2	212	79.3%
+
+## images/icon_512/actions-window-new.png size: 512x512
+huffman_u8:     11.1	39.7	23.5	6.6	663	35.2%
+huffman_pixel:  8.7	241.7	30.2	1.1	323	68.4%
+
+## images/icon_512/apps-accessories-calculator.png size: 512x512
+huffman_u8:     9.6	35.7	27.3	7.3	568	44.5%
+huffman_pixel:  4.6	75.3	56.7	3.5	210	79.4%
+
+## images/icon_512/apps-accessories-character-map.png size: 512x512
+huffman_u8:     8.8	34.6	29.7	7.6	517	49.5%
+huffman_pixel:  4.5	57.1	58.7	4.6	205	80.0%
+
+## images/icon_512/apps-accessories-text-editor.png size: 512x512
+huffman_u8:     10.7	39.1	24.5	6.7	637	37.7%
+huffman_pixel:  6.1	142.9	43.1	1.8	262	74.4%
+
+## images/icon_512/apps-help-browser.png size: 512x512
+huffman_u8:     10.7	49.7	24.4	5.3	618	39.6%
+huffman_pixel:  6.7	116.1	39.3	2.3	247	75.8%
+
+## images/icon_512/apps-internet-group-chat.png size: 512x512
+huffman_u8:     6.1	26.4	43.2	9.9	337	67.0%
+huffman_pixel:  3.2	39.0	81.4	6.7	155	84.8%
+
+## images/icon_512/apps-internet-mail.png size: 512x512
+huffman_u8:     9.4	37.6	28.0	7.0	540	47.2%
+huffman_pixel:  5.0	92.3	52.8	2.8	216	78.8%
+
+## images/icon_512/apps-internet-news-reader.png size: 512x512
+huffman_u8:     8.2	30.7	32.2	8.6	470	54.1%
+huffman_pixel:  4.2	62.1	61.8	4.2	204	80.0%
+
+## images/icon_512/apps-internet-web-browser.png size: 512x512
+huffman_u8:     10.1	47.0	25.9	5.6	553	45.9%
+huffman_pixel:  9.5	222.8	27.6	1.2	279	72.7%
+
+## images/icon_512/apps-office-calendar.png size: 512x512
+huffman_u8:     7.3	29.6	36.2	8.9	409	60.0%
+huffman_pixel:  3.7	62.0	70.7	4.2	160	84.4%
+
+## images/icon_512/apps-preferences-desktop-accessibility.png size: 512x512
+huffman_u8:     10.0	45.1	26.2	5.8	595	41.8%
+huffman_pixel:  5.7	74.3	46.2	3.5	227	77.8%
+
+## images/icon_512/apps-preferences-desktop-assistive-technology.png size: 512x512
+huffman_u8:     11.0	49.6	23.9	5.3	639	37.6%
+huffman_pixel:  6.5	105.2	40.1	2.5	251	75.4%
+
+## images/icon_512/apps-preferences-desktop-font.png size: 512x512
+huffman_u8:     8.3	32.6	31.8	8.0	492	51.9%
+huffman_pixel:  4.0	49.7	65.3	5.3	196	80.8%
+
+## images/icon_512/apps-preferences-desktop-keyboard-shortcuts.png size: 512x512
+huffman_u8:     10.0	38.7	26.2	6.8	586	42.7%
+huffman_pixel:  5.8	95.0	45.0	2.8	242	76.3%
+
+## images/icon_512/apps-preferences-desktop-locale.png size: 512x512
+huffman_u8:     11.9	60.7	22.0	4.3	672	34.3%
+huffman_pixel:  8.8	143.7	29.9	1.8	305	70.2%
+
+## images/icon_512/apps-preferences-desktop-multimedia.png size: 512x512
+huffman_u8:     9.7	47.6	27.1	5.5	521	49.1%
+huffman_pixel:  7.8	146.5	33.6	1.8	234	77.1%
+
+## images/icon_512/apps-preferences-desktop-remote-desktop.png size: 512x512
+huffman_u8:     11.7	47.9	22.3	5.5	660	35.5%
+huffman_pixel:  10.3	285.4	25.5	0.9	317	69.0%
+
+## images/icon_512/apps-preferences-desktop-screensaver.png size: 512x512
+huffman_u8:     10.9	42.7	24.0	6.1	612	40.2%
+huffman_pixel:  8.6	202.3	30.4	1.3	312	69.5%
+
+## images/icon_512/apps-preferences-desktop-theme.png size: 512x512
+huffman_u8:     9.7	38.1	27.1	6.9	538	47.4%
+huffman_pixel:  6.7	148.1	38.9	1.8	245	76.0%
+
+## images/icon_512/apps-preferences-desktop-wallpaper.png size: 512x512
+huffman_u8:     11.3	43.5	23.3	6.0	627	38.8%
+huffman_pixel:  8.2	211.5	32.1	1.2	308	69.9%
+
+## images/icon_512/apps-preferences-system-network-proxy.png size: 512x512
+huffman_u8:     10.3	49.5	25.4	5.3	574	43.9%
+huffman_pixel:  10.2	266.5	25.8	1.0	295	71.1%
+
+## images/icon_512/apps-preferences-system-session.png size: 512x512
+huffman_u8:     11.4	38.1	23.1	6.9	672	34.3%
+huffman_pixel:  5.6	97.8	46.9	2.7	268	73.7%
+
+## images/icon_512/apps-preferences-system-windows.png size: 512x512
+huffman_u8:     9.0	31.3	29.2	8.4	540	47.2%
+huffman_pixel:  4.1	40.5	63.9	6.5	215	78.9%
+
+## images/icon_512/apps-system-file-manager.png size: 512x512
+huffman_u8:     7.5	29.2	34.9	9.0	425	58.5%
+huffman_pixel:  2.9	44.6	90.7	5.9	129	87.3%
+
+## images/icon_512/apps-system-installer.png size: 512x512
+huffman_u8:     9.1	39.1	28.9	6.7	514	49.7%
+huffman_pixel:  6.3	155.3	41.5	1.7	236	76.9%
+
+## images/icon_512/apps-system-software-update.png size: 512x512
+huffman_u8:     10.4	44.1	25.2	5.9	515	49.7%
+huffman_pixel:  10.3	272.4	25.5	1.0	266	74.0%
+
+## images/icon_512/apps-system-users.png size: 512x512
+huffman_u8:     10.4	44.3	25.3	5.9	533	47.9%
+huffman_pixel:  8.3	193.4	31.5	1.4	260	74.6%
+
+## images/icon_512/apps-utilities-system-monitor.png size: 512x512
+huffman_u8:     13.4	59.0	19.6	4.4	765	25.3%
+huffman_pixel:  11.0	228.0	23.8	1.1	372	63.6%
+
+## images/icon_512/apps-utilities-terminal.png size: 512x512
+huffman_u8:     12.7	48.7	20.6	5.4	746	27.1%
+huffman_pixel:  10.4	219.8	25.2	1.2	374	63.5%
+
+## images/icon_512/categories-applications-accessories.png size: 512x512
+huffman_u8:     8.7	37.3	30.1	7.0	459	55.1%
+huffman_pixel:  6.2	164.9	42.4	1.6	200	80.4%
+
+## images/icon_512/categories-applications-development.png size: 512x512
+huffman_u8:     10.7	49.2	24.5	5.3	615	39.8%
+huffman_pixel:  10.1	192.1	26.0	1.4	314	69.3%
+
+## images/icon_512/categories-applications-games.png size: 512x512
+huffman_u8:     8.7	32.7	30.1	8.0	512	49.9%
+huffman_pixel:  4.6	78.1	56.6	3.4	209	79.6%
+
+## images/icon_512/categories-applications-graphics.png size: 512x512
+huffman_u8:     7.9	36.1	33.3	7.3	414	59.5%
+huffman_pixel:  5.2	134.3	50.2	2.0	175	82.9%
+
+## images/icon_512/categories-applications-internet.png size: 512x512
+huffman_u8:     11.2	55.2	23.4	4.7	614	40.0%
+huffman_pixel:  13.5	366.6	19.3	0.7	346	66.2%
+
+## images/icon_512/categories-applications-multimedia.png size: 512x512
+huffman_u8:     9.2	35.1	28.6	7.5	545	46.7%
+huffman_pixel:  4.6	82.4	56.7	3.2	208	79.7%
+
+## images/icon_512/categories-applications-office.png size: 512x512
+huffman_u8:     9.5	42.9	27.7	6.1	470	54.0%
+huffman_pixel:  9.2	290.0	28.5	0.9	232	77.3%
+
+## images/icon_512/categories-applications-other.png size: 512x512
+huffman_u8:     8.0	34.5	32.6	7.6	445	56.5%
+huffman_pixel:  4.6	76.3	57.1	3.4	181	82.3%
+
+## images/icon_512/categories-applications-system.png size: 512x512
+huffman_u8:     9.5	39.2	27.5	6.7	532	48.0%
+huffman_pixel:  6.7	156.7	38.9	1.7	243	76.2%
+
+## images/icon_512/categories-preferences-desktop-peripherals.png size: 512x512
+huffman_u8:     9.9	41.2	26.5	6.4	545	46.7%
+huffman_pixel:  7.9	169.2	33.1	1.5	263	74.3%
+
+## images/icon_512/categories-preferences-desktop.png size: 512x512
+huffman_u8:     8.5	31.1	30.7	8.4	485	52.6%
+huffman_pixel:  4.0	51.4	65.8	5.1	193	81.1%
+
+## images/icon_512/categories-preferences-system.png size: 512x512
+huffman_u8:     8.0	35.5	32.6	7.4	414	59.5%
+huffman_pixel:  5.4	162.1	48.3	1.6	169	83.4%
+
+## images/icon_512/devices-audio-card.png size: 512x512
+huffman_u8:     10.4	44.7	25.1	5.9	605	40.9%
+huffman_pixel:  5.7	95.1	46.4	2.8	253	75.2%
+
+## images/icon_512/devices-audio-input-microphone.png size: 512x512
+huffman_u8:     8.3	38.1	31.6	6.9	457	55.3%
+huffman_pixel:  4.9	101.1	53.6	2.6	180	82.4%
+
+## images/icon_512/devices-battery.png size: 512x512
+huffman_u8:     9.0	42.3	29.0	6.2	482	52.9%
+huffman_pixel:  6.2	135.0	42.1	1.9	213	79.2%
+
+## images/icon_512/devices-camera-photo.png size: 512x512
+huffman_u8:     9.9	41.5	26.4	6.3	538	47.4%
+huffman_pixel:  6.7	154.6	39.0	1.7	231	77.4%
+
+## images/icon_512/devices-camera-video.png size: 512x512
+huffman_u8:     9.2	38.8	28.5	6.8	520	49.2%
+huffman_pixel:  5.9	118.1	44.6	2.2	232	77.3%
+
+## images/icon_512/devices-computer.png size: 512x512
+huffman_u8:     11.9	46.1	22.1	5.7	689	32.7%
+huffman_pixel:  8.0	169.4	32.7	1.5	307	69.9%
+
+## images/icon_512/devices-drive-harddisk.png size: 512x512
+huffman_u8:     9.3	36.1	28.3	7.3	535	47.8%
+huffman_pixel:  4.3	56.6	60.9	4.6	210	79.5%
+
+## images/icon_512/devices-drive-optical.png size: 512x512
+huffman_u8:     9.7	36.7	27.1	7.1	557	45.6%
+huffman_pixel:  4.6	60.4	57.2	4.3	219	78.6%
+
+## images/icon_512/devices-drive-removable-media.png size: 512x512
+huffman_u8:     9.6	39.2	27.2	6.7	557	45.6%
+huffman_pixel:  4.5	54.9	58.2	4.8	218	78.7%
+
+## images/icon_512/devices-input-gaming.png size: 512x512
+huffman_u8:     9.1	37.3	28.8	7.0	513	49.8%
+huffman_pixel:  5.0	119.0	52.7	2.2	188	81.6%
+
+## images/icon_512/devices-input-keyboard.png size: 512x512
+huffman_u8:     7.9	32.7	33.4	8.0	433	57.7%
+huffman_pixel:  3.5	81.2	74.5	3.2	148	85.5%
+
+## images/icon_512/devices-input-mouse.png size: 512x512
+huffman_u8:     8.2	36.2	31.9	7.2	452	55.8%
+huffman_pixel:  4.3	87.1	61.4	3.0	172	83.1%
+
+## images/icon_512/devices-media-flash.png size: 512x512
+huffman_u8:     11.4	42.1	22.9	6.2	646	36.9%
+huffman_pixel:  6.2	111.8	42.1	2.3	256	74.9%
+
+## images/icon_512/devices-media-floppy.png size: 512x512
+huffman_u8:     9.7	40.2	27.0	6.5	576	43.7%
+huffman_pixel:  4.6	66.6	56.7	3.9	211	79.4%
+
+## images/icon_512/devices-media-optical.png size: 512x512
+huffman_u8:     10.8	52.4	24.2	5.0	596	41.8%
+huffman_pixel:  13.5	322.0	19.4	0.8	349	65.9%
+
+## images/icon_512/devices-multimedia-player.png size: 512x512
+huffman_u8:     11.5	41.5	22.8	6.3	660	35.5%
+huffman_pixel:  6.2	117.0	42.0	2.2	277	72.9%
+
+## images/icon_512/devices-network-wired.png size: 512x512
+huffman_u8:     6.8	30.3	38.3	8.7	363	64.5%
+huffman_pixel:  4.7	136.2	55.6	1.9	183	82.1%
+
+## images/icon_512/devices-network-wireless.png size: 512x512
+huffman_u8:     9.4	39.0	28.0	6.7	561	45.2%
+huffman_pixel:  6.1	98.4	43.1	2.7	248	75.8%
+
+## images/icon_512/devices-printer.png size: 512x512
+huffman_u8:     9.8	37.4	26.6	7.0	574	43.9%
+huffman_pixel:  4.3	59.1	60.4	4.4	215	79.0%
+
+## images/icon_512/devices-video-display.png size: 512x512
+huffman_u8:     11.1	42.2	23.7	6.2	617	39.7%
+huffman_pixel:  7.3	135.0	35.7	1.9	297	70.9%
+
+## images/icon_512/emblems-emblem-favorite.png size: 512x512
+huffman_u8:     8.2	33.3	32.0	7.9	437	57.3%
+huffman_pixel:  4.9	101.2	53.2	2.6	198	80.6%
+
+## images/icon_512/emblems-emblem-important.png size: 512x512
+huffman_u8:     7.2	27.9	36.4	9.4	403	60.6%
+huffman_pixel:  3.0	62.0	88.3	4.2	137	86.6%
+
+## images/icon_512/emblems-emblem-photos.png size: 512x512
+huffman_u8:     8.6	40.7	30.5	6.4	450	56.0%
+huffman_pixel:  5.7	133.5	45.7	2.0	201	80.3%
+
+## images/icon_512/emblems-emblem-readonly.png size: 512x512
+huffman_u8:     9.0	33.5	29.0	7.8	550	46.2%
+huffman_pixel:  3.9	37.1	67.2	7.1	203	80.1%
+
+## images/icon_512/emblems-emblem-symbolic-link.png size: 512x512
+huffman_u8:     9.0	33.3	29.0	7.9	550	46.3%
+huffman_pixel:  3.7	38.8	70.0	6.7	206	79.9%
+
+## images/icon_512/emblems-emblem-system.png size: 512x512
+huffman_u8:     8.8	39.0	29.8	6.7	489	52.2%
+huffman_pixel:  4.1	66.0	63.2	4.0	191	81.3%
+
+## images/icon_512/emblems-emblem-unreadable.png size: 512x512
+huffman_u8:     10.6	43.2	24.7	6.1	639	37.6%
+huffman_pixel:  6.0	65.6	43.3	4.0	265	74.1%
+
+## images/icon_512/emotes-face-angel.png size: 512x512
+huffman_u8:     9.4	40.8	27.9	6.4	525	48.7%
+huffman_pixel:  7.2	172.6	36.4	1.5	260	74.6%
+
+## images/icon_512/emotes-face-crying.png size: 512x512
+huffman_u8:     9.3	41.6	28.3	6.3	496	51.5%
+huffman_pixel:  7.0	172.0	37.4	1.5	240	76.5%
+
+## images/icon_512/emotes-face-devilish.png size: 512x512
+huffman_u8:     8.2	38.4	32.1	6.8	437	57.3%
+huffman_pixel:  6.9	160.9	38.2	1.6	241	76.4%
+
+## images/icon_512/emotes-face-glasses.png size: 512x512
+huffman_u8:     10.6	46.0	24.8	5.7	574	43.9%
+huffman_pixel:  13.9	461.8	18.9	0.6	355	65.3%
+
+## images/icon_512/emotes-face-grin.png size: 512x512
+huffman_u8:     8.5	39.2	30.8	6.7	464	54.6%
+huffman_pixel:  5.8	122.2	45.1	2.1	216	78.9%
+
+## images/icon_512/emotes-face-kiss.png size: 512x512
+huffman_u8:     8.7	40.1	30.1	6.5	475	53.6%
+huffman_pixel:  6.7	162.4	39.2	1.6	236	76.9%
+
+## images/icon_512/emotes-face-monkey.png size: 512x512
+huffman_u8:     10.3	44.4	25.4	5.9	568	44.5%
+huffman_pixel:  8.0	207.7	32.6	1.3	269	73.7%
+
+## images/icon_512/emotes-face-plain.png size: 512x512
+huffman_u8:     8.5	39.8	30.7	6.6	477	53.3%
+huffman_pixel:  6.0	109.3	43.5	2.4	216	78.8%
+
+## images/icon_512/emotes-face-sad.png size: 512x512
+huffman_u8:     8.4	40.4	31.1	6.5	473	53.8%
+huffman_pixel:  6.1	118.3	43.3	2.2	218	78.6%
+
+## images/icon_512/emotes-face-smile-big.png size: 512x512
+huffman_u8:     8.6	40.1	30.6	6.5	471	53.9%
+huffman_pixel:  5.8	120.6	44.9	2.2	224	78.1%
+
+## images/icon_512/emotes-face-smile.png size: 512x512
+huffman_u8:     8.5	39.9	30.9	6.6	474	53.7%
+huffman_pixel:  5.9	127.3	44.3	2.1	222	78.3%
+
+## images/icon_512/emotes-face-surprise.png size: 512x512
+huffman_u8:     8.9	40.9	29.5	6.4	491	52.0%
+huffman_pixel:  5.7	108.7	45.6	2.4	224	78.1%
+
+## images/icon_512/emotes-face-wink.png size: 512x512
+huffman_u8:     8.6	40.7	30.5	6.4	483	52.8%
+huffman_pixel:  6.0	125.1	43.6	2.1	225	78.0%
+
+## images/icon_512/mimetypes-application-certificate.png size: 512x512
+huffman_u8:     8.6	38.9	30.4	6.7	466	54.5%
+huffman_pixel:  7.8	203.2	33.6	1.3	249	75.7%
+
+## images/icon_512/mimetypes-application-x-executable.png size: 512x512
+huffman_u8:     8.2	36.0	31.9	7.3	466	54.5%
+huffman_pixel:  4.7	89.8	55.6	2.9	192	81.2%
+
+## images/icon_512/mimetypes-audio-x-generic.png size: 512x512
+huffman_u8:     5.7	25.6	45.7	10.2	289	71.7%
+huffman_pixel:  2.7	71.0	97.7	3.7	99	90.3%
+
+## images/icon_512/mimetypes-font-x-generic.png size: 512x512
+huffman_u8:     9.6	38.0	27.3	6.9	582	43.2%
+huffman_pixel:  4.8	72.5	55.2	3.6	228	77.7%
+
+## images/icon_512/mimetypes-image-x-generic.png size: 512x512
+huffman_u8:     10.6	41.6	24.8	6.3	614	40.0%
+huffman_pixel:  8.7	173.9	30.1	1.5	319	68.8%
+
+## images/icon_512/mimetypes-package-x-generic.png size: 512x512
+huffman_u8:     9.0	34.9	29.1	7.5	501	51.0%
+huffman_pixel:  5.9	131.8	44.4	2.0	228	77.7%
+
+## images/icon_512/mimetypes-text-html.png size: 512x512
+huffman_u8:     10.9	45.8	24.2	5.7	626	38.8%
+huffman_pixel:  7.2	175.5	36.3	1.5	268	73.8%
+
+## images/icon_512/mimetypes-text-x-generic-template.png size: 512x512
+huffman_u8:     9.5	40.2	27.7	6.5	575	43.8%
+huffman_pixel:  4.3	55.0	60.3	4.8	215	78.9%
+
+## images/icon_512/mimetypes-text-x-generic.png size: 512x512
+huffman_u8:     9.5	35.9	27.6	7.3	586	42.7%
+huffman_pixel:  4.0	45.3	65.1	5.8	213	79.1%
+
+## images/icon_512/mimetypes-text-x-script.png size: 512x512
+huffman_u8:     10.2	40.0	25.6	6.6	623	39.1%
+huffman_pixel:  4.4	53.2	59.6	4.9	222	78.3%
+
+## images/icon_512/mimetypes-video-x-generic.png size: 512x512
+huffman_u8:     8.4	34.4	31.2	7.6	461	54.9%
+huffman_pixel:  5.2	129.3	49.9	2.0	197	80.7%
+
+## images/icon_512/mimetypes-x-office-address-book.png size: 512x512
+huffman_u8:     10.4	40.0	25.3	6.6	585	42.9%
+huffman_pixel:  5.6	124.3	46.4	2.1	221	78.4%
+
+## images/icon_512/mimetypes-x-office-calendar.png size: 512x512
+huffman_u8:     8.7	34.1	30.2	7.7	480	53.1%
+huffman_pixel:  4.8	114.8	54.7	2.3	189	81.5%
+
+## images/icon_512/mimetypes-x-office-document-template.png size: 512x512
+huffman_u8:     11.4	49.9	22.9	5.3	674	34.1%
+huffman_pixel:  9.0	165.1	29.1	1.6	324	68.4%
+
+## images/icon_512/mimetypes-x-office-document.png size: 512x512
+huffman_u8:     10.1	39.0	25.8	6.7	615	39.9%
+huffman_pixel:  5.2	80.7	50.5	3.2	239	76.6%
+
+## images/icon_512/mimetypes-x-office-drawing-template.png size: 512x512
+huffman_u8:     12.2	55.1	21.5	4.8	696	32.0%
+huffman_pixel:  11.3	275.9	23.1	1.0	361	64.6%
+
+## images/icon_512/mimetypes-x-office-drawing.png size: 512x512
+huffman_u8:     10.6	39.0	24.7	6.7	627	38.7%
+huffman_pixel:  5.3	115.5	49.9	2.3	241	76.4%
+
+## images/icon_512/mimetypes-x-office-presentation-template.png size: 512x512
+huffman_u8:     11.8	50.6	22.2	5.2	676	34.0%
+huffman_pixel:  9.0	222.5	29.1	1.2	319	68.8%
+
+## images/icon_512/mimetypes-x-office-presentation.png size: 512x512
+huffman_u8:     10.4	38.9	25.3	6.7	597	41.7%
+huffman_pixel:  5.2	97.3	50.7	2.7	238	76.7%
+
+## images/icon_512/mimetypes-x-office-spreadsheet-template.png size: 512x512
+huffman_u8:     11.4	53.5	22.9	4.9	673	34.2%
+huffman_pixel:  7.8	114.2	33.7	2.3	301	70.5%
+
+## images/icon_512/mimetypes-x-office-spreadsheet.png size: 512x512
+huffman_u8:     11.4	46.3	23.1	5.7	659	35.6%
+huffman_pixel:  5.8	86.0	45.3	3.0	257	74.9%
+
+## images/icon_512/places-folder-remote.png size: 512x512
+huffman_u8:     10.3	37.8	25.4	6.9	600	41.4%
+huffman_pixel:  4.7	87.9	55.5	3.0	215	78.9%
+
+## images/icon_512/places-folder-saved-search.png size: 512x512
+huffman_u8:     9.3	34.9	28.3	7.5	525	48.7%
+huffman_pixel:  5.6	91.3	47.2	2.9	233	77.2%
+
+## images/icon_512/places-folder.png size: 512x512
+huffman_u8:     9.0	34.0	29.0	7.7	513	49.8%
+huffman_pixel:  4.5	83.5	58.2	3.1	197	80.8%
+
+## images/icon_512/places-network-server.png size: 512x512
+huffman_u8:     7.1	28.7	37.1	9.1	386	62.3%
+huffman_pixel:  3.3	74.0	79.9	3.5	147	85.6%
+
+## images/icon_512/places-network-workgroup.png size: 512x512
+huffman_u8:     8.3	33.0	31.7	7.9	455	55.5%
+huffman_pixel:  4.9	90.8	53.2	2.9	206	79.9%
+
+## images/icon_512/places-start-here.png size: 512x512
+huffman_u8:     5.6	23.7	47.1	11.1	282	72.4%
+huffman_pixel:  2.9	78.6	91.3	3.3	109	89.3%
+
+## images/icon_512/places-user-desktop.png size: 512x512
+huffman_u8:     7.0	30.9	37.2	8.5	386	62.3%
+huffman_pixel:  4.3	88.8	61.7	3.0	185	81.9%
+
+## images/icon_512/places-user-home.png size: 512x512
+huffman_u8:     9.7	35.5	27.1	7.4	548	46.4%
+huffman_pixel:  5.0	94.6	52.9	2.8	224	78.1%
+
+## images/icon_512/places-user-trash.png size: 512x512
+huffman_u8:     12.3	52.7	21.4	5.0	713	30.3%
+huffman_pixel:  7.9	151.3	33.1	1.7	304	70.2%
+
+## images/icon_512/status-audio-volume-high.png size: 512x512
+huffman_u8:     10.0	41.8	26.3	6.3	474	53.7%
+huffman_pixel:  8.0	172.3	32.8	1.5	248	75.7%
+
+## images/icon_512/status-audio-volume-low.png size: 512x512
+huffman_u8:     8.9	39.2	29.5	6.7	449	56.1%
+huffman_pixel:  7.1	156.1	36.8	1.7	229	77.6%
+
+## images/icon_512/status-audio-volume-medium.png size: 512x512
+huffman_u8:     9.3	40.1	28.2	6.5	460	55.0%
+huffman_pixel:  7.6	170.0	34.6	1.5	238	76.7%
+
+## images/icon_512/status-audio-volume-muted.png size: 512x512
+huffman_u8:     9.1	39.7	28.9	6.6	475	53.6%
+huffman_pixel:  7.0	137.7	37.3	1.9	234	77.1%
+
+## images/icon_512/status-battery-caution.png size: 512x512
+huffman_u8:     9.7	43.0	27.0	6.1	521	49.1%
+huffman_pixel:  6.9	153.6	38.0	1.7	250	75.5%
+
+## images/icon_512/status-dialog-error.png size: 512x512
+huffman_u8:     9.6	35.9	27.2	7.3	560	45.2%
+huffman_pixel:  5.3	102.7	49.1	2.6	247	75.9%
+
+## images/icon_512/status-dialog-information.png size: 512x512
+huffman_u8:     8.6	41.6	30.3	6.3	456	55.4%
+huffman_pixel:  11.2	408.6	23.5	0.6	270	73.6%
+
+## images/icon_512/status-dialog-warning.png size: 512x512
+huffman_u8:     6.1	26.4	42.7	9.9	329	67.8%
+huffman_pixel:  2.9	67.5	90.9	3.9	123	88.0%
+
+## images/icon_512/status-folder-drag-accept.png size: 512x512
+huffman_u8:     9.7	35.0	27.2	7.5	552	46.1%
+huffman_pixel:  4.7	77.2	55.8	3.4	223	78.1%
+
+## images/icon_512/status-folder-open.png size: 512x512
+huffman_u8:     9.4	34.3	27.9	7.6	542	47.0%
+huffman_pixel:  4.5	74.9	58.8	3.5	216	78.8%
+
+## images/icon_512/status-folder-visiting.png size: 512x512
+huffman_u8:     8.6	31.1	30.6	8.4	508	50.3%
+huffman_pixel:  3.7	36.3	71.7	7.2	205	79.9%
+
+## images/icon_512/status-image-loading.png size: 512x512
+huffman_u8:     10.2	43.8	25.6	6.0	615	39.9%
+huffman_pixel:  5.7	77.2	46.3	3.4	240	76.5%
+
+## images/icon_512/status-image-missing.png size: 512x512
+huffman_u8:     9.8	36.6	26.7	7.2	605	40.9%
+huffman_pixel:  4.3	51.9	60.6	5.1	232	77.3%
+
+## images/icon_512/status-mail-attachment.png size: 512x512
+huffman_u8:     5.1	23.3	51.3	11.2	248	75.8%
+huffman_pixel:  2.5	62.7	105.4	4.2	88	91.3%
+
+## images/icon_512/status-network-error.png size: 512x512
+huffman_u8:     12.2	50.5	21.5	5.2	702	31.4%
+huffman_pixel:  8.9	199.8	29.3	1.3	324	68.3%
+
+## images/icon_512/status-network-idle.png size: 512x512
+huffman_u8:     11.7	48.3	22.3	5.4	675	34.1%
+huffman_pixel:  9.0	197.0	29.0	1.3	320	68.7%
+
+## images/icon_512/status-network-offline.png size: 512x512
+huffman_u8:     11.2	45.2	23.4	5.8	646	36.8%
+huffman_pixel:  8.2	179.7	32.0	1.5	305	70.2%
+
+## images/icon_512/status-network-receive.png size: 512x512
+huffman_u8:     11.8	48.4	22.2	5.4	680	33.5%
+huffman_pixel:  9.5	215.3	27.5	1.2	333	67.4%
+
+## images/icon_512/status-network-transmit-receive.png size: 512x512
+huffman_u8:     11.8	46.7	22.2	5.6	675	34.0%
+huffman_pixel:  9.0	195.7	29.1	1.3	318	68.9%
+
+## images/icon_512/status-network-transmit.png size: 512x512
+huffman_u8:     12.0	47.5	21.9	5.5	679	33.7%
+huffman_pixel:  9.4	225.6	27.8	1.2	331	67.6%
+
+## images/icon_512/status-network-wireless-encrypted.png size: 512x512
+huffman_u8:     8.6	37.4	30.7	7.0	466	54.5%
+huffman_pixel:  6.8	147.8	38.8	1.8	232	77.3%
+
+## images/icon_512/status-printer-error.png size: 512x512
+huffman_u8:     10.2	38.9	25.6	6.7	588	42.5%
+huffman_pixel:  5.1	87.4	51.7	3.0	231	77.4%
+
+## images/icon_512/status-software-update-available.png size: 512x512
+huffman_u8:     8.1	30.4	32.3	8.6	453	55.7%
+huffman_pixel:  4.2	94.2	62.2	2.8	190	81.4%
+
+## images/icon_512/status-software-update-urgent.png size: 512x512
+huffman_u8:     6.5	25.8	40.6	10.2	344	66.4%
+huffman_pixel:  3.1	59.8	85.3	4.4	135	86.8%
+
+## images/icon_512/status-user-trash-full.png size: 512x512
+huffman_u8:     12.5	53.9	21.0	4.9	716	30.1%
+huffman_pixel:  9.8	203.7	26.7	1.3	331	67.6%
+
+## images/icon_512/status-weather-clear-night.png size: 512x512
+huffman_u8:     5.6	25.2	46.6	10.4	275	73.1%
+huffman_pixel:  3.1	65.7	84.1	4.0	117	88.5%
+
+## images/icon_512/status-weather-clear.png size: 512x512
+huffman_u8:     7.3	31.3	35.7	8.4	344	66.4%
+huffman_pixel:  4.9	85.6	53.8	3.1	166	83.7%
+
+## images/icon_512/status-weather-few-clouds-night.png size: 512x512
+huffman_u8:     7.5	33.9	35.1	7.7	383	62.5%
+huffman_pixel:  4.5	82.8	57.6	3.2	170	83.4%
+
+## images/icon_512/status-weather-few-clouds.png size: 512x512
+huffman_u8:     9.0	39.3	29.2	6.7	446	56.4%
+huffman_pixel:  7.2	155.4	36.6	1.7	221	78.4%
+
+## images/icon_512/status-weather-overcast.png size: 512x512
+huffman_u8:     7.2	36.0	36.6	7.3	404	60.5%
+huffman_pixel:  4.9	73.2	53.1	3.6	187	81.7%
+
+## images/icon_512/status-weather-severe-alert.png size: 512x512
+huffman_u8:     8.4	38.7	31.3	6.8	449	56.1%
+huffman_pixel:  5.9	131.8	44.1	2.0	220	78.5%
+
+## images/icon_512/status-weather-showers-scattered.png size: 512x512
+huffman_u8:     9.0	40.4	29.1	6.5	478	53.3%
+huffman_pixel:  5.9	129.4	44.1	2.0	220	78.4%
+
+## images/icon_512/status-weather-showers.png size: 512x512
+huffman_u8:     10.5	47.0	24.9	5.6	560	45.2%
+huffman_pixel:  6.0	108.1	43.8	2.4	231	77.4%
+
+## images/icon_512/status-weather-snow.png size: 512x512
+huffman_u8:     7.9	37.4	33.4	7.0	436	57.4%
+huffman_pixel:  5.4	89.9	48.8	2.9	197	80.7%
+
+## images/icon_512/status-weather-storm.png size: 512x512
+huffman_u8:     9.3	44.9	28.1	5.8	501	51.0%
+huffman_pixel:  7.1	143.6	37.1	1.8	248	75.8%
+
+# Total for images/icon_512 213 images
+Algorithm      Size KiB	Compression rate
+raw:           218112	0.0%
+huffman_u8:    110421	49.4%
+huffman_pixel: 48609	77.7%

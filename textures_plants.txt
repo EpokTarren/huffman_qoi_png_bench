@@ -1,0 +1,651 @@
+## Benchmarking images/textures_plants/*.png -- 1 runs
+
+## images/textures_plants/plant_01.png size: 166x1022
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.5        11.9        111.55         14.25        55    8.4%
+stbi:         1.0        11.7        167.39         14.50        72   11.0%
+qoi:          0.3         0.5        554.24        326.44        66   10.0%
+
+## images/textures_plants/plant_02.png size: 1024x1316
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      17.5       161.3         76.93          8.35       839   15.9%
+stbi:        15.5       129.5         86.83         10.40      1227   23.3%
+qoi:          3.2         5.7        424.41        234.53       888   16.9%
+
+## images/textures_plants/plant_03.png size: 780x923
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      10.7        73.0         67.14          9.87       461   16.4%
+stbi:         8.9        67.0         81.33         10.75       596   21.2%
+qoi:          1.9         3.0        383.46        241.37       499   17.8%
+
+## images/textures_plants/plant_04.png size: 720x1551
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      26.5       241.0         42.13          4.63      1557   35.7%
+stbi:        27.9       178.3         40.03          6.26      1996   45.8%
+qoi:          6.4         9.4        175.57        119.40      1724   39.5%
+
+## images/textures_plants/plant_05.png size: 865x952
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      10.4        88.8         79.42          9.28       454   14.1%
+stbi:         7.7        76.7        106.70         10.73       613   19.1%
+qoi:          2.1         3.5        400.37        238.12       472   14.7%
+
+## images/textures_plants/plant_06.png size: 1420x2048
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      30.0       174.8         96.93         16.64      1319   11.6%
+stbi:        21.1       205.0        138.00         14.18      1565   13.8%
+qoi:          5.4         8.7        540.78        335.86      1157   10.2%
+
+## images/textures_plants/plant_07.png size: 1024x1450
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      16.2        86.2         91.42         17.22       616   10.6%
+stbi:        10.5       105.3        141.29         14.10       725   12.5%
+qoi:          2.5         4.2        585.14        357.43       574    9.9%
+
+## images/textures_plants/plant_08.png size: 723x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      11.0       109.9         67.44          6.74       426   14.7%
+stbi:         9.0        76.0         82.23          9.75       639   22.1%
+qoi:          2.1         3.4        359.95        216.72       464   16.1%
+
+## images/textures_plants/plant_09.png size: 1024x964
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      13.0        96.7         75.78         10.21       617   16.0%
+stbi:         9.5        90.7        103.59         10.88       837   21.7%
+qoi:          2.3         3.9        428.31        256.31       631   16.4%
+
+## images/textures_plants/plant_10.png size: 778x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      12.8       107.5         62.06          7.41       681   21.9%
+stbi:        11.6        88.3         68.63          9.02       936   30.1%
+qoi:          2.2         3.8        365.36        210.48       740   23.8%
+
+## images/textures_plants/plant_11.png size: 903x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       7.5        38.9        123.53         23.80       124    3.4%
+stbi:         2.4        57.8        379.01         16.00       177    4.9%
+qoi:          1.2         2.2        768.19        430.00       115    3.2%
+
+## images/textures_plants/plant_12.png size: 1024x1460
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.6       188.8         60.87          7.92       825   14.1%
+stbi:        21.1       143.2         70.80         10.44      1204   20.6%
+qoi:          4.3         6.8        349.51        221.15       977   16.7%
+
+## images/textures_plants/plant_13.png size: 778x2048
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      19.7       131.3         80.85         12.14       670   10.8%
+stbi:        13.0       127.5        122.54         12.49       909   14.6%
+qoi:          3.4         5.5        463.63        287.24       651   10.5%
+
+## images/textures_plants/plant_14.png size: 957x1182
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      18.3       144.1         61.95          7.85       659   14.9%
+stbi:        15.3       114.6         73.77          9.87       928   21.0%
+qoi:          2.8         4.7        397.59        241.49       671   15.2%
+
+## images/textures_plants/plant_15.png size: 1167x1455
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      31.4       275.6         54.02          6.16      1198   18.1%
+stbi:        28.6       197.0         59.40          8.62      1698   25.6%
+qoi:          5.4         8.5        316.19        200.16      1252   18.9%
+
+## images/textures_plants/plant_16.png size: 1179x1374
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      33.9       304.1         47.80          5.33      1393   22.0%
+stbi:        33.0       211.0         49.02          7.68      1976   31.2%
+qoi:          5.8         8.9        279.27        181.07      1482   23.4%
+
+## images/textures_plants/plant_17.png size: 1084x2048
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      37.4       483.6         59.33          4.59      1580   18.2%
+stbi:        32.4       284.6         68.53          7.80      2439   28.1%
+qoi:          7.4        12.6        300.95        176.18      1777   20.5%
+
+## images/textures_plants/plant_18.png size: 616x930
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      12.8       215.3         44.66          2.66      1238   55.4%
+stbi:        12.6       115.0         45.51          4.98      1585   70.9%
+qoi:          2.7         4.2        211.89        136.26      1174   52.5%
+
+## images/textures_plants/plant_19.png size: 1024x2423
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      46.9       531.9         52.87          4.66      2021   20.9%
+stbi:        43.9       311.2         56.58          7.97      3125   32.2%
+qoi:          6.9        14.0        360.84        176.87      2321   24.0%
+
+## images/textures_plants/plant_20.png size: 568x746
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       9.2        94.9         46.25          4.47       452   27.4%
+stbi:         9.3        62.7         45.64          6.76       613   37.1%
+qoi:          2.2         3.4        191.30        126.05       507   30.7%
+
+## images/textures_plants/plant_21.png size: 588x550
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.9        48.9         65.50          6.61       297   23.5%
+stbi:         4.3        37.3         76.07          8.67       417   33.0%
+qoi:          1.3         1.8        257.57        174.89       238   18.9%
+
+## images/textures_plants/plant_22.png size: 732x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.3       212.0         30.89          3.54       832   28.4%
+stbi:        15.2       119.9         49.24          6.25      1232   42.1%
+qoi:          3.1         5.3        239.01        141.82       916   31.3%
+
+## images/textures_plants/plant_23.png size: 546x609
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       6.3        74.2         52.47          4.48       324   25.0%
+stbi:         6.3        44.6         52.50          7.46       483   37.2%
+qoi:          1.0         1.9        328.02        172.22       357   27.6%
+
+## images/textures_plants/plant_24.png size: 840x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      11.5        67.3         74.88         12.78       541   16.1%
+stbi:         9.3        76.0         92.68         11.32       704   21.0%
+qoi:          1.9         3.1        461.88        281.30       580   17.3%
+
+## images/textures_plants/plant_25.png size: 413x640
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       5.3        38.4         49.65          6.88       278   26.9%
+stbi:         4.9        35.2         53.71          7.51       378   36.7%
+qoi:          0.8         1.4        333.74        190.02       335   32.5%
+
+## images/textures_plants/plant_26.png size: 195x474
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.4        14.5         66.53          6.37        90   25.1%
+stbi:         1.1        11.2         82.61          8.27       116   32.1%
+qoi:          0.3         0.5        338.32        203.10        78   21.8%
+
+## images/textures_plants/plant_27.png size: 377x659
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       5.0        50.1         49.46          4.96       358   36.9%
+stbi:         4.9        37.1         51.06          6.70       436   45.0%
+qoi:          1.3         1.8        194.13        138.91       350   36.1%
+
+## images/textures_plants/plant_28.png size: 1024x1386
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      19.7       211.0         71.91          6.73      1067   19.3%
+stbi:        15.9       154.5         88.99          9.19      1511   27.3%
+qoi:          4.2         7.1        341.19        200.18      1270   22.9%
+
+## images/textures_plants/plant_29.png size: 1024x998
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       9.7        58.6        105.43         17.44       302    7.6%
+stbi:         5.1        72.3        200.39         14.14       433   10.9%
+qoi:          1.7         2.9        615.11        348.08       311    7.8%
+
+## images/textures_plants/plant_30.png size: 1212x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      22.2       116.8         55.87         10.63      1151   23.8%
+stbi:        21.1       129.3         58.94          9.60      1464   30.2%
+qoi:          3.2         5.1        392.80        242.40      1204   24.8%
+
+## images/textures_plants/plant_31.png size: 1024x1698
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      31.3       421.7         55.52          4.12      1606   23.7%
+stbi:        28.5       243.5         60.95          7.14      2383   35.1%
+qoi:          6.2        10.4        279.01        167.04      1677   24.7%
+
+## images/textures_plants/plant_32.png size: 294x992
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       5.9        69.6         49.20          4.19       244   21.5%
+stbi:         5.6        40.7         52.06          7.16       367   32.3%
+qoi:          1.1         1.8        259.27        157.97       281   24.7%
+
+## images/textures_plants/plant_33.png size: 156x643
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.6        29.0         38.80          3.46       138   35.3%
+stbi:         2.2        18.1         44.63          5.54       186   47.6%
+qoi:          0.6         0.9        174.36        114.49       147   37.5%
+
+## images/textures_plants/plant_34.png size: 1024x1368
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      27.1       222.6         51.63          6.29      1945   35.5%
+stbi:        26.5       187.4         52.84          7.47      2407   44.0%
+qoi:          5.1         7.7        276.41        181.42      2128   38.9%
+
+## images/textures_plants/plant_35.png size: 1024x1475
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       5.8       102.4        261.40         14.75       608   10.3%
+stbi:         3.7       109.6        406.48         13.79       777   13.2%
+qoi:          3.7         5.6        411.82        269.53       496    8.4%
+
+## images/textures_plants/plant_36.png size: 1024x1466
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      20.4       269.2         73.45          5.58      1491   25.4%
+stbi:        16.1       187.0         92.98          8.03      1927   32.9%
+qoi:          4.5         7.3        335.52        206.34      1792   30.6%
+
+## images/textures_plants/plant_37.png size: 1024x1765
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      26.1       203.7         69.35          8.87      1607   22.8%
+stbi:        20.9       181.0         86.68          9.99      1998   28.3%
+qoi:          4.6         7.2        394.68        251.24      1674   23.7%
+
+## images/textures_plants/plant_38.png size: 1024x1517
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      14.8        93.0        104.74         16.70       607   10.0%
+stbi:         8.1       103.8        192.29         14.97       732   12.1%
+qoi:          2.7         4.3        585.07        358.98       586    9.7%
+
+## images/textures_plants/plant_39.png size: 1024x1674
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      21.2       182.8         80.74          9.38      1370   20.5%
+stbi:        15.8       168.1        108.39         10.20      1669   24.9%
+qoi:          4.3         7.1        394.12        242.96      1226   18.3%
+
+## images/textures_plants/plant_40.png size: 688x654
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      14.1       190.5         31.80          2.36       823   46.8%
+stbi:        15.4       103.4         29.25          4.35      1192   67.9%
+qoi:          2.1         3.7        212.84        120.88       836   47.6%
+
+## images/textures_plants/plant_41.png size: 1024x1773
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      18.6       130.3         97.47         13.93       513    7.2%
+stbi:         9.6       131.2        189.20         13.83       728   10.3%
+qoi:          3.7         5.7        496.30        320.84       533    7.5%
+
+## images/textures_plants/plant_42.png size: 312x315
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.1        34.8         32.00          2.83       196   51.1%
+stbi:         3.1        22.0         31.30          4.46       267   69.6%
+qoi:          0.5         0.9        178.79        109.87       191   49.8%
+
+## images/textures_plants/plant_43.png size: 516x1600
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      25.4       289.7         32.52          2.85      1852   57.4%
+stbi:        26.5       174.5         31.12          4.73      2384   73.9%
+qoi:          3.8         6.1        214.78        134.81      1649   51.1%
+
+## images/textures_plants/plant_44.png size: 655x951
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       8.6        74.5         72.09          8.36       524   21.5%
+stbi:         6.7        63.9         93.41          9.75       676   27.8%
+qoi:          1.7         2.7        375.18        227.25       490   20.2%
+
+## images/textures_plants/plant_45.png size: 209x429
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.3        33.0         38.42          2.72       198   56.6%
+stbi:         2.2        18.6         40.97          4.81       248   70.9%
+qoi:          0.5         0.8        198.85        109.14       191   54.5%
+
+## images/textures_plants/plant_46.png size: 378x658
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       6.7        93.6         36.92          2.66       524   54.0%
+stbi:         6.7        54.6         37.34          4.55       689   70.9%
+qoi:          1.3         2.1        195.65        117.48       521   53.7%
+
+## images/textures_plants/plant_47.png size: 442x756
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       5.2        46.3         64.87          7.22       309   23.7%
+stbi:         4.4        37.5         75.69          8.91       415   31.8%
+qoi:          1.3         1.8        259.98        181.53       224   17.2%
+
+## images/textures_plants/plant_48.png size: 1024x1104
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      14.8       219.1         76.28          5.16       860   19.5%
+stbi:        12.0       125.9         94.10          8.98      1282   29.0%
+qoi:          4.1         6.5        277.12        173.09       980   22.2%
+
+## images/textures_plants/plant_49.png size: 530x426
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.8        48.5         47.49          4.66       193   21.9%
+stbi:         4.8        31.7         47.44          7.11       266   30.2%
+qoi:          1.2         1.8        184.64        125.28       219   24.9%
+
+## images/textures_plants/plant_50.png size: 459x2048
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      19.7       296.4         47.73          3.17       951   25.9%
+stbi:        18.4       147.0         51.21          6.39      1485   40.5%
+qoi:          3.7         6.8        254.46        138.64      1230   33.5%
+
+## images/textures_plants/plant_51.png size: 1348x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      20.1       146.0         68.66          9.45       953   17.7%
+stbi:        17.3       135.4         79.60         10.19      1341   24.9%
+qoi:          3.3         6.3        422.10        218.44      1014   18.8%
+
+## images/textures_plants/plant_52.png size: 1024x1249
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      16.9        84.6         75.74         15.11       405    8.1%
+stbi:        12.2        98.8        104.47         12.95       627   12.6%
+qoi:          2.3         4.0        561.23        316.17       458    9.2%
+
+## images/textures_plants/plant_53.png size: 864x2036
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      42.6       582.0         41.26          3.02      2428   35.3%
+stbi:        43.3       340.6         40.61          5.17      3498   50.9%
+qoi:         11.8        17.5        148.53        100.36      3097   45.1%
+
+## images/textures_plants/plant_54.png size: 1647x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      18.4       133.0         91.56         12.68      1242   18.9%
+stbi:        12.8       135.9        131.37         12.41      1409   21.4%
+qoi:          3.8         5.9        439.92        283.97      1243   18.9%
+
+## images/textures_plants/plant_55.png size: 1024x1557
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      34.5       507.1         46.16          3.14      1678   27.0%
+stbi:        33.7       252.2         47.33          6.32      2651   42.6%
+qoi:          6.0        11.8        264.97        135.37      2058   33.1%
+
+## images/textures_plants/plant_56.png size: 1024x768
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      11.8       218.7         66.64          3.60       755   24.6%
+stbi:        10.7       112.1         73.58          7.01      1186   38.6%
+qoi:          2.8         5.5        277.54        144.27       833   27.1%
+
+## images/textures_plants/plant_57.png size: 1024x1799
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      29.4       505.6         62.75          3.64      1769   24.6%
+stbi:        26.1       261.0         70.50          7.06      2737   38.0%
+qoi:          6.2        13.0        295.31        142.18      2018   28.1%
+
+## images/textures_plants/plant_58.png size: 1024x1377
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      33.7       368.0         41.79          3.83      1526   27.7%
+stbi:        34.3       212.7         41.06          6.63      2347   42.6%
+qoi:          5.2         9.5        271.65        147.95      1933   35.1%
+
+## images/textures_plants/plant_59.png size: 1024x926
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      27.2       183.0         34.85          5.18       589   15.9%
+stbi:        13.6       124.9         69.97          7.59       883   23.9%
+qoi:          3.7         5.0        255.56        189.21       646   17.5%
+
+## images/textures_plants/plant_60.png size: 1024x918
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      20.5       265.4         45.93          3.54      1098   29.9%
+stbi:        20.1       144.3         46.75          6.51      1649   44.9%
+qoi:          3.1         6.3        298.94        148.46      1160   31.6%
+
+## Total for images/textures_plants
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      17.3       174.9         61.64          6.08       857   20.6%
+stbi:        14.7       122.3         72.22          8.70      1191   28.7%
+qoi:          3.2         5.4        329.29        197.12       922   22.2%
+
+# Grand total for images/textures_plants
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      17.3       174.9         61.64          6.08       857   20.6%
+stbi:        14.7       122.3         72.22          8.70      1191   28.7%
+qoi:          3.2         5.4        329.29        197.12       922   22.2%
+
+## Benchmarking Huffman images/textures_plants with 1 runs
+## images/textures_plants/plant_01.png size: 166x1022
+huffman_u8:     3.4	17.6	49.4	9.7	146	77.9%
+huffman_pixel:  3.7	140.9	45.4	1.2	83	87.4%
+
+## images/textures_plants/plant_02.png size: 1024x1316
+huffman_u8:     35.2	177.2	38.2	7.6	1709	67.5%
+huffman_pixel:  54.7	1548.0	24.6	0.9	1036	80.3%
+
+## images/textures_plants/plant_03.png size: 780x923
+huffman_u8:     21.8	91.7	33.1	7.9	869	69.1%
+huffman_pixel:  28.3	904.1	25.4	0.8	522	81.4%
+
+## images/textures_plants/plant_04.png size: 720x1551
+huffman_u8:     72.4	331.8	15.4	3.4	3580	17.9%
+huffman_pixel:  116.5	2084.7	9.6	0.5	2196	49.6%
+
+## images/textures_plants/plant_05.png size: 865x952
+huffman_u8:     23.3	99.6	35.4	8.3	923	71.3%
+huffman_pixel:  25.4	554.3	32.4	1.5	597	81.4%
+
+## images/textures_plants/plant_06.png size: 1420x2048
+huffman_u8:     57.8	261.2	50.3	11.1	2420	78.7%
+huffman_pixel:  69.6	1922.7	41.8	1.5	1320	88.4%
+
+## images/textures_plants/plant_07.png size: 1024x1450
+huffman_u8:     27.4	134.9	54.2	11.0	1213	79.1%
+huffman_pixel:  42.8	1648.4	34.7	0.9	792	86.3%
+
+## images/textures_plants/plant_08.png size: 723x1024
+huffman_u8:     23.8	108.6	31.1	6.8	1071	63.0%
+huffman_pixel:  38.2	1185.4	19.4	0.6	746	74.2%
+
+## images/textures_plants/plant_09.png size: 1024x964
+huffman_u8:     28.1	128.2	35.1	7.7	1214	68.5%
+huffman_pixel:  52.7	2069.0	18.7	0.5	898	76.7%
+
+## images/textures_plants/plant_10.png size: 778x1024
+huffman_u8:     26.4	129.2	30.1	6.2	1266	59.3%
+huffman_pixel:  71.0	2750.1	11.2	0.3	1095	64.8%
+
+## images/textures_plants/plant_11.png size: 903x1024
+huffman_u8:     13.1	63.4	70.7	14.6	552	84.7%
+huffman_pixel:  9.7	328.5	95.0	2.8	238	93.4%
+
+## images/textures_plants/plant_12.png size: 1024x1460
+huffman_u8:     40.0	218.7	37.4	6.8	1838	68.5%
+huffman_pixel:  55.5	1522.7	26.9	1.0	1171	79.9%
+
+## images/textures_plants/plant_13.png size: 778x2048
+huffman_u8:     32.8	163.3	48.5	9.8	1547	75.1%
+huffman_pixel:  57.5	1658.2	27.7	1.0	1042	83.2%
+
+## images/textures_plants/plant_14.png size: 957x1182
+huffman_u8:     36.1	165.7	31.4	6.8	1621	63.3%
+huffman_pixel:  50.4	906.1	22.4	1.2	1050	76.2%
+
+## images/textures_plants/plant_15.png size: 1167x1455
+huffman_u8:     64.0	292.4	26.5	5.8	2911	56.1%
+huffman_pixel:  91.2	1209.1	18.6	1.4	1861	71.9%
+
+## images/textures_plants/plant_16.png size: 1179x1374
+huffman_u8:     70.0	318.3	23.1	5.1	3246	48.7%
+huffman_pixel:  102.3	1378.9	15.8	1.2	2111	66.6%
+
+## images/textures_plants/plant_17.png size: 1084x2048
+huffman_u8:     82.2	401.8	27.0	5.5	4100	52.7%
+huffman_pixel:  141.7	1933.0	15.7	1.1	2738	68.4%
+
+## images/textures_plants/plant_18.png size: 616x930
+huffman_u8:     37.1	187.5	15.4	3.1	1776	20.6%
+huffman_pixel:  80.1	1638.3	7.2	0.3	1322	40.9%
+
+## images/textures_plants/plant_19.png size: 1024x2423
+huffman_u8:     93.9	435.7	26.4	5.7	4428	54.3%
+huffman_pixel:  201.7	4230.6	12.3	0.6	3086	68.2%
+
+## images/textures_plants/plant_20.png size: 568x746
+huffman_u8:     24.5	110.5	17.3	3.8	1260	23.9%
+huffman_pixel:  29.3	657.7	14.5	0.6	727	56.0%
+
+## images/textures_plants/plant_21.png size: 588x550
+huffman_u8:     13.1	48.6	24.7	6.7	524	58.5%
+huffman_pixel:  7.8	65.8	41.7	4.9	255	79.8%
+
+## images/textures_plants/plant_22.png size: 732x1024
+huffman_u8:     35.6	181.9	21.1	4.1	1873	36.0%
+huffman_pixel:  69.3	1743.6	10.8	0.4	1269	56.6%
+
+## images/textures_plants/plant_23.png size: 546x609
+huffman_u8:     12.8	66.0	26.1	5.0	644	50.4%
+huffman_pixel:  31.2	1109.7	10.6	0.3	568	56.2%
+
+## images/textures_plants/plant_24.png size: 840x1024
+huffman_u8:     23.0	99.2	37.5	8.7	912	72.8%
+huffman_pixel:  40.3	1716.2	21.3	0.5	745	77.8%
+
+## images/textures_plants/plant_25.png size: 413x640
+huffman_u8:     11.1	49.3	23.9	5.4	462	55.2%
+huffman_pixel:  30.5	1051.7	8.7	0.3	457	55.6%
+
+## images/textures_plants/plant_26.png size: 195x474
+huffman_u8:     3.2	16.1	28.5	5.7	146	59.3%
+huffman_pixel:  4.7	135.0	19.6	0.7	114	68.4%
+
+## images/textures_plants/plant_27.png size: 377x659
+huffman_u8:     14.5	64.3	17.2	3.9	735	24.2%
+huffman_pixel:  19.1	557.0	13.0	0.4	456	53.0%
+
+## images/textures_plants/plant_28.png size: 1024x1386
+huffman_u8:     48.7	195.7	29.2	7.3	1891	65.9%
+huffman_pixel:  69.9	1892.7	20.3	0.7	1354	75.6%
+
+## images/textures_plants/plant_29.png size: 1024x998
+huffman_u8:     19.0	90.1	53.8	11.3	830	79.2%
+huffman_pixel:  22.2	986.9	46.0	1.0	500	87.5%
+
+## images/textures_plants/plant_30.png size: 1212x1024
+huffman_u8:     40.1	185.6	31.0	6.7	1790	63.1%
+huffman_pixel:  110.3	4004.4	11.3	0.3	1523	68.6%
+
+## images/textures_plants/plant_31.png size: 1024x1698
+huffman_u8:     71.9	355.2	24.2	4.9	3651	46.2%
+huffman_pixel:  119.8	1885.6	14.5	0.9	2341	65.5%
+
+## images/textures_plants/plant_32.png size: 294x992
+huffman_u8:     11.0	55.0	26.4	5.3	538	52.7%
+huffman_pixel:  15.2	344.0	19.2	0.8	353	69.0%
+
+## images/textures_plants/plant_33.png size: 156x643
+huffman_u8:     6.4	27.9	15.6	3.6	302	22.8%
+huffman_pixel:  8.4	217.4	11.9	0.5	197	49.6%
+
+## images/textures_plants/plant_34.png size: 1024x1368
+huffman_u8:     56.1	265.2	25.0	5.3	2574	53.0%
+huffman_pixel:  147.2	4833.4	9.5	0.3	1975	63.9%
+
+## images/textures_plants/plant_35.png size: 1024x1475
+huffman_u8:     10.2	46.0	148.5	32.8	442	70.0%
+huffman_pixel:  16.9	793.3	89.1	1.9	352	76.1%
+
+## images/textures_plants/plant_36.png size: 1024x1466
+huffman_u8:     57.4	269.0	26.1	5.6	2625	55.2%
+huffman_pixel:  111.0	3859.2	13.5	0.4	1643	72.0%
+
+## images/textures_plants/plant_37.png size: 1024x1765
+huffman_u8:     58.2	266.9	31.0	6.8	2573	63.5%
+huffman_pixel:  118.6	3698.4	15.2	0.5	1803	74.5%
+
+## images/textures_plants/plant_38.png size: 1024x1517
+huffman_u8:     28.0	131.0	55.5	11.9	1197	80.3%
+huffman_pixel:  35.7	1374.0	43.5	1.1	707	88.3%
+
+## images/textures_plants/plant_39.png size: 1024x1674
+huffman_u8:     50.6	233.6	33.9	7.3	2232	66.7%
+huffman_pixel:  67.8	2054.2	25.3	0.8	1260	81.2%
+
+## images/textures_plants/plant_40.png size: 688x654
+huffman_u8:     28.9	147.2	15.6	3.1	1408	19.9%
+huffman_pixel:  49.3	906.7	9.1	0.5	930	47.1%
+
+## images/textures_plants/plant_41.png size: 1024x1773
+huffman_u8:     35.8	171.7	50.7	10.6	1626	77.1%
+huffman_pixel:  42.4	1221.7	42.8	1.5	951	86.6%
+
+## images/textures_plants/plant_42.png size: 312x315
+huffman_u8:     6.1	34.1	16.1	2.9	326	14.9%
+huffman_pixel:  15.2	579.7	6.5	0.2	302	21.2%
+
+## images/textures_plants/plant_43.png size: 516x1600
+huffman_u8:     49.5	282.4	16.7	2.9	2750	14.7%
+huffman_pixel:  126.3	2417.4	6.5	0.3	1960	39.2%
+
+## images/textures_plants/plant_44.png size: 655x951
+huffman_u8:     20.6	89.0	30.3	7.0	849	65.1%
+huffman_pixel:  28.8	866.1	21.6	0.7	598	75.4%
+
+## images/textures_plants/plant_45.png size: 209x429
+huffman_u8:     6.0	30.9	15.0	2.9	285	18.4%
+huffman_pixel:  13.6	507.5	6.6	0.2	271	22.5%
+
+## images/textures_plants/plant_46.png size: 378x658
+huffman_u8:     18.5	81.2	13.4	3.1	774	20.3%
+huffman_pixel:  34.8	1137.2	7.1	0.2	656	32.5%
+
+## images/textures_plants/plant_47.png size: 442x756
+huffman_u8:     13.3	50.0	25.2	6.7	533	59.1%
+huffman_pixel:  8.4	88.6	39.8	3.8	266	79.6%
+
+## images/textures_plants/plant_48.png size: 1024x1104
+huffman_u8:     35.6	171.3	31.8	6.6	1681	61.9%
+huffman_pixel:  41.7	849.0	27.1	1.3	1067	75.8%
+
+## images/textures_plants/plant_49.png size: 530x426
+huffman_u8:     12.0	55.7	18.8	4.1	658	25.3%
+huffman_pixel:  12.9	266.1	17.6	0.8	356	59.6%
+
+## images/textures_plants/plant_50.png size: 459x2048
+huffman_u8:     40.8	208.9	23.0	4.5	2137	41.8%
+huffman_pixel:  80.5	2038.6	11.7	0.5	1493	59.3%
+
+## images/textures_plants/plant_51.png size: 1348x1024
+huffman_u8:     37.9	196.1	36.4	7.0	1893	64.9%
+huffman_pixel:  81.8	2960.5	16.9	0.5	1331	75.3%
+
+## images/textures_plants/plant_52.png size: 1024x1249
+huffman_u8:     26.1	124.3	49.0	10.3	1169	76.6%
+huffman_pixel:  41.9	1718.6	30.5	0.7	787	84.2%
+
+## images/textures_plants/plant_53.png size: 864x2036
+huffman_u8:     108.6	488.7	16.2	3.6	5484	20.2%
+huffman_pixel:  179.1	3341.2	9.8	0.5	3390	50.7%
+
+## images/textures_plants/plant_54.png size: 1647x1024
+huffman_u8:     42.7	196.1	39.5	8.6	1789	72.8%
+huffman_pixel:  89.7	3846.2	18.8	0.4	1351	79.5%
+
+## images/textures_plants/plant_55.png size: 1024x1557
+huffman_u8:     76.7	362.9	20.8	4.4	3782	39.3%
+huffman_pixel:  142.2	2865.7	11.2	0.6	2430	61.0%
+
+## images/textures_plants/plant_56.png size: 1024x768
+huffman_u8:     36.8	149.0	21.3	5.3	1544	49.7%
+huffman_pixel:  44.9	904.4	17.5	0.9	1001	67.4%
+
+## images/textures_plants/plant_57.png size: 1024x1799
+huffman_u8:     90.6	397.9	20.3	4.6	4149	42.3%
+huffman_pixel:  193.2	4086.7	9.5	0.5	2909	59.6%
+
+## images/textures_plants/plant_58.png size: 1024x1377
+huffman_u8:     57.8	292.4	24.4	4.8	3054	44.6%
+huffman_pixel:  80.1	1185.8	17.6	1.2	1604	70.9%
+
+## images/textures_plants/plant_59.png size: 1024x926
+huffman_u8:     36.2	177.9	26.2	5.3	1826	50.7%
+huffman_pixel:  63.7	1487.2	14.9	0.6	1197	67.7%
+
+## images/textures_plants/plant_60.png size: 1024x918
+huffman_u8:     44.8	219.9	21.0	4.3	2258	38.5%
+huffman_pixel:  120.1	3392.2	7.8	0.3	1826	50.3%
+
+# Total for images/textures_plants 60 images
+Algorithm      Size KiB	Compression rate
+raw:           244922	0.0%
+huffman_u8:    103635	57.7%
+huffman_pixel: 69206	71.7%
+## Benchmarking Huffman images/textures_plants with 1 runs
+## images/textures_plants/plant_01.png size: 166x1022
+huffman_u8:     3.4	22.7	49.3	7.5	146	77.9%
+huffman_pixel:  3.6	143.9	47.2	1.2	83	87.4%
+
+## images/textures_plants/plant_02.png size: 1024x1316
+huffman_u8:     35.7	176.2	37.8	7.6	1709	67.5%
+huffman_pixel:  55.9	1571.4	24.1	0.9	1036	80.3%
+
+## images/textures_plants/plant_03.png size: 780x923
+huffman_u8:     21.8	91.9	33.1	7.8	869	69.1%
+huffman_pixel:  25.9	901.2	27.8	0.8	522	81.4%
+
+## images/textures_plants/plant_04.png size: 720x1551
+huffman_u8:     73.2	332.7	15.3	3.4	3580	17.9%
+huffman_pixel:  116.6	2110.6	9.6	0.5	2196	49.6%
+
+## images/textures_plants/plant_05.png size: 865x952
+huffman_u8:     23.2	95.2	35.6	8.6	923	71.3%
+huffman_pixel:  25.1	563.2	32.8	1.5	597	81.4%
+
+## images/textures_plants/plant_06.png size: 1420x2048
+huffman_u8:     58.2	261.8	50.0	11.1	2420	78.7%
+huffman_pixel:  73.5	1951.1	39.6	1.5	1320	88.4%
+
+## images/textures_plants/plant_07.png size: 1024x1450
+huffman_u8:     27.3	132.8	54.5	11.2	1213	79.1%
+huffman_pixel:  47.5	1701.3	31.3	0.9	792	86.3%
+
+## images/textures_plants/plant_08.png size: 723x1024
+huffman_u8:     24.0	108.7	30.8	6.8	1071	63.0%

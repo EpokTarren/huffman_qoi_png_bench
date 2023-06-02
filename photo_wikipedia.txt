@@ -1,0 +1,510 @@
+## Benchmarking images/photo_wikipedia/*.png -- 1 runs
+
+## images/photo_wikipedia/001.png size: 1276x850
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      20.4       288.9         53.26          3.75      1628   51.3%
+stbi:        21.3       183.9         50.94          5.90      2181   68.7%
+qoi:          6.7         9.0        162.11        120.66      1718   54.1%
+
+## images/photo_wikipedia/002.png size: 1260x806
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      26.2       325.2         38.73          3.12      1680   56.5%
+stbi:        33.9       193.6         29.97          5.25      2416   81.2%
+qoi:          5.2         8.5        195.60        119.50      1930   64.9%
+
+## images/photo_wikipedia/003.png size: 1436x730
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      17.6       316.4         59.58          3.31      1523   49.6%
+stbi:        19.4       196.2         54.06          5.34      2074   67.5%
+qoi:          7.4         9.7        142.18        107.90      1758   57.2%
+
+## images/photo_wikipedia/004.png size: 1428x714
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      22.8       174.3         44.81          5.85      2277   76.2%
+stbi:        22.8       177.6         44.64          5.74      2886   96.6%
+qoi:          5.3         8.8        190.61        116.38      2379   79.6%
+
+## images/photo_wikipedia/005.png size: 1228x816
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      22.1       195.2         45.29          5.13      2083   71.0%
+stbi:        25.1       177.5         39.88          5.65      2711   92.4%
+qoi:          5.2         9.1        191.14        109.63      2474   84.3%
+
+## images/photo_wikipedia/006.png size: 1404x936
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      30.6       288.7         42.96          4.55      2227   57.9%
+stbi:        35.4       223.1         37.13          5.89      2876   74.7%
+qoi:          7.9        10.8        167.25        122.01      2415   62.7%
+
+## images/photo_wikipedia/007.png size: 896x1110
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      18.0       218.7         55.16          4.55      2480   85.1%
+stbi:        18.1       163.8         54.87          6.07      2559   87.8%
+qoi:          6.2         8.1        160.21        123.14      2352   80.7%
+
+## images/photo_wikipedia/008.png size: 1152x858
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      17.6       351.3         56.28          2.81      1343   46.4%
+stbi:        21.9       171.1         45.09          5.78      1879   64.9%
+qoi:          7.0         9.1        140.56        108.24      1485   51.3%
+
+## images/photo_wikipedia/009.png size: 1232x816
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      19.5       259.0         51.57          3.88      1776   60.3%
+stbi:        18.9       171.4         53.19          5.87      2312   78.5%
+qoi:          5.8         8.2        174.62        122.47      1740   59.1%
+
+## images/photo_wikipedia/010.png size: 1724x536
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      19.3       213.3         47.82          4.33      1787   66.0%
+stbi:        22.8       161.8         40.45          5.71      2386   88.2%
+qoi:          5.9         8.5        156.56        108.92      2098   77.5%
+
+## images/photo_wikipedia/011.png size: 1508x780
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      26.4       421.4         44.52          2.79      1802   52.3%
+stbi:        34.0       203.9         34.62          5.77      2605   75.6%
+qoi:          7.5        11.5        156.14        102.67      2210   64.2%
+
+## images/photo_wikipedia/012.png size: 1202x804
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      25.9       173.2         37.36          5.58      2128   75.2%
+stbi:        30.8       173.4         31.36          5.57      2738   96.7%
+qoi:          5.6         8.6        172.20        111.91      2541   89.8%
+
+## images/photo_wikipedia/013.png size: 1586x752
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      20.5       242.1         58.04          4.93      2357   67.5%
+stbi:        24.4       204.7         48.93          5.83      2977   85.2%
+qoi:          7.1        10.4        168.49        114.46      2664   76.2%
+
+## images/photo_wikipedia/014.png size: 872x1136
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      26.2       231.9         37.83          4.27      1725   59.5%
+stbi:        33.2       176.9         29.83          5.60      2572   88.7%
+qoi:          5.1         9.4        195.60        104.85      2172   74.8%
+
+## images/photo_wikipedia/015.png size: 900x1100
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      20.5       204.5         48.23          4.84      1927   66.4%
+stbi:        19.8       168.6         50.02          5.87      2402   82.8%
+qoi:          5.8         8.1        170.51        122.36      1952   67.3%
+
+## images/photo_wikipedia/016.png size: 1136x818
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      20.9       290.6         44.52          3.20      1034   38.0%
+stbi:        26.9       161.2         34.55          5.76      1535   56.4%
+qoi:          6.1         8.6        152.57        107.73      1314   48.3%
+
+## images/photo_wikipedia/017.png size: 1306x870
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.2       399.3         48.91          2.85      1658   49.8%
+stbi:        29.0       200.2         39.22          5.67      2401   72.1%
+qoi:          7.3        10.5        155.17        108.30      2084   62.6%
+
+## images/photo_wikipedia/018.png size: 1402x934
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.4       356.1         53.77          3.68      2125   55.4%
+stbi:        31.3       225.9         41.85          5.80      3059   79.7%
+qoi:          7.7        11.3        169.25        115.65      2411   62.8%
+
+## images/photo_wikipedia/019.png size: 1560x770
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      18.8       428.2         64.02          2.81      1743   49.6%
+stbi:        25.0       208.4         48.08          5.76      2821   80.2%
+qoi:          6.6        11.9        181.57        100.83      2498   71.0%
+
+## images/photo_wikipedia/020.png size: 1296x864
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      25.0       367.7         44.85          3.05      1937   59.1%
+stbi:        31.4       196.9         35.65          5.69      2633   80.3%
+qoi:          6.6         9.9        169.78        112.86      2355   71.8%
+
+## images/photo_wikipedia/021.png size: 1272x994
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.9       318.7         50.78          3.97      2170   58.6%
+stbi:        31.6       221.5         40.00          5.71      3207   86.6%
+qoi:          6.1        11.2        207.79        112.76      2488   67.2%
+
+## images/photo_wikipedia/022.png size: 1080x874
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      18.7       169.3         50.40          5.58      1965   71.1%
+stbi:        21.1       166.2         44.72          5.68      2621   94.8%
+qoi:          5.5         8.8        171.94        107.87      2450   88.6%
+
+## images/photo_wikipedia/023.png size: 1296x864
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      21.2       444.5         52.75          2.52      1517   46.3%
+stbi:        27.1       191.5         41.34          5.85      2297   70.0%
+qoi:          7.0        10.2        158.96        109.33      1880   57.3%
+
+## images/photo_wikipedia/024.png size: 1038x1072
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.7       289.9         45.03          3.84      1940   59.5%
+stbi:        28.0       194.9         39.78          5.71      2513   77.1%
+qoi:          6.6         9.4        167.94        118.39      1985   60.9%
+
+## images/photo_wikipedia/025.png size: 1388x926
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      30.8       331.7         41.69          3.88      2206   58.6%
+stbi:        38.0       227.1         33.82          5.66      3054   81.1%
+qoi:          7.3        11.2        176.62        115.02      2473   65.7%
+
+## images/photo_wikipedia/026.png size: 1250x832
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      26.0       245.5         40.00          4.24      2071   68.0%
+stbi:        30.9       187.7         33.61          5.54      2719   89.3%
+qoi:          5.8         9.3        178.95        111.28      2381   78.2%
+
+## images/photo_wikipedia/027.png size: 960x1164
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      18.9       256.4         59.02          4.36      1999   61.1%
+stbi:        21.2       192.2         52.70          5.81      2862   87.4%
+qoi:          5.2         9.2        215.71        120.99      2221   67.9%
+
+## images/photo_wikipedia/028.png size: 1232x816
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.7       257.9         40.67          3.90      1639   55.7%
+stbi:        31.0       178.7         32.39          5.62      2311   78.5%
+qoi:          5.9         9.4        171.16        106.50      2455   83.4%
+
+## images/photo_wikipedia/029.png size: 864x1296
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.5       269.5         47.61          4.15      2039   62.2%
+stbi:        27.0       193.7         41.53          5.78      2812   85.7%
+qoi:          6.5        11.3        171.99         99.21      2770   84.4%
+
+## images/photo_wikipedia/030.png size: 1036x1240
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      29.0       429.5         44.36          2.99      1879   49.9%
+stbi:        37.1       225.2         34.60          5.71      2653   70.5%
+qoi:          8.8        12.1        145.85        106.09      2178   57.9%
+
+## images/photo_wikipedia/031.png size: 1170x882
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      19.7       247.9         52.38          4.16      1894   62.7%
+stbi:        21.3       184.3         48.50          5.60      2459   81.4%
+qoi:          6.6         9.4        156.76        110.11      2068   68.4%
+
+## images/photo_wikipedia/032.png size: 864x1296
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      18.6       431.2         60.32          2.60      1348   41.1%
+stbi:        18.4       198.7         61.00          5.63      2074   63.2%
+qoi:          7.8        11.1        143.06        100.86      1514   46.2%
+
+## images/photo_wikipedia/033.png size: 1440x664
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      21.1       288.9         45.27          3.31      1542   55.1%
+stbi:        27.3       177.2         35.07          5.40      2279   81.4%
+qoi:          5.1         9.0        187.09        106.69      1714   61.2%
+
+## images/photo_wikipedia/034.png size: 1256x776
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      22.7       315.3         42.92          3.09      1499   52.5%
+stbi:        26.7       169.9         36.49          5.74      2079   72.8%
+qoi:          6.0         9.0        162.08        108.22      1715   60.1%
+
+## images/photo_wikipedia/035.png size: 1202x932
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.6       402.2         45.57          2.79      1615   49.2%
+stbi:        31.7       197.5         35.39          5.67      2349   71.6%
+qoi:          7.3        10.6        154.26        106.05      1954   59.6%
+
+## images/photo_wikipedia/036.png size: 1086x858
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.4       220.7         39.82          4.22      1776   65.1%
+stbi:        29.7       166.4         31.42          5.60      2470   90.5%
+qoi:          5.2         9.4        179.81         98.97      2168   79.4%
+
+## images/photo_wikipedia/037.png size: 1296x864
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      19.3       405.7         57.99          2.76      1784   54.4%
+stbi:        23.8       204.6         47.07          5.47      2565   78.2%
+qoi:          6.3        11.3        177.88         98.89      2291   69.9%
+
+## images/photo_wikipedia/038.png size: 1200x800
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      21.9       367.3         43.78          2.61      1110   39.5%
+stbi:        28.5       165.7         33.65          5.79      1730   61.5%
+qoi:          6.7         8.5        144.24        112.92      1306   46.5%
+
+## images/photo_wikipedia/039.png size: 1296x864
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      27.3       295.0         41.03          3.80      1928   58.8%
+stbi:        32.2       200.0         34.74          5.60      2652   80.8%
+qoi:          6.5        10.1        171.39        110.66      2195   66.9%
+
+## images/photo_wikipedia/040.png size: 1296x864
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      22.6       394.7         49.48          2.84      1618   49.3%
+stbi:        29.0       198.6         38.61          5.64      2431   74.1%
+qoi:          6.7        10.8        166.49        104.04      1988   60.6%
+
+## images/photo_wikipedia/041.png size: 952x1058
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      22.1       333.3         45.53          3.02      1285   43.6%
+stbi:        25.5       172.3         39.44          5.85      1881   63.8%
+qoi:          6.2         8.8        163.62        114.19      1488   50.4%
+
+## images/photo_wikipedia/042.png size: 1300x900
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      20.9       378.5         56.11          3.09      1804   52.6%
+stbi:        20.8       203.1         56.27          5.76      2618   76.4%
+qoi:          6.7        10.4        173.64        112.50      2165   63.2%
+
+## images/photo_wikipedia/043.png size: 1404x936
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.0       411.0         54.85          3.20      2016   52.4%
+stbi:        21.9       227.2         59.90          5.78      2890   75.1%
+qoi:          7.4        11.1        177.97        118.11      2150   55.9%
+
+## images/photo_wikipedia/044.png size: 1332x952
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      32.3       406.0         39.28          3.12      1812   48.8%
+stbi:        39.6       225.9         32.04          5.61      2631   70.8%
+qoi:          7.6        11.6        166.68        109.22      2096   56.4%
+
+## images/photo_wikipedia/045.png size: 864x1296
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      26.0       424.0         43.09          2.64      1335   40.7%
+stbi:        34.3       195.8         32.64          5.72      2055   62.6%
+qoi:          7.8        10.5        142.86        106.81      1707   52.1%
+
+## images/photo_wikipedia/046.png size: 1110x832
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      18.9       216.3         48.76          4.27      1650   61.0%
+stbi:        23.8       163.9         38.80          5.63      2415   89.3%
+qoi:          4.6         8.6        198.96        107.46      2010   74.3%
+
+## images/photo_wikipedia/047.png size: 1204x904
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      22.6       366.7         48.25          2.97      1722   54.0%
+stbi:        28.4       187.0         38.39          5.82      2422   76.0%
+qoi:          6.9         9.7        158.14        112.79      1893   59.4%
+
+## images/photo_wikipedia/048.png size: 816x1150
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      19.1       231.7         49.20          4.05      1857   67.6%
+stbi:        18.4       163.0         50.98          5.76      2343   85.2%
+qoi:          5.0         7.7        187.20        121.24      1876   68.2%
+
+## images/photo_wikipedia/049.png size: 1070x1080
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      18.6       284.1         61.98          4.07      1877   55.5%
+stbi:        22.3       201.4         51.71          5.74      2996   88.5%
+qoi:          6.7        12.8        172.04         90.47      2884   85.2%
+
+## Total for images/photo_wikipedia
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      22.7       309.8         47.70          3.50      1799   56.6%
+stbi:        27.0       190.2         40.20          5.70      2498   78.6%
+qoi:          6.4         9.8        168.20        110.11      2102   66.2%
+
+# Grand total for images/photo_wikipedia
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      22.7       309.8         47.70          3.50      1799   56.6%
+stbi:        27.0       190.2         40.20          5.70      2498   78.6%
+qoi:          6.4         9.8        168.20        110.11      2102   66.2%
+
+## Benchmarking Huffman images/photo_wikipedia with 1 runs
+## images/photo_wikipedia/001.png size: 1276x850
+huffman_u8:     56.7	287.6	19.1	3.8	3089	2.8%
+huffman_pixel:  122.5	2431.6	8.9	0.4	2283	28.1%
+
+## images/photo_wikipedia/002.png size: 1260x806
+huffman_u8:     48.1	275.7	21.1	3.7	2779	6.6%
+huffman_pixel:  144.3	2737.2	7.0	0.4	2372	20.3%
+
+## images/photo_wikipedia/003.png size: 1436x730
+huffman_u8:     53.5	280.1	19.6	3.7	2882	6.1%
+huffman_pixel:  163.5	4227.7	6.4	0.2	2637	14.1%
+
+## images/photo_wikipedia/004.png size: 1428x714
+huffman_u8:     51.9	288.1	19.6	3.5	2820	5.6%
+huffman_pixel:  233.3	5150.8	4.4	0.2	2885	3.4%
+
+## images/photo_wikipedia/005.png size: 1228x816
+huffman_u8:     53.1	282.6	18.9	3.5	2882	1.8%
+huffman_pixel:  432.1	11391.4	2.3	0.1	3864	-31.6%
+
+## images/photo_wikipedia/006.png size: 1404x936
+huffman_u8:     69.9	344.0	18.8	3.8	3720	3.4%
+huffman_pixel:  239.5	5238.5	5.5	0.3	3179	17.4%
+
+## images/photo_wikipedia/007.png size: 896x1110
+huffman_u8:     58.4	285.4	17.0	3.5	2826	3.0%
+huffman_pixel:  44.9	247.8	22.1	4.0	1354	53.5%
+
+## images/photo_wikipedia/008.png size: 1152x858
+huffman_u8:     50.5	240.7	19.6	4.1	2743	5.2%
+huffman_pixel:  93.5	1844.6	10.6	0.5	1996	31.1%
+
+## images/photo_wikipedia/009.png size: 1232x816
+huffman_u8:     50.9	277.0	19.8	3.6	2847	3.3%
+huffman_pixel:  91.7	1268.1	11.0	0.8	1885	36.0%
+
+## images/photo_wikipedia/010.png size: 1724x536
+huffman_u8:     45.7	252.1	20.2	3.7	2685	0.8%
+huffman_pixel:  266.3	7700.6	3.5	0.1	3111	-14.9%
+
+## images/photo_wikipedia/011.png size: 1508x780
+huffman_u8:     59.6	302.0	19.7	3.9	3327	3.4%
+huffman_pixel:  303.2	9487.3	3.9	0.1	3804	-10.4%
+
+## images/photo_wikipedia/012.png size: 1202x804
+huffman_u8:     54.0	281.1	17.9	3.4	2755	2.7%
+huffman_pixel:  250.2	5756.9	3.9	0.2	2901	-2.5%
+
+## images/photo_wikipedia/013.png size: 1586x752
+huffman_u8:     63.7	327.0	18.7	3.6	3435	1.7%
+huffman_pixel:  351.2	9559.0	3.4	0.1	3933	-12.6%
+
+## images/photo_wikipedia/014.png size: 872x1136
+huffman_u8:     51.2	271.3	19.3	3.7	2851	1.7%
+huffman_pixel:  278.2	7098.3	3.6	0.1	3140	-8.2%
+
+## images/photo_wikipedia/015.png size: 900x1100
+huffman_u8:     49.0	273.1	20.2	3.6	2789	3.8%
+huffman_pixel:  118.0	2247.9	8.4	0.4	2144	26.1%
+
+## images/photo_wikipedia/016.png size: 1136x818
+huffman_u8:     47.2	225.9	19.7	4.1	2529	7.1%
+huffman_pixel:  118.3	3212.2	7.9	0.3	2166	20.4%
+
+## images/photo_wikipedia/017.png size: 1306x870
+huffman_u8:     59.6	317.3	19.1	3.6	3216	3.4%
+huffman_pixel:  289.4	8030.5	3.9	0.1	3576	-7.4%
+
+## images/photo_wikipedia/018.png size: 1402x934
+huffman_u8:     63.7	352.0	20.6	3.7	3706	3.4%
+huffman_pixel:  317.0	7612.9	4.1	0.2	3856	-0.5%
+
+## images/photo_wikipedia/019.png size: 1560x770
+huffman_u8:     55.2	321.1	21.8	3.7	3347	4.9%
+huffman_pixel:  231.3	5417.6	5.2	0.2	3213	8.7%
+
+## images/photo_wikipedia/020.png size: 1296x864
+huffman_u8:     61.6	314.0	18.2	3.6	3035	7.5%
+huffman_pixel:  225.3	5443.4	5.0	0.2	3042	7.3%
+
+## images/photo_wikipedia/021.png size: 1272x994
+huffman_u8:     64.0	370.6	19.8	3.4	3563	3.8%
+huffman_pixel:  207.9	4677.4	6.1	0.3	3140	15.2%
+
+## images/photo_wikipedia/022.png size: 1080x874
+huffman_u8:     49.8	259.8	18.9	3.6	2592	6.3%
+huffman_pixel:  278.2	7972.7	3.4	0.1	3170	-14.6%
+
+## images/photo_wikipedia/023.png size: 1296x864
+huffman_u8:     54.8	298.1	20.4	3.8	3120	4.9%
+huffman_pixel:  270.9	6797.8	4.1	0.2	3374	-2.9%
+
+## images/photo_wikipedia/024.png size: 1038x1072
+huffman_u8:     58.5	281.6	19.0	4.0	3008	7.7%
+huffman_pixel:  150.6	3740.2	7.4	0.3	2520	22.7%
+
+## images/photo_wikipedia/025.png size: 1388x926
+huffman_u8:     73.9	349.1	17.4	3.7	3639	3.3%
+huffman_pixel:  309.8	8666.1	4.1	0.1	3680	2.3%
+
+## images/photo_wikipedia/026.png size: 1250x832
+huffman_u8:     58.1	295.1	17.9	3.5	2980	2.2%
+huffman_pixel:  350.4	9810.0	3.0	0.1	3713	-21.9%
+
+## images/photo_wikipedia/027.png size: 960x1164
+huffman_u8:     63.8	324.0	17.5	3.4	3012	8.0%
+huffman_pixel:  250.3	5219.1	4.5	0.2	3098	5.3%
+
+## images/photo_wikipedia/028.png size: 1232x816
+huffman_u8:     59.0	245.5	17.0	4.1	2549	13.4%
+huffman_pixel:  275.6	8325.4	3.6	0.1	3287	-11.6%
+
+## images/photo_wikipedia/029.png size: 864x1296
+huffman_u8:     61.1	288.4	18.3	3.9	2929	10.7%
+huffman_pixel:  276.8	9236.3	4.0	0.1	3480	-6.1%
+
+## images/photo_wikipedia/030.png size: 1036x1240
+huffman_u8:     69.5	309.5	18.5	4.2	3639	3.3%
+huffman_pixel:  200.9	6152.1	6.4	0.2	3183	15.4%
+
+## images/photo_wikipedia/031.png size: 1170x882
+huffman_u8:     55.2	269.9	18.7	3.8	2736	9.5%
+huffman_pixel:  194.6	4915.6	5.3	0.2	2733	9.6%
+
+## images/photo_wikipedia/032.png size: 864x1296
+huffman_u8:     62.7	257.5	17.9	4.3	2845	13.3%
+huffman_pixel:  89.0	2108.9	12.6	0.5	2064	37.1%
+
+## images/photo_wikipedia/033.png size: 1440x664
+huffman_u8:     45.8	247.5	20.9	3.9	2653	5.3%
+huffman_pixel:  137.7	2666.7	6.9	0.4	2272	18.9%
+
+## images/photo_wikipedia/034.png size: 1256x776
+huffman_u8:     50.1	230.8	19.4	4.2	2409	15.6%
+huffman_pixel:  190.1	6174.9	5.1	0.2	2681	6.1%
+
+## images/photo_wikipedia/035.png size: 1202x932
+huffman_u8:     63.0	276.9	17.8	4.0	2791	14.9%
+huffman_pixel:  133.6	3154.3	8.4	0.4	2403	26.8%
+
+## images/photo_wikipedia/036.png size: 1086x858
+huffman_u8:     53.9	265.2	17.3	3.5	2626	3.8%
+huffman_pixel:  163.9	3622.7	5.7	0.3	2395	12.2%
+
+## images/photo_wikipedia/037.png size: 1296x864
+huffman_u8:     64.4	285.4	17.4	3.9	2961	9.7%
+huffman_pixel:  173.3	4649.7	6.5	0.2	2779	15.3%
+
+## images/photo_wikipedia/038.png size: 1200x800
+huffman_u8:     44.1	227.6	21.8	4.2	2358	16.1%
+huffman_pixel:  90.7	2138.9	10.6	0.4	1918	31.8%
+
+## images/photo_wikipedia/039.png size: 1296x864
+huffman_u8:     61.5	299.8	18.2	3.7	3232	1.5%
+huffman_pixel:  259.1	7413.2	4.3	0.2	3275	0.2%
+
+## images/photo_wikipedia/040.png size: 1296x864
+huffman_u8:     58.5	313.6	19.1	3.6	3220	1.8%
+huffman_pixel:  321.7	8028.9	3.5	0.1	3534	-7.7%
+
+## images/photo_wikipedia/041.png size: 952x1058
+huffman_u8:     48.3	250.7	20.9	4.0	2809	4.8%
+huffman_pixel:  131.7	3230.2	7.6	0.3	2238	24.1%
+
+## images/photo_wikipedia/042.png size: 1300x900
+huffman_u8:     59.8	328.9	19.6	3.6	3319	3.2%
+huffman_pixel:  404.7	9722.5	2.9	0.1	3941	-15.0%
+
+## images/photo_wikipedia/043.png size: 1404x936
+huffman_u8:     62.3	330.1	21.1	4.0	3484	9.5%
+huffman_pixel:  126.3	1635.5	10.4	0.8	2559	33.5%
+
+## images/photo_wikipedia/044.png size: 1332x952
+huffman_u8:     62.6	341.5	20.3	3.7	3658	1.5%
+huffman_pixel:  223.5	5461.8	5.7	0.2	3261	12.2%
+
+## images/photo_wikipedia/045.png size: 864x1296
+huffman_u8:     59.4	280.3	18.9	4.0	3056	6.8%
+huffman_pixel:  174.0	5301.9	6.4	0.2	2756	16.0%
+
+## images/photo_wikipedia/046.png size: 1110x832
+huffman_u8:     51.4	256.4	18.0	3.6	2604	3.8%
+huffman_pixel:  248.7	6256.5	3.7	0.1	2828	-4.5%
+
+## images/photo_wikipedia/047.png size: 1204x904
+huffman_u8:     52.9	277.1	20.6	3.9	2840	10.9%
+huffman_pixel:  163.6	3601.0	6.7	0.3	2659	16.6%
+
+## images/photo_wikipedia/048.png size: 816x1150
+huffman_u8:     47.3	263.2	19.9	3.6	2703	1.7%
+huffman_pixel:  124.2	2235.2	7.6	0.4	2111	23.2%
+
+## images/photo_wikipedia/049.png size: 1070x1080
+huffman_u8:     58.5	318.5	19.8	3.6	3314	2.1%
+huffman_pixel:  268.0	5779.3	4.3	0.2	3341	1.3%
+
+# Total for images/photo_wikipedia 49 images
+Algorithm      Size KiB	Compression rate
+raw:           155684	0.0%
+huffman_u8:    146939	5.6%
+huffman_pixel: 141760	8.9%

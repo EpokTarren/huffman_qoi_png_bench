@@ -1,0 +1,1890 @@
+## Benchmarking images/pngimg/*.png -- 1 runs
+
+## images/pngimg/academy_awards_PNG9.png size: 447x1192
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       9.7        85.5         54.92          6.23       365   17.6%
+stbi:         9.9        60.5         53.66          8.80       541   26.0%
+qoi:          1.6         2.7        340.92        199.66       395   19.0%
+
+## images/pngimg/air_pump_PNG5.png size: 999x772
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      12.9        86.2         59.62          8.94       351   11.7%
+stbi:        11.0        65.6         69.82         11.76       479   15.9%
+qoi:          2.8         3.8        280.21        203.50       402   13.4%
+
+## images/pngimg/american_football_PNG37.png size: 885x1968
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      35.4       275.1         49.17          6.33      1225   18.0%
+stbi:        35.7       195.5         48.76          8.91      1726   25.4%
+qoi:          6.9         9.9        253.56        176.24      1656   24.4%
+
+## images/pngimg/american_indian_PNG24.png size: 1000x1198
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.1       149.3         51.86          8.03       972   20.8%
+stbi:        21.8       136.5         54.99          8.77      1340   28.7%
+qoi:          3.2         5.4        369.40        221.65       992   21.2%
+
+## images/pngimg/anime_girl_PNG22.png size: 436x576
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       6.3        54.2         40.09          4.63       321   32.8%
+stbi:         6.1        38.6         41.33          6.51       404   41.2%
+qoi:          1.3         1.8        197.84        141.88       359   36.7%
+
+## images/pngimg/aquarius_PNG27.png size: 328x511
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.0        25.8         83.49          6.51        82   12.5%
+stbi:         1.5        16.4        108.36         10.19       114   17.4%
+qoi:          0.7         1.0        245.94        176.11       133   20.3%
+
+## images/pngimg/arma_PNG36.png size: 300x300
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.0        20.7         45.54          4.35       149   42.5%
+stbi:         1.9        13.9         46.46          6.46       179   50.9%
+qoi:          0.4         0.6        230.12        159.69       141   40.3%
+
+## images/pngimg/armour_PNG42.png size: 437x1777
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      15.8       132.0         49.19          5.88       704   23.2%
+stbi:        15.1        86.7         51.48          8.96       924   30.5%
+qoi:          3.1         4.6        246.69        167.63       799   26.4%
+
+## images/pngimg/bank_PNG6.png size: 400x400
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.2        17.8         71.31          8.98        83   13.3%
+stbi:         2.1        14.2         77.98         11.25       112   18.0%
+qoi:          0.6         0.8        269.63        188.95       128   20.6%
+
+## images/pngimg/beef_PNG59.png size: 1920x1280
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      47.7       513.5         51.50          4.79      2887   30.1%
+stbi:        46.7       351.2         52.59          7.00      3997   41.6%
+qoi:          9.5        15.6        259.71        157.93      2997   31.2%
+
+## images/pngimg/bellflower_PNG12.png size: 416x800
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       5.0        31.0         66.50         10.75       235   18.1%
+stbi:         4.4        31.2         76.23         10.66       318   24.5%
+qoi:          0.8         1.3        425.41        250.98       283   21.8%
+
+## images/pngimg/bell_PNG53465.png size: 1635x3000
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      96.6       786.6         50.80          6.24      3122   16.3%
+stbi:        97.0       543.6         50.59          9.02      4944   25.8%
+qoi:         14.3        23.1        342.21        212.79      3336   17.4%
+
+## images/pngimg/birds_PNG49.png size: 4000x2444
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:     164.9      1190.1         59.28          8.21      4178   10.9%
+stbi:       153.3       939.8         63.79         10.40      6104   16.0%
+qoi:         38.1        50.8        256.79        192.32      6457   16.9%
+
+## images/pngimg/bison_PNG92393.png size: 640x640
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       8.9        84.7         45.98          4.83       314   19.7%
+stbi:         8.8        54.9         46.39          7.46       454   28.4%
+qoi:          1.7         2.4        236.46        167.89       358   22.4%
+
+## images/pngimg/bone_PNG30.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.0         9.5        264.12         27.60         6    0.6%
+stbi:         0.1        14.5       1856.54         18.04        14    1.4%
+qoi:          0.3         0.6        765.38        463.81        12    1.3%
+
+## images/pngimg/boots_PNG7802.png size: 900x900
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      14.1       131.5         57.58          6.16       868   27.4%
+stbi:        13.0        99.3         62.10          8.16      1117   35.3%
+qoi:          2.6         4.2        307.54        192.83       762   24.1%
+
+## images/pngimg/bottle_opener_PNG19.png size: 700x700
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.0        35.9        250.10         13.64       140    7.3%
+stbi:         1.3        33.3        364.96         14.71       192   10.1%
+qoi:          1.0         1.5        467.87        316.29       122    6.4%
+
+## images/pngimg/brain_PNG13.png size: 1024x805
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.5        41.5        184.13         19.85       163    5.1%
+stbi:         2.0        44.5        402.34         18.54       194    6.0%
+qoi:          1.4         2.3        571.53        356.32       149    4.6%
+
+## images/pngimg/bruce_lee_PNG27.png size: 506x719
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       7.5        59.3         48.83          6.14       336   23.7%
+stbi:         8.3        43.7         44.00          8.33       466   32.8%
+qoi:          1.2         2.0        297.36        186.33       415   29.2%
+
+## images/pngimg/buddha_PNG53.png size: 314x384
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.5        23.3         47.55          5.16       146   31.1%
+stbi:         2.5        18.0         47.46          6.69       211   44.8%
+qoi:          0.4         0.8        295.10        157.64       165   35.2%
+
+## images/pngimg/bun_PNG13761.png size: 600x466
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       6.3        65.0         44.46          4.30       394   36.1%
+stbi:         6.6        45.4         42.63          6.16       579   53.1%
+qoi:          1.1         2.0        259.73        138.38       436   40.0%
+
+## images/pngimg/cabbage_PNG99102.png size: 3890x2811
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:     279.9      3913.9         39.07          2.79     11274   26.4%
+stbi:       297.9      1820.5         36.71          6.01     18238   42.7%
+qoi:         47.5        89.9        230.41        121.58     13856   32.4%
+
+## images/pngimg/cacao_PNG27.png size: 449x450
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       6.1        65.8         33.14          3.07       507   64.3%
+stbi:         5.7        47.1         35.35          4.29       669   84.8%
+qoi:          1.1         2.0        189.43        101.08       526   66.7%
+
+## images/pngimg/candle_PNG7268.png size: 600x600
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       6.2        60.5         57.63          5.95       361   25.7%
+stbi:         5.7        45.5         62.83          7.91       478   34.0%
+qoi:          1.3         2.0        284.67        182.90       402   28.6%
+
+## images/pngimg/canoe_PNG122.png size: 2000x2000
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      64.1       461.6         62.42          8.67      1891   12.1%
+stbi:        54.2       391.8         73.74         10.21      2934   18.8%
+qoi:          9.4        16.6        424.85        240.74      1956   12.5%
+
+## images/pngimg/carpet_PNG57667.png size: 400x217
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.4        23.5         35.94          3.70       210   62.1%
+stbi:         2.5        19.4         34.06          4.47       281   83.1%
+qoi:          0.4         0.8        194.84        109.76       250   73.8%
+
+## images/pngimg/cd_dvd_PNG102294.png size: 1521x933
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      10.9        48.8        129.98         29.07        44    0.8%
+stbi:         3.3        76.0        431.73         18.67        86    1.6%
+qoi:          1.8         3.2        773.35        442.73       157    2.8%
+
+## images/pngimg/checkers_PNG34.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      19.0       116.7         55.26          8.98       549   13.4%
+stbi:        10.0        96.9        104.82         10.82       715   17.5%
+qoi:          3.1         4.6        333.79        225.97       595   14.5%
+
+## images/pngimg/chef_PNG37.png size: 3200x4809
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:     238.7       938.0         64.46         16.41      4291    7.1%
+stbi:       211.8      1229.9         72.66         12.51      6596   11.0%
+qoi:         30.9        49.2        497.71        312.73      4776    7.9%
+
+## images/pngimg/chef_PNG71.png size: 4184x2905
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:     128.0       809.9         94.97         15.01      1759    3.7%
+stbi:        93.2       828.1        130.41         14.68      2751    5.8%
+qoi:         28.3        42.5        430.15        286.03      2664    5.6%
+
+## images/pngimg/chevrolet_PNG46.png size: 640x480
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.0        35.5         76.75          8.65       149   12.4%
+stbi:         3.2        29.7         95.83         10.36       209   17.4%
+qoi:          0.9         1.4        342.78        227.47       189   15.8%
+
+## images/pngimg/chocolate_cake_PNG37.png size: 404x600
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.1        41.1         58.71          5.90       179   18.9%
+stbi:         3.9        30.4         62.65          7.99       252   26.6%
+qoi:          0.8         1.2        298.89        198.79       214   22.6%
+
+## images/pngimg/christmas_garland_PNG19.png size: 1369x811
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       7.5       130.7        148.95          8.49       700   16.2%
+stbi:         6.5       105.1        171.90         10.57       898   20.7%
+qoi:          3.6         5.5        309.52        202.79       617   14.2%
+
+## images/pngimg/christmas_PNG17253.png size: 2138x1305
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      52.8       474.1         52.86          5.88      2328   21.4%
+stbi:        51.4       353.0         54.29          7.90      3129   28.7%
+qoi:         10.1        14.9        275.53        187.39      2975   27.3%
+
+## images/pngimg/christmas_wreath_PNG1.png size: 879x919
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      14.8       108.8         54.63          7.42      1120   35.5%
+stbi:        14.6       103.5         55.51          7.81      1409   44.7%
+qoi:          2.6         4.4        306.82        183.20      1225   38.8%
+
+## images/pngimg/christmas_wreath_PNG57.png size: 600x595
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       6.9        58.3         51.82          6.12       565   40.6%
+stbi:         7.3        54.1         49.00          6.60       741   53.2%
+qoi:          1.3         2.1        276.51        169.60       744   53.4%
+
+## images/pngimg/chupa_chups_PNG17.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.8        66.7        278.19         15.73       355    8.7%
+stbi:         2.6        73.0        406.90         14.36       472   11.5%
+qoi:          2.3         3.7        460.20        286.10       325    7.9%
+
+## images/pngimg/confetti_PNG86980.png size: 1587x1201
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      20.2        78.4         94.45         24.30       204    2.8%
+stbi:        12.3       122.9        154.89         15.51       303    4.1%
+qoi:          2.6         4.5        735.85        421.95       299    4.0%
+
+## images/pngimg/crab_PNG40.png size: 250x250
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.0         7.7         60.07          8.10        71   29.2%
+stbi:         1.0         7.4         63.44          8.45        91   37.3%
+qoi:          0.2         0.3        332.27        202.79        94   38.8%
+
+## images/pngimg/cursor_PNG65.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.3        15.0        203.07         17.52        44    4.3%
+stbi:         0.5        14.8        487.08         17.74        58    5.7%
+qoi:          0.6         0.8        462.50        309.90       107   10.5%
+
+## images/pngimg/cursor_PNG68.png size: 684x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.1        23.2        335.10         30.24        31    1.1%
+stbi:         0.7        34.7       1071.14         20.16        52    1.9%
+qoi:          0.9         1.5        810.29        462.29        39    1.5%
+
+## images/pngimg/cutlet_PNG51.png size: 850x554
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.8        73.7        168.85          6.39       503   27.4%
+stbi:         2.3        59.2        203.50          7.95       668   36.3%
+qoi:          2.0         3.1        240.26        153.87       447   24.3%
+
+## images/pngimg/dachshund_PNG57.png size: 1024x819
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       6.9        34.7        121.61         24.19        51    1.6%
+stbi:         2.6        47.3        326.69         17.72        83    2.5%
+qoi:          1.1         1.9        781.53        448.53        55    1.7%
+
+## images/pngimg/dagger_PNG49.png size: 929x720
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       8.1        50.7         82.79         13.19       192    7.4%
+stbi:         5.9        48.0        113.02         13.94       281   10.8%
+qoi:          1.4         2.3        470.28        285.01       428   16.4%
+
+## images/pngimg/dagger_PNG8.png size: 462x400
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.7         8.3        110.53         22.37        33    4.7%
+stbi:         0.7        12.3        254.79         15.02        49    6.8%
+qoi:          0.3         0.5        679.91        393.95        46    6.4%
+
+## images/pngimg/darth_vader_PNG6.png size: 1784x1862
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      12.7       121.3        261.01         27.39       191    1.5%
+stbi:         8.5       165.7        392.99         20.04       294    2.3%
+qoi:          4.3         7.6        764.25        439.81       170    1.3%
+
+## images/pngimg/deodorant_PNG38.png size: 1920x1920
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      59.5       298.9         62.00         12.33      1338    9.3%
+stbi:        49.4       314.7         74.59         11.72      2061   14.3%
+qoi:          7.7        12.9        479.04        286.21      1287    8.9%
+
+## images/pngimg/dna_PNG5.png size: 650x863
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.2        23.3        132.95         24.12        72    3.3%
+stbi:         1.4        37.5        386.94         14.96       102    4.7%
+qoi:          0.8         1.4        713.22        400.02        70    3.2%
+
+## images/pngimg/dog_PNG23603.png size: 2013x1699
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      56.5       562.9         60.55          6.08      5284   39.6%
+stbi:        53.6       520.3         63.78          6.57      7591   56.8%
+qoi:         10.0        21.6        342.60        158.55      7280   54.5%
+
+## images/pngimg/donate_PNG42.png size: 505x226
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       0.5         4.9        233.25         23.34        13    3.1%
+stbi:         0.2         6.5        483.19         17.49        17    3.9%
+qoi:          0.2         0.3        629.51        364.28        23    5.2%
+
+## images/pngimg/donut_PNG51.png size: 2088x2046
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      31.8       275.8        134.24         15.49       688    4.1%
+stbi:        15.1       266.0        283.63         16.06      1060    6.4%
+qoi:         10.5        16.3        407.49        262.00      1379    8.3%
+
+## images/pngimg/dreamcatcher_PNG28.png size: 2635x6000
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:     295.9      1704.1         53.44          9.28      8675   14.0%
+stbi:       272.1      1460.6         58.11         10.82     11800   19.1%
+qoi:         51.7        76.0        305.85        207.90     13716   22.2%
+
+## images/pngimg/email_PNG28.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       9.1        39.2        115.58         26.73        56    1.4%
+stbi:         3.5        55.6        296.85         18.86        88    2.2%
+qoi:          1.3         2.3        787.28        449.03        67    1.7%
+
+## images/pngimg/face_PNG5655.png size: 500x325
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.5        20.4         66.01          7.96       140   22.2%
+stbi:         2.0        17.6         80.09          9.24       187   29.5%
+qoi:          0.4         0.7        376.33        224.11       120   19.0%
+
+## images/pngimg/face_PNG5662.png size: 500x325
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.2        18.9         74.77          8.62       117   18.5%
+stbi:         1.6        15.8        100.98         10.31       156   24.7%
+qoi:          0.4         0.7        398.19        219.68       102   16.2%
+
+## images/pngimg/fairy_PNG112.png size: 1358x1995
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      42.8       401.6         63.35          6.75      1885   17.8%
+stbi:        35.4       308.8         76.62          8.77      2722   25.7%
+qoi:          7.5        11.4        361.40        236.77      2902   27.4%
+
+## images/pngimg/fire_truck_PNG41.png size: 3523x1752
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      76.4      1398.6         80.74          4.41      4757   19.7%
+stbi:        76.6       916.2         80.55          6.74      7124   29.6%
+qoi:         28.4        39.3        217.34        157.08      5088   21.1%
+
+## images/pngimg/flags_PNG14682.png size: 1200x800
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.9        22.4        326.24         42.92         4    0.2%
+stbi:         1.4        46.0        673.35         20.86        28    1.0%
+qoi:          1.1         2.0        869.25        485.83        18    0.7%
+
+## images/pngimg/floral_frame_PNG270.png size: 4278x4222
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:     269.1      1346.3         67.12         13.42      8502   12.1%
+stbi:       222.3      1520.6         81.26         11.88     11187   15.9%
+qoi:         43.2        64.5        418.20        279.85      9353   13.3%
+
+## images/pngimg/floral_frame_PNG53.png size: 1200x840
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      23.2       172.4         43.51          5.85      1442   36.6%
+stbi:        23.7       146.5         42.59          6.88      1804   45.8%
+qoi:          3.9         5.9        258.80        170.84      1750   44.4%
+
+## images/pngimg/football_player_PNG54.png size: 750x1271
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      15.3        83.2         62.35         11.46       532   14.3%
+stbi:        12.8        74.3         74.22         12.82       675   18.1%
+qoi:          2.6         4.0        360.87        236.39       430   11.6%
+
+## images/pngimg/france_PNG16.png size: 800x225
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.8        17.6         63.45         10.22        99   14.1%
+stbi:         2.3        16.3         76.88         11.01       124   17.8%
+qoi:          0.6         0.9        312.99        205.06       152   21.8%
+
+## images/pngimg/gamepad_PNG21.png size: 1000x1000
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      21.6       153.5         46.35          6.52       708   18.1%
+stbi:        12.3       111.6         81.59          8.96       939   24.0%
+qoi:          3.0         4.5        332.93        223.85       658   16.8%
+
+## images/pngimg/gangster_PNG20.png size: 684x792
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.4        21.4        224.82         25.32        56    2.6%
+stbi:         1.6        25.8        340.50         20.97        71    3.4%
+qoi:          0.8         1.3        717.14        406.34        60    2.8%
+
+## images/pngimg/gas_stove_PNG10.png size: 1200x800
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      15.8       119.6         60.66          8.03       465   12.4%
+stbi:        14.3        95.7         67.11         10.03       676   18.0%
+qoi:          3.1         4.6        307.40        209.42       519   13.9%
+
+## images/pngimg/gift_PNG100250.png size: 600x584
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.9        26.6        122.23         13.19        77    5.6%
+stbi:         1.8        22.8        196.41         15.36       110    8.1%
+qoi:          0.9         1.4        389.42        251.78       128    9.4%
+
+## images/pngimg/gloves_PNG8323.png size: 712x1065
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      18.0       187.3         42.07          4.05       695   23.5%
+stbi:        18.0       114.9         42.19          6.60      1030   34.8%
+qoi:          3.5         4.8        217.51        158.15       730   24.7%
+
+## images/pngimg/goblin_PNG1.png size: 735x805
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      11.2        82.2         52.76          7.20       491   21.3%
+stbi:        10.6        64.7         55.97          9.14       642   27.8%
+qoi:          1.9         2.8        313.50        212.50       478   20.7%
+
+## images/pngimg/gym_equipment_PNG131.png size: 500x500
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.3        41.2         58.23          6.07       187   19.2%
+stbi:         4.0        30.7         63.13          8.14       249   25.6%
+qoi:          0.9         1.3        266.41        191.01       232   23.8%
+
+## images/pngimg/gym_equipment_PNG172.png size: 1282x1290
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      32.6       203.5         50.69          8.13      1092   16.9%
+stbi:        31.9       170.3         51.89          9.71      1621   25.1%
+qoi:          4.2         7.6        391.95        218.84      1329   20.6%
+
+## images/pngimg/hairbrush_PNG95.png size: 800x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      11.8        48.8         81.43         19.67       143    3.8%
+stbi:         8.1        60.0        119.17         16.01       206    5.5%
+qoi:          1.7         2.8        579.05        345.57       205    5.5%
+
+## images/pngimg/happy_birthday_PNG56.png size: 1600x900
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      19.6       155.0         73.32          9.29       472    8.4%
+stbi:        16.2       136.1         88.74         10.58       711   12.7%
+qoi:          3.7         5.6        386.95        256.37       598   10.6%
+
+## images/pngimg/heater_PNG47.png size: 1369x759
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      13.0       150.1         79.64          6.92       844   20.8%
+stbi:        11.1       124.1         93.63          8.37      1112   27.4%
+qoi:          3.4         5.2        306.02        200.98       921   22.7%
+
+## images/pngimg/helicopter_PNG80102.png size: 1400x933
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      16.3        93.5         80.28         13.97       451    8.8%
+stbi:        12.2       105.6        106.66         12.38       609   11.9%
+qoi:          2.7         4.2        490.89        307.72       546   10.7%
+
+## images/pngimg/hitman_PNG17.png size: 445x654
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.1        37.7        136.88          7.72       199   17.6%
+stbi:         1.7        28.6        171.36         10.19       258   22.7%
+qoi:          1.1         1.7        266.51        171.07       199   17.5%
+
+## images/pngimg/honey_PNG86301.png size: 636x442
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.4        34.3         64.36          8.19       157   14.3%
+stbi:         3.8        27.4         73.74         10.27       236   21.6%
+qoi:          0.7         1.2        382.41        230.82       221   20.1%
+
+## images/pngimg/house_PNG49.png size: 736x291
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       5.3        49.1         40.75          4.36       305   36.5%
+stbi:         5.0        33.6         42.84          6.37       409   48.9%
+qoi:          0.9         1.5        237.60        145.30       301   36.0%
+
+## images/pngimg/hummer_PNG12197.png size: 1024x534
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      12.3       113.0         44.62          4.84       574   26.9%
+stbi:        12.5        78.3         43.59          6.98       785   36.8%
+qoi:          2.2         3.4        250.28        159.90       626   29.3%
+
+## images/pngimg/ice_cream_PNG98208.png size: 2176x4831
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:     266.1      3722.9         39.51          2.82     11706   28.5%
+stbi:       284.7      1756.2         36.93          5.99     18822   45.8%
+qoi:         42.0        76.5        250.23        137.49     14490   35.3%
+
+## images/pngimg/ice_skates_PNG64.png size: 1200x1191
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      26.3       224.2         54.35          6.38       803   14.4%
+stbi:        24.9       163.7         57.32          8.73      1188   21.3%
+qoi:          5.3         7.4        270.38        193.71       851   15.3%
+
+## images/pngimg/iphone_12_PNG37.png size: 1600x1600
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      19.5       285.2        131.00          8.98      1021   10.2%
+stbi:        20.8       198.9        122.91         12.87      1502   15.0%
+qoi:          7.7        10.7        330.46        239.78      1343   13.4%
+
+## images/pngimg/ipod_PNG15.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.4        11.4        107.89         23.01        21    2.1%
+stbi:         1.0        15.9        270.89         16.45        33    3.2%
+qoi:          0.4         0.7        609.21        376.91        54    5.4%
+
+## images/pngimg/jackal_PNG12.png size: 367x446
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.8        37.7         58.30          4.34       233   36.6%
+stbi:         2.7        19.4         61.72          8.44       256   40.1%
+qoi:          0.8         1.2        195.75        138.94       223   35.0%
+
+## images/pngimg/jam_PNG20.png size: 697x800
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      13.2       179.4         42.17          3.11       702   32.3%
+stbi:        13.6        98.8         40.90          5.64      1038   47.7%
+qoi:          2.9         4.2        193.75        131.26       806   37.0%
+
+## images/pngimg/jam_PNG63.png size: 290x399
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.4        39.9         34.41          2.90       218   48.4%
+stbi:         3.5        23.8         33.46          4.86       293   64.9%
+qoi:          0.6         1.0        181.25        115.91       251   55.5%
+
+## images/pngimg/jam_PNG74.png size: 2140x2523
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:     123.7      1410.9         43.63          3.83      4039   19.2%
+stbi:       129.2       855.4         41.80          6.31      6216   29.5%
+qoi:         32.0        42.8        168.82        126.12      4574   21.7%
+
+## images/pngimg/jeep_PNG105.png size: 1600x1221
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      38.7       328.7         50.52          5.94      1672   21.9%
+stbi:        36.6       237.6         53.40          8.22      2174   28.5%
+qoi:          7.5        10.9        259.99        179.91      1817   23.8%
+
+## images/pngimg/jet_fighter_PNG116.png size: 482x400
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.8        13.0        108.61         14.82        45    6.1%
+stbi:         0.9        14.4        214.22         13.40        64    8.5%
+qoi:          0.3         0.5        580.20        354.22        42    5.7%
+
+## images/pngimg/jet_fighter_PNG15.png size: 800x800
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       5.5        56.6        116.79         11.30       232    9.3%
+stbi:         2.9        54.4        223.09         11.77       331   13.3%
+qoi:          1.2         2.1        536.19        301.49       217    8.7%
+
+## images/pngimg/keychain_PNG54.png size: 800x800
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      18.0        74.9         35.65          8.54       467   18.7%
+stbi:         2.3        61.0        281.90         10.49       678   27.1%
+qoi:          2.9         2.9        219.43        223.96       539   21.6%
+
+## images/pngimg/klitschko_PNG16.png size: 180x180
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       0.7         6.3         47.75          5.18        40   31.8%
+stbi:         0.7         4.6         47.85          7.05        55   44.2%
+qoi:          0.1         0.2        302.52        172.07        39   31.3%
+
+## images/pngimg/lamp_PNG3700.png size: 1469x3171
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:     105.1      1170.4         44.32          3.98      3858   21.2%
+stbi:       109.9       690.2         42.39          6.75      6006   33.0%
+qoi:         21.4        37.2        217.70        125.37      4104   22.6%
+
+## images/pngimg/land_rover_PNG21.png size: 2048x1360
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      44.6       444.6         62.48          6.27      1609   14.8%
+stbi:        39.7       314.5         70.20          8.86      2308   21.2%
+qoi:         11.0        14.9        254.35        186.31      1871   17.2%
+
+## images/pngimg/land_rover_PNG51.png size: 1354x761
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      17.5       180.7         58.93          5.70       860   21.4%
+stbi:        16.6       128.9         62.18          7.99      1153   28.7%
+qoi:          4.6         6.4        223.18        161.81       970   24.1%
+
+## images/pngimg/leash_PNG10.png size: 797x777
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       9.2       104.1         67.13          5.95       594   24.6%
+stbi:         7.6        70.0         80.98          8.84       751   31.1%
+qoi:          2.4         3.4        260.20        181.80       433   17.9%
+
+## images/pngimg/leash_PNG136.png size: 1006x404
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.2        21.7         96.47         18.70       136    8.6%
+stbi:         2.6        30.7        153.98         13.24       185   11.7%
+qoi:          0.6         1.1        656.16        372.08       127    8.1%
+
+## images/pngimg/leek_PNG54.png size: 2007x1593
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      57.8       417.5         55.31          7.66      2708   21.7%
+stbi:        53.8       380.3         59.42          8.41      3914   31.3%
+qoi:          8.7        15.9        368.57        201.57      2467   19.8%
+
+## images/pngimg/libra_PNG23.png size: 600x473
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.7        26.1         77.16         10.88       111   10.0%
+stbi:         2.9        23.6         99.55         12.02       160   14.4%
+qoi:          0.8         1.3        343.38        219.42       247   22.4%
+
+## images/pngimg/lighter_PNG11167.png size: 1796x1543
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      57.0       455.3         48.62          6.09      3557   32.9%
+stbi:        56.0       365.3         49.46          7.59      4344   40.1%
+qoi:         10.3        15.7        269.67        176.70      3125   28.9%
+
+## images/pngimg/lightning_PNG48.png size: 640x640
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      10.8       104.4         37.88          3.92       531   33.2%
+stbi:        11.6        69.7         35.42          5.87       800   50.0%
+qoi:          1.7         2.3        241.64        179.03      1202   75.1%
+
+## images/pngimg/lollipop_PNG98263.png size: 125x600
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.3        15.2         56.23          4.95        63   21.6%
+stbi:         1.0        10.0         71.77          7.50        86   29.5%
+qoi:          0.4         0.5        208.80        146.94        93   32.0%
+
+## images/pngimg/macaron_PNG35.png size: 380x300
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.3        14.3         49.53          7.99       111   25.0%
+stbi:         2.3        13.2         48.92          8.62       152   34.3%
+qoi:          0.3         0.6        339.69        188.96       136   30.7%
+
+## images/pngimg/macaron_PNG9.png size: 500x500
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.5        38.8         55.75          6.44       184   18.8%
+stbi:         4.0        28.2         62.84          8.87       257   26.4%
+qoi:          0.9         1.3        290.60        191.50       199   20.4%
+
+## images/pngimg/machine_gun_PNG15.png size: 800x293
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.5        34.3         52.36          6.83       176   19.3%
+stbi:         4.0        27.4         58.29          8.54       232   25.4%
+qoi:          0.7         1.1        317.01        211.88       172   18.8%
+
+## images/pngimg/mailbox_PNG63.png size: 1467x1437
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      40.6       358.1         51.97          5.89      1163   14.1%
+stbi:        36.9       254.2         57.20          8.29      1750   21.3%
+qoi:          8.6        12.2        245.85        172.96      1277   15.5%
+
+## images/pngimg/man_PNG6522.png size: 1465x2290
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      62.7       405.8         53.50          8.27      1920   14.7%
+stbi:        62.7       348.0         53.51          9.64      2889   22.1%
+qoi:          8.5        14.2        392.95        236.53      1993   15.2%
+
+## images/pngimg/measure_tape_PNG69.png size: 960x674
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       6.9        46.7         93.38         13.86       170    6.8%
+stbi:         4.6        41.3        141.26         15.66       245    9.7%
+qoi:          1.5         2.4        423.59        274.99       265   10.5%
+
+## images/pngimg/mechanical_ventilator_PNG13.png size: 1588x2420
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      56.1       433.1         68.48          8.87      1713   11.4%
+stbi:        44.0       368.3         87.43         10.43      2490   16.6%
+qoi:         10.6        15.6        362.71        246.84      1627   10.8%
+
+## images/pngimg/megaphone_PNG112.png size: 765x1000
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.6        26.5        168.00         28.90        34    1.1%
+stbi:         1.3        34.2        611.46         22.37        57    1.9%
+qoi:          1.0         1.7        803.07        440.03        51    1.7%
+
+## images/pngimg/milk_PNG12713.png size: 2000x160
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.0        27.6        105.60         11.59        94    7.5%
+stbi:         2.5        22.1        128.52         14.49       140   11.3%
+qoi:          0.8         1.3        385.31        254.45       174   13.9%
+
+## images/pngimg/mitsubishi_PNG114.png size: 586x325
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.0        23.7         64.19          8.05       138   18.6%
+stbi:         2.6        20.4         73.24          9.34       176   23.7%
+qoi:          0.6         0.9        323.18        217.16       136   18.4%
+
+## images/pngimg/multi_tool_PNG3.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      22.1       156.4         65.26          9.21       681   12.1%
+stbi:        21.4       136.1         67.34         10.58       989   17.6%
+qoi:          4.0         6.3        363.44        230.03       960   17.1%
+
+## images/pngimg/m_m_PNG65.png size: 737x1181
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      16.9       143.0         51.37          6.09       538   15.8%
+stbi:        14.3       101.4         61.05          8.58       785   23.1%
+qoi:          3.4         4.6        259.38        190.70       566   16.7%
+
+## images/pngimg/nails_PNG50.png size: 412x656
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       5.5        83.6         49.49          3.23       314   29.8%
+stbi:         5.1        45.5         52.95          5.94       462   43.8%
+qoi:          1.2         2.0        221.88        132.82       340   32.2%
+
+## images/pngimg/new_year_PNG37.png size: 960x647
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.1        37.2        289.34         16.68       178    7.4%
+stbi:         1.5        34.9        400.77         17.81       216    8.9%
+qoi:          1.4         2.3        428.83        276.00       214    8.8%
+
+## images/pngimg/Number 2 PNG images free download_PNG14940.png size: 600x600
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.3        15.9        271.23         22.67        27    2.0%
+stbi:         0.6        19.9        626.74         18.13        37    2.7%
+qoi:          0.4         0.8        804.11        439.40        23    1.7%
+
+## images/pngimg/number8_PNG18700.png size: 256x256
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       0.6         7.0        102.72          9.34        27   10.7%
+stbi:         0.4         5.6        146.51         11.73        37   14.6%
+qoi:          0.2         0.3        272.05        191.79        47   18.5%
+
+## images/pngimg/palm_tree_PNG93358.png size: 316x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.8        12.5         89.48         12.90        45    7.2%
+stbi:         1.3        10.8        126.25         14.95        61    9.8%
+qoi:          0.5         0.7        355.27        239.83        74   11.7%
+
+## images/pngimg/peacock_PNG22.png size: 276x225
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.4        13.1         43.55          4.75       136   56.2%
+stbi:         1.4        11.9         43.25          5.21       169   69.9%
+qoi:          0.2         0.3        267.56        179.64       192   79.4%
+
+## images/pngimg/phone_hand_PNG32.png size: 1156x1508
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       6.6       140.5        265.08         12.41       568    8.3%
+stbi:         4.8       121.1        359.74         14.40       793   11.6%
+qoi:          4.8         7.3        362.11        239.03       599    8.8%
+
+## images/pngimg/phone_PNG48891.png size: 2977x1915
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:     132.9      1471.5         42.91          3.87      5040   22.6%
+stbi:       136.7       891.7         41.70          6.39      7604   34.1%
+qoi:         28.0        41.8        203.87        136.29      5426   24.4%
+
+## images/pngimg/pickup_truck_PNG16304.png size: 2939x984
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      53.8       541.9         53.72          5.34      2063   18.3%
+stbi:        51.3       400.3         56.40          7.22      2948   26.1%
+qoi:         12.5        17.4        231.14        166.12      2068   18.3%
+
+## images/pngimg/picture_frame_PNG49.png size: 600x478
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       5.8        48.6         49.42          5.90       408   36.4%
+stbi:         5.6        45.2         50.92          6.34       543   48.5%
+qoi:          0.9         1.7        312.15        164.57       435   38.9%
+
+## images/pngimg/picture_frame_PNG92.png size: 600x599
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       6.0        43.7         59.96          8.22       247   17.6%
+stbi:         5.0        36.9         71.57          9.74       315   22.5%
+qoi:          1.2         1.7        304.19        206.41       309   22.0%
+
+## images/pngimg/pineapple_PNG2750.png size: 1768x3475
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:     156.8      2263.0         39.19          2.71      8214   34.2%
+stbi:       177.7      1062.9         34.56          5.78     12905   53.8%
+qoi:         27.6        53.6        222.94        114.58     10659   44.4%
+
+## images/pngimg/pistachio_PNG47.png size: 700x700
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       7.1        69.6         68.91          7.04       305   16.0%
+stbi:         5.5        53.7         89.29          9.13       442   23.1%
+qoi:          1.2         2.1        406.07        236.48       358   18.7%
+
+## images/pngimg/pizza_PNG44037.png size: 3600x3562
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:     218.3      3892.1         58.74          3.29     21183   42.3%
+stbi:       240.0      2346.6         53.42          5.46     33491   66.9%
+qoi:         63.5       123.7        201.81        103.67     31585   63.1%
+
+## images/pngimg/pizza_PNG7128.png size: 2580x1205
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      74.2       850.7         41.91          3.65      5325   43.9%
+stbi:        79.2       565.0         39.25          5.50      7456   61.4%
+qoi:         14.0        23.8        222.31        130.80      5732   47.2%
+
+## images/pngimg/pluto_disney_PNG10.png size: 381x536
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.3        25.4         61.68          8.03       133   16.7%
+stbi:         3.0        20.6         68.42          9.91       183   23.0%
+qoi:          0.6         1.0        347.19        202.33       170   21.3%
+
+## images/pngimg/police_car_PNG12.png size: 616x288
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.2        23.7         56.10          7.49       134   19.4%
+stbi:         3.0        18.6         59.76          9.55       166   24.1%
+qoi:          0.6         1.0        284.63        185.50       136   19.8%
+
+## images/pngimg/pork_PNG65.png size: 2500x1823
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:     105.2      1621.6         43.34          2.81      7031   39.5%
+stbi:        98.6       796.7         46.20          5.72     10154   57.0%
+qoi:         19.0        35.6        239.46        128.05      7623   42.8%
+
+## images/pngimg/power_socket_PNG19332.png size: 994x991
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      15.9       166.1         61.92          5.93       582   15.1%
+stbi:        14.7       104.1         66.91          9.46       882   22.9%
+qoi:          4.5         5.8        220.25        169.19       798   20.8%
+
+## images/pngimg/praying_hands_PNG10.png size: 547x984
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.9        23.3        110.13         23.13        81    3.9%
+stbi:         2.2        32.8        247.17         16.39       104    5.0%
+qoi:          0.8         1.4        691.84        397.44        80    3.8%
+
+## images/pngimg/pyramid_PNG11.png size: 257x160
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       0.3         6.3        134.25          6.48        39   24.4%
+stbi:         0.3         4.5        151.12          9.05        51   31.9%
+qoi:          0.2         0.2        273.22        165.74        40   25.1%
+
+## images/pngimg/radish_PNG50.png size: 693x720
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       5.3        43.7         93.35         11.43       164    8.4%
+stbi:         3.7        37.3        135.04         13.37       231   11.9%
+qoi:          1.4         2.1        365.57        243.13       223   11.5%
+
+## images/pngimg/razor_blade_PNG17804.png size: 200x200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       0.1         1.7        279.92         23.48         3    2.2%
+stbi:         0.0         1.6        950.12         24.96         4    2.7%
+qoi:          0.1         0.1        749.06        411.10         4    2.7%
+
+## images/pngimg/rhino_PNG25.png size: 1063x557
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       8.1        29.9         73.51         19.79       116    5.0%
+stbi:         6.6        34.2         90.17         17.30       138    6.0%
+qoi:          1.3         2.1        456.12        286.41       313   13.6%
+
+## images/pngimg/rubber_duck_PNG17.png size: 643x720
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.3        46.8        106.70          9.90       168    9.3%
+stbi:         2.7        36.5        169.40         12.70       244   13.5%
+qoi:          1.5         2.1        315.60        217.18       252   13.9%
+
+## images/pngimg/rubber_stamp_PNG2.png size: 392x777
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       6.6        70.6         46.29          4.31       235   19.8%
+stbi:         6.5        47.5         46.74          6.42       337   28.3%
+qoi:          1.8         2.4        173.96        127.36       320   26.9%
+
+## images/pngimg/rubik_cube_PNG1.png size: 610x646
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       6.1        41.5         65.08          9.50       241   15.7%
+stbi:         5.5        35.4         71.34         11.12       336   21.8%
+qoi:          1.0         1.8        389.23        219.25       303   19.7%
+
+## images/pngimg/sausage_PNG5198.png size: 500x338
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.0        46.8         56.04          3.61       215   32.6%
+stbi:         2.9        26.2         58.73          6.44       314   47.6%
+qoi:          0.6         1.3        272.89        132.30       243   36.9%
+
+## images/pngimg/scanner_PNG11354.png size: 1280x960
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      20.8       229.9         59.12          5.34       827   17.2%
+stbi:        18.8       148.7         65.27          8.26      1287   26.8%
+qoi:          3.7         6.6        332.94        186.23       849   17.7%
+
+## images/pngimg/scooter_PNG11292.png size: 600x986
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       7.9        65.4         75.16          9.05       330   14.3%
+stbi:         6.1        55.1         97.59         10.74       467   20.2%
+qoi:          1.6         2.5        368.21        241.29       343   14.9%
+
+## images/pngimg/seashell_PNG29.png size: 1020x1000
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.8       264.9         41.21          3.85       930   23.3%
+stbi:        24.2       156.8         42.16          6.50      1410   35.4%
+qoi:          4.3         6.8        239.89        149.69      1250   31.4%
+
+## images/pngimg/silver_PNG17125.png size: 660x642
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.1        44.8        137.29          9.47       193   11.7%
+stbi:         2.0        29.9        214.87         14.16       252   15.3%
+qoi:          1.3         1.7        336.71        244.15       279   16.9%
+
+## images/pngimg/skeleton_PNG42629.png size: 280x495
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.9         9.3         71.78         14.93        81   15.0%
+stbi:         1.7        11.5         83.47         12.08       105   19.5%
+qoi:          0.3         0.4        541.41        336.82       100   18.5%
+
+## images/pngimg/skoda_PNG12334.png size: 640x408
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.5        40.8         57.99          6.40       196   19.3%
+stbi:         4.1        30.4         63.78          8.59       267   26.2%
+qoi:          0.9         1.4        276.00        193.21       245   24.1%
+
+## images/pngimg/skoda_PNG12336.png size: 308x220
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.6        15.1         43.18          4.50        79   30.2%
+stbi:         1.5        10.6         44.39          6.42       106   40.1%
+qoi:          0.3         0.5        209.59        150.04        91   34.4%
+
+## images/pngimg/smartphone_PNG8547.png size: 750x1082
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      16.0       117.5         50.82          6.90       496   15.7%
+stbi:        14.0        79.7         57.97         10.18       701   22.1%
+qoi:          2.6         4.2        315.37        194.32       577   18.2%
+
+## images/pngimg/snapchat_PNG35.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.0        10.0        273.69         26.13        18    1.8%
+stbi:         0.2        14.0       1416.99         18.72        25    2.5%
+qoi:          0.3         0.6        801.91        466.70        18    1.8%
+
+## images/pngimg/socks_PNG8220.png size: 330x390
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       0.5         7.5        267.01         17.12        20    4.1%
+stbi:         0.3         7.3        466.14         17.74        29    5.8%
+qoi:          0.2         0.4        524.66        343.93        23    4.8%
+
+## images/pngimg/sofa_PNG6947.png size: 2280x1257
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      68.1       814.5         42.11          3.52      4136   37.0%
+stbi:        68.4       513.5         41.89          5.58      5707   51.0%
+qoi:         14.2        20.6        202.34        139.45      4107   36.7%
+
+## images/pngimg/solar_panel_PNG110.png size: 670x670
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       9.3       106.5         48.16          4.22       530   30.2%
+stbi:         9.2        65.7         48.65          6.83       738   42.1%
+qoi:          1.7         2.7        265.53        164.50       572   32.6%
+
+## images/pngimg/solar_panel_PNG149.png size: 1000x1000
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      15.7       139.4         63.61          7.17       635   16.3%
+stbi:        13.9       109.8         71.75          9.11       851   21.8%
+qoi:          3.1         4.6        317.86        219.19       556   14.3%
+
+## images/pngimg/sony_playstation_PNG17534.png size: 800x480
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       6.3        43.4         61.01          8.85       196   13.1%
+stbi:         5.8        36.1         66.24         10.63       256   17.1%
+qoi:          1.2         1.9        314.68        207.33       232   15.5%
+
+## images/pngimg/soybean_PNG7.png size: 600x600
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.5        50.9         79.71          7.08       194   13.8%
+stbi:         4.3        39.5         83.83          9.12       281   20.0%
+qoi:          0.8         1.5        425.03        242.67       230   16.4%
+
+## images/pngimg/spinach_PNG15.png size: 400x378
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.8        37.9         39.81          3.98       175   29.7%
+stbi:         3.4        24.4         44.73          6.19       252   42.8%
+qoi:          0.5         1.0        282.25        158.29       190   32.2%
+
+## images/pngimg/spinner_PNG17.png size: 1024x1024
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      12.2        91.8         85.75         11.42       309    7.6%
+stbi:         8.2        82.1        128.49         12.78       410   10.0%
+qoi:          2.6         3.8        399.76        279.34       320    7.8%
+
+## images/pngimg/spinner_PNG51.png size: 782x720
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.4        25.0        127.31         22.48       114    5.2%
+stbi:         2.2        31.2        261.15         18.03       146    6.7%
+qoi:          0.8         1.4        666.64        400.17       124    5.7%
+
+## images/pngimg/stewardess_PNG20.png size: 500x500
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.3        16.2         76.68         15.41        85    8.7%
+stbi:         2.5        18.3        101.80         13.66       117   12.0%
+qoi:          0.5         0.8        488.47        298.90       119   12.2%
+
+## images/pngimg/sticky_note_PNG18888.png size: 1381x1386
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      10.9        61.7        175.03         31.04       101    1.4%
+stbi:         4.2        81.3        450.53         23.55       159    2.1%
+qoi:          2.8         4.8        693.38        400.90       425    5.7%
+
+## images/pngimg/street_light_PNG11515.png size: 900x4056
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      39.6       210.2         92.26         17.37       532    3.7%
+stbi:        22.1       238.0        165.26         15.34       874    6.1%
+qoi:          6.0         9.8        607.00        370.84       711    5.0%
+
+## images/pngimg/suitcase_PNG10767.png size: 4160x3386
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:     177.2      1045.5         79.50         13.47      3513    6.4%
+stbi:       141.7       971.9         99.41         14.49      4758    8.6%
+qoi:         40.2        56.9        350.11        247.50      4269    7.8%
+
+## images/pngimg/superman_PNG43.png size: 640x960
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       9.8        69.4         62.78          8.85       314   13.1%
+stbi:         8.3        60.4         74.26         10.18       469   19.6%
+qoi:          1.4         2.7        441.38        226.07       355   14.8%
+
+## images/pngimg/superman_PNG60.png size: 533x380
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.5        49.3         44.95          4.10       202   25.6%
+stbi:         4.5        28.2         44.55          7.19       304   38.4%
+qoi:          0.6         1.3        312.85        159.28       229   29.0%
+
+## images/pngimg/surfing_PNG9717.png size: 682x194
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.4        37.0         55.72          3.58       125   24.2%
+stbi:         2.5        21.4         53.02          6.19       183   35.4%
+qoi:          0.7         1.0        187.11        138.41       119   23.2%
+
+## images/pngimg/sushi_PNG9205.png size: 2307x2316
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:     134.8      1258.7         39.62          4.24      8544   40.9%
+stbi:       153.6       905.9         34.79          5.90     11518   55.2%
+qoi:         23.2        39.4        229.85        135.66      8710   41.7%
+
+## images/pngimg/teddy_bear_PNG88.png size: 1200x1173
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      29.2       279.1         48.27          5.04      2080   37.8%
+stbi:        27.5       200.9         51.21          7.01      2716   49.4%
+qoi:          5.2         8.1        272.85        172.84      2143   39.0%
+
+## images/pngimg/tent_PNG10.png size: 3000x1774
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      65.7      1048.4         81.01          5.08      3806   18.3%
+stbi:        52.1       696.5        102.08          7.64      5754   27.7%
+qoi:         20.5        30.3        259.15        175.39      3754   18.1%
+
+## images/pngimg/tequila_PNG96.png size: 860x964
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      24.9        96.1         33.32          8.63       429   13.3%
+stbi:        12.9        77.2         64.28         10.74       599   18.5%
+qoi:          2.2         3.6        374.72        232.98       562   17.4%
+
+## images/pngimg/thug_life_PNG15.png size: 1000x1000
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       4.2        34.3        236.68         29.15         4    0.1%
+stbi:         0.6        62.3       1652.62         16.05        38    1.0%
+qoi:          1.1         2.0        882.22        504.13        18    0.5%
+
+## images/pngimg/towel_PNG64.png size: 560x481
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       5.1        46.7         52.79          5.77       327   31.1%
+stbi:         4.5        36.6         60.24          7.35       459   43.6%
+qoi:          0.9         1.4        308.79        191.31       337   32.0%
+
+## images/pngimg/towel_PNG99.png size: 2000x1333
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      13.1       493.4        203.34          5.40      2659   25.5%
+stbi:        11.2       332.7        238.02          8.01      3476   33.4%
+qoi:          9.0        12.6        295.25        211.89      1764   16.9%
+
+## images/pngimg/transformers_PNG74.png size: 800x786
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       8.7        44.4         72.26         14.17       230    9.4%
+stbi:         7.0        42.4         89.83         14.83       298   12.1%
+qoi:          1.3         2.2        470.69        284.38       288   11.7%
+
+## images/pngimg/treasure_chest_PNG69.png size: 500x403
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       5.2        71.0         38.63          2.84       267   34.0%
+stbi:         5.5        35.3         36.51          5.70       390   49.6%
+qoi:          0.9         1.5        227.02        135.76       278   35.4%
+
+## images/pngimg/trekking_pole_PNG19.png size: 1200x1200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      20.6        90.5         70.06         15.91       440    7.8%
+stbi:        16.6       106.7         86.86         13.49       627   11.2%
+qoi:          3.1         4.9        457.26        292.53       653   11.6%
+
+## images/pngimg/tshirt_PNG5454.png size: 260x300
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       0.9        15.0         84.03          5.20        50   16.6%
+stbi:         0.7         9.6        114.98          8.12        75   24.7%
+qoi:          0.4         0.5        179.23        153.18        73   24.0%
+
+## images/pngimg/vaccine_PNG11.png size: 350x370
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       1.1         5.2        121.71         24.83        19    3.9%
+stbi:         0.4         7.1        365.82         18.37        23    4.6%
+qoi:          0.2         0.3        708.04        421.28        16    3.2%
+
+## images/pngimg/viber_PNG2.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       5.0        13.9         52.59         18.92        57    5.7%
+stbi:         3.0        14.1         88.48         18.57        71    7.0%
+qoi:          0.4         0.8        595.92        343.98        58    5.8%
+
+## images/pngimg/vitamins_PNG43.png size: 200x200
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       0.3         1.8        121.07         21.66         4    3.2%
+stbi:         0.2         2.0        238.38         20.21         6    3.9%
+qoi:          0.1         0.1        665.56        393.31         5    3.4%
+
+## images/pngimg/walkie_talkie_PNG18.png size: 1004x1500
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       6.4       123.0        237.12         12.24       604   10.3%
+stbi:         4.7       112.8        320.18         13.35       823   14.0%
+qoi:          4.2         6.2        359.04        244.27       577    9.8%
+
+## images/pngimg/wedding_cake_PNG19470.png size: 288x331
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       3.7        28.5         26.05          3.35       148   39.8%
+stbi:        15.9        16.9          6.01          5.62       208   56.0%
+qoi:          2.0         0.8         47.86        118.51       167   45.0%
+
+## images/pngimg/wheelchair_PNG82760.png size: 2645x3083
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:     185.3      1698.8         44.01          4.80      7793   24.5%
+stbi:       188.2      1129.0         43.34          7.22     10948   34.4%
+qoi:         31.2        48.8        261.15        167.02      8511   26.7%
+
+## images/pngimg/wifi_PNG62328.png size: 512x512
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       0.7         9.5        378.38         27.61        12    1.2%
+stbi:         0.4        12.9        739.48         20.24        21    2.1%
+qoi:          0.3         0.5        782.52        478.36        16    1.6%
+
+## images/pngimg/window_PNG17659.png size: 1948x2398
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      72.2       449.2         64.66         10.40      1748    9.6%
+stbi:        58.6       407.3         79.70         11.47      2564   14.1%
+qoi:         14.6        21.0        319.76        222.81      2453   13.4%
+
+## images/pngimg/window_PNG17682.png size: 400x255
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:       2.1        38.2         48.03          2.67       118   29.7%
+stbi:         2.0        18.7         51.58          5.46       179   45.1%
+qoi:          0.6         0.9        161.34        107.64       157   39.4%
+
+## images/pngimg/wineglass_PNG2911.png size: 2359x5722
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:     109.3       436.1        123.52         30.95       311    0.6%
+stbi:        32.9       764.7        410.83         17.65       747    1.4%
+qoi:         18.9        29.3        715.04        460.34       483    0.9%
+
+## Total for images/pngimg
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      29.5       278.4         61.31          6.50      1201   17.0%
+stbi:        27.1       199.5         66.85          9.07      1751   24.8%
+qoi:          5.8         9.3        311.03        195.45      1436   20.3%
+
+# Grand total for images/pngimg
+        decode ms   encode ms   decode mpps   encode mpps   size kb    rate
+libpng:      29.5       278.4         61.31          6.50      1201   17.0%
+stbi:        27.1       199.5         66.85          9.07      1751   24.8%
+qoi:          5.8         9.3        311.03        195.45      1436   20.3%
+
+## Benchmarking Huffman images/pngimg with 1 runs
+## images/pngimg/academy_awards_PNG9.png size: 447x1192
+huffman_u8:     18.6	99.2	28.6	5.4	970	53.3%
+huffman_pixel:  33.3	1126.0	16.0	0.5	651	68.7%
+
+## images/pngimg/air_pump_PNG5.png size: 999x772
+huffman_u8:     27.2	129.4	28.4	6.0	1395	53.7%
+huffman_pixel:  30.6	476.1	25.2	1.6	826	72.6%
+
+## images/pngimg/american_football_PNG37.png size: 885x1968
+huffman_u8:     93.7	420.3	18.6	4.1	4786	29.6%
+huffman_pixel:  232.4	4582.2	7.5	0.4	3507	48.4%
+
+## images/pngimg/american_indian_PNG24.png size: 1000x1198
+huffman_u8:     39.6	196.1	30.2	6.1	1953	58.3%
+huffman_pixel:  142.2	4154.7	8.4	0.3	1749	62.6%
+
+## images/pngimg/anime_girl_PNG22.png size: 436x576
+huffman_u8:     14.9	61.5	16.9	4.1	665	32.2%
+huffman_pixel:  28.6	980.7	8.8	0.3	500	49.0%
+
+## images/pngimg/aquarius_PNG27.png size: 328x511
+huffman_u8:     7.7	31.9	21.6	5.3	357	45.4%
+huffman_pixel:  5.2	96.5	32.2	1.7	168	74.3%
+
+## images/pngimg/arma_PNG36.png size: 300x300
+huffman_u8:     4.9	23.9	18.5	3.8	237	32.5%
+huffman_pixel:  12.5	463.1	7.2	0.2	218	37.7%
+
+## images/pngimg/armour_PNG42.png size: 437x1777
+huffman_u8:     33.2	178.2	23.4	4.4	1830	39.7%
+huffman_pixel:  50.1	952.5	15.5	0.8	1076	64.5%
+
+## images/pngimg/bank_PNG6.png size: 400x400
+huffman_u8:     7.2	34.5	22.4	4.6	380	39.1%
+huffman_pixel:  7.7	221.6	20.8	0.7	224	64.1%
+
+## images/pngimg/beef_PNG59.png size: 1920x1280
+huffman_u8:     138.9	574.3	17.7	4.3	5800	39.6%
+huffman_pixel:  275.1	3146.6	8.9	0.8	3775	60.7%
+
+## images/pngimg/bellflower_PNG12.png size: 416x800
+huffman_u8:     10.2	47.8	32.7	7.0	468	63.9%
+huffman_pixel:  29.8	1256.3	11.2	0.3	487	62.5%
+
+## images/pngimg/bell_PNG53465.png size: 1635x3000
+huffman_u8:     169.3	836.7	29.0	5.9	9145	52.3%
+huffman_pixel:  231.1	3775.0	21.2	1.3	4254	77.8%
+
+## images/pngimg/birds_PNG49.png size: 4000x2444
+huffman_u8:     507.6	1978.3	19.3	4.9	24911	34.8%
+huffman_pixel:  1011.2	11528.7	9.7	0.8	14981	60.8%
+
+## images/pngimg/bison_PNG92393.png size: 640x640
+huffman_u8:     19.6	82.4	20.9	5.0	909	43.2%
+huffman_pixel:  35.0	585.4	11.7	0.7	596	62.7%
+
+## images/pngimg/bone_PNG30.png size: 512x512
+huffman_u8:     1.6	8.2	159.7	31.8	68	86.5%
+huffman_pixel:  0.6	7.8	413.1	33.5	22	95.7%
+
+## images/pngimg/boots_PNG7802.png size: 900x900
+huffman_u8:     32.0	165.3	25.3	4.9	1687	46.7%
+huffman_pixel:  48.9	1137.3	16.6	0.7	969	69.4%
+
+## images/pngimg/bottle_opener_PNG19.png size: 700x700
+huffman_u8:     3.6	15.6	137.6	31.4	143	70.1%
+huffman_pixel:  3.9	162.4	126.5	3.0	94	80.3%
+
+## images/pngimg/brain_PNG13.png size: 1024x805
+huffman_u8:     7.3	32.1	112.6	25.7	300	81.4%
+huffman_pixel:  4.5	119.5	184.4	6.9	137	91.5%
+
+## images/pngimg/bruce_lee_PNG27.png size: 506x719
+huffman_u8:     15.3	73.6	23.8	4.9	781	45.0%
+huffman_pixel:  35.4	1316.1	10.3	0.3	659	53.6%
+
+## images/pngimg/buddha_PNG53.png size: 314x384
+huffman_u8:     5.4	26.0	22.4	4.6	253	46.2%
+huffman_pixel:  9.9	503.1	12.2	0.2	197	58.1%
+
+## images/pngimg/bun_PNG13761.png size: 600x466
+huffman_u8:     12.4	68.9	22.5	4.1	691	36.7%
+huffman_pixel:  43.3	1583.4	6.5	0.2	704	35.5%
+
+## images/pngimg/cabbage_PNG99102.png size: 3890x2811
+huffman_u8:     579.2	2696.4	18.9	4.1	29108	31.9%
+huffman_pixel:  1171.5	10065.6	9.3	1.1	16747	60.8%
+
+## images/pngimg/cacao_PNG27.png size: 449x450
+huffman_u8:     14.1	68.1	14.3	3.0	645	18.2%
+huffman_pixel:  32.6	1192.4	6.2	0.2	591	25.1%
+
+## images/pngimg/candle_PNG7268.png size: 600x600
+huffman_u8:     14.9	71.7	24.2	5.0	706	49.8%
+huffman_pixel:  28.7	1152.5	12.6	0.3	545	61.2%
+
+## images/pngimg/canoe_PNG122.png size: 2000x2000
+huffman_u8:     102.2	518.5	39.1	7.7	5264	66.3%
+huffman_pixel:  207.8	4467.4	19.2	0.9	3170	79.7%
+
+## images/pngimg/carpet_PNG57667.png size: 400x217
+huffman_u8:     5.7	29.1	15.2	3.0	279	17.4%
+huffman_pixel:  14.7	621.8	5.9	0.1	288	14.9%
+
+## images/pngimg/cd_dvd_PNG102294.png size: 1521x933
+huffman_u8:     17.7	81.8	80.3	17.4	781	85.9%
+huffman_pixel:  6.8	64.1	208.9	22.1	294	94.7%
+
+## images/pngimg/checkers_PNG34.png size: 1024x1024
+huffman_u8:     36.7	163.0	28.6	6.4	1682	58.9%
+huffman_pixel:  48.5	1180.8	21.6	0.9	1056	74.2%
+
+## images/pngimg/chef_PNG37.png size: 3200x4809
+huffman_u8:     373.8	1575.1	41.2	9.8	19161	68.1%
+huffman_pixel:  334.6	6161.0	46.0	2.5	9432	84.3%
+
+## images/pngimg/chef_PNG71.png size: 4184x2905
+huffman_u8:     450.5	1918.1	27.0	6.3	26435	44.3%
+huffman_pixel:  328.0	1743.2	37.1	7.0	13307	72.0%
+
+## images/pngimg/chevrolet_PNG46.png size: 640x480
+huffman_u8:     9.8	46.5	31.4	6.6	504	57.9%
+huffman_pixel:  11.9	312.8	25.7	1.0	326	72.8%
+
+## images/pngimg/chocolate_cake_PNG37.png size: 404x600
+huffman_u8:     10.3	49.3	23.6	4.9	508	46.3%
+huffman_pixel:  18.3	819.5	13.2	0.3	377	60.2%
+
+## images/pngimg/christmas_garland_PNG19.png size: 1369x811
+huffman_u8:     12.2	53.8	91.3	20.7	591	45.4%
+huffman_pixel:  16.7	585.7	66.4	1.9	382	64.8%
+
+## images/pngimg/christmas_PNG17253.png size: 2138x1305
+huffman_u8:     140.3	598.1	19.9	4.7	6996	35.8%
+huffman_pixel:  373.4	8243.5	7.5	0.3	5312	51.3%
+
+## images/pngimg/christmas_wreath_PNG1.png size: 879x919
+huffman_u8:     33.1	156.2	24.4	5.2	1523	51.7%
+huffman_pixel:  87.3	2960.2	9.2	0.3	1260	60.0%
+
+## images/pngimg/christmas_wreath_PNG57.png size: 600x595
+huffman_u8:     19.3	83.1	18.5	4.3	843	39.5%
+huffman_pixel:  53.1	2008.7	6.7	0.2	796	42.9%
+
+## images/pngimg/chupa_chups_PNG17.png size: 1024x1024
+huffman_u8:     7.2	32.7	145.6	32.0	337	67.1%
+huffman_pixel:  9.0	373.6	116.7	2.8	209	79.5%
+
+## images/pngimg/confetti_PNG86980.png size: 1587x1201
+huffman_u8:     29.2	138.8	65.2	13.7	1228	83.5%
+huffman_pixel:  17.5	612.2	109.1	3.1	452	93.9%
+
+## images/pngimg/crab_PNG40.png size: 250x250
+huffman_u8:     2.3	12.3	27.6	5.1	108	55.7%
+huffman_pixel:  5.5	305.1	11.4	0.2	122	50.0%
+
+## images/pngimg/cursor_PNG65.png size: 512x512
+huffman_u8:     2.7	14.2	97.4	18.4	127	75.0%
+huffman_pixel:  2.3	64.4	113.7	4.1	72	85.8%
+
+## images/pngimg/cursor_PNG68.png size: 684x1024
+huffman_u8:     5.0	23.1	140.1	30.3	243	82.2%
+huffman_pixel:  2.1	26.0	332.3	26.9	93	93.2%
+
+## images/pngimg/cutlet_PNG51.png size: 850x554
+huffman_u8:     6.3	29.1	74.7	16.2	309	32.6%
+huffman_pixel:  12.2	577.1	38.7	0.8	258	43.9%
+
+## images/pngimg/dachshund_PNG57.png size: 1024x819
+huffman_u8:     12.3	57.0	67.9	14.7	611	81.3%
+huffman_pixel:  5.2	70.4	162.6	11.9	221	93.2%
+
+## images/pngimg/dagger_PNG49.png size: 929x720
+huffman_u8:     16.4	77.4	40.7	8.6	771	70.5%
+huffman_pixel:  18.4	652.6	36.4	1.0	459	82.4%
+
+## images/pngimg/dagger_PNG8.png size: 462x400
+huffman_u8:     3.0	15.2	61.2	12.2	127	82.3%
+huffman_pixel:  2.9	133.0	62.9	1.4	77	89.3%
+
+## images/pngimg/darth_vader_PNG6.png size: 1784x1862
+huffman_u8:     17.0	65.1	195.4	51.0	912	71.9%
+huffman_pixel:  5.7	65.0	579.4	51.1	236	92.7%
+
+## images/pngimg/deodorant_PNG38.png size: 1920x1920
+huffman_u8:     86.9	430.6	42.4	8.6	4574	68.2%
+huffman_pixel:  98.1	1432.3	37.6	2.6	2514	82.5%
+
+## images/pngimg/dna_PNG5.png size: 650x863
+huffman_u8:     9.0	40.8	62.7	13.7	387	82.3%
+huffman_pixel:  5.4	170.6	104.0	3.3	162	92.6%
+
+## images/pngimg/dog_PNG23603.png size: 2013x1699
+huffman_u8:     172.9	786.0	19.8	4.4	8291	37.9%
+huffman_pixel:  733.8	16325.0	4.7	0.2	6866	48.6%
+
+## images/pngimg/donate_PNG42.png size: 505x226
+huffman_u8:     4.7	16.8	24.3	6.8	279	37.3%
+huffman_pixel:  2.2	33.7	52.9	3.4	105	76.4%
+
+## images/pngimg/donut_PNG51.png size: 2088x2046
+huffman_u8:     180.4	766.5	23.7	5.6	9563	42.7%
+huffman_pixel:  91.5	832.6	46.7	5.1	4041	75.8%
+
+## images/pngimg/dreamcatcher_PNG28.png size: 2635x6000
+huffman_u8:     942.6	3410.5	16.8	4.6	47286	23.4%
+huffman_pixel:  2001.1	26428.1	7.9	0.6	29208	52.7%
+
+## images/pngimg/email_PNG28.png size: 1024x1024
+huffman_u8:     17.2	73.6	60.9	14.3	919	77.6%
+huffman_pixel:  8.2	89.8	127.9	11.7	392	90.4%
+
+## images/pngimg/face_PNG5655.png size: 500x325
+huffman_u8:     5.6	27.7	29.2	5.9	263	58.5%
+huffman_pixel:  6.6	261.8	24.6	0.6	143	77.5%
+
+## images/pngimg/face_PNG5662.png size: 500x325
+huffman_u8:     5.4	25.9	30.2	6.3	253	60.1%
+huffman_pixel:  6.4	286.9	25.3	0.6	163	74.2%
+
+## images/pngimg/fairy_PNG112.png size: 1358x1995
+huffman_u8:     92.4	461.8	29.3	5.9	4741	55.2%
+huffman_pixel:  433.6	12139.2	6.2	0.2	4413	58.3%
+
+## images/pngimg/fire_truck_PNG41.png size: 3523x1752
+huffman_u8:     306.8	1285.8	20.1	4.8	15583	35.4%
+huffman_pixel:  498.6	5352.7	12.4	1.2	9143	62.1%
+
+## images/pngimg/flags_PNG14682.png size: 1200x800
+huffman_u8:     1.0	4.0	996.1	237.8	48	79.2%
+huffman_pixel:  0.3	2.7	2759.4	353.3	14	93.7%
+
+## images/pngimg/floral_frame_PNG270.png size: 4278x4222
+huffman_u8:     482.8	2104.7	37.4	8.6	22980	67.4%
+huffman_pixel:  733.9	14307.9	24.6	1.3	12951	81.6%
+
+## images/pngimg/floral_frame_PNG53.png size: 1200x840
+huffman_u8:     55.0	231.3	18.3	4.4	2537	35.6%
+huffman_pixel:  142.6	4384.7	7.1	0.2	1876	52.4%
+
+## images/pngimg/football_player_PNG54.png size: 750x1271
+huffman_u8:     40.8	143.0	23.4	6.7	2019	45.8%
+huffman_pixel:  18.4	194.8	51.9	4.9	698	81.3%
+
+## images/pngimg/france_PNG16.png size: 800x225
+huffman_u8:     7.0	28.2	25.6	6.4	316	54.9%
+huffman_pixel:  6.2	178.0	29.0	1.0	187	73.3%
+
+## images/pngimg/gamepad_PNG21.png size: 1000x1000
+huffman_u8:     34.6	166.8	28.9	6.0	1679	57.0%
+huffman_pixel:  41.5	907.6	24.1	1.1	927	76.2%
+
+## images/pngimg/gangster_PNG20.png size: 684x792
+huffman_u8:     2.6	11.7	207.2	46.2	129	75.6%
+huffman_pixel:  1.3	24.7	425.4	21.9	43	91.8%
+
+## images/pngimg/gas_stove_PNG10.png size: 1200x800
+huffman_u8:     30.8	130.8	31.2	7.3	1455	61.2%
+huffman_pixel:  30.9	732.6	31.0	1.3	750	80.0%
+
+## images/pngimg/gift_PNG100250.png size: 600x584
+huffman_u8:     13.7	51.0	25.5	6.9	754	44.9%
+huffman_pixel:  9.3	178.9	37.5	2.0	371	72.9%
+
+## images/pngimg/gloves_PNG8323.png size: 712x1065
+huffman_u8:     35.9	158.6	21.1	4.8	1634	44.8%
+huffman_pixel:  40.2	629.5	18.9	1.2	984	66.7%
+
+## images/pngimg/goblin_PNG1.png size: 735x805
+huffman_u8:     21.3	106.2	27.8	5.6	1032	55.3%
+huffman_pixel:  40.7	1342.4	14.5	0.4	777	66.4%
+
+## images/pngimg/gym_equipment_PNG131.png size: 500x500
+huffman_u8:     10.9	50.1	22.9	5.0	559	42.7%
+huffman_pixel:  13.9	423.5	18.0	0.6	350	64.2%
+
+## images/pngimg/gym_equipment_PNG172.png size: 1282x1290
+huffman_u8:     63.5	294.6	26.0	5.6	3355	48.1%
+huffman_pixel:  111.7	2533.5	14.8	0.7	2142	66.8%
+
+## images/pngimg/hairbrush_PNG95.png size: 800x1200
+huffman_u8:     20.6	91.0	46.6	10.5	1002	73.3%
+huffman_pixel:  19.4	501.0	49.4	1.9	607	83.8%
+
+## images/pngimg/happy_birthday_PNG56.png size: 1600x900
+huffman_u8:     37.8	184.6	38.1	7.8	1917	65.9%
+huffman_pixel:  50.3	1066.4	28.6	1.4	1149	79.6%
+
+## images/pngimg/heater_PNG47.png size: 1369x759
+huffman_u8:     41.7	199.9	24.9	5.2	2000	50.7%
+huffman_pixel:  63.7	2146.5	16.3	0.5	1281	68.4%
+
+## images/pngimg/helicopter_PNG80102.png size: 1400x933
+huffman_u8:     31.2	146.3	41.8	8.9	1451	71.6%
+huffman_pixel:  59.9	2257.0	21.8	0.6	1085	78.7%
+
+## images/pngimg/hitman_PNG17.png size: 445x654
+huffman_u8:     3.7	15.2	79.3	19.2	158	44.2%
+huffman_pixel:  4.7	209.0	61.6	1.4	114	59.9%
+
+## images/pngimg/honey_PNG86301.png size: 636x442
+huffman_u8:     8.9	41.9	31.5	6.7	429	60.9%
+huffman_pixel:  17.9	640.2	15.7	0.4	309	71.8%
+
+## images/pngimg/house_PNG49.png size: 736x291
+huffman_u8:     10.6	51.2	20.2	4.2	522	37.5%
+huffman_pixel:  19.8	820.7	10.8	0.3	410	50.9%
+
+## images/pngimg/hummer_PNG12197.png size: 1024x534
+huffman_u8:     27.7	119.2	19.7	4.6	1266	40.7%
+huffman_pixel:  62.4	2025.3	8.8	0.3	1124	47.4%
+
+## images/pngimg/ice_cream_PNG98208.png size: 2176x4831
+huffman_u8:     490.5	2586.7	21.4	4.1	26874	34.6%
+huffman_pixel:  1273.9	9526.0	8.3	1.1	18427	55.1%
+
+## images/pngimg/ice_skates_PNG64.png size: 1200x1191
+huffman_u8:     48.8	231.7	29.3	6.2	2672	52.1%
+huffman_pixel:  49.0	1046.1	29.2	1.4	1399	74.9%
+
+## images/pngimg/iphone_12_PNG37.png size: 1600x1600
+huffman_u8:     31.1	118.4	82.2	21.6	1368	45.3%
+huffman_pixel:  30.7	917.0	83.4	2.8	736	70.5%
+
+## images/pngimg/ipod_PNG15.png size: 512x512
+huffman_u8:     5.6	25.6	46.8	10.2	279	72.7%
+huffman_pixel:  4.1	121.6	63.8	2.2	162	84.1%
+
+## images/pngimg/jackal_PNG12.png size: 367x446
+huffman_u8:     7.8	41.6	21.1	3.9	427	33.1%
+huffman_pixel:  8.4	283.6	19.5	0.6	230	64.0%
+
+## images/pngimg/jam_PNG20.png size: 697x800
+huffman_u8:     32.1	144.5	17.4	3.9	1544	29.1%
+huffman_pixel:  53.8	1523.1	10.4	0.4	1066	51.1%
+
+## images/pngimg/jam_PNG63.png size: 290x399
+huffman_u8:     7.9	37.6	14.6	3.1	388	14.1%
+huffman_pixel:  19.4	814.8	5.9	0.1	368	18.5%
+
+## images/pngimg/jam_PNG74.png size: 2140x2523
+huffman_u8:     293.9	1336.2	18.4	4.0	15697	25.6%
+huffman_pixel:  424.3	3853.6	12.7	1.4	8821	58.2%
+
+## images/pngimg/jeep_PNG105.png size: 1600x1221
+huffman_u8:     80.6	366.5	24.2	5.3	4010	47.4%
+huffman_pixel:  101.1	1665.4	19.3	1.2	2203	71.1%
+
+## images/pngimg/jet_fighter_PNG116.png size: 482x400
+huffman_u8:     3.8	18.9	51.3	10.2	187	75.1%
+huffman_pixel:  5.4	251.1	35.8	0.8	150	80.0%
+
+## images/pngimg/jet_fighter_PNG15.png size: 800x800
+huffman_u8:     14.2	68.0	45.1	9.4	645	74.2%
+huffman_pixel:  24.1	987.1	26.6	0.6	484	80.6%
+
+## images/pngimg/keychain_PNG54.png size: 800x800
+huffman_u8:     20.5	93.0	31.2	6.9	990	60.4%
+huffman_pixel:  39.4	1274.9	16.2	0.5	746	70.2%
+
+## images/pngimg/klitschko_PNG16.png size: 180x180
+huffman_u8:     1.5	8.4	21.0	3.8	72	42.8%
+huffman_pixel:  2.6	135.3	12.3	0.2	62	50.6%
+
+## images/pngimg/lamp_PNG3700.png size: 1469x3171
+huffman_u8:     182.8	872.1	25.5	5.3	9484	47.9%
+huffman_pixel:  216.9	2049.2	21.5	2.3	5614	69.1%
+
+## images/pngimg/land_rover_PNG21.png size: 2048x1360
+huffman_u8:     106.9	481.7	26.1	5.8	5605	48.5%
+huffman_pixel:  134.6	1821.4	20.7	1.5	3128	71.2%
+
+## images/pngimg/land_rover_PNG51.png size: 1354x761
+huffman_u8:     50.0	218.4	20.6	4.7	2514	37.5%
+huffman_pixel:  75.2	1422.6	13.7	0.7	1561	61.2%
+
+## images/pngimg/leash_PNG10.png size: 797x777
+huffman_u8:     28.0	113.3	22.1	5.5	1190	50.8%
+huffman_pixel:  16.7	222.1	37.1	2.8	497	79.4%
+
+## images/pngimg/leash_PNG136.png size: 1006x404
+huffman_u8:     7.9	38.7	51.3	10.5	342	78.4%
+huffman_pixel:  8.2	338.9	49.8	1.2	186	88.2%
+
+## images/pngimg/leek_PNG54.png size: 2007x1593
+huffman_u8:     120.3	536.9	26.6	6.0	5709	54.3%
+huffman_pixel:  225.9	4450.9	14.2	0.7	3813	69.5%
+
+## images/pngimg/libra_PNG23.png size: 600x473
+huffman_u8:     12.0	58.6	23.6	4.8	607	45.2%
+huffman_pixel:  14.3	617.9	19.8	0.5	373	66.3%
+
+## images/pngimg/lighter_PNG11167.png size: 1796x1543
+huffman_u8:     115.3	525.8	24.0	5.3	5370	50.4%
+huffman_pixel:  219.6	3248.0	12.6	0.9	3624	66.5%
+
+## images/pngimg/lightning_PNG48.png size: 640x640
+huffman_u8:     30.1	129.9	13.6	3.2	1370	14.4%
+huffman_pixel:  41.9	995.0	9.8	0.4	788	50.7%
+
+## images/pngimg/lollipop_PNG98263.png size: 125x600
+huffman_u8:     3.7	19.2	20.0	3.9	192	34.3%
+huffman_pixel:  6.6	247.1	11.4	0.3	158	46.0%
+
+## images/pngimg/macaron_PNG35.png size: 380x300
+huffman_u8:     5.6	23.8	20.2	4.8	248	44.2%
+huffman_pixel:  9.3	462.8	12.2	0.2	219	50.8%
+
+## images/pngimg/macaron_PNG9.png size: 500x500
+huffman_u8:     9.9	51.3	25.4	4.9	494	49.3%
+huffman_pixel:  17.9	641.0	13.9	0.4	407	58.3%
+
+## images/pngimg/machine_gun_PNG15.png size: 800x293
+huffman_u8:     8.5	40.0	27.4	5.9	398	56.5%
+huffman_pixel:  14.5	594.0	16.1	0.4	315	65.6%
+
+## images/pngimg/mailbox_PNG63.png size: 1467x1437
+huffman_u8:     86.3	369.7	24.4	5.7	4177	49.3%
+huffman_pixel:  103.7	1150.5	20.3	1.8	2628	68.1%
+
+## images/pngimg/man_PNG6522.png size: 1465x2290
+huffman_u8:     102.9	497.2	32.6	6.7	5218	60.2%
+huffman_pixel:  258.4	5878.3	13.0	0.6	3822	70.8%
+
+## images/pngimg/measure_tape_PNG69.png size: 960x674
+huffman_u8:     16.8	80.9	38.4	8.0	845	66.6%
+huffman_pixel:  14.5	387.2	44.7	1.7	439	82.6%
+
+## images/pngimg/mechanical_ventilator_PNG13.png size: 1588x2420
+huffman_u8:     107.0	464.6	35.9	8.3	5173	65.5%
+huffman_pixel:  120.5	2591.0	31.9	1.5	3071	79.5%
+
+## images/pngimg/megaphone_PNG112.png size: 765x1000
+huffman_u8:     9.3	45.7	81.9	16.7	409	86.3%
+huffman_pixel:  3.6	40.5	211.8	18.9	145	95.1%
+
+## images/pngimg/milk_PNG12713.png size: 2000x160
+huffman_u8:     4.4	19.3	73.0	16.5	201	67.8%
+huffman_pixel:  3.4	94.1	94.1	3.4	107	82.7%
+
+## images/pngimg/mitsubishi_PNG114.png size: 586x325
+huffman_u8:     6.9	33.4	27.6	5.7	314	57.8%
+huffman_pixel:  9.4	370.7	20.3	0.5	220	70.3%
+
+## images/pngimg/multi_tool_PNG3.png size: 1200x1200
+huffman_u8:     51.8	226.6	27.8	6.4	2659	52.7%
+huffman_pixel:  63.0	1216.4	22.9	1.2	1595	71.6%
+
+## images/pngimg/m_m_PNG65.png size: 737x1181
+huffman_u8:     32.5	150.4	26.8	5.8	1608	52.7%
+huffman_pixel:  42.9	1284.7	20.3	0.7	950	72.1%
+
+## images/pngimg/nails_PNG50.png size: 412x656
+huffman_u8:     13.7	65.3	19.8	4.1	669	36.6%
+huffman_pixel:  25.5	890.6	10.6	0.3	535	49.2%
+
+## images/pngimg/new_year_PNG37.png size: 960x647
+huffman_u8:     4.9	22.3	127.3	27.9	235	61.2%
+huffman_pixel:  4.9	157.5	127.0	3.9	130	78.4%
+
+## images/pngimg/Number 2 PNG images free download_PNG14940.png size: 600x600
+huffman_u8:     10.5	36.9	34.3	9.8	601	57.2%
+huffman_pixel:  4.3	56.3	83.2	6.4	223	84.1%
+
+## images/pngimg/number8_PNG18700.png size: 256x256
+huffman_u8:     2.5	12.2	26.7	5.4	127	50.1%
+huffman_pixel:  2.2	53.1	30.1	1.2	78	69.2%
+
+## images/pngimg/palm_tree_PNG93358.png size: 316x512
+huffman_u8:     3.7	18.8	43.8	8.6	172	72.6%
+huffman_pixel:  3.4	85.8	48.3	1.9	103	83.7%
+
+## images/pngimg/peacock_PNG22.png size: 276x225
+huffman_u8:     4.7	19.4	13.3	3.2	183	24.4%
+huffman_pixel:  9.4	490.8	6.6	0.1	197	18.5%
+
+## images/pngimg/phone_hand_PNG32.png size: 1156x1508
+huffman_u8:     16.7	66.1	104.5	26.4	796	53.2%
+huffman_pixel:  10.7	304.3	162.4	5.7	284	83.3%
+
+## images/pngimg/phone_PNG48891.png size: 2977x1915
+huffman_u8:     255.2	1232.8	22.3	4.6	14068	36.8%
+huffman_pixel:  380.6	3550.3	15.0	1.6	7737	65.3%
+
+## images/pngimg/pickup_truck_PNG16304.png size: 2939x984
+huffman_u8:     118.4	520.1	24.4	5.6	6208	45.0%
+huffman_pixel:  217.4	4031.8	13.3	0.7	4361	61.4%
+
+## images/pngimg/picture_frame_PNG49.png size: 600x478
+huffman_u8:     12.8	62.4	22.4	4.6	627	43.9%
+huffman_pixel:  25.7	1207.1	11.2	0.2	485	56.7%
+
+## images/pngimg/picture_frame_PNG92.png size: 600x599
+huffman_u8:     16.7	66.7	21.6	5.4	756	46.1%
+huffman_pixel:  12.3	374.5	29.2	1.0	329	76.5%
+
+## images/pngimg/pineapple_PNG2750.png size: 1768x3475
+huffman_u8:     317.9	1564.7	19.3	3.9	16104	32.9%
+huffman_pixel:  1151.9	17890.2	5.3	0.3	12090	49.6%
+
+## images/pngimg/pistachio_PNG47.png size: 700x700
+huffman_u8:     14.8	71.6	33.0	6.8	737	61.5%
+huffman_pixel:  40.3	1644.2	12.2	0.3	752	60.7%
+
+## images/pngimg/pizza_PNG44037.png size: 3600x3562
+huffman_u8:     651.6	3624.7	19.7	3.5	36466	27.2%
+huffman_pixel:  2366.2	16107.3	5.4	0.8	24697	50.7%
+
+## images/pngimg/pizza_PNG7128.png size: 2580x1205
+huffman_u8:     160.6	875.9	19.4	3.5	8929	26.5%
+huffman_pixel:  620.4	9060.3	5.0	0.3	6748	44.4%
+
+## images/pngimg/pluto_disney_PNG10.png size: 381x536
+huffman_u8:     7.3	33.7	27.8	6.1	329	58.7%
+huffman_pixel:  9.4	444.1	21.8	0.5	211	73.5%
+
+## images/pngimg/police_car_PNG12.png size: 616x288
+huffman_u8:     8.5	37.2	20.8	4.8	449	35.2%
+huffman_pixel:  10.6	374.0	16.7	0.5	281	59.4%
+
+## images/pngimg/pork_PNG65.png size: 2500x1823
+huffman_u8:     286.1	1313.5	15.9	3.5	14162	20.4%
+huffman_pixel:  543.2	4964.5	8.4	0.9	8552	52.0%
+
+## images/pngimg/power_socket_PNG19332.png size: 994x991
+huffman_u8:     47.6	187.5	20.7	5.3	2397	37.7%
+huffman_pixel:  37.8	512.3	26.1	1.9	1149	70.1%
+
+## images/pngimg/praying_hands_PNG10.png size: 547x984
+huffman_u8:     9.8	41.9	55.1	12.8	469	77.7%
+huffman_pixel:  6.7	150.0	80.5	3.6	262	87.5%
+
+## images/pngimg/pyramid_PNG11.png size: 257x160
+huffman_u8:     0.6	3.6	70.9	11.5	21	47.3%
+huffman_pixel:  0.9	42.2	47.5	1.0	21	46.4%
+
+## images/pngimg/radish_PNG50.png size: 693x720
+huffman_u8:     18.3	81.9	27.3	6.1	942	51.6%
+huffman_pixel:  16.1	422.3	31.1	1.2	463	76.2%
+
+## images/pngimg/razor_blade_PNG17804.png size: 200x200
+huffman_u8:     0.4	2.7	96.9	14.9	12	83.5%
+huffman_pixel:  0.2	3.2	253.5	12.4	5	92.8%
+
+## images/pngimg/rhino_PNG25.png size: 1063x557
+huffman_u8:     20.4	85.1	29.0	7.0	1090	52.9%
+huffman_pixel:  12.4	291.0	47.8	2.0	462	80.0%
+
+## images/pngimg/rubber_duck_PNG17.png size: 643x720
+huffman_u8:     19.8	77.6	23.4	6.0	1019	43.6%
+huffman_pixel:  11.0	262.0	42.1	1.8	406	77.5%
+
+## images/pngimg/rubber_stamp_PNG2.png size: 392x777
+huffman_u8:     15.8	77.6	19.3	3.9	849	28.6%
+huffman_pixel:  21.5	569.7	14.2	0.5	523	56.0%
+
+## images/pngimg/rubik_cube_PNG1.png size: 610x646
+huffman_u8:     17.0	58.3	23.1	6.8	751	51.2%
+huffman_pixel:  17.9	551.7	22.0	0.7	454	70.5%
+
+## images/pngimg/sausage_PNG5198.png size: 500x338
+huffman_u8:     8.5	41.2	19.8	4.1	415	37.1%
+huffman_pixel:  18.9	836.0	8.9	0.2	385	41.7%
+
+## images/pngimg/scanner_PNG11354.png size: 1280x960
+huffman_u8:     45.5	198.0	27.0	6.2	2160	55.0%
+huffman_pixel:  52.2	1160.3	23.5	1.1	1213	74.7%
+
+## images/pngimg/scooter_PNG11292.png size: 600x986
+huffman_u8:     17.3	81.3	34.3	7.3	832	64.0%
+huffman_pixel:  28.6	1086.2	20.7	0.5	588	74.5%
+
+## images/pngimg/seashell_PNG29.png size: 1020x1000
+huffman_u8:     61.0	276.0	16.7	3.7	3068	23.0%
+huffman_pixel:  143.2	3672.7	7.1	0.3	2250	43.5%
+
+## images/pngimg/silver_PNG17125.png size: 660x642
+huffman_u8:     6.1	30.0	69.5	14.1	304	63.2%
+huffman_pixel:  7.3	185.8	58.0	2.3	203	75.4%
+
+## images/pngimg/skeleton_PNG42629.png size: 280x495
+huffman_u8:     3.5	17.8	39.2	7.8	158	70.7%
+huffman_pixel:  7.0	388.6	19.9	0.4	149	72.4%
+
+## images/pngimg/skoda_PNG12334.png size: 640x408
+huffman_u8:     10.0	51.0	26.0	5.1	512	49.7%
+huffman_pixel:  20.2	753.2	12.9	0.3	423	58.5%
+
+## images/pngimg/skoda_PNG12336.png size: 308x220
+huffman_u8:     3.9	18.7	17.5	3.6	191	27.5%
+huffman_pixel:  6.4	250.2	10.6	0.3	144	45.4%
+
+## images/pngimg/smartphone_PNG8547.png size: 750x1082
+huffman_u8:     34.4	156.8	23.6	5.2	1903	39.9%
+huffman_pixel:  38.2	980.4	21.2	0.8	1009	68.2%
+
+## images/pngimg/snapchat_PNG35.png size: 512x512
+huffman_u8:     2.0	10.3	129.3	25.4	72	85.8%
+huffman_pixel:  0.8	19.0	319.8	13.8	24	95.2%
+
+## images/pngimg/socks_PNG8220.png size: 330x390
+huffman_u8:     0.8	5.4	168.9	23.8	28	77.0%
+huffman_pixel:  0.5	9.0	275.2	14.3	14	88.7%
+
+## images/pngimg/sofa_PNG6947.png size: 2280x1257
+huffman_u8:     151.2	779.2	19.0	3.7	8361	25.3%
+huffman_pixel:  383.2	5237.0	7.5	0.5	5471	51.1%
+
+## images/pngimg/solar_panel_PNG110.png size: 670x670
+huffman_u8:     20.2	98.2	22.2	4.6	1017	42.0%
+huffman_pixel:  36.9	1174.4	12.2	0.4	741	57.7%
+
+## images/pngimg/solar_panel_PNG149.png size: 1000x1000
+huffman_u8:     31.1	138.3	32.2	7.2	1422	63.6%
+huffman_pixel:  39.3	1070.8	25.4	0.9	896	77.1%
+
+## images/pngimg/sony_playstation_PNG17534.png size: 800x480
+huffman_u8:     16.0	69.9	24.0	5.5	906	39.6%
+huffman_pixel:  17.7	349.2	21.7	1.1	512	65.8%
+
+## images/pngimg/soybean_PNG7.png size: 600x600
+huffman_u8:     10.6	53.7	33.9	6.7	521	62.9%
+huffman_pixel:  26.0	1042.1	13.8	0.3	478	66.0%
+
+## images/pngimg/spinach_PNG15.png size: 400x378
+huffman_u8:     7.3	33.9	20.8	4.5	334	43.3%
+huffman_pixel:  14.7	578.5	10.3	0.3	305	48.3%
+
+## images/pngimg/spinner_PNG17.png size: 1024x1024
+huffman_u8:     24.6	119.8	42.7	8.8	1211	70.4%
+huffman_pixel:  20.4	443.1	51.5	2.4	565	86.2%
+
+## images/pngimg/spinner_PNG51.png size: 782x720
+huffman_u8:     12.4	50.4	45.4	11.2	608	72.3%
+huffman_pixel:  5.8	172.9	97.6	3.3	188	91.5%
+
+## images/pngimg/stewardess_PNG20.png size: 500x500
+huffman_u8:     6.5	28.6	38.7	8.7	276	71.7%
+huffman_pixel:  9.6	471.9	26.1	0.5	234	75.9%
+
+## images/pngimg/sticky_note_PNG18888.png size: 1381x1386
+huffman_u8:     69.2	248.8	27.7	7.7	4204	43.8%
+huffman_pixel:  29.4	201.1	65.1	9.5	1663	77.8%
+
+## images/pngimg/street_light_PNG11515.png size: 900x4056
+huffman_u8:     64.0	313.8	57.0	11.6	2969	79.2%
+huffman_pixel:  66.1	1772.7	55.2	2.1	1380	90.3%
+
+## images/pngimg/suitcase_PNG10767.png size: 4160x3386
+huffman_u8:     707.6	2560.4	19.9	5.5	39761	27.7%
+huffman_pixel:  551.7	3900.8	25.5	3.6	18231	66.9%
+
+## images/pngimg/superman_PNG43.png size: 640x960
+huffman_u8:     16.3	83.3	37.7	7.4	804	66.5%
+huffman_pixel:  35.6	1406.7	17.3	0.4	654	72.7%
+
+## images/pngimg/superman_PNG60.png size: 533x380
+huffman_u8:     8.3	40.6	24.3	5.0	404	48.8%
+huffman_pixel:  21.5	968.0	9.4	0.2	435	44.9%
+
+## images/pngimg/surfing_PNG9717.png size: 682x194
+huffman_u8:     6.0	25.9	22.2	5.1	282	45.4%
+huffman_pixel:  5.6	164.0	23.5	0.8	162	68.6%
+
+## images/pngimg/sushi_PNG9205.png size: 2307x2316
+huffman_u8:     266.1	1252.3	20.1	4.3	12950	37.9%
+huffman_pixel:  844.2	12370.3	6.3	0.4	9401	55.0%
+
+## images/pngimg/teddy_bear_PNG88.png size: 1200x1173
+huffman_u8:     81.6	380.0	17.3	3.7	4139	24.7%
+huffman_pixel:  177.1	3632.8	7.9	0.4	2808	48.9%
+
+## images/pngimg/tent_PNG10.png size: 3000x1774
+huffman_u8:     211.4	884.1	25.2	6.0	9631	53.7%
+huffman_pixel:  267.3	3941.5	19.9	1.4	5437	73.8%
+
+## images/pngimg/tequila_PNG96.png size: 860x964
+huffman_u8:     32.2	128.3	25.7	6.5	1618	50.0%
+huffman_pixel:  32.4	1187.2	25.6	0.7	908	72.0%
+
+## images/pngimg/thug_life_PNG15.png size: 1000x1000
+huffman_u8:     5.7	27.8	175.6	36.0	244	87.5%
+huffman_pixel:  1.9	20.7	512.9	48.4	78	96.0%
+
+## images/pngimg/towel_PNG64.png size: 560x481
+huffman_u8:     13.1	57.1	20.6	4.7	581	44.7%
+huffman_pixel:  21.6	752.6	12.5	0.4	445	57.7%
+
+## images/pngimg/towel_PNG99.png size: 2000x1333
+huffman_u8:     42.9	140.5	62.2	19.0	1830	29.7%
+huffman_pixel:  43.3	1012.4	61.6	2.6	917	64.8%
+
+## images/pngimg/transformers_PNG74.png size: 800x786
+huffman_u8:     16.0	66.9	39.2	9.4	768	68.7%
+huffman_pixel:  15.2	408.0	41.4	1.5	497	79.7%
+
+## images/pngimg/treasure_chest_PNG69.png size: 500x403
+huffman_u8:     10.8	53.5	18.6	3.8	548	30.3%
+huffman_pixel:  27.9	924.6	7.2	0.2	501	36.3%
+
+## images/pngimg/trekking_pole_PNG19.png size: 1200x1200
+huffman_u8:     48.1	212.1	29.9	6.8	2358	58.1%
+huffman_pixel:  57.6	1454.1	25.0	1.0	1380	75.5%
+
+## images/pngimg/tshirt_PNG5454.png size: 260x300
+huffman_u8:     3.1	14.0	24.8	5.6	142	53.4%
+huffman_pixel:  2.1	37.7	37.5	2.1	71	76.5%
+
+## images/pngimg/vaccine_PNG11.png size: 350x370
+huffman_u8:     2.2	11.3	57.7	11.5	102	79.7%
+huffman_pixel:  1.6	41.1	82.0	3.1	56	88.8%
+
+## images/pngimg/viber_PNG2.png size: 512x512
+huffman_u8:     16.2	61.2	16.1	4.3	859	58.0%
+huffman_pixel:  14.4	660.7	18.1	0.4	445	78.3%
+
+## images/pngimg/vitamins_PNG43.png size: 200x200
+huffman_u8:     0.7	4.2	53.5	9.5	39	74.8%
+huffman_pixel:  0.4	5.2	98.4	7.7	19	87.6%
+
+## images/pngimg/walkie_talkie_PNG18.png size: 1004x1500
+huffman_u8:     13.1	57.1	115.4	26.4	642	56.3%
+huffman_pixel:  11.4	347.8	132.4	4.3	284	80.7%
+
+## images/pngimg/wedding_cake_PNG19470.png size: 288x331
+huffman_u8:     4.9	26.2	19.6	3.6	248	33.2%
+huffman_pixel:  12.3	525.9	7.7	0.2	248	33.1%
+
+## images/pngimg/wheelchair_PNG82760.png size: 2645x3083
+huffman_u8:     433.4	1916.7	18.8	4.3	21654	32.0%
+huffman_pixel:  1012.8	12715.7	8.1	0.6	13983	56.1%
+
+## images/pngimg/wifi_PNG62328.png size: 512x512
+huffman_u8:     1.0	6.0	267.5	43.7	45	82.1%
+huffman_pixel:  0.5	12.7	526.6	20.7	16	93.5%
+
+## images/pngimg/window_PNG17659.png size: 1948x2398
+huffman_u8:     133.2	628.8	35.1	7.4	6545	64.1%
+huffman_pixel:  115.7	1623.1	40.4	2.9	2829	84.5%
+
+## images/pngimg/window_PNG17682.png size: 400x255
+huffman_u8:     6.2	29.9	16.4	3.4	322	19.0%
+huffman_pixel:  7.3	184.7	14.0	0.6	188	52.8%
+
+## images/pngimg/wineglass_PNG2911.png size: 2359x5722
+huffman_u8:     450.4	1424.8	30.0	9.5	26489	49.8%
+huffman_pixel:  230.2	1391.6	58.6	9.7	12850	75.6%
+
+# Total for images/pngimg 187 images
+Algorithm      Size KiB	Compression rate
+raw:           1261606	0.0%
+huffman_u8:    679931	46.1%
+huffman_pixel: 408993	67.6%
